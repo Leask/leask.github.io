@@ -1,0 +1,79 @@
+9
+
+dir
+42525
+https://svn.newdream.net/repo/trunk/dh/etc/skel/default
+https://svn.newdream.net/repo
+
+
+
+2008-12-10T19:57:56.410225Z
+35627
+patrick_l
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2761cae9-471f-43ec-bb9f-17ee8365f5d4
+
+.bashrc
+file
+
+
+
+
+2008-10-09T17:38:39.000000Z
+118f882acfaf472e6a352b1baaf5db87
+1999-11-27T23:01:40.000000Z
+868
+sage
+
+.cshrc
+file
+
+
+
+
+2008-10-09T17:38:39.000000Z
+29d1f62989392d1703e6ae1baf9cc6ef
+2000-11-09T04:55:14.000000Z
+4825
+sage
+
+logs
+dir
+
+.alias
+file
+
+
+
+
+2008-10-09T17:38:39.000000Z
+8aae30a106e0ce9f22be783d14a17371
+1999-11-27T23:01:40.000000Z
+868
+sage
+
+.bash_profile
+file
+
+
+
+
+2008-10-09T17:38:39.000000Z
+8040ef233daa49c60b93cb3a45617e19
+2002-11-21T03:34:06.000000Z
+14123
+sage
+

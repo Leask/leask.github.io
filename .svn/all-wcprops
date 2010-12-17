@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repo/!svn/ver/35627/trunk/dh/etc/skel/default
+END
+.bashrc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repo/!svn/ver/868/trunk/dh/etc/skel/default/.bashrc
+END
+.cshrc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repo/!svn/ver/4825/trunk/dh/etc/skel/default/.cshrc
+END
+.alias
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repo/!svn/ver/868/trunk/dh/etc/skel/default/.alias
+END
+.bash_profile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/!svn/ver/14123/trunk/dh/etc/skel/default/.bash_profile
+END
