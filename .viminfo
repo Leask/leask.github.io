@@ -24,7 +24,7 @@
 "0	LINE	0
 	wget http://autoproxy2pac.appspot.com/pac/socks/127.0.0.1/7310 -O s_127.0.0.1_7310
 	wget http://autoproxy2pac.appspot.com/pac/socks/10.0.1.254/7310 -O s_10.0.1.254_7310
-""1	LINE	0
+"1	LINE	0
 	
 	wget http://autoproxy2pac.appspot.com/pac/socks/127.0.0.1/7310 -O s_127.0.0.1_7310
 "2	LINE	0
@@ -43,25 +43,27 @@
 	        /home/leask/Popcorn_402_318_Updater.zip.zip, and cannot find /home/leask/Popcorn_402_318_Updater.zip.ZIP, period.
 "4	LINE	0
 	
-"-	CHAR	0
-	 
+""-	CHAR	0
+	#
 
 # File marks:
-'0  1  8  ~/.gitignore
-'1  4  12  ~/.gitignore
-'2  2  5  ~/.gitignore
-'3  108  0  /home/sunxinghua/sunxinghua.com/readme.html
-'4  1  0  /home/sunxinghua/sunxinghua.com/wp-config.php
-'5  3  47  ~/leaskh.com/pac/allfree
-'6  3  69  ~/leaskh.com/pac/build.sh
-'7  2  0  ~/leaskh.com/pac/build.sh
-'8  1  81  ~/leaskh.com/pac/build.sh
-'9  1  34  ~/leaskh.com/pac/allfree
+'0  1  0  ~/.gitignore
+'1  2  5  ~/.gitignore
+'2  2  15  ~/.gitignore
+'3  6  9  ~/.gitignore
+'4  3  12  ~/.gitignore
+'5  108  0  /home/sunxinghua/sunxinghua.com/readme.html
+'6  1  0  /home/sunxinghua/sunxinghua.com/wp-config.php
+'7  3  47  ~/leaskh.com/pac/allfree
+'8  3  69  ~/leaskh.com/pac/build.sh
+'9  2  0  ~/leaskh.com/pac/build.sh
 
 # Jumplist (newest first):
--'  1  8  ~/.gitignore
--'  2  109  ~/.gitignore
--'  4  12  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  2  5  ~/.gitignore
+-'  6  9  ~/.gitignore
+-'  5  0  ~/.gitignore
+-'  3  13  ~/.gitignore
 -'  108  0  /home/sunxinghua/sunxinghua.com/readme.html
 -'  1  0  /home/sunxinghua/sunxinghua.com/readme.html
 -'  1  0  /home/sunxinghua/sunxinghua.com/wp-config.php
@@ -154,21 +156,27 @@
 -'  1  0  ~/.ssh/authorized_keys
 -'  1  0  ~/.ssh/authorized_keys
 -'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/Popcorn_402_318_Updater.zip
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	1	8
-	^	1	9
-	.	3	9
+	"	1	0
+	^	2	6
+	.	3	0
 	+	1	9
 	+	2	6
 	+	2	6
-	+	4	0
+	+	3	0
 	+	2	6
-	+	3	9
+	+	2	15
+	+	3	13
+	+	6	12
+	+	5	0
+	+	6	10
+	+	7	0
+	+	2	13
+	+	3	0
+	+	3	0
 
 > /home/sunxinghua/sunxinghua.com/readme.html
 	"	108	0
