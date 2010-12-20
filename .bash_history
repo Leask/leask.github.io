@@ -353,3 +353,41 @@ ls -al
 vim readme.html 
 ls
 exit
+ls
+cd log
+cd logs
+ls
+cat leaskh.com/
+cd leaskh.com/
+ls
+cat http
+cd http
+ls
+cat access.log
+q!
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd Maildir/
+ls
+cd ..
+ls
+touch .gitignore
+vim .gitignore 
+vim .gitignore 
+vim .gitignore 
+vim .gitignore 
+vim .gitignore 
+git init
+git add .
+gitstatus
+git status
+git commit -am 'Git Hello World!'
+su -sh
+du -sh
+cd ../zhuchao
+exit

@@ -1,2 +1,4 @@
 Maildir/*
 logs/*
+.viminfo/*
+.bash_history

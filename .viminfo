@@ -47,20 +47,21 @@
 	 
 
 # File marks:
-'0  2  5  ~/.gitignore
-'1  1  8  ~/.gitignore
-'2  108  0  /home/sunxinghua/sunxinghua.com/readme.html
-'3  1  0  /home/sunxinghua/sunxinghua.com/wp-config.php
-'4  3  47  ~/leaskh.com/pac/allfree
-'5  3  69  ~/leaskh.com/pac/build.sh
-'6  2  0  ~/leaskh.com/pac/build.sh
-'7  1  81  ~/leaskh.com/pac/build.sh
-'8  1  34  ~/leaskh.com/pac/allfree
-'9  4  26  ~/uwip.leaskh.com/config.php
+'0  1  8  ~/.gitignore
+'1  4  12  ~/.gitignore
+'2  2  5  ~/.gitignore
+'3  108  0  /home/sunxinghua/sunxinghua.com/readme.html
+'4  1  0  /home/sunxinghua/sunxinghua.com/wp-config.php
+'5  3  47  ~/leaskh.com/pac/allfree
+'6  3  69  ~/leaskh.com/pac/build.sh
+'7  2  0  ~/leaskh.com/pac/build.sh
+'8  1  81  ~/leaskh.com/pac/build.sh
+'9  1  34  ~/leaskh.com/pac/allfree
 
 # Jumplist (newest first):
--'  2  5  ~/.gitignore
--'  1  0  ~/.gitignore
+-'  1  8  ~/.gitignore
+-'  2  109  ~/.gitignore
+-'  4  12  ~/.gitignore
 -'  108  0  /home/sunxinghua/sunxinghua.com/readme.html
 -'  1  0  /home/sunxinghua/sunxinghua.com/readme.html
 -'  1  0  /home/sunxinghua/sunxinghua.com/wp-config.php
@@ -155,17 +156,19 @@
 -'  1  0  ~/.ssh/authorized_keys
 -'  1  0  ~/.ssh/authorized_keys
 -'  1  0  ~/Popcorn_402_318_Updater.zip
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	2	5
-	^	2	6
-	.	2	5
+	"	1	8
+	^	1	9
+	.	3	9
 	+	1	9
-	+	2	5
+	+	2	6
+	+	2	6
+	+	4	0
+	+	2	6
+	+	3	9
 
 > /home/sunxinghua/sunxinghua.com/readme.html
 	"	108	0
