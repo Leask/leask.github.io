@@ -391,3 +391,91 @@ su -sh
 du -sh
 cd ../zhuchao
 exit
+git diff
+vim .gitignore 
+git diff
+git add .
+git diff
+git diff
+git status
+vim .gitignore 
+git add
+git add .
+git diff
+git status
+git commit -am 'upgrade akismet'
+git config --global user.name "Leask Huang"
+git config --global user.email i@leaskh.com
+git commit --amend --author='Leask Huang <i@leaskh.com>'
+ls
+git log
+git diff
+git status
+vim .gitignore 
+git status
+git add .
+git status
+cat .viminfo
+cat .viminfo
+cat .viminfo
+cat .viminfo
+cat .viminfo
+vim .gitignore 
+ls
+ls -al
+cd .viminfo 
+vim .gitignore 
+ls
+git status
+git add .
+git status
+vim .gitignore 
+git status
+git status
+vim .gitignore 
+git commit -am 'stop watching .viminfo'
+git status
+exit
+git diff
+cat .gitignore 
+git add .
+git diff
+git status
+git gc
+ls
+git diff
+exit
+exit
+ls
+exit
+git diff
+vim .gitignore 
+wget http://dl-web.dropbox.com/u/17/Dropbox%201.0.12.exe
+wget http://dl-web.dropbox.com/u/17/Dropbox%201.0.12.dmg
+wget it : Just rolled back to 1.0.10 and the sync occurred so I am just saying something is buggy maybe
+wget it : Just rolled back to 1.0.10 and the sync occurred so I am just saying something is buggy maybe
+ls
+wget http://dl-web.dropbox.com/u/17/dropbox-lnx.x86_64-1.0.12.tar.gz
+ls
+git diff
+ls
+rm Dropbox\ 1.0.12.*
+ls
+ls
+rm dropbox-lnx.x86_64-1.0.12.tar.gz 
+ls
+git diff
+exit
+ls
+cd .ssh
+ls
+ls
+ls
+ls
+cd ..
+ls
+cd ../zhuchao
+ls
+cd ~
+ls
+exit

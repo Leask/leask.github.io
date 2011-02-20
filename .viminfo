@@ -47,18 +47,20 @@
 	#
 
 # File marks:
-'0  1  0  ~/.gitignore
-'1  2  5  ~/.gitignore
-'2  2  15  ~/.gitignore
-'3  6  9  ~/.gitignore
-'4  3  12  ~/.gitignore
-'5  108  0  /home/sunxinghua/sunxinghua.com/readme.html
-'6  1  0  /home/sunxinghua/sunxinghua.com/wp-config.php
-'7  3  47  ~/leaskh.com/pac/allfree
-'8  3  69  ~/leaskh.com/pac/build.sh
-'9  2  0  ~/leaskh.com/pac/build.sh
+'0  3  11  ~/twip.leaskh.com/config.php
+'1  1  0  ~/.gitignore
+'2  2  5  ~/.gitignore
+'3  2  15  ~/.gitignore
+'4  6  9  ~/.gitignore
+'5  3  12  ~/.gitignore
+'6  108  0  /home/sunxinghua/sunxinghua.com/readme.html
+'7  1  0  /home/sunxinghua/sunxinghua.com/wp-config.php
+'8  3  47  ~/leaskh.com/pac/allfree
+'9  3  69  ~/leaskh.com/pac/build.sh
 
 # Jumplist (newest first):
+-'  3  11  ~/twip.leaskh.com/config.php
+-'  1  0  ~/twip.leaskh.com/config.php
 -'  1  0  ~/.gitignore
 -'  2  5  ~/.gitignore
 -'  6  9  ~/.gitignore
@@ -74,7 +76,6 @@
 -'  2  0  ~/leaskh.com/pac/build.sh
 -'  4  26  ~/uwip.leaskh.com/config.php
 -'  1  0  ~/uwip.leaskh.com/config.php
--'  1  0  ~/twip.leaskh.com/config.php
 -'  1  252490  ~/leaskh.com/pac/s_10.0.1.254_7310
 -'  9  0  ~/leaskh.com/.htaccess
 -'  1  0  ~/leaskh.com/.htaccess
@@ -156,8 +157,15 @@
 -'  1  0  ~/.ssh/authorized_keys
 -'  1  0  ~/.ssh/authorized_keys
 -'  1  0  ~/.ssh/authorized_keys
+-'  1  0  ~/.gitignore
 
 # History of marks within files (newest to oldest):
+
+> ~/twip.leaskh.com/config.php
+	"	3	11
+	^	3	12
+	.	4	26
+	+	4	26
 
 > ~/.gitignore
 	"	1	0
@@ -211,9 +219,6 @@
 	^	4	27
 	.	4	26
 	+	4	26
-
-> ~/twip.leaskh.com/config.php
-	"	1	0
 
 > ~/leaskh.com/pac/s_10.0.1.254_7310
 	"	1	252490
