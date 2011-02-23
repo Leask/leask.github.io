@@ -8,8 +8,8 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:x!
 :q!
+:x!
 :Q!
 
 # Search String History (newest to oldest):
@@ -24,12 +24,18 @@
 "0	LINE	0
 	wget http://autoproxy2pac.appspot.com/pac/socks/127.0.0.1/7310 -O s_127.0.0.1_7310
 	wget http://autoproxy2pac.appspot.com/pac/socks/10.0.1.254/7310 -O s_10.0.1.254_7310
-"1	LINE	0
-	
-	wget http://autoproxy2pac.appspot.com/pac/socks/127.0.0.1/7310 -O s_127.0.0.1_7310
+""1	LINE	0
+	receive.denyCurrentBranch = ignore
 "2	LINE	0
 	
 "3	LINE	0
+	
+"4	LINE	0
+	
+	wget http://autoproxy2pac.appspot.com/pac/socks/127.0.0.1/7310 -O s_127.0.0.1_7310
+"5	LINE	0
+	
+"6	LINE	0
 	" zip.vim version v21+b+Debian
 	" Browsing zipfile /home/leask/Popcorn_402_318_Updater.zip
 	" Select a file with cursor and press ENTER
@@ -41,26 +47,33 @@
 	  the last disk(s) of this archive.
 	unzip:  cannot find zipfile directory in one of /home/leask/Popcorn_402_318_Updater.zip or
 	        /home/leask/Popcorn_402_318_Updater.zip.zip, and cannot find /home/leask/Popcorn_402_318_Updater.zip.ZIP, period.
-"4	LINE	0
+"7	LINE	0
 	
-""-	CHAR	0
+"-	CHAR	0
 	#
 
 # File marks:
-'0  3  11  ~/twip.leaskh.com/config.php
-'1  1  0  ~/.gitignore
-'2  2  5  ~/.gitignore
-'3  2  15  ~/.gitignore
-'4  6  9  ~/.gitignore
-'5  3  12  ~/.gitignore
-'6  108  0  /home/sunxinghua/sunxinghua.com/readme.html
-'7  1  0  /home/sunxinghua/sunxinghua.com/wp-config.php
-'8  3  47  ~/leaskh.com/pac/allfree
-'9  3  69  ~/leaskh.com/pac/build.sh
+'0  1  0  ~/twip.leaskh.com/config.php
+'1  3  20  ~/.gitconfig
+'2  4  0  ~/.gitconfig
+'3  158  0  ~/twip.leaskh.com/twip.php
+'4  1  0  ~/twip.leaskh.com/index.php
+'5  1  0  ~/twip.leaskh.com/index.html
+'6  3  11  ~/twip.leaskh.com/config.php
+'7  1  0  ~/.gitignore
+'8  2  5  ~/.gitignore
+'9  2  15  ~/.gitignore
 
 # Jumplist (newest first):
--'  3  11  ~/twip.leaskh.com/config.php
 -'  1  0  ~/twip.leaskh.com/config.php
+-'  3  20  ~/.gitconfig
+-'  1  0  ~/.gitconfig
+-'  4  0  ~/.gitconfig
+-'  158  0  ~/twip.leaskh.com/twip.php
+-'  1  0  ~/twip.leaskh.com/twip.php
+-'  1  0  ~/twip.leaskh.com/index.php
+-'  1  0  ~/twip.leaskh.com/index.html
+-'  3  11  ~/twip.leaskh.com/config.php
 -'  1  0  ~/.gitignore
 -'  2  5  ~/.gitignore
 -'  6  9  ~/.gitignore
@@ -150,22 +163,29 @@
 -'  1  0  ~/.ssh/authorized_keys
 -'  1  0  ~/Popcorn_402_318_Updater.zip
 -'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/Popcorn_402_318_Updater.zip
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.gitignore
 
 # History of marks within files (newest to oldest):
 
 > ~/twip.leaskh.com/config.php
-	"	3	11
+	"	1	0
 	^	3	12
 	.	4	26
 	+	4	26
+
+> ~/.gitconfig
+	"	3	20
+	.	4	0
+	+	4	27
+	+	4	0
+
+> ~/twip.leaskh.com/twip.php
+	"	158	0
+
+> ~/twip.leaskh.com/index.php
+	"	1	0
+
+> ~/twip.leaskh.com/index.html
+	"	1	0
 
 > ~/.gitignore
 	"	1	0

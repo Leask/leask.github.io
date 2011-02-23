@@ -1,6 +1,3 @@
-ls
-cd /
-ls
 cd ~
 ls
 cd leaskh.com
@@ -479,3 +476,25 @@ ls
 cd ~
 ls
 exit
+ls
+git log
+ls
+mv uwip.leaskh.com/ twip.leaskh.com/
+ls
+cd twip.leaskh.com/
+ls
+cd ..
+ls
+ls
+cd twip.leaskh.com/
+ls
+vim config.php 
+ping vwip.leaskh.com
+ls
+git commit -am 'rename twip twitter api address'
+git add .
+git commit -am 'rename twip twitter api address 2nd'
+ls -al
+cd ..
+git commit -am
+git log
