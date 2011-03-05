@@ -1,70 +1,3 @@
-cd ~
-ls
-cd leaskh.com
-ls
-exit
-exit
-cd .ssh
-pwd
-mkdir .ssh
-cd .ssh
-ls -al
-ls -al
-exit
-exit
-ls -al
-cd .ssh
-ls -al
-ssh
-ssh leask@leaskh.com
-ls -al
-vim authorized_keys 
-ls -al
-exit
-exit
-ls
-ls -al
-cd .ssh
-ls -al
-exit
-ls -al
-cd .ssh
-ls 0al
-cd /
-ls
-cd home
-ls
-ls -al
-cd etc
-cd home
-cd ~
-ls -al
-exit
-ls -al
-cd .ssh
-ls
-vim authorized_keys 
-ls -al
-ls
-ls -al
-cd ..
-ls -al
-cd .ssh
-ls -al
-cd ~
-ls
-cd ~
-l
-ls -al
-ls
-exit
-exit
-exit
-ls -al
-cd .ssh
-ls -al
-rm authorized_keys 
-mv leask_dsa.pub authorized_keys
 ls -al
 exit
 ls -al
@@ -498,3 +431,70 @@ ls -al
 cd ..
 git commit -am
 git log
+cd twip.leaskh.com/
+ls
+vim index.html
+vim index.php 
+vim config.php 
+vim twip.php 
+ls
+cd 。。
+cd ..
+ls
+vim .gitconfig 
+vim .gitconfig 
+cd twip.leaskh.com/
+ls
+git config receive.denycurrentbranch ignore
+ls
+vim config.php 
+git diff
+git diff
+git status
+git commit -am 'upgrade wordpress plugins'
+git log
+git status
+git add .
+git commit -am 'upgrade wordpress plugins 2'
+git status
+cd ..
+git add .
+git commit -am 'upgrade wordpress plugins 3'
+git status
+cd twip.leaskh.com/
+ls
+vim config.php 
+git branch
+git branch
+git diff
+cat config.php 
+vim config.php 
+git branch
+git branch
+git log
+vim config.php 
+git diff
+git stash
+git stash clean
+git stash clear
+git stash list
+vim config.php 
+wget http://support.apple.com/downloads/DL1349/en_US/MacOSXUpdCombo10.6.6.dmg
+ls
+mv MacOSXUpdCombo10.6.6.dmg leaskh.com/
+ls
+ls
+exit
+ls
+cd leaskh.com/
+ls
+rm MacOSXUpdCombo10.6.6
+rm MacOSXUpdCombo10.6.6.dmg
+ls
+q!
+exit
+exit
+exit
+exit
+exit
+exit
