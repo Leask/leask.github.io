@@ -7,12 +7,17 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :x!
+:q
 :q!
 :Q!
 
 # Search String History (newest to oldest):
+? ^\d\{3}ÿ
 
 # Expression History (newest to oldest):
 
@@ -21,21 +26,22 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	wget http://autoproxy2pac.appspot.com/pac/socks/127.0.0.1/7310 -O s_127.0.0.1_7310
-	wget http://autoproxy2pac.appspot.com/pac/socks/10.0.1.254/7310 -O s_10.0.1.254_7310
-""1	LINE	0
+""0	LINE	0
 	receive.denyCurrentBranch = ignore
-"2	LINE	0
+"1	LINE	0
 	
+"2	LINE	0
+	receive.denyCurrentBranch = ignore
 "3	LINE	0
 	
 "4	LINE	0
 	
-	wget http://autoproxy2pac.appspot.com/pac/socks/127.0.0.1/7310 -O s_127.0.0.1_7310
 "5	LINE	0
 	
+	wget http://autoproxy2pac.appspot.com/pac/socks/127.0.0.1/7310 -O s_127.0.0.1_7310
 "6	LINE	0
+	
+"7	LINE	0
 	" zip.vim version v21+b+Debian
 	" Browsing zipfile /home/leask/Popcorn_402_318_Updater.zip
 	" Select a file with cursor and press ENTER
@@ -47,24 +53,31 @@
 	  the last disk(s) of this archive.
 	unzip:  cannot find zipfile directory in one of /home/leask/Popcorn_402_318_Updater.zip or
 	        /home/leask/Popcorn_402_318_Updater.zip.zip, and cannot find /home/leask/Popcorn_402_318_Updater.zip.ZIP, period.
-"7	LINE	0
+"8	LINE	0
 	
 "-	CHAR	0
 	#
 
 # File marks:
-'0  21  5  ~/googletrackme.leaskh.com/index.html
-'1  1  0  ~/googletrackme.leaskh.com/ndex.html
-'2  1  0  ~/twip.leaskh.com/config.php
-'3  3  20  ~/.gitconfig
-'4  4  0  ~/.gitconfig
-'5  158  0  ~/twip.leaskh.com/twip.php
-'6  1  0  ~/twip.leaskh.com/index.php
-'7  1  0  ~/twip.leaskh.com/index.html
-'8  3  11  ~/twip.leaskh.com/config.php
-'9  1  0  ~/.gitignore
+'0  3  27  ~/leaskh.com/pac
+'1  1  0  ~/pac
+'2  3  11  ~/leaskh.com/flora.pac
+'3  1  35  ~/leaskh.com/flora.pac
+'4  1  0  ~/leaskh.com/pac
+'5  12  0  ~/leaskh.com/pac
+'6  1  0  ~/index.htmlexit
+'7  21  5  ~/googletrackme.leaskh.com/index.html
+'8  1  0  ~/googletrackme.leaskh.com/ndex.html
+'9  1  0  ~/twip.leaskh.com/config.php
 
 # Jumplist (newest first):
+-'  3  27  ~/leaskh.com/pac
+-'  1  0  ~/leaskh.com/pac
+-'  1  0  ~/pac
+-'  3  11  ~/leaskh.com/flora.pac
+-'  1  0  ~/leaskh.com/flora.pac
+-'  12  0  ~/leaskh.com/pac
+-'  1  0  ~/index.htmlexit
 -'  21  5  ~/googletrackme.leaskh.com/index.html
 -'  1  0  ~/googletrackme.leaskh.com/index.html
 -'  1  0  ~/googletrackme.leaskh.com/ndex.html
@@ -156,17 +169,33 @@
 -'  1  0  ~/.ssh/authorized_keys
 -'  1  0  ~/Popcorn_402_318_Updater.zip
 -'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/Popcorn_402_318_Updater.zip
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  0  ~/Popcorn_402_318_Updater.zip
 
 # History of marks within files (newest to oldest):
+
+> ~/leaskh.com/pac
+	"	3	27
+	^	3	28
+	.	3	41
+	+	5	0
+	+	1	35
+	+	2	1
+	+	3	41
+
+> ~/pac
+	"	1	0
+
+> ~/leaskh.com/flora.pac
+	"	3	11
+	^	3	12
+	.	3	11
+	+	3	17
+	+	1	35
+	+	3	0
+	+	1	35
+	+	3	11
+
+> ~/index.htmlexit
+	"	1	0
 
 > ~/googletrackme.leaskh.com/index.html
 	"	21	5
@@ -268,6 +297,3 @@
 	"	1	0
 	.	1	0
 	+	1	0
-
-> ~/.ssh/authorized_keys
-	"	1	0

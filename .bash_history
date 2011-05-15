@@ -1,93 +1,3 @@
-ls -al
-exit
-ls -al
-cd .ssh
-ls -al
-mv authorized_keys authorized_keys2
-ls -al
-exit
-cd .ssh
-ls -al
-mv authorized_keys2 authorized_keys2
-exit
-scpexitexit
-exit
-ls -al
-chmod 600 .ssh
-ls -al
-exit
-ls -al
-rm -r .ssh
-rm -rf .ssh
-sudo rm -rf .ssh
-ls -al
-chmod 777 .ssh
-rm  -r .ssh
-ls -al
-mkdir .ssh
-ls -al
-ls -al
-cd .ssh
-ls -al
-cp authorized_keys authorized_keys2
-ls -al
-exit
-exit
-ls -al
-chmod 700 .ssh/
-chmod 700 .ssh
-cd .ssh
-ls -sl
-chmod 600 authorized_keys*
-ls -al
-exit
-cd .ssh
-ls 
-mv authorized_keys a1
-exitt
-exit
-cd .ssh
-ls -sl
-rm a1 
-ls -al
-mv authorized_keys2 authorized_keys
-exit
-cd .ssh
-ls -al
-exit
-exit
-exit
-exit
-ls
-cd Maildir/
-ls
-exit
-cd t.leaskh.com/
-ls -al
-exit
-ls
-ls -al
-rm -r babyrss.leaskh.com/
-ls -al
-rm -r feed.leaskh.com
-ls -al
-ls
-ls -al
-rm -r t.leaskh.com/
-ls -al
-ls -al
-cd baby.leaskh.com/
-ls -al
-cd ..
-cd leaskh.com/
-ls -al
-time
-date
-date
-git
-git
-ls -al
-cd ..
 ls
 cd leaskh.com/
 ls -al
@@ -498,3 +408,93 @@ exit
 exit
 exit
 exit
+git commit -am 'add googletrackme'
+git add .
+git commit -am 'add googletrackme 2nd'
+exit
+ls
+mkdir googletrackme.leaskh.com
+ls -al
+cd googletrackme.leaskh.com/
+ls -al
+vim ndex.html
+vim index.html
+vim index.htmlexit
+exit
+ls
+ls -al
+cd leaskh.com
+ls -al
+ls -C
+ls
+ls
+exit
+exit
+ls
+git log
+exit
+ls
+git diff
+exit
+ls -al
+exit
+wget http://dlc.sun.com.edgesuite.net/netbeans/7.0/rc1/bundles/netbeans-7.0rc1-ml-php-linux.sh
+ls -al
+ls -al
+ls -al
+rm netbeans-7.0rc1-ml-php-linux.sh 
+ls -al
+exit
+ls -al
+cd leaskh.com/
+ls a-al
+ls -al
+vim pac
+rm -rf pac
+vim pac
+vim pac
+mv pac all.pac
+ls -al
+mv pac flora.pac
+mv all.pac flora.pac
+ping 10.0.1.6
+vim flora.pac 
+vim flora.pac 
+vim flora.pac 
+mv flora.pac pac 
+vim pac
+cd leaskh.com
+ls
+vim pac
+vim leaskh.com/pac
+vim leaskh.com/pac
+exit
+vim leaskh.com/pac
+exit
+curl 'http://twitter.com/#!/Leaskh/favorites'
+exit
+cd leaskh.com
+ls
+mv ok.jpg ok.zip
+mv ok.JPG ok.zip
+ls -al
+ls
+rm ok.zip
+ls -al
+ls
+rm ok2.zip
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+exit
+exit
+exit
+exit
+curl http://feeds.feedburner.com/doctype/itunes
