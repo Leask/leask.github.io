@@ -1,13 +1,3 @@
-ls
-cd leaskh.com/
-ls -al
-ls
-vim .htaccess 
-exit
-exit
-ls
-cd ..
-ls
 cd sunxinghua
 ls
 cd sunxinghua.com
@@ -498,3 +488,13 @@ exit
 exit
 exit
 curl http://feeds.feedburner.com/doctype/itunes
+ ls
+ls -al
+git diff
+git commit -am 'upgrade wordpress and add instagram'
+git add .
+git commit -am 'upgrade wordpress and add instagram 2nd'
+git log
+git diff
+git diff
+exit
