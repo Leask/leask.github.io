@@ -1,0 +1,59 @@
+Theme Function:
+
+- define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'twentyten_header_image_height', 198 ) );
++ define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'twentyten_header_image_height', 486 ) );
+
+- add_theme_support( 'automatic-feed-links' );
++ // add_theme_support( 'automatic-feed-links' );
+
+
+Header:
+
+= <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
++ <link rel="alternate" type="application/rss+xml" title="#import &quot;Leask.h&quot; &raquo; Feed" href="http://feed.leaskh.com/" />
++ <link rel="alternate" type="application/rss+xml" title="#import &quot;Leask.h&quot; &raquo; Comments Feed" href="http://www.leaskh.com/comments/feed/" />
+
+- <?php $heading_tag = ( is_home() || is_front_page() ) ? 'h1' : 'div'; ?>
+- <<?php echo $heading_tag; ?> id="site-title">
+- <span>
+- <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+- </span>
+- </<?php echo $heading_tag; ?>>
+- <div id="site-description"><?php bloginfo( 'description' ); ?></div>
+
+- <img src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" />
++ <a href="http://www.leaskh.com/"><img src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" /></a>
+
+
+Stylesheet:
+
+= #header {
+- padding: 30px 0 0 0;
++ padding: 20px 0 0 0;
+
+= #footer-widget-area .widget-area {
+- margin-right: 20px;
++ margin-left: 15px;
+- width: 220px;
++ width: 700px;
+
+
+Footer:
+
+- get_sidebar( 'footer' );
++ // get_sidebar( 'footer' );
+
+
+Main Index Template:
+
+= <div id="container">
++ <?php get_sidebar( 'footer' ); ?>
+
+
+instapress/instapress.css:
+
+= .instagram-image
+- margin-right: 10px;
++ margin-right: 4px;
+- margin-top: 5px;
++ margin-top: 4px;
