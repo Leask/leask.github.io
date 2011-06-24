@@ -1,6 +1,7 @@
 Maildir/*
 logs/*
 tmp/*
+.DS_Store
 .viminfo
 .bash_history
 .gitconfig
