@@ -4,6 +4,7 @@ tmp/*
 .DS_Store
 .viminfo
 .bash_history
+.mysql_history
 .gitconfig
 .joe_state
 leaskh.com/t2os-leaskh/update.time
