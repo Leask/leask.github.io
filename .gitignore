@@ -1,4 +1,5 @@
-Maildir/*
+mail/*
+.mozilla/*
 logs/*
 tmp/*
 .DS_Store
@@ -6,7 +7,6 @@ tmp/*
 .bash_history
 .mysql_history
 .gitconfig
-.joe_state
 leaskh.com/breathe.js
 leaskh.com/t2os-leaskh/update.time
 leaskh.com/t2os-syxnx/update.time
@@ -14,3 +14,4 @@ leaskh.com/t2os-leaskh/tweet.id
 leaskh.com/t2os-syxnx/tweet.id
 leaskh.com/shared/*
 leaskh.com/wp-content/cache/*
+

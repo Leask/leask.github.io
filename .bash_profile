@@ -1,4 +1,13 @@
-# ~/.bash_profile: executed by bash(1) for login shells.
+# .bash_profile
 
-umask 002
-PS1='[\h]$ '
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/bin
+
+export PATH
+unset USERNAME
