@@ -58,10 +58,28 @@ function FindProxyForURL(url, host)
         [1, 'drinkbrainjuice.com'],
         [1, 'childsown.com'],
         [1, 'filesonic.com'],
+        [1, 'wezone.net'],
+        [1, 'globalvoices'],
+        [1, 'wikipedia'],
+        [1, 'appleactionews.com'],
+        [1, 'foursquare.com'],
+        [1, 'blog.sparrowmailapp.com'],
+        [1, 'tumblr.com'],
+        [1, 'xanga.com'],
+        [1, 'xuite.net'],
+        [1, 'ht.ly'],
+        [1, 'hotfile.com'],
 
         // speed up 
+        [1, 'leaskh.com'],
+        [1, 'tinygrab.com'],
         [1, 'amazon.com'],
         [1, 'panic.com'],
+        [1, 'taskant.com'],
+        [1, 'instagr.am'],
+        [1, 'd.pr'],
+        [1, 'droplr.com'],
+        [1, 'cld.me'],
 
         // international version
         [1, 'skype.com']
