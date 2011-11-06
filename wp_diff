@@ -3,16 +3,6 @@ Twenty Eleven: Theme Functions (functions.php)
 - define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'twentyeleven_header_image_height', 288 ) );
 + define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'twentyeleven_header_image_height', 478 ) );
 
-- add_theme_support( 'automatic-feed-links' );
-+ // add_theme_support( 'automatic-feed-links' );
-
-
-Twenty Eleven: Header (header.php)
-
-= <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-+ <link rel="alternate" type="application/rss+xml" title="#import &quot;Leask.h&quot; &raquo; Feed" href="http://feed.leaskh.com/" />
-+ <link rel="alternate" type="application/rss+xml" title="#import &quot;Leask.h&quot; &raquo; Comments Feed" href="http://www.leaskh.com/comments/feed/" />
-
 
 ======= ======= ======= old ======= ======= =======
 
