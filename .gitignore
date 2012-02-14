@@ -7,11 +7,11 @@ tmp/*
 .bash_history
 .mysql_history
 .gitconfig
-leaskh.com/breathe.js
-leaskh.com/t2os-leaskh/update.time
-leaskh.com/t2os-syxnx/update.time
-leaskh.com/t2os-leaskh/tweet.id
-leaskh.com/t2os-syxnx/tweet.id
-leaskh.com/shared/*
-leaskh.com/wp-content/cache/*
+public_html/breathe.js
+public_html/t2os-leaskh/update.time
+public_html/t2os-syxnx/update.time
+public_html/t2os-leaskh/tweet.id
+public_html/t2os-syxnx/tweet.id
+public_html/shared/*
+public_html/wp-content/cache/*
 
