@@ -1,0 +1,13 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link rel="stylesheet" type="text/css" href="style.css" /><title>Apple Mac OSX 10.4.8&#30340;&#19968;&#20010;&#38382;&#39064;&#65292;&#21319;&#32423;&#19988;&#24930;&#65281;</title></head><body><h1 id="blog-Title"><a href="index.html">&#35;import &#34;Leask.h&#34;</a></h1><div id="bp"><h2 id="bp-15BAC1A170471DB_1991-Title">Apple Mac OSX 10.4.8&#30340;&#19968;&#20010;&#38382;&#39064;&#65292;&#21319;&#32423;&#19988;&#24930;&#65281;</h2><h5 id="bp-15BAC1A170471DB_1991-publish">9/30/2006 8&#58;00&#58;42 AM</h5><div id="bp-15BAC1A170471DB_1991-content" class="blogpost">昨晚，Apple推出了OS 10.4.8的升级文件，于是马上升级，发现一个问题：FrontRow不能使用了。
+<br />打开升级包，发现以下两个文件升级了：
+<br />/System/Library/PrivateFrameworks/BezelServices.framework/Versions/A/BezelServices
+<br />/System/Library/LoginPlugins/BezelServices.loginPlugin/Contents/MacOS/BezelServices
+<br />显然是FrontRow Enabler对这两个文件的破解被升级包覆盖！
+<br />于是重新运行Enabler，灾难发生了！
+<br />OS无法正常启动，在进入系统前就停住。
+<br />怀疑Enabler对以上文件的修改和新的OS 10.4.8不兼容！
+<br />想还原以上两个文件，但此时已无法进入系统。
+<br />于是找到身边另一台Mac，在出事的机器上按住t启动，进入火线磁盘模式，用另一个10.4.8系统的没修改过的那两个文件覆盖出事机器的文件，重器出事机器，终<br />于正常进入系统。
+<br />但是修复后FrontRow就无法打开了。
+<br />大家如果需要FrontRow的话千万别急于升级，等新的Enabler吧，避免不必要的麻烦咯。
+<br />*以上指直通过Enabler安装FrontRow的系统，对于直接可以装上的机器应该没有影响的，如果你的机器可以直接装上FrontRow的话，可以放心升级，不会遇到上述问题。</div><h3>Comments</h3><div id="bp-15BAC1A170471DB_1991-comments" class="comments"></div></div></body></html>

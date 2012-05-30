@@ -1,0 +1,79 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link rel="stylesheet" type="text/css" href="style.css" /><title>&#35299;&#20915;&#31616;&#21333;&#25968;&#23398;&#38382;&#39064;</title></head><body><h1 id="blog-Title"><a href="index.html">&#35;import &#34;Leask.h&#34;</a></h1><div id="bp"><h2 id="bp-15BAC1A170471DB_10584-Title">&#35299;&#20915;&#31616;&#21333;&#25968;&#23398;&#38382;&#39064;</h2><h5 id="bp-15BAC1A170471DB_10584-publish">5/25/2009 3&#58;07&#58;15 PM</h5><div id="bp-15BAC1A170471DB_10584-content" class="blogpost"><div>今天有人问我一个数学问题：<br />
+“在由数字1、2、3、4、5组成的所有没有重复的5位数中，大于23145且小于43521的数共有多少个。”<br />
+<br />
+最初想了想用排列组合的思想做，试算发现数量超过10个……<br />
+天呀，那么多！超过十个的事情就交给计算机算吧，于是放弃数学方法，改用Javascript解决。<br />
+首先尝试把重点放在五个数字的排列上，后来发现写出五个数字排列的算法还不如写出验证所合成的五位数的有效性来得简单，于是有了如下的程序：<br />
+<br />
+<br />
+&lt;script type=&quot;text/javascript&quot;&gt;<br />
+/*<br />
+=================================<br />
+ver 0.3<br />
+by LeaskH.com<br />
+<a href="mailto&#58;i@leaskh.com">i@leaskh.com</a><br />
+April 7, 2009<br />
+=================================<br />
+*/<br />
+<br />
+var iShan=0;<br />
+<br />
+var ia;<br />
+var ib;<br />
+<br />
+var xa;<br />
+var xb;<br />
+var xc;<br />
+var xd;<br />
+var xe;<br />
+<br />
+for (ia=23145+1;ia&lt;43521;ia++)<br />
+&#123;<br />
+        xa=0;<br />
+        xb=0;<br />
+        xc=0;<br />
+        xd=0;<br />
+        xe=0;<br />
+        for (ib=0;ib&lt;5;ib++)<br />
+        &#123;<br />
+                switch(String(ia).substr(ib,1))&#123;<br />
+                        case '1'&#58;<br />
+                                xa+=1;<br />
+                                break;<br />
+                        case '2'&#58;<br />
+                                xb+=1;<br />
+                                break;<br />
+                        case '3'&#58;<br />
+                                xc+=1;<br />
+                                break;<br />
+                        case '4'&#58;<br />
+                                xd+=1;<br />
+                                break;<br />
+                        case '5'&#58;<br />
+                                xe+=1;<br />
+                                break;<br />
+                &#125;<br />
+        &#125;<br />
+        if(xa==1 &amp;&amp; xb==1 &amp;&amp; xc==1 &amp;&amp; xd==1 &amp;&amp; xe==1)<br />
+        &#123;<br />
+                iShan+=1;<br />
+                document.write(ia + ' | ');<br />
+        &#125;<br />
+&#125;<br />
+document.write('&lt;br /&gt;sum is&#58; ' + iShan);<br />
+&lt;/script&gt;<br />
+<br />
+<br />
+程序输出的结果如下：<br />
+<br />
+23154 | 23415 | 23451 | 23514 | 23541 | 24135 | 24153 | 24315 | 24351<br />
+| 24513 | 24531 | 25134 | 25143 | 25314 | 25341 | 25413 | 25431 |<br />
+31245 | 31254 | 31425 | 31452 | 31524 | 31542 | 32145 | 32154 | 32415<br />
+| 32451 | 32514 | 32541 | 34125 | 34152 | 34215 | 34251 | 34512 |<br />
+34521 | 35124 | 35142 | 35214 | 35241 | 35412 | 35421 | 41235 | 41253<br />
+| 41325 | 41352 | 41523 | 41532 | 42135 | 42153 | 42315 | 42351 |<br />
+42513 | 42531 | 43125 | 43152 | 43215 | 43251 | 43512 |<br />
+sum is&#58; 58<br />
+<br />
+PS：由于我特别粗心大意，不知道程序有没有其他错漏。呵呵，我完成调试的环境是：Mac OS X Leopard 10.5.6 + Safari 3.2.1</div>
+<a href="img/15BAC1A170471DB_10584_0.jpg" target="_blank" rel="WLPP;url=https&#58;//2ax6iq.bay.livefilestore.com/y1mcBDqKPdWVF1JA3JXAgSBlgPhKP6eO9uQS0rpP4PhIL2W1-X8cWQABegC4bcjNa4i5QDqGzydv_PcOxPeLlk2CY2BQgdm3738rDrKfQnfi79SyzS4d3zcMzt1hbhwdjZvvg4yBBN28H8bkAto4qbLrA/Picture%206364.png"><img src="img/15BAC1A170471DB_10584_0.jpg" alt="" /></a><br /></div><h3>Comments</h3><div id="bp-15BAC1A170471DB_10584-comments" class="comments"></div></div></body></html>
