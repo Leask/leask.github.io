@@ -324,3 +324,13 @@
 [20-Mar-2013 20:35:30] PHP Warning:  Invalid argument supplied for foreach() in /home4/leaskhco/public_html/baby/wp-content/themes/mystique/lib/widgets.php on line 26
 [21-Mar-2013 16:55:21] PHP Warning:  Invalid argument supplied for foreach() in /home4/leaskhco/public_html/baby/wp-content/themes/mystique/lib/widgets.php on line 26
 [23-Mar-2013 16:32:56] PHP Warning:  Invalid argument supplied for foreach() in /home4/leaskhco/public_html/baby/wp-content/themes/mystique/lib/widgets.php on line 26
+[24-Mar-2013 09:00:09] PHP Warning:  Invalid argument supplied for foreach() in /home4/leaskhco/public_html/baby/wp-content/themes/mystique/lib/widgets.php on line 26
+[25-Mar-2013 21:26:46] PHP Warning:  Invalid argument supplied for foreach() in /home4/leaskhco/public_html/baby/wp-content/themes/mystique/lib/widgets.php on line 26
+[27-Mar-2013 01:52:25] PHP Warning:  Invalid argument supplied for foreach() in /home4/leaskhco/public_html/baby/wp-content/themes/mystique/lib/widgets.php on line 26
+[28-Mar-2013 05:15:02] PHP Warning:  Invalid argument supplied for foreach() in /home4/leaskhco/public_html/baby/wp-content/themes/mystique/lib/widgets.php on line 26
+[29-Mar-2013 04:18:54] PHP Warning:  Invalid argument supplied for foreach() in /home4/leaskhco/public_html/baby/wp-content/themes/mystique/lib/widgets.php on line 26
+[29-Mar-2013 18:48:25] PHP Warning:  Invalid argument supplied for foreach() in /home4/leaskhco/public_html/baby/wp-content/themes/mystique/lib/widgets.php on line 26
+[30-Mar-2013 03:38:08] WordPress database error Lost connection to MySQL server during query for query SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (81,94,101,110,116,121,126) made by require, require_once, include, mystique_post, mystique_post_thumb, get_children, get_posts, WP_Query->query, WP_Query->get_posts, update_post_caches, update_postmeta_cache, update_meta_cache
+[30-Mar-2013 03:45:54] PHP Warning:  Invalid argument supplied for foreach() in /home4/leaskhco/public_html/baby/wp-content/themes/mystique/lib/widgets.php on line 26
+[30-Mar-2013 07:38:58] PHP Warning:  Invalid argument supplied for foreach() in /home4/leaskhco/public_html/baby/wp-content/themes/mystique/lib/widgets.php on line 26
+[30-Mar-2013 14:44:22] PHP Warning:  Invalid argument supplied for foreach() in /home4/leaskhco/public_html/baby/wp-content/themes/mystique/lib/widgets.php on line 26
