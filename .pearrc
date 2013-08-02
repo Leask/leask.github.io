@@ -1,0 +1,2 @@
+#PEAR_Config 0.9
+a:11:{s:10:"__channels";a:2:{s:12:"pecl.php.net";a:0:{}s:5:"__uri";a:0:{}}s:7:"ext_dir";s:23:"/home4/leaskhco/php/ext";s:7:"php_ini";s:22:"/usr/local/lib/php.ini";s:7:"doc_dir";s:24:"/home4/leaskhco/php/docs";s:7:"php_dir";s:19:"/home4/leaskhco/php";s:12:"download_dir";s:30:"/home4/leaskhco/tmp/pear/cache";s:9:"cache_dir";s:30:"/home4/leaskhco/tmp/pear/cache";s:7:"bin_dir";s:19:"/home4/leaskhco/bin";s:8:"data_dir";s:24:"/home4/leaskhco/php/data";s:8:"test_dir";s:25:"/home4/leaskhco/php/tests";s:8:"temp_dir";s:24:"/home4/leaskhco/tmp/pear";}
