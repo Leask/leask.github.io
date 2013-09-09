@@ -1,6 +1,0 @@
---- 
-gem: --remote --gen-rdoc --run-tests
-gemhome: /home4/leaskhco/ruby/gems
-gempath: []
-
-rdoc: --inline-source --line-numbers
