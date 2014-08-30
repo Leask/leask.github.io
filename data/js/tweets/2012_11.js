@@ -180,7 +180,7 @@ Grailbird.data.tweets_2012_11 =
   "source" : "\u003Ca href=\"http:\/\/www.echofon.com\/\" rel=\"nofollow\"\u003EEchofon\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Grant Paul (chpwn)",
+      "name" : "Grant Paul",
       "screen_name" : "chpwn",
       "indices" : [ 3, 9 ],
       "id_str" : "91625528",
@@ -217,11 +217,11 @@ Grailbird.data.tweets_2012_11 =
     "id" : 274292564906106880,
     "created_at" : "2012-11-29 23:23:38 +0000",
     "user" : {
-      "name" : "Grant Paul (chpwn)",
+      "name" : "Grant Paul",
       "screen_name" : "chpwn",
       "protected" : false,
       "id_str" : "91625528",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000500755106\/c3ba2fbb2a0185767b382e898e21db17_normal.jpeg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/471901459387150337\/13yIZvzo_normal.png",
       "id" : 91625528,
       "verified" : false
     }
@@ -470,7 +470,7 @@ Grailbird.data.tweets_2012_11 =
   "id" : 274377365654753281,
   "in_reply_to_status_id" : 274377094459441152,
   "created_at" : "2012-11-30 05:00:36 +0000",
-  "in_reply_to_screen_name" : "fangduncai",
+  "in_reply_to_screen_name" : "_fundon",
   "in_reply_to_user_id_str" : "14909027",
   "user" : {
     "name" : "Leask Wong",
@@ -577,7 +577,7 @@ Grailbird.data.tweets_2012_11 =
       "id_str" : "25959744",
       "id" : 25959744
     }, {
-      "name" : "DANIEL LYU",
+      "name" : "DANIEL LU",
       "screen_name" : "cooladai",
       "indices" : [ 10, 19 ],
       "id_str" : "21383562",
@@ -2257,7 +2257,7 @@ Grailbird.data.tweets_2012_11 =
   "id_str" : "272894934435119104",
   "text" : "RT @robertkenealy: Use Field Test Mode to See True iPhone Signal Strength as Numbers Instead of Bars http:\/\/t.co\/WbaetxcG via @osxdaily",
   "retweeted_status" : {
-    "source" : "\u003Ca href=\"http:\/\/twitter.com\/tweetbutton\" rel=\"nofollow\"\u003ETweet Button\u003C\/a\u003E",
+    "source" : "\u003Ca href=\"https:\/\/dev.twitter.com\/docs\/tfw\" rel=\"nofollow\"\u003ETwitter for Websites\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ {
         "name" : "OSXDaily",
@@ -2571,7 +2571,7 @@ Grailbird.data.tweets_2012_11 =
   "id_str" : "272382937247399938",
   "text" : "RT @roseluqiu: \u8D70\u8BFB\u5927\u4E2D\u534E\uFF0C\u5173\u4E8E\u4E2D\u56FD\u5185\u5730\u7684\u4EBA\u5DE5\u6D41\u4EA7\/\u5815\u80CE\u95EE\u9898http:\/\/t.co\/IwEJ7IWD",
   "retweeted_status" : {
-    "source" : "web",
+    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ ],
       "media" : [ ],
@@ -3316,7 +3316,7 @@ Grailbird.data.tweets_2012_11 =
     "verified" : false
   }
 }, {
-  "source" : "web",
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
       "name" : "Googol | \u30FB\u03C9\u30FB",
@@ -3438,7 +3438,7 @@ Grailbird.data.tweets_2012_11 =
       "screen_name" : "yarshure",
       "protected" : false,
       "id_str" : "37645156",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000764138292\/66c9ddd3c551c82b3c17c7d69aaa35ce_normal.jpeg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/471305774325444610\/ayDAEVGc_normal.jpeg",
       "id" : 37645156,
       "verified" : false
     }
@@ -3574,7 +3574,7 @@ Grailbird.data.tweets_2012_11 =
     "verified" : false
   }
 }, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\/tweetbutton\" rel=\"nofollow\"\u003ETweet Button\u003C\/a\u003E",
+  "source" : "\u003Ca href=\"https:\/\/dev.twitter.com\/docs\/tfw\" rel=\"nofollow\"\u003ETwitter for Websites\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ ],
     "media" : [ ],
@@ -3756,7 +3756,7 @@ Grailbird.data.tweets_2012_11 =
       "id_str" : "188330055",
       "id" : 188330055
     }, {
-      "name" : "\u60A8\u7684\u597D\u53CB\u8001\u6768\u4E34\u7761\u524D",
+      "name" : "\u8001\u6768",
       "screen_name" : "laoyang945",
       "indices" : [ 13, 24 ],
       "id_str" : "50969839",
@@ -3871,7 +3871,7 @@ Grailbird.data.tweets_2012_11 =
       "id_str" : "188330055",
       "id" : 188330055
     }, {
-      "name" : "\u60A8\u7684\u597D\u53CB\u8001\u6768\u4E34\u7761\u524D",
+      "name" : "\u8001\u6768",
       "screen_name" : "laoyang945",
       "indices" : [ 13, 24 ],
       "id_str" : "50969839",
@@ -4806,7 +4806,7 @@ Grailbird.data.tweets_2012_11 =
   "source" : "\u003Ca href=\"http:\/\/www.echofon.com\/\" rel=\"nofollow\"\u003EEchofon\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Salad",
+      "name" : "Salad ",
       "screen_name" : "salad_33",
       "indices" : [ 0, 9 ],
       "id_str" : "100672653",
@@ -4961,7 +4961,7 @@ Grailbird.data.tweets_2012_11 =
   "source" : "\u003Ca href=\"http:\/\/www.echofon.com\/\" rel=\"nofollow\"\u003EEchofon\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Salad",
+      "name" : "Salad ",
       "screen_name" : "salad_33",
       "indices" : [ 0, 9 ],
       "id_str" : "100672653",
@@ -4994,7 +4994,7 @@ Grailbird.data.tweets_2012_11 =
   "source" : "\u003Ca href=\"http:\/\/www.echofon.com\/\" rel=\"nofollow\"\u003EEchofon\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Salad",
+      "name" : "Salad ",
       "screen_name" : "salad_33",
       "indices" : [ 2, 11 ],
       "id_str" : "100672653",
@@ -5374,7 +5374,7 @@ Grailbird.data.tweets_2012_11 =
     "verified" : false
   }
 }, {
-  "source" : "\u003Ca href=\"http:\/\/foursquare.com\" rel=\"nofollow\"\u003Efoursquare\u003C\/a\u003E",
+  "source" : "\u003Ca href=\"http:\/\/foursquare.com\" rel=\"nofollow\"\u003EFoursquare\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
       "name" : "Foursquare",
@@ -5744,13 +5744,7 @@ Grailbird.data.tweets_2012_11 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/www.echofon.com\/\" rel=\"nofollow\"\u003EEchofon\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "\u9EC3\u9C54\u9B5A",
-      "screen_name" : "lucifierya",
-      "indices" : [ 3, 14 ],
-      "id_str" : "128215955",
-      "id" : 128215955
-    } ],
+    "user_mentions" : [ ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
@@ -5776,10 +5770,10 @@ Grailbird.data.tweets_2012_11 =
     "created_at" : "2012-11-17 04:41:18 +0000",
     "user" : {
       "name" : "\u9EC3\u9C54\u9B5A",
-      "screen_name" : "lucifierya",
+      "screen_name" : "nanshenjing",
       "protected" : false,
       "id_str" : "128215955",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/459286164550057984\/gUJc6vhy_normal.jpeg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/503370683284344833\/a5LxS3O2_normal.jpeg",
       "id" : 128215955,
       "verified" : false
     }
@@ -6268,7 +6262,7 @@ Grailbird.data.tweets_2012_11 =
   "text" : "@cfddream \u662F\u6211\u7684\u540C\u4E8B\uFF0C\u4ED6\u53EF\u80FD\u6709\u5174\u8DA3\u3002\u8981\u4E0D\u9001\u6211\u4EEC\u5427\u3002 RT @summertide: \u8BDD\u8BF4\u6709\u4E0A\u6D77\u7684\u63A8\u53CB\u60F3\u53BB\u6218\u7F51\u9526\u6807\u8D5B\u5417\uFF1F\u6211\u6709\u4E09\u79CD\u95E8\u7968\u591A\uFF0C\u60F3\u53BB\u7684\u53EF\u4EE5\u514D\u8D39\u9001\u54E6",
   "id" : 269100333073068034,
   "created_at" : "2012-11-15 15:31:33 +0000",
-  "in_reply_to_screen_name" : "fangduncai",
+  "in_reply_to_screen_name" : "_fundon",
   "in_reply_to_user_id_str" : "14909027",
   "user" : {
     "name" : "Leask Wong",
@@ -7304,79 +7298,6 @@ Grailbird.data.tweets_2012_11 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/www.echofon.com\/\" rel=\"nofollow\"\u003EEchofon\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "\u00A0",
-      "screen_name" : "Z0vsky",
-      "indices" : [ 3, 10 ],
-      "id_str" : "17511075",
-      "id" : 17511075
-    }, {
-      "name" : "Adrien Gu\u00E9ret",
-      "screen_name" : "AdrienGueret",
-      "indices" : [ 112, 125 ],
-      "id_str" : "571076620",
-      "id" : 571076620
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ {
-      "indices" : [ 87, 107 ],
-      "url" : "http:\/\/t.co\/BTJX6b4L",
-      "expanded_url" : "http:\/\/blog.netbsd.org\/tnf\/entry\/kernel_drivers_compiled_to_javascript",
-      "display_url" : "blog.netbsd.org\/tnf\/entry\/kern\u2026"
-    } ]
-  },
-  "geo" : { },
-  "id_str" : "266607615503630336",
-  "text" : "RT @Z0vsky: AWESOME! Compile NetBSD kernel under JavaScript and run it in the browser  http:\/\/t.co\/BTJX6b4L (cc @AdrienGueret)",
-  "retweeted_status" : {
-    "source" : "web",
-    "entities" : {
-      "user_mentions" : [ {
-        "name" : "Adrien Gu\u00E9ret",
-        "screen_name" : "AdrienGueret",
-        "indices" : [ 100, 113 ],
-        "id_str" : "571076620",
-        "id" : 571076620
-      } ],
-      "media" : [ ],
-      "hashtags" : [ ],
-      "urls" : [ {
-        "indices" : [ 75, 95 ],
-        "url" : "http:\/\/t.co\/BTJX6b4L",
-        "expanded_url" : "http:\/\/blog.netbsd.org\/tnf\/entry\/kernel_drivers_compiled_to_javascript",
-        "display_url" : "blog.netbsd.org\/tnf\/entry\/kern\u2026"
-      } ]
-    },
-    "geo" : { },
-    "id_str" : "266473153616805889",
-    "text" : "AWESOME! Compile NetBSD kernel under JavaScript and run it in the browser  http:\/\/t.co\/BTJX6b4L (cc @AdrienGueret)",
-    "id" : 266473153616805889,
-    "created_at" : "2012-11-08 09:32:05 +0000",
-    "user" : {
-      "name" : "\u00A0",
-      "screen_name" : "Z0vsky",
-      "protected" : false,
-      "id_str" : "17511075",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/2663797521\/7a9abd435383cc54522fc62319991bf6_normal.jpeg",
-      "id" : 17511075,
-      "verified" : false
-    }
-  },
-  "id" : 266607615503630336,
-  "created_at" : "2012-11-08 18:26:23 +0000",
-  "user" : {
-    "name" : "Leask Wong",
-    "screen_name" : "Leaskh",
-    "protected" : false,
-    "id_str" : "10065202",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/3686752338\/96c8c19a08e2bee5c912f80f6f59b7d3_normal.jpeg",
-    "id" : 10065202,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/www.echofon.com\/\" rel=\"nofollow\"\u003EEchofon\u003C\/a\u003E",
-  "entities" : {
     "user_mentions" : [ ],
     "media" : [ ],
     "hashtags" : [ ],
@@ -8001,7 +7922,7 @@ Grailbird.data.tweets_2012_11 =
     "verified" : false
   }
 }, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\/tweetbutton\" rel=\"nofollow\"\u003ETweet Button\u003C\/a\u003E",
+  "source" : "\u003Ca href=\"https:\/\/dev.twitter.com\/docs\/tfw\" rel=\"nofollow\"\u003ETwitter for Websites\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
       "name" : "YouTube",
@@ -8034,7 +7955,7 @@ Grailbird.data.tweets_2012_11 =
     "verified" : false
   }
 }, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\/tweetbutton\" rel=\"nofollow\"\u003ETweet Button\u003C\/a\u003E",
+  "source" : "\u003Ca href=\"https:\/\/dev.twitter.com\/docs\/tfw\" rel=\"nofollow\"\u003ETwitter for Websites\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
       "name" : "YouTube",

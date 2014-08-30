@@ -7,10 +7,7 @@ Grailbird.data.tweets_2013_08 =
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "geo" : {
-    "type" : "Point",
-    "coordinates" : [ 31.2107974757, 121.5578410814 ]
-  },
+  "geo" : { },
   "id_str" : "373781124293459969",
   "text" : "\u81EA\u4ECE\u5F53\u6211\u4EEC\u610F\u8BC6\u5230\u72EC\u7ACB\u601D\u8003\u7684\u5FC5\u8981\u6027\u548C\u5FEB\u611F\u540E\uFF0C\u6211\u4EEC\u4E2D\u7684\u5F88\u591A\u4EBA\u4ECE\u6B64\u5C31\u559C\u6B22\u4E0A\u4E86\u5426\u5B9A\u522B\u4EBA\u7684\u89C2\u70B9\uFF0C\u4EE5\u4E3A\u6279\u5224\u548C\u53CD\u5BF9\u5C31\u662F\u6240\u8C13\u7684\u72EC\u7ACB\u601D\u8003\uFF0C\u6070\u6070\u76F8\u53CD\uFF0C\u8FD9\u4E00\u79CD\u4EBA\u6700\u6CA1\u6709\u4E3B\u89C1\uFF0C\u4ED6\u4EEC\u8FDE\u8BA4\u540C\u522B\u4EBA\u7684\u52C7\u6C14\u90FD\u6CA1\u6709\u3002",
   "id" : 373781124293459969,
@@ -379,7 +376,7 @@ Grailbird.data.tweets_2013_08 =
   "id_str" : "373675159195901952",
   "text" : "RT @gaberivera: Guys, I changed my avatar to a blue line on light background. Because I don't need to stand out in conversations. http:\/\/t.\u2026",
   "retweeted_status" : {
-    "source" : "web",
+    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ ],
       "media" : [ {
@@ -536,7 +533,7 @@ Grailbird.data.tweets_2013_08 =
   "id_str" : "373531996296732672",
   "text" : "RT @arnorhs: \u265C\u265E\u265D\u265B\u265A\u265D\u265E\u265C\n\u265F\u265F\u265F\u265F\u265F\u265F\u265F\u265F\n\n\u2659\u2659\u2659\u2659\u2659\u2659\u2659\u2659\n\u2656\u2658\u2657\u2655\u2654\u2657\u2658\u2656\n\nYour move, Twitter",
   "retweeted_status" : {
-    "source" : "web",
+    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ ],
       "media" : [ ],
@@ -809,7 +806,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Yoga Huo",
+      "name" : "Huo",
       "screen_name" : "huoouh",
       "indices" : [ 3, 10 ],
       "id_str" : "17886300",
@@ -836,7 +833,7 @@ Grailbird.data.tweets_2013_08 =
     "id" : 373070647619895296,
     "created_at" : "2013-08-29 13:12:28 +0000",
     "user" : {
-      "name" : "Yoga Huo",
+      "name" : "Huo",
       "screen_name" : "huoouh",
       "protected" : false,
       "id_str" : "17886300",
@@ -860,7 +857,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u592A\u53F2\u516C\u81EA\u5C3D",
+      "name" : "\u53F0\u5F0F\u704C\u88C5\u673AUG",
       "screen_name" : "tsgzj",
       "indices" : [ 0, 6 ],
       "id_str" : "244128089",
@@ -1368,7 +1365,7 @@ Grailbird.data.tweets_2013_08 =
     "verified" : false
   }
 }, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\/tweetbutton\" rel=\"nofollow\"\u003ETweet Button\u003C\/a\u003E",
+  "source" : "\u003Ca href=\"https:\/\/dev.twitter.com\/docs\/tfw\" rel=\"nofollow\"\u003ETwitter for Websites\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
       "name" : "YouTube",
@@ -1593,7 +1590,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 1, 17 ],
       "id_str" : "14335498",
@@ -1632,7 +1629,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "jinjing",
+      "name" : "J",
       "screen_name" : "librajinjing",
       "indices" : [ 1, 14 ],
       "id_str" : "49119796",
@@ -2954,7 +2951,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 1, 17 ],
       "id_str" : "14335498",
@@ -3294,7 +3291,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 1, 17 ],
       "id_str" : "14335498",
@@ -3327,7 +3324,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 1, 17 ],
       "id_str" : "14335498",
@@ -3398,7 +3395,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 1, 17 ],
       "id_str" : "14335498",
@@ -3431,7 +3428,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 1, 17 ],
       "id_str" : "14335498",
@@ -4548,7 +4545,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 1, 17 ],
       "id_str" : "14335498",
@@ -4639,11 +4636,11 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u7EF5\u7EF5\u7684\u8001\u6C49",
+      "name" : "zqweb",
       "screen_name" : "zqweb",
       "indices" : [ 1, 7 ],
-      "id_str" : "123718949",
-      "id" : 123718949
+      "id_str" : "2663910192",
+      "id" : 2663910192
     } ],
     "media" : [ ],
     "hashtags" : [ ],
@@ -4840,7 +4837,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 0, 7 ],
       "id_str" : "21157148",
@@ -4873,7 +4870,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 0, 7 ],
       "id_str" : "21157148",
@@ -5117,7 +5114,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Salad",
+      "name" : "Salad ",
       "screen_name" : "salad_33",
       "indices" : [ 0, 9 ],
       "id_str" : "100672653",
@@ -5178,7 +5175,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 3, 19 ],
       "id_str" : "14335498",
@@ -5215,11 +5212,11 @@ Grailbird.data.tweets_2013_08 =
     "id" : 368326385850646528,
     "created_at" : "2013-08-16 11:00:28 +0000",
     "user" : {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "protected" : false,
       "id_str" : "14335498",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000017952599\/cf443a6da9a74e5c9c1fcddf422ebb0e_normal.png",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/469397708986269696\/iUrYEOpJ_normal.png",
       "id" : 14335498,
       "verified" : false
     }
@@ -5280,7 +5277,7 @@ Grailbird.data.tweets_2013_08 =
       "screen_name" : "0dayZh",
       "protected" : false,
       "id_str" : "1269530114",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/3382656173\/aef52a0de53b70db0e82f833cac4ba60_normal.jpeg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/490020256430043136\/1R_j90WA_normal.jpeg",
       "id" : 1269530114,
       "verified" : false
     }
@@ -5337,7 +5334,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Salad",
+      "name" : "Salad ",
       "screen_name" : "salad_33",
       "indices" : [ 0, 9 ],
       "id_str" : "100672653",
@@ -5446,7 +5443,7 @@ Grailbird.data.tweets_2013_08 =
   "id_str" : "368235637784051712",
   "text" : "RT @whshang: \u4F60\u4EEC\u8FD9\u4E9BPM\u554A\uFF0C\u4E0D\u8981\u4E00\u6761\u8DEF\u8D70\u5230\u9ED1\uFF0C\u89C9\u5F97\u80FD\u81EA\u5DF1\u628A\u81EA\u5DF1\u8BF4\u670D\u7684\u903B\u8F91\u5C31\u662F\u575A\u4E0D\u53EF\u6467\u4EBA\u6321\u6740\u4EBA\u4F5B\u6321\u6740\u4F5B\u3002less is more\u524D\u63D0\u662F\u7528\u6237\u53EA\u770B\u4E00\u773Cless\u5C31\u77E5\u9053\u53D1\u751F\u4E86\u4EC0\u4E48\uFF0C\u800C\u4E0D\u662F\u4E00\u5473\u7684\u505A\u51CF\u6CD5\uFF0C\u5168\u7136\u4E0D\u987E\u7528\u6237\u4ECE\u4E00\u4E2A\u754C\u9762\u8DF3\u5230\u53E6\u4E00\u4E2A\u754C\u9762\u7A81\u7136\u5C31\u5565\u4E5F\u6CA1\u6709\u4E86\u662F\u4EC0\u4E48\u611F\u53D7\u3002",
   "retweeted_status" : {
-    "source" : "web",
+    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ ],
       "media" : [ ],
@@ -5832,7 +5829,7 @@ Grailbird.data.tweets_2013_08 =
       "id_str" : "18286653",
       "id" : 18286653
     }, {
-      "name" : "\u523A\u523A CICI RISES",
+      "name" : "\u523A\u523A",
       "screen_name" : "chanelcici",
       "indices" : [ 87, 98 ],
       "id_str" : "92279331",
@@ -5871,7 +5868,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 0, 7 ],
       "id_str" : "21157148",
@@ -5904,7 +5901,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u52AA\u529B\u4E2D\u7684\u7CD6\u7403\u7403",
+      "name" : "\u65E0\u836F\u514B\u6CBB\u7CD6\u7403\u7403",
       "screen_name" : "yanxiliqin",
       "indices" : [ 0, 11 ],
       "id_str" : "1117020570",
@@ -5973,11 +5970,11 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/#!\/download\/ipad\" rel=\"nofollow\"\u003ETwitter for iPad\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u3044\u305F\u3060\u304D\u307E\u3059",
+      "name" : "laputaw",
       "screen_name" : "laputaw",
       "indices" : [ 0, 8 ],
-      "id_str" : "105648769",
-      "id" : 105648769
+      "id_str" : "2665789376",
+      "id" : 2665789376
     } ],
     "media" : [ ],
     "hashtags" : [ ],
@@ -5994,7 +5991,7 @@ Grailbird.data.tweets_2013_08 =
   "id" : 366933695585722368,
   "in_reply_to_status_id" : 366931445119336448,
   "created_at" : "2013-08-12 14:46:24 +0000",
-  "in_reply_to_screen_name" : "laputaw",
+  "in_reply_to_screen_name" : "dwgsfp",
   "in_reply_to_user_id_str" : "105648769",
   "user" : {
     "name" : "Leask Wong",
@@ -6009,7 +6006,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/#!\/download\/ipad\" rel=\"nofollow\"\u003ETwitter for iPad\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 0, 7 ],
       "id_str" : "21157148",
@@ -6755,7 +6752,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 1, 17 ],
       "id_str" : "14335498",
@@ -7073,7 +7070,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 1, 17 ],
       "id_str" : "14335498",
@@ -7139,7 +7136,7 @@ Grailbird.data.tweets_2013_08 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 3, 19 ],
       "id_str" : "14335498",
@@ -7176,11 +7173,11 @@ Grailbird.data.tweets_2013_08 =
     "id" : 364023851300442112,
     "created_at" : "2013-08-04 14:03:44 +0000",
     "user" : {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "protected" : false,
       "id_str" : "14335498",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000017952599\/cf443a6da9a74e5c9c1fcddf422ebb0e_normal.png",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/469397708986269696\/iUrYEOpJ_normal.png",
       "id" : 14335498,
       "verified" : false
     }
@@ -7359,7 +7356,7 @@ Grailbird.data.tweets_2013_08 =
   "id_str" : "362942449250865152",
   "text" : "RT @cnsaoke: \u6253\u5F00\u7535\u89C6\uFF0C\u644A\u5F00\u62A5\u7EB8\uFF0C\u5C41\u6C11\u804A\u5929\uFF0C\u5904\u5904\u7ED9\u4F60\u4E00\u4E2A\u4FE1\u606F\uFF1A\u6211\u4EEC\u5927\u56FD\u5D1B\u8D77\u4E86\u3002\u54ED\u7B11\u4E0D\u5F97\uFF01\u8BBA\u653F\u6CBB\uFF0C\u4F60\u5C31\u662F\u914B\u957F\u5236\uFF1B\u8BBA\u56FD\u6C11\u7D20\u8D28\uFF0C\u4F60\u5C31\u662F\u571F\u8457\uFF1B\u8BBA\u79D1\u6280\uFF0C\u4F60\u5C31\u662F\u5C71\u5BE8\u6284\u88AD\uFF1B\u8BBA\u519B\u4E8B\uFF0C\u4F60\u5C31\u662F\u4E2D\u56FD\u529F\u592B\uFF1B\u8BBA\u6559\u80B2\uFF0C\u4ECE\u5A03\u5A03\u4E00\u76F4\u6D17\u8111\u5230\u706B\u846C\u573A\uFF1B\u8BBA\u751F\u4EA7\u529B\uFF0C\u4F60\u7ED9\u5168\u7403\u5F53\u519C\u6C11\u5DE5\uFF1B\u54EA\u4F4D\u9AD8\u4EBA\u7ED9\u89E3\u91CA\u4E0B\uFF0C\u5F97\u53D8\u6001\u2026",
   "retweeted_status" : {
-    "source" : "web",
+    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ ],
       "media" : [ ],

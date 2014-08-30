@@ -102,7 +102,7 @@ Grailbird.data.tweets_2014_01 =
       "id_str" : "151877169",
       "id" : 151877169
     }, {
-      "name" : "\u5149\u9B5A",
+      "name" : "\u6708\u4EAE\u7684\u81C9\u5077\u5077\u5730\u5728\u6539\u8B8A",
       "screen_name" : "liguangyucn",
       "indices" : [ 18, 30 ],
       "id_str" : "315482841",
@@ -149,7 +149,7 @@ Grailbird.data.tweets_2014_01 =
     "source" : "\u003Ca href=\"http:\/\/rtbot.laobubu.net\" rel=\"nofollow\"\u003E\u4E2D\u6587\u9510\u63A8\u5BA2\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ {
-        "name" : "\u5149\u9B5A",
+        "name" : "\u6708\u4EAE\u7684\u81C9\u5077\u5077\u5730\u5728\u6539\u8B8A",
         "screen_name" : "liguangyucn",
         "indices" : [ 7, 19 ],
         "id_str" : "315482841",
@@ -219,7 +219,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003ETwitter for iPhone\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 3, 19 ],
       "id_str" : "14335498",
@@ -256,11 +256,11 @@ Grailbird.data.tweets_2014_01 =
     "id" : 429102677054988288,
     "created_at" : "2014-01-31 04:03:45 +0000",
     "user" : {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "protected" : false,
       "id_str" : "14335498",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000017952599\/cf443a6da9a74e5c9c1fcddf422ebb0e_normal.png",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/469397708986269696\/iUrYEOpJ_normal.png",
       "id" : 14335498,
       "verified" : false
     }
@@ -280,7 +280,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003ETwitter for iPhone\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 1, 8 ],
       "id_str" : "21157148",
@@ -493,7 +493,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003ETwitter for iPhone\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 3, 19 ],
       "id_str" : "14335498",
@@ -530,11 +530,11 @@ Grailbird.data.tweets_2014_01 =
     "id" : 428951970310000640,
     "created_at" : "2014-01-30 18:04:53 +0000",
     "user" : {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "protected" : false,
       "id_str" : "14335498",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000017952599\/cf443a6da9a74e5c9c1fcddf422ebb0e_normal.png",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/469397708986269696\/iUrYEOpJ_normal.png",
       "id" : 14335498,
       "verified" : false
     }
@@ -751,7 +751,7 @@ Grailbird.data.tweets_2014_01 =
       "id_str" : "189749040",
       "id" : 189749040
     }, {
-      "name" : "\u5446\u55B5",
+      "name" : "DC.\u4E91\u5C71",
       "screen_name" : "_0dc",
       "indices" : [ 95, 100 ],
       "id_str" : "14157384",
@@ -898,7 +898,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003ETwitter for iPhone\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 0, 7 ],
       "id_str" : "21157148",
@@ -931,7 +931,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003ETwitter for iPhone\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 0, 7 ],
       "id_str" : "21157148",
@@ -1381,11 +1381,11 @@ Grailbird.data.tweets_2014_01 =
       "id_str" : "114480224",
       "id" : 114480224
     }, {
-      "name" : "\u5927\u7537",
+      "name" : "bigman510",
       "screen_name" : "bigman510",
       "indices" : [ 36, 46 ],
-      "id_str" : "28527406",
-      "id" : 28527406
+      "id_str" : "2588089273",
+      "id" : 2588089273
     }, {
       "name" : "\u8FF7\u7F8A",
       "screen_name" : "babanH",
@@ -1440,11 +1440,11 @@ Grailbird.data.tweets_2014_01 =
         "id_str" : "114480224",
         "id" : 114480224
       }, {
-        "name" : "\u5927\u7537",
+        "name" : "bigman510",
         "screen_name" : "bigman510",
         "indices" : [ 20, 30 ],
-        "id_str" : "28527406",
-        "id" : 28527406
+        "id_str" : "2588089273",
+        "id" : 2588089273
       }, {
         "name" : "\u8FF7\u7F8A",
         "screen_name" : "babanH",
@@ -1759,7 +1759,7 @@ Grailbird.data.tweets_2014_01 =
   "id_str" : "428478092940546049",
   "text" : "RT @FamiliAnonymous: #AnonymousArt PEACE http:\/\/t.co\/azj3PC2wu8",
   "retweeted_status" : {
-    "source" : "web",
+    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ ],
       "media" : [ {
@@ -1829,7 +1829,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003ETwitter for iPhone\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u5077\u5E9F\u94C1\u7684\u5927\u9F84\u5355\u8EAB\u738B\u5148\u751F",
+      "name" : "\u6BCF\u5929\u7D2F\u7684\u50CF\u72D7\u4E00\u6837\u7684\u738B\u51EF\u65CB",
       "screen_name" : "RndMoi",
       "indices" : [ 0, 7 ],
       "id_str" : "180614691",
@@ -2287,7 +2287,7 @@ Grailbird.data.tweets_2014_01 =
       "id_str" : "331667455",
       "id" : 331667455
     }, {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 9, 16 ],
       "id_str" : "21157148",
@@ -2362,7 +2362,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003ETwitter for iPhone\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 0, 7 ],
       "id_str" : "21157148",
@@ -2434,7 +2434,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003ETwitter for iPhone\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 3, 19 ],
       "id_str" : "14335498",
@@ -2471,11 +2471,11 @@ Grailbird.data.tweets_2014_01 =
     "id" : 427925228594143232,
     "created_at" : "2014-01-27 22:04:59 +0000",
     "user" : {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "protected" : false,
       "id_str" : "14335498",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000017952599\/cf443a6da9a74e5c9c1fcddf422ebb0e_normal.png",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/469397708986269696\/iUrYEOpJ_normal.png",
       "id" : 14335498,
       "verified" : false
     }
@@ -2495,7 +2495,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003ETwitter for iPhone\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 1, 17 ],
       "id_str" : "14335498",
@@ -2816,7 +2816,7 @@ Grailbird.data.tweets_2014_01 =
       "id_str" : "15559037",
       "id" : 15559037
     }, {
-      "name" : "Julien GONG Min",
+      "name" : "Julien G.",
       "screen_name" : "bfishadow",
       "indices" : [ 8, 18 ],
       "id_str" : "7725712",
@@ -3048,7 +3048,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 3, 19 ],
       "id_str" : "14335498",
@@ -3085,11 +3085,11 @@ Grailbird.data.tweets_2014_01 =
     "id" : 427638325403738112,
     "created_at" : "2014-01-27 03:04:56 +0000",
     "user" : {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "protected" : false,
       "id_str" : "14335498",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000017952599\/cf443a6da9a74e5c9c1fcddf422ebb0e_normal.png",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/469397708986269696\/iUrYEOpJ_normal.png",
       "id" : 14335498,
       "verified" : false
     }
@@ -3436,7 +3436,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 3, 19 ],
       "id_str" : "14335498",
@@ -3473,11 +3473,11 @@ Grailbird.data.tweets_2014_01 =
     "id" : 427411685448896512,
     "created_at" : "2014-01-26 12:04:21 +0000",
     "user" : {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "protected" : false,
       "id_str" : "14335498",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000017952599\/cf443a6da9a74e5c9c1fcddf422ebb0e_normal.png",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/469397708986269696\/iUrYEOpJ_normal.png",
       "id" : 14335498,
       "verified" : false
     }
@@ -3643,7 +3643,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 0, 7 ],
       "id_str" : "21157148",
@@ -3709,7 +3709,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 3, 19 ],
       "id_str" : "14335498",
@@ -3746,11 +3746,11 @@ Grailbird.data.tweets_2014_01 =
     "id" : 427366298591698944,
     "created_at" : "2014-01-26 09:04:00 +0000",
     "user" : {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "protected" : false,
       "id_str" : "14335498",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000017952599\/cf443a6da9a74e5c9c1fcddf422ebb0e_normal.png",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/469397708986269696\/iUrYEOpJ_normal.png",
       "id" : 14335498,
       "verified" : false
     }
@@ -4061,7 +4061,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 0, 7 ],
       "id_str" : "21157148",
@@ -4094,7 +4094,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 0, 7 ],
       "id_str" : "21157148",
@@ -4172,7 +4172,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 0, 7 ],
       "id_str" : "21157148",
@@ -4303,118 +4303,6 @@ Grailbird.data.tweets_2014_01 =
   },
   "id" : 427345977930809344,
   "created_at" : "2014-01-26 07:43:15 +0000",
-  "user" : {
-    "name" : "Leask Wong",
-    "screen_name" : "Leaskh",
-    "protected" : false,
-    "id_str" : "10065202",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/3686752338\/96c8c19a08e2bee5c912f80f6f59b7d3_normal.jpeg",
-    "id" : 10065202,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Tower and 300 others",
-      "screen_name" : "lawtower",
-      "indices" : [ 3, 12 ],
-      "id_str" : "104880933",
-      "id" : 104880933
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "427342366203052032",
-  "text" : "RT @lawtower: \u6211\u73B0\u5728\u5F88\u80FD\u4F53\u4F1A\u5C0F\u72D7\u88AB\u4E3B\u4EBA\u5E26\u51FA\u53BB\u901B\u8857\u7684\u5FC3\u60C5\u4E86\uFF0C\u5C31\u662F\u5B8C\u5168\u4E0D\u611F\u5174\u8DA3\u561B\u81EA\u5DF1\u73A9\u81EA\u5DF1\u7684\uFF0C\u4F59\u5149\u7785\u7740\u4E3B\u4EBA\u8D70\u8D70\u505C\u505C\uFF1B\u6709\u65F6\u8D70\u6162\u4E86\u7A81\u7136\u4E00\u60CA\u62AC\u5934\u770B\u89C1\u4E3B\u4EBA\u8D70\u597D\u8FDC\u4E86\uFF0C\u6492\u817F\u5C31\u8DD1\uFF1B\u5C3C\u739B\u6709\u65F6\u8FD8\u8DDF\u9519\u4E86\u627E\u4E0D\u5230\u4E3B\u4EBA\u4E86\uFF08\u5B8C\u4E86\uFF0C\u8001\u5A46\u53BB\u54EA\u4E86\uFF0C\u53D1\u4E2A\u63A8\u7684\u65F6\u95F4\u5C31\u8DDF\u4E22\u4E86\uFF5E",
-  "retweeted_status" : {
-    "source" : "\u003Ca href=\"http:\/\/tapbots.com\/tweetbot\" rel=\"nofollow\"\u003ETweetbot for iOS\u003C\/a\u003E",
-    "entities" : {
-      "user_mentions" : [ ],
-      "media" : [ ],
-      "hashtags" : [ ],
-      "urls" : [ ]
-    },
-    "geo" : { },
-    "id_str" : "426965161602076672",
-    "text" : "\u6211\u73B0\u5728\u5F88\u80FD\u4F53\u4F1A\u5C0F\u72D7\u88AB\u4E3B\u4EBA\u5E26\u51FA\u53BB\u901B\u8857\u7684\u5FC3\u60C5\u4E86\uFF0C\u5C31\u662F\u5B8C\u5168\u4E0D\u611F\u5174\u8DA3\u561B\u81EA\u5DF1\u73A9\u81EA\u5DF1\u7684\uFF0C\u4F59\u5149\u7785\u7740\u4E3B\u4EBA\u8D70\u8D70\u505C\u505C\uFF1B\u6709\u65F6\u8D70\u6162\u4E86\u7A81\u7136\u4E00\u60CA\u62AC\u5934\u770B\u89C1\u4E3B\u4EBA\u8D70\u597D\u8FDC\u4E86\uFF0C\u6492\u817F\u5C31\u8DD1\uFF1B\u5C3C\u739B\u6709\u65F6\u8FD8\u8DDF\u9519\u4E86\u627E\u4E0D\u5230\u4E3B\u4EBA\u4E86\uFF08\u5B8C\u4E86\uFF0C\u8001\u5A46\u53BB\u54EA\u4E86\uFF0C\u53D1\u4E2A\u63A8\u7684\u65F6\u95F4\u5C31\u8DDF\u4E22\u4E86\uFF5E",
-    "id" : 426965161602076672,
-    "created_at" : "2014-01-25 06:30:01 +0000",
-    "user" : {
-      "name" : "Tower and 300 others",
-      "screen_name" : "lawtower",
-      "protected" : false,
-      "id_str" : "104880933",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000505877220\/fb10fa8f204dfbdc81fec437682bed0a_normal.jpeg",
-      "id" : 104880933,
-      "verified" : false
-    }
-  },
-  "id" : 427342366203052032,
-  "created_at" : "2014-01-26 07:28:54 +0000",
-  "user" : {
-    "name" : "Leask Wong",
-    "screen_name" : "Leaskh",
-    "protected" : false,
-    "id_str" : "10065202",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/3686752338\/96c8c19a08e2bee5c912f80f6f59b7d3_normal.jpeg",
-    "id" : 10065202,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "\u79C0man\u7684\u82B1\u75F4\u8111\u6B8B\u7C89\u513F\u5143\u5B9D\u59B9\u59B9\u5DF2\u5F03\u7597",
-      "screen_name" : "k_kica",
-      "indices" : [ 3, 10 ],
-      "id_str" : "31418313",
-      "id" : 31418313
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ {
-      "indices" : [ 92, 114 ],
-      "url" : "http:\/\/t.co\/By8PGiv8dh",
-      "expanded_url" : "http:\/\/zhi.hu\/ZF3u",
-      "display_url" : "zhi.hu\/ZF3u"
-    } ]
-  },
-  "geo" : { },
-  "id_str" : "427322897233743872",
-  "text" : "RT @k_kica: \u3010\u6709\u54EA\u4E9B\u770B\u4E0A\u53BB\u8BA9\u4EBA\u6CA1\u98DF\u6B32\u5B9E\u9645\u4E0A\u975E\u5E38\u597D\u5403\u7684\u4E1C\u897F\uFF1F\u3011\u8036\u6797 : \u4F60\u4EEC\u90FD\u5F31\u7206\u4E86\uFF0C\u6211\u6765\u79D2\u6740: \u7F8A\u762A\u6C64\u3002\u4F60\u4EEC\u8BF4\u7684\u6700\u591A\u90FD\u53EA\u662F\u50CF\u7FD4\uFF0C\u800C\u8FD9\u4E2A\u76F4\u63A5\u5C31\u662F-----\u7FD4\u3002 \u8BF7\u81EA\u884C\u4E86\u65AD\u3002 http:\/\/t.co\/By8PGiv8dh \u5E72\u4E86\u8FD9\u7897\u70ED\u7FD4\uFF01\u592A\u4ED6\u4E48\u5641\u5FC3\u4E86\uFF01",
-  "retweeted_status" : {
-    "source" : "\u003Ca href=\"http:\/\/tapbots.com\/tweetbot\" rel=\"nofollow\"\u003ETweetbot for iOS\u003C\/a\u003E",
-    "entities" : {
-      "user_mentions" : [ ],
-      "media" : [ ],
-      "hashtags" : [ ],
-      "urls" : [ {
-        "indices" : [ 80, 102 ],
-        "url" : "http:\/\/t.co\/By8PGiv8dh",
-        "expanded_url" : "http:\/\/zhi.hu\/ZF3u",
-        "display_url" : "zhi.hu\/ZF3u"
-      } ]
-    },
-    "geo" : { },
-    "id_str" : "427253749040435200",
-    "text" : "\u3010\u6709\u54EA\u4E9B\u770B\u4E0A\u53BB\u8BA9\u4EBA\u6CA1\u98DF\u6B32\u5B9E\u9645\u4E0A\u975E\u5E38\u597D\u5403\u7684\u4E1C\u897F\uFF1F\u3011\u8036\u6797 : \u4F60\u4EEC\u90FD\u5F31\u7206\u4E86\uFF0C\u6211\u6765\u79D2\u6740: \u7F8A\u762A\u6C64\u3002\u4F60\u4EEC\u8BF4\u7684\u6700\u591A\u90FD\u53EA\u662F\u50CF\u7FD4\uFF0C\u800C\u8FD9\u4E2A\u76F4\u63A5\u5C31\u662F-----\u7FD4\u3002 \u8BF7\u81EA\u884C\u4E86\u65AD\u3002 http:\/\/t.co\/By8PGiv8dh \u5E72\u4E86\u8FD9\u7897\u70ED\u7FD4\uFF01\u592A\u4ED6\u4E48\u5641\u5FC3\u4E86\uFF01",
-    "id" : 427253749040435200,
-    "created_at" : "2014-01-26 01:36:46 +0000",
-    "user" : {
-      "name" : "\u79C0man\u7684\u82B1\u75F4\u8111\u6B8B\u7C89\u513F\u5143\u5B9D\u59B9\u59B9\u5DF2\u5F03\u7597",
-      "screen_name" : "k_kica",
-      "protected" : false,
-      "id_str" : "31418313",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/3538489993\/2a7888da3932299d7ccdadd5c32f3a67_normal.jpeg",
-      "id" : 31418313,
-      "verified" : false
-    }
-  },
-  "id" : 427322897233743872,
-  "created_at" : "2014-01-26 06:11:32 +0000",
   "user" : {
     "name" : "Leask Wong",
     "screen_name" : "Leaskh",
@@ -4566,11 +4454,11 @@ Grailbird.data.tweets_2014_01 =
     "id" : 424095944481591296,
     "created_at" : "2014-01-17 08:28:47 +0000",
     "user" : {
-      "name" : "\u5495",
+      "name" : "\u22C6. \uFF61* \u0A48\u2729\u2027\u208A\u02DA *",
       "screen_name" : "Gumiiowo",
       "protected" : false,
       "id_str" : "46363663",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/452124409147318273\/juOyhV9O_normal.jpeg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/505006682838417408\/xoouzFW-_normal.jpeg",
       "id" : 46363663,
       "verified" : false
     }
@@ -5836,15 +5724,9 @@ Grailbird.data.tweets_2014_01 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003ETwitter for iPhone\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "Googles View",
-      "screen_name" : "GooglesView",
-      "indices" : [ 3, 15 ],
-      "id_str" : "1005679537",
-      "id" : 1005679537
-    } ],
+    "user_mentions" : [ ],
     "media" : [ {
-      "expanded_url" : "http:\/\/twitter.com\/GooglesView\/status\/425209823710707712\/photo\/1",
+      "expanded_url" : "http:\/\/twitter.com\/ComedyView\/status\/425209823710707712\/photo\/1",
       "indices" : [ 26, 48 ],
       "url" : "http:\/\/t.co\/GueGU1PjHS",
       "media_url" : "http:\/\/pbs.twimg.com\/media\/BeamFOZIQAAAYbx.jpg",
@@ -5885,7 +5767,7 @@ Grailbird.data.tweets_2014_01 =
     "entities" : {
       "user_mentions" : [ ],
       "media" : [ {
-        "expanded_url" : "http:\/\/twitter.com\/GooglesView\/status\/425209823710707712\/photo\/1",
+        "expanded_url" : "http:\/\/twitter.com\/ComedyView\/status\/425209823710707712\/photo\/1",
         "indices" : [ 9, 31 ],
         "url" : "http:\/\/t.co\/GueGU1PjHS",
         "media_url" : "http:\/\/pbs.twimg.com\/media\/BeamFOZIQAAAYbx.jpg",
@@ -5925,7 +5807,7 @@ Grailbird.data.tweets_2014_01 =
     "created_at" : "2014-01-20 10:14:56 +0000",
     "user" : {
       "name" : "Googles View",
-      "screen_name" : "GooglesView",
+      "screen_name" : "ComedyView",
       "protected" : false,
       "id_str" : "1005679537",
       "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/417440728617205760\/IL0Huykw_normal.jpeg",
@@ -7300,11 +7182,11 @@ Grailbird.data.tweets_2014_01 =
       "id_str" : "7755672",
       "id" : 7755672
     }, {
-      "name" : "\u7121\u5922\u661F\u7403",
+      "name" : "dreamplan2004",
       "screen_name" : "dreamplan2004",
       "indices" : [ 22, 36 ],
-      "id_str" : "130418726",
-      "id" : 130418726
+      "id_str" : "2591457314",
+      "id" : 2591457314
     }, {
       "name" : "\u817F\u817F",
       "screen_name" : "kcome",
@@ -7695,7 +7577,7 @@ Grailbird.data.tweets_2014_01 =
   "id_str" : "424102994787831808",
   "text" : "RT @worinibaba: \u4F60\u4EEC\u771F\u4EE5\u4E3A\u4FE1\u53F7\u5C4F\u853D\u5668\u6709\u7528\uFF1F\u592A\u5929\u771F\u4E86 http:\/\/t.co\/IiYXPwdf18",
   "retweeted_status" : {
-    "source" : "web",
+    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ ],
       "media" : [ {
@@ -7742,7 +7624,7 @@ Grailbird.data.tweets_2014_01 =
       "screen_name" : "worinibaba",
       "protected" : false,
       "id_str" : "207797162",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/451898957900181504\/JyxE730v_normal.png",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/483199647792386049\/FRRGTZut_normal.jpeg",
       "id" : 207797162,
       "verified" : false
     }
@@ -8613,7 +8495,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 0, 7 ],
       "id_str" : "21157148",
@@ -8737,7 +8619,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Julien GONG Min",
+      "name" : "Julien G.",
       "screen_name" : "bfishadow",
       "indices" : [ 1, 11 ],
       "id_str" : "7725712",
@@ -9569,13 +9451,7 @@ Grailbird.data.tweets_2014_01 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "Fundon Cai",
-      "screen_name" : "fangduncai",
-      "indices" : [ 24, 35 ],
-      "id_str" : "14909027",
-      "id" : 14909027
-    } ],
+    "user_mentions" : [ ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
@@ -10179,7 +10055,7 @@ Grailbird.data.tweets_2014_01 =
       "screen_name" : "0dayZh",
       "protected" : false,
       "id_str" : "1269530114",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/3382656173\/aef52a0de53b70db0e82f833cac4ba60_normal.jpeg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/490020256430043136\/1R_j90WA_normal.jpeg",
       "id" : 1269530114,
       "verified" : false
     }
@@ -11058,7 +10934,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 3, 19 ],
       "id_str" : "14335498",
@@ -11095,11 +10971,11 @@ Grailbird.data.tweets_2014_01 =
     "id" : 421735193830236160,
     "created_at" : "2014-01-10 20:08:00 +0000",
     "user" : {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "protected" : false,
       "id_str" : "14335498",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000017952599\/cf443a6da9a74e5c9c1fcddf422ebb0e_normal.png",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/469397708986269696\/iUrYEOpJ_normal.png",
       "id" : 14335498,
       "verified" : false
     }
@@ -11439,7 +11315,7 @@ Grailbird.data.tweets_2014_01 =
   "id_str" : "421195424343412736",
   "text" : "RT @HeseyWang: \u62DB3\u5E74\u4EE5\u4E0A\u7ECF\u9A8C\u8D44\u6DF1Web\u5F00\u53D1\u5DE5\u7A0B\u5E08\u3001\u6280\u672F\u4E13\u5BB6\uFF0C\u65E0\u7EBF\u3001\u6570\u636E\u3001\u4E2D\u95F4\u4EF6\u3001\u5E95\u5C42\u4E1A\u52A1\u90FD\u6709\u9700\u6C42\uFF0C\u5DE5\u4F5C\u5730\u70B9\u676D\u5DDE\u963F\u91CC\u897F\u6EAA\u56ED\u533A\u3002\u611F\u5174\u8DA3\u7684\u8BF7 @HeseyWang \uFF0C\u6C42\u4EBA\u624D\uFF01\u8BF7\u5404\u4F4D\u5E2E\u5FD9RT~\u8C22\u8C22\uFF01",
   "retweeted_status" : {
-    "source" : "web",
+    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ {
         "name" : "\u8212 aka. \u5C0F\u7EAF\u7EAF",
@@ -11623,7 +11499,7 @@ Grailbird.data.tweets_2014_01 =
     "verified" : false
   }
 }, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\/tweetbutton\" rel=\"nofollow\"\u003ETweet Button\u003C\/a\u003E",
+  "source" : "\u003Ca href=\"https:\/\/dev.twitter.com\/docs\/tfw\" rel=\"nofollow\"\u003ETwitter for Websites\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
       "name" : "Droplr",
@@ -11836,7 +11712,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 3, 19 ],
       "id_str" : "14335498",
@@ -11873,11 +11749,11 @@ Grailbird.data.tweets_2014_01 =
     "id" : 420964323889258497,
     "created_at" : "2014-01-08 17:04:50 +0000",
     "user" : {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "protected" : false,
       "id_str" : "14335498",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000017952599\/cf443a6da9a74e5c9c1fcddf422ebb0e_normal.png",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/469397708986269696\/iUrYEOpJ_normal.png",
       "id" : 14335498,
       "verified" : false
     }
@@ -12588,7 +12464,7 @@ Grailbird.data.tweets_2014_01 =
       "id_str" : "10144262",
       "id" : 10144262
     }, {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 10, 17 ],
       "id_str" : "21157148",
@@ -12660,7 +12536,7 @@ Grailbird.data.tweets_2014_01 =
       "id_str" : "10144262",
       "id" : 10144262
     }, {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 10, 17 ],
       "id_str" : "21157148",
@@ -12828,7 +12704,7 @@ Grailbird.data.tweets_2014_01 =
   "id_str" : "420168966833590272",
   "text" : "RT @yurii_yu: \u62DB\u6709\u7ECF\u9A8C\u7684\u524D\u7AEF\/\u540E\u7AEF\uFF08\u540E\u7AEF\u4E0D\u9650\u8BED\u8A00\uFF0C\u4F18\u79C0\u5E94\u5C4A\u751F\u4E5F\u53EF\uFF09\uFF0C\u5730\u70B9\u957F\u6C99\uFF0C\u9760\u8C31\u7535\u5546 http:\/\/t.co\/HBFvgrx91M \uFF0C\u5168\u7403\u5316\u4F5C\u4E1A\u3002\u85AA\u6C34\u4E0D\u8F93\u6CBF\u6D77\uFF0C\u516C\u53F8\u5305\u4E09\u9910\uFF0C\u6709\u514D\u8D39\u6309\u6469\uFF0C\u63D0\u4F9B\u5F00\u653E\u3001\u8212\u5FC3\u7684\u5DE5\u4F5C\u73AF\u5883\u3002\u6709\u5174\u8DA3\u53EF\u4EE5 @yurii_yu \uFF0C\u6B22\u8FCE\u5E2E\u63A8",
   "retweeted_status" : {
-    "source" : "web",
+    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ {
         "name" : "\u4F59\u665F",
@@ -12905,7 +12781,7 @@ Grailbird.data.tweets_2014_01 =
   "id_str" : "420168192690888705",
   "text" : "RT @jlusdy: \u6625\u8282\u5C06\u81F3\uFF0C\u5E74\u540E\u60F3\u6362\u5DE5\u4F5C\u7684\u670B\u53CB\u73B0\u5728\u53EF\u4EE5\u51FA\u624B\u4E86\u3002\u6211\u4EEC\u8FD8\u5728\u62DB\u8058\uFF0C\u6B22\u8FCE\u70ED\u7231\u6280\u672F\u7684\u4F60\u6765\u4E2D\u56FD\u6700\u725B\u7684Java\u56E2\u961F\uFF1A\u6DD8\u5B9D\u4E2D\u95F4\u4EF6\u3002\u5177\u4F53\u8981\u6C42\u5982\u4E0B\uFF1A http:\/\/t.co\/pICYZ4MPgK http:\/\/t.co\/twZJwABva7 \u56E2\u961F\u535A\u5BA2\u5982\u4E0B\uFF1A http:\/\/t.\u2026",
   "retweeted_status" : {
-    "source" : "web",
+    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ ],
       "media" : [ ],
@@ -13067,7 +12943,7 @@ Grailbird.data.tweets_2014_01 =
     "verified" : false
   }
 }, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\/tweetbutton\" rel=\"nofollow\"\u003ETweet Button\u003C\/a\u003E",
+  "source" : "\u003Ca href=\"https:\/\/dev.twitter.com\/docs\/tfw\" rel=\"nofollow\"\u003ETwitter for Websites\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
       "name" : "YouTube",
@@ -13106,7 +12982,7 @@ Grailbird.data.tweets_2014_01 =
     "verified" : false
   }
 }, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\/tweetbutton\" rel=\"nofollow\"\u003ETweet Button\u003C\/a\u003E",
+  "source" : "\u003Ca href=\"https:\/\/dev.twitter.com\/docs\/tfw\" rel=\"nofollow\"\u003ETwitter for Websites\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
       "name" : "YouTube",
@@ -13726,7 +13602,7 @@ Grailbird.data.tweets_2014_01 =
     "verified" : false
   }
 }, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\/tweetbutton\" rel=\"nofollow\"\u003ETweet Button\u003C\/a\u003E",
+  "source" : "\u003Ca href=\"https:\/\/dev.twitter.com\/docs\/tfw\" rel=\"nofollow\"\u003ETwitter for Websites\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
       "name" : "YouTube",
@@ -14122,7 +13998,7 @@ Grailbird.data.tweets_2014_01 =
   "id_str" : "419005239325229056",
   "text" : "RT @FiftyThree: New year, new technique. Experimenting with Pencil's eraser to create a woodcut effect. http:\/\/t.co\/8GAiCm8Wb0 http:\/\/t.co\/\u2026",
   "retweeted_status" : {
-    "source" : "web",
+    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ ],
       "media" : [ {
@@ -14553,7 +14429,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "janlay",
+      "name" : "x\u6D82\u6599",
       "screen_name" : "janlay",
       "indices" : [ 0, 7 ],
       "id_str" : "21157148",
@@ -15244,7 +15120,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 1, 17 ],
       "id_str" : "14335498",
@@ -15391,7 +15267,7 @@ Grailbird.data.tweets_2014_01 =
       "screen_name" : "ivettecaveli",
       "protected" : false,
       "id_str" : "58623949",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/378800000398017058\/5d84343d353215e434eacfe7ec348052_normal.jpeg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/486757900077891584\/ni6eh6lr_normal.jpeg",
       "id" : 58623949,
       "verified" : false
     }
@@ -15469,7 +15345,7 @@ Grailbird.data.tweets_2014_01 =
   "id_str" : "418283941456388096",
   "text" : "RT @szstupidcool: \u7F8E\u56FD\u7535\u89C6\u53F0\u62CD\u6444\u5230\u4E00\u6279\u4E2D\u56FD\u4EBA\u5728\u4E09\u6F58\u5E02\u6559\u5802\u6392\u961F\u9886\u53D6\u514D\u8D39\u98DF\u7269\u3002\u4F46\u5F53\u4ED6\u4EEC\u9886\u53D6\u98DF\u7269\u540E\uFF0C\u5373\u523B\u5F53\u8857\u62C6\u5F00\uFF0C\u628A\u8D35\u91CD\u4E9B\u7684\u98DF\u7269\u85CF\u8FDB\u884C\u674E\u7BB1\uFF0C\u628A\u4E0D\u503C\u94B1\u7684\u7F50\u5934\u76F4\u63A5\u6254\u8FDB\u8857\u9053\u4E0A\u7684\u5783\u573E\u6876\u3002\u518D\u53BB\u6392\u961F\u9886\u53D6\u98DF\u7269\u7136\u540E\u62FF\u53BB\u5356\u3002\u4F46\u8FD9\u4E9B\u98DF\u7269\u4E3A\u4E86\u7ED9\u65E0\u94B1\u4E70\u98DF\u7269\u7684\u7A77\u4EBA\u51C6\u5907\u7684\u3002 http:\/\/t.\u2026",
   "retweeted_status" : {
-    "source" : "\u003Ca href=\"http:\/\/twitter.com\/tweetbutton\" rel=\"nofollow\"\u003ETweet Button\u003C\/a\u003E",
+    "source" : "\u003Ca href=\"https:\/\/dev.twitter.com\/docs\/tfw\" rel=\"nofollow\"\u003ETwitter for Websites\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ ],
       "media" : [ ],
@@ -15692,7 +15568,7 @@ Grailbird.data.tweets_2014_01 =
   "source" : "\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "news.yc Popular",
+      "name" : "Hacker News",
       "screen_name" : "newsycombinator",
       "indices" : [ 1, 17 ],
       "id_str" : "14335498",
