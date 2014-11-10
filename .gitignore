@@ -1,17 +1,1 @@
-mail/*
-.mozilla/*
-logs/*
-tmp/*
 .DS_Store
-.viminfo
-.bash_history
-.mysql_history
-.gitconfig
-public_html/breathe.js
-public_html/t2os-leaskh/update.time
-public_html/t2os-syxnx/update.time
-public_html/t2os-leaskh/tweet.id
-public_html/t2os-syxnx/tweet.id
-public_html/shared/*
-public_html/wp-content/cache/*
-
