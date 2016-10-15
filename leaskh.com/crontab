@@ -1,4 +1,0 @@
-# tw2other
-# MAILTO="i@leaskh.com"
-*/1 * * * * /usr/bin/php /home4/leaskhco/public_html/t2os-leaskh/cron.php
-# */1 * * * * /usr/bin/php /home4/leaskhco/public_html/t2os-syxnx/cron.php
