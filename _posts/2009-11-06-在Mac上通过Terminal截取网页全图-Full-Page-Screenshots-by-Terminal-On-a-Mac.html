@@ -30,7 +30,7 @@ comments: []
 <p>于是你就得到webkit2png了。怎么用呢？<br />首先检查你的系统，你必须使用Mac OS X 10.2或以上系统，Safari 1.0或以上，PyObjC库1.1或以上。当然了，如果你的系统是Mac OS X 10.5 Leopard或更高版本，那么以上所有组件，你都已经安装过上了。如果不满足条件，可以升级Safari，并下载PyObjC的源代码自己编译。</p>
 <p>webkit2png的使用很简单，Terminal执行：</p><br />
 <blockquote>
-<p><em>python /Users/Leask/webkit2png </em><a href="http://www.leaskh.com/"><em>http://www.leaskh.com/</em></a></p></blockquote>
+<p><em>python /Users/Leask/webkit2png </em><a href="https://leaskh.com/"><em>https://leaskh.com/</em></a></p></blockquote>
 <p>执行效果如下：<br /><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="Screen shot 2009-11-06 at 9.57.57 PM" border="0" alt="Screen shot 2009-11-06 at 9.57.57 PM" src="/public/2010/09/screenshot2009-11-06at9.png?w=300" width="585" height="422" />&nbsp;<br />然后你就会发现网页已经被截图放在你的home文件夹了。</p>
 <p>当然你还可以通过参数控制webkit2png的行为，你可以通过 <em>--help</em> 获得以下使用帮助：</p><br />
 <blockquote>
@@ -42,7 +42,7 @@ comments: []
 <p><em>websnap [URL]</em></p></blockquote>
 <p>的形式，很便利地得到截图，如输入：</p><br />
 <blockquote>
-<p><em>websnap </em><a href="http://www.leaskh.com"><em><a href="http://www.leaskh.com/">http://www.leaskh.com</a></em></a>/</p></blockquote>
+<p><em>websnap </em><a href="https://leaskh.com"><em><a href="https://leaskh.com/">https://leaskh.com</a></em></a>/</p></blockquote>
 <p>至于Shell Script怎么写？也不难，Unix和Linux上的Shell Script其实都大致一样，如：</p><br />
 <blockquote>
 <p><em>#!/bin/bash<br />echo "Leask's WebSnap based on webkit2png"<br />echo ""<br />python /Users/Leask/webkit2png $1;<br />exit;</em></p></blockquote>
