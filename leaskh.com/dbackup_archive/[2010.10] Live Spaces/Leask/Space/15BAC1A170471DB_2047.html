@@ -1,0 +1,34 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link rel="stylesheet" type="text/css" href="style.css" /><title>Script for Change Network Location by time</title></head><body><h1 id="blog-Title"><a href="index.html">&#35;import &#34;Leask.h&#34;</a></h1><div id="bp"><h2 id="bp-15BAC1A170471DB_2047-Title">Script for Change Network Location by time</h2><h5 id="bp-15BAC1A170471DB_2047-publish">10/30/2006 2&#58;57&#58;50 AM</h5><div id="bp-15BAC1A170471DB_2047-content" class="blogpost">我们学校的网络是PPPoE加网卡MAC地址验证，早上8点开网，晚上11点断网。
+<br />由于断网后需要用iChat和另外一个Mac用户通讯，而iChat的Bonjour协议无法通过路由器，登陆iChat前需要删除网络设置中的Router选项。
+<br />而且本人有用Google Notifier自动检查邮件的习惯，于是也需要在开网的时候自动启动Google Notifier，断网的时候自动关闭。
+<br />于是打算用Apple Script结合iCal的自动执行功能解决这个问题。
+<br />经过构思写下以下的程序，很幸运地，调试通过了。
+<br />
+<br />if hours of (current date) &gt; 7 and hours of (current date) &lt; 24 then
+<br />	tell application &quot;Finder&quot;
+<br />		activate
+<br />	end tell
+<br />	tell application &quot;System Events&quot;
+<br />		click menu item &quot;SCNU_ZCC_2#4008_Online&quot; of menu &quot;Location&quot; of menu item &quot;Location&quot; of menu &quot;Apple&quot; of menu bar 1 of <br />process &quot;Finder&quot;
+<br />	end tell
+<br />	tell application &quot;Google Notifier&quot;
+<br />		activate
+<br />	end tell
+<br />else
+<br />	tell application &quot;Finder&quot;
+<br />		activate
+<br />	end tell
+<br />	tell application &quot;System Events&quot;
+<br />		click menu item &quot;SCNU_ZCC_2#4008_Offline&quot; of menu &quot;Location&quot; of menu item &quot;Location&quot; of menu &quot;Apple&quot; of menu bar 1 of <br />process &quot;Finder&quot;
+<br />	end tell
+<br />	tell application &quot;Google Notifier&quot;
+<br />		quit
+<br />	end tell
+<br />end if
+<br />
+<br />其实Apple Script的编写很简单，不需要额外的学习，功能却很强大，通过应用程序类库调用，可是实现很多很有趣的功能。
+<br />希望可以抛砖引玉给大家一点灵感吧。
+<br />
+<br />程序下载：
+<br />
+<br /><a href="http&#58;//www.box.net/lite/787v5aons8"><img src="http&#58;//www.box.net/lite/image/787v5aons8.png" border="0" /></a></div><h3>Comments</h3><div id="bp-15BAC1A170471DB_2047-comments" class="comments"></div></div></body></html>
