@@ -24,6 +24,7 @@ for (var i in files) {
             title = title.replace(/&rdquo;/g, '"');
             title = title.replace(/&mdash;/g, '-');
             title = title.replace(/\ +/g, '-');
+            title = title.replace(/\//g,  '-');
             title = title.replace(/\-+/g, '-');
             var oriTit = title;
             var k = 1;
