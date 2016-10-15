@@ -1,0 +1,55 @@
+---
+layout: post
+status: publish
+published: true
+title: "升级 MacBook Pro with Retina display late 2012 以支持 802.11ac 无线网络"
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 2116
+wordpress_url: http://www.leaskh.com/?p=2116
+date: '2014-03-08 18:42:16 +0800'
+date_gmt: '2014-03-08 10:42:16 +0800'
+categories:
+- Uncategorized
+tags: []
+comments:
+- id: 6766
+  author: DD-WRT无线设置详解 | Aj&#039;s Blog
+  author_email: ''
+  author_url: http://www.6zou.net/docs/dd-wrt-wireless-config-howto.html
+  date: '2014-05-08 03:52:03 +0800'
+  date_gmt: '2014-05-07 19:52:03 +0800'
+  content: "[&#8230;] rMBP无线网卡升级 [&#8230;]"
+---
+<p>2013 年&nbsp;MacBook Pro with Retina display 有小幅更新，对比 2012 年款，有以下几点变动：</p>
+<p>1：从 Intel 第三代 Core&nbsp;IvyBridge&nbsp;处理器升级到第四代的 Core Haswell &#47;&nbsp;Crystalwell；<br />
+2：802.11ac Wi‑Fi wireless；<br />
+3：Bluetooth 4.0 wireless；<br />
+4：Thunderbolt 2。</p>
+<p>从看到以上升级开始，我就开始垂涎&nbsp;802.11ac 千兆无线网，但是手头的 12 年 rMBP 依然是够用的，现在追赶升级电脑有点不理智。于是萌生了升级网络模块的想法。其实早在 13 年款 MacBook Air (&nbsp;MD712, MD760&nbsp;) 支持&nbsp;802.11ac&nbsp;以来，就有不少 geek (<a href="https:&#47;&#47;twitter.com&#47;yarshure" target="_blank">@yarshure<&#47;a>...) 尝试把它装到 rMBP 上。但是由于两个网卡的长短不一致，Air 的网卡&nbsp;(&nbsp;BCM94360CS2&nbsp;)&nbsp;比较短小，所以无法通过螺丝固定在 Pro 的网卡插槽内，虽然改造后可用，但方案并不优雅。</p>
+<p>随着 13 年 rMBP 的上市，市场上开始出现拆机网卡，淘宝搜索型号&nbsp;BCM94360CSAX，几百块就能到手，于是有了本文。</p>
+<p>改造过程相当简单，所以没有什么好详细写的，让大家看几个图吧。</p>
+<p>首先看看千兆无线网卡长什么样：<br />
+<img style="line-height: 1.714285714; font-size: 1rem;" alt="IMG_0940" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2014&#47;03&#47;IMG_0940.jpg" &#47;></p>
+<p>翻个背面看看：<br />
+<img class="alignnone size-full wp-image-2121" style="font-size: 1rem; line-height: 1;" alt="IMG_0953" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2014&#47;03&#47;IMG_0953.jpg" width="1707" height="1280" &#47;></p>
+<p>拆开&nbsp;Unibody 外壳，无线模块就在左上角风扇旁边：<img style="line-height: 1.714285714; font-size: 1rem;" alt="IMG_0949" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2014&#47;03&#47;IMG_0949.jpg" &#47;></p>
+<p>来张近照：<br />
+<img class="alignnone size-full wp-image-2119" style="font-size: 1rem; line-height: 1;" alt="IMG_0950" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2014&#47;03&#47;IMG_0950.jpg" width="1224" height="1632" &#47;></p>
+<p>小心把上图的这个模块拆下来，然后换上新的就好了。</p>
+<p><span style="line-height: 1.714285714; font-size: 1rem;">我们来看看升级前通过 Time Capsule 2013 的 5Ghz 802.11n 能达到的最高速度，450 Mbps：<&#47;span><br />
+<img class="alignnone size-full wp-image-2122" style="font-size: 1rem; line-height: 1;" alt="BhPT-UwCIAAZLic" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2014&#47;03&#47;BhPT-UwCIAAZLic.png" width="292" height="230" &#47;></p>
+<p>升级后，同样的网络环境，实现 802.11ac，跑满 1300 Mbps：<br />
+<a style="line-height: 1.714285714; font-size: 1rem;" href="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2014&#47;03&#47;Screen-Shot-2014-03-03-at-6.21.29-PM.png"><img class="alignnone size-full wp-image-2135" alt="Screen Shot 2014-03-03 at 6.21.29 PM" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2014&#47;03&#47;Screen-Shot-2014-03-03-at-6.21.29-PM.png" width="585" height="397" &#47;><&#47;a></p>
+<p>速度提升还是相当明显的，还需要留意的是，很多应用都是直接或者间接使用无线网卡的 mac 地址来作为每台电脑的唯一标识的，例如 iTunes 和&nbsp;Sublime Text 等，你需要重新授权一下：<br />
+<img class="alignnone  wp-image-2123" style="border: 0px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;" alt="Screen Shot 2014-03-04 at 4.24.05 PM" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2014&#47;03&#47;Screen-Shot-2014-03-04-at-4.24.05-PM.png" width="1208" height="556" &#47;></p>
+<p>由于 Mac 的设计无线网卡和&nbsp;Bluetooth&nbsp;适配器是集成在一个模块里面的，所以升级无线模块后，我的机器同时也获得了&nbsp;Bluetooth&nbsp;4.0 功能。</p>
+<p>这次升级应该算是小折腾见效快的便捷改造，十分推荐。如果需要查询更多拆机的细节、技巧，自行移步到&nbsp;<a href="http:&#47;&#47;www.ifixit.com" target="_blank">http:&#47;&#47;www.ifixit.com<&#47;a> 即可。</p>
+<p>PS：最后，我还尝试了安装 MacBook Air 2013 的无线网卡到 MacBook Air 2012 的机器里，但是发现这两代机器的网卡长短不同，13 年 Air 的网卡比较长，无法安装到 12 年的机器里，看图：<br />
+<img class="alignnone size-full wp-image-2127" alt="IMG_0965" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2014&#47;03&#47;IMG_0965.jpg" width="1536" height="2048" &#47;></p>

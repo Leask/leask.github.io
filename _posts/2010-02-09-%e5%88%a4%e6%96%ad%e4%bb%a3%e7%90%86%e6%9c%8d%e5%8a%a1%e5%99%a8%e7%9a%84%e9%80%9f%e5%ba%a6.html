@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: "判断代理服务器的速度"
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 9
+wordpress_url: http://leaskh.wordpress.com/2010/02/09/%e5%88%a4%e6%96%ad%e4%bb%a3%e7%90%86%e6%9c%8d%e5%8a%a1%e5%99%a8%e7%9a%84%e9%80%9f%e5%ba%a6
+date: '2010-02-09 15:08:41 +0800'
+date_gmt: '2010-02-09 15:08:41 +0800'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div id="msgcns!15BAC1A170471DB!15184" class="bvMsg">
+<p>有朋友对本人翻墙脚本感兴趣，并留言和邮件咨询如何使用shell脚本检测代理服务器的速度。鉴于此，我来谈谈速度测试的原理。<&#47;p>
+<p>代理的速度分为两部分，第一部分是响应速度，第二部分是传输速度。<&#47;p>
+<p>响应速度很容易取得，通过Ping，发送若干个数据包，然后对返回的结果进行处理，就能得到服务器的响应速度，响应速度单位默认是毫秒，数字越小代表服务器响应越快。<&#47;p>
+<p>然后就是传输速度，这个也很简单，通过CURL让你的代理去下载一个文件，然后用下载回来的文件尺寸除以下载用时，就得到传输速度了，文件最好是500KB到1M左右，这样对你的SSH流量影响不大，而且结果比较靠谱，如果文件小于500KB，由于突发传输的速度比较不稳定，结果可能并不可靠。CURL通过代理下载文件的语法如下：<&#47;p><br />
+<blockquote>
+<p><em>curl --socks5 127.0.0.1:7070 &lsquo;http:&#47;&#47;[host]&#47;[filename]&rsquo; (其中127.0.0.1替换为你的代理地址，7070替换为你的代理端口号)<&#47;em><&#47;p><&#47;blockquote>
+<p>按照你自己的需要，加权运算一下响应速度和下载速度，就能够比较那个代理服务器目前工作状态比较好。当然了，这样的做法不一定能精确测试得到网速，但是对于简单判断代理服务器的效能，已经足够了。我这里不直接贴出脚本，因为我的shell脚本有其他的功能，目前还不好剥离。不过根据这个思路，有需要的朋友可以很容易写出shell来了。以后我的脚本实现了充分的模块化，我再看看如果有通用性，我就贴出来。<&#47;p>
+<p>感谢大家支持本Blog，感谢大家。本人开始提供国外ssh帐号，高速、稳定，价格从每年 50 RMB 到每年 100 RMB 不等，如果有需要可以联系我（<a href="mailto:i@leaskh.com">i@leaskh.com<&#47;a>），不要再折腾了，简简单单的，舒舒服服上网吧。<&#47;p>  <&#47;div></p>

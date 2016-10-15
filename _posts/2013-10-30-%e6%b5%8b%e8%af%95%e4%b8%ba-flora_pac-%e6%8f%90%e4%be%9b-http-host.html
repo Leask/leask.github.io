@@ -1,0 +1,102 @@
+---
+layout: post
+status: publish
+published: true
+title: "测试为 Flora_Pac 提供 HTTP host"
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 2097
+wordpress_url: http://www.leaskh.com/?p=2097
+date: '2013-10-30 21:26:30 +0800'
+date_gmt: '2013-10-30 13:26:30 +0800'
+categories:
+- Uncategorized
+tags: []
+comments:
+- id: 6324
+  author: Jonas Lin
+  author_email: bindiry@gmail.com
+  author_url: https://plus.google.com/116044341266820443380
+  date: '2013-10-31 10:41:32 +0800'
+  date_gmt: '2013-10-31 02:41:32 +0800'
+  content: "经测试，http:&#47;&#47;flora.leaskh.com&#47;pac?proxy=SOCKS5%20127.0.0.1%3A1985
+    ，我用这个地址获取的文件里的端口号依然是8964"
+- id: 6325
+  author: Leask
+  author_email: i@leaskh.com
+  author_url: http://www.leaskh.com
+  date: '2013-10-31 10:47:13 +0800'
+  date_gmt: '2013-10-31 02:47:13 +0800'
+  content: "谢谢提醒，代码有 bug，刚刚已经更新修复了，感谢！：）"
+- id: 6337
+  author: dsadsa
+  author_email: dasdsagfds@gmail.com
+  author_url: ''
+  date: '2013-12-25 00:00:09 +0800'
+  date_gmt: '2013-12-24 16:00:09 +0800'
+  content: "给的地址无法访问"
+- id: 6338
+  author: Leask
+  author_email: i@leaskh.com
+  author_url: http://www.leaskh.com
+  date: '2013-12-26 14:48:50 +0800'
+  date_gmt: '2013-12-26 06:48:50 +0800'
+  content: "地址无法访问的问题修好了，谢谢提醒。"
+- id: 6345
+  author: drfun
+  author_email: netfangwei@gmail.com
+  author_url: http://gravatar.com/drfun
+  date: '2014-02-07 15:10:28 +0800'
+  date_gmt: '2014-02-07 07:10:28 +0800'
+  content: http:&#47;&#47;tw.knowledge.yahoo.com  还是不能翻
+- id: 6353
+  author: "红领巾"
+  author_email: leonsyc@aol.com
+  author_url: ''
+  date: '2014-03-20 12:22:40 +0800'
+  date_gmt: '2014-03-20 04:22:40 +0800'
+  content: "请问flora pac能设置https代理吗？除了手动修改pac文件外能自动生成吗？"
+- id: 10916
+  author: "分享自动代理Pac文件及大神的pac自动生成项目梦中飞翔"
+  author_email: ''
+  author_url: http://sleepyfly.net/2014/08/%e5%88%86%e4%ba%ab%e8%87%aa%e5%8a%a8%e4%bb%a3%e7%90%86pac%e6%96%87%e4%bb%b6%e5%8f%8a%e5%a4%a7%e7%a5%9e%e7%9a%84pac%e8%87%aa%e5%8a%a8%e7%94%9f%e6%88%90%e9%a1%b9%e7%9b%ae/
+  date: '2014-08-02 21:56:46 +0800'
+  date_gmt: '2014-08-02 13:56:46 +0800'
+  content: "[&#8230;] Flora_Pac(项目地址：Leask Wong） [&#8230;]"
+- id: 15871
+  author: Leask
+  author_email: i@leaskh.com
+  author_url: http://www.leaskh.com
+  date: '2014-11-04 23:14:09 +0800'
+  date_gmt: '2014-11-04 15:14:09 +0800'
+  content: "当然可以。"
+- id: 17421
+  author: Zhang3
+  author_email: zhangjiooo@gmail.com
+  author_url: ''
+  date: '2014-12-01 12:09:14 +0800'
+  date_gmt: '2014-12-01 04:09:14 +0800'
+  content: "使用VPN保護隱私不受任何人侵犯在任何國家任何時候都有必要。"
+---
+<p>有 Flora_Pac&nbsp;用户（yyxst***@gmail.com 等）提出能不能提供官方 HTTP host 方式，通过 request 参数来返回适用的 PAC 文件（类似于 <a title="autoproxy2pac" href="https:&#47;&#47;autoproxy2pac.appspot.com" target="_blank">autoproxy2pac<&#47;a>）。这个需求我早前就有考虑，起初主要担心集中提供 PAC host 会导致服务器被墙而徒劳无功。但最近又想了想，很多朋友的机器上其实是没有开发环境的，他们也不见得全都熟悉 Python 等工具，本着让翻墙能尽可能简单便利，尽可能降低门槛的期望，我简单实现了一下这个功能。目前的实现相当简陋，但凑合能用。</p>
+<p><img class="alignnone  wp-image-2102" style="border: 0px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;" alt="Flora_Pac host demo" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2013&#47;10&#47;Screen-Shot-2013-10-30-at-10.08.01-PM.jpg" width="1564" height="1388" &#47;></p>
+<p>使用相当简单，我就不写什么教程了，直接上几个 demo 大家一看就懂了：</p>
+<p style="padding-left: 30px;">* 创建代理地址为&nbsp;SOCKS 127.0.0.1:8964 的 PAC 文件:<br />
+$ curl&nbsp;<a href="http:&#47;&#47;flora.leaskh.com&#47;pac?proxy=SOCKS%20127.0.0.1%3A8964" target="_blank">http:&#47;&#47;flora.leaskh.com&#47;pac?proxy=SOCKS%20127.0.0.1%3A8964<&#47;a><&#47;p></p>
+<p style="padding-left: 30px;">* 创建代理地址为 SOCKS5&nbsp;127.0.0.1:8964 的 PAC 文件:<br />
+$ curl&nbsp;<a href="http:&#47;&#47;flora.leaskh.com&#47;pac?proxy=SOCKS5%20127.0.0.1%3A8964" target="_blank">http:&#47;&#47;flora.leaskh.com&#47;pac?proxy=SOCKS5%20127.0.0.1%3A8964<&#47;a><&#47;p></p>
+<p style="padding-left: 30px;">*&nbsp;创建代理地址为&nbsp;HTTP 127.0.0.1:6489&nbsp;的 PAC 文件:<br />
+$ curl&nbsp;<a href="http:&#47;&#47;flora.leaskh.com&#47;pac?proxy=PROXY%20127.0.0.1%3A6489" target="_blank">http:&#47;&#47;flora.leaskh.com&#47;pac?proxy=PROXY%20127.0.0.1%3A6489<&#47;a><&#47;p></p>
+<p style="padding-left: 30px;">*&nbsp;当第一代理 ( SOCKS5 127.0.0.1:8964&nbsp;) 失败时尝试第二代理 ( SOCKS 127.0.0.1:8964&nbsp;):<br />
+$ curl&nbsp;<a href="http:&#47;&#47;flora.leaskh.com&#47;pac?proxy=SOCKS5%20127.0.0.1%3A8964%3B%20SOCKS%20127.0.0.1%3A8964" target="_blank">http:&#47;&#47;flora.leaskh.com&#47;pac?proxy=SOCKS5%20127.0.0.1%3A8964%3B%20SOCKS%20127.0.0.1%3A8964<&#47;a><&#47;p><br />
+基本上就这样，如 demo 所示，直接把代理服务器地址转义后填入&nbsp;proxy 参数中，请求 Flora_Pac&nbsp;服务器（<a href="http:&#47;&#47;flora.leaskh.com&#47;pac" target="_blank">http:&#47;&#47;flora.leaskh.com&#47;pac<&#47;a>）就行。其中 URL 参数的转义规则 Google 一下很容易查到。下面列出可能会被用到的几个符号：</p>
+<p style="padding-left: 30px;">* 空格 ' ' &nbsp; ===> &nbsp; %20 或者 +<br />
+* 冒号 &nbsp;: &nbsp; &nbsp;===> &nbsp;&nbsp;%3A<br />
+* 分号 &nbsp;; &nbsp; &nbsp;===> &nbsp;&nbsp;%3B<&#47;p><br />
+先写到这里，有疑问欢迎联系我。最后，再一次期望有一天我们不再需要翻墙。</p>

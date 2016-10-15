@@ -1,0 +1,55 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Flora_Pac Updates: 合并子网、优化 isInNet() 的判断逻辑'
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 2021
+wordpress_url: http://www.leaskh.com/?p=2021
+date: '2013-04-08 02:30:14 +0800'
+date_gmt: '2013-04-07 18:30:14 +0800'
+categories:
+- Uncategorized
+tags: []
+comments:
+- id: 6219
+  author: heiyo (@heiyo)
+  author_email: heiyo@twitter.example.com
+  author_url: http://twitter.com/heiyo
+  date: '2013-05-17 03:40:59 +0800'
+  date_gmt: '2013-05-16 19:40:59 +0800'
+  content: "不知道是什么原因，在Chrome里面的 switchySharp 配置了Flora是好使的。然后我又到 Mac 的系统设置配置了&ldquo;自动代理配置&rdquo;，因为我用的是
+    goAgent，于是我把文件里的 SOCKS 改成了 PROXY，但是safari还是不能用，什么网页都打不开了&hellip;&hellip;求解&hellip;&hellip;系统自定义过
+    host 的。知道Flora 是通过一个叫&ldquo;Break Wall&rdquo;的App。"
+- id: 6220
+  author: heiyo (@heiyo)
+  author_email: heiyo@twitter.example.com
+  author_url: http://twitter.com/heiyo
+  date: '2013-05-17 03:49:52 +0800'
+  date_gmt: '2013-05-16 19:49:52 +0800'
+  content: "INFO - [May 17 03:48:09] 127.0.0.1:54419 \"GAE CONNECT twitter.com:443
+    HTTP&#47;1.1\" - -\r\nINFO - [May 17 03:48:10] 127.0.0.1:54419 \"GAE GET https:&#47;&#47;twitter.com&#47;i&#47;profiles&#47;show&#47;Leaskh&#47;timeline&#47;with_replies?composed_count=0&amp;include_available_features=1&amp;include_entities=1&amp;include_new_items_bar=true&amp;interval=300000&amp;latent_count=0&amp;since_id=335089715990642688
+    HTTP&#47;1.1\" 200 62\r\nERROR - [May 17 03:48:20] ('127.0.0.1', 54380) Exception:
+    ValueError('need more than 1 value to unpack',)\r\n\r\n这是 goAgent 里面的报错信息。"
+- id: 6318
+  author: Wei
+  author_email: netfangwei@gmail.com
+  author_url: ''
+  date: '2013-10-02 20:13:02 +0800'
+  date_gmt: '2013-10-02 12:13:02 +0800'
+  content: "非常感谢，新版非常好用， 不过打开facebook时，载入facebook存储于alkaimai cdn的图片时解析会非常慢，不知道为什么"
+---
+<p>今天比较闲，又更新了一版 Flora_Pac。这个更新主要有以下两点优化：</p>
+<p>* 合并子网、减少匹配条目数（从 3587 条减少到 1710 条）；<br />
+* 精简浏览器对&nbsp;isInNet() 函数的实现，简化判断逻辑。</p>
+<p>经过以上两点优化后，性能有了比较明显的提升。请大家更新试用，有问题欢迎与我联系。</p>
+<p>项目地址：<br />
+<a title="Flora_Pac" href="https:&#47;&#47;github.com&#47;Leask&#47;Flora_Pac" target="_blank">https:&#47;&#47;github.com&#47;Leask&#47;Flora_Pac<&#47;a></p>
+<p>PS：新版本增加了示例 pac 文件，如果没有 Python 环境的，自己直接改 pac 吧。</p>

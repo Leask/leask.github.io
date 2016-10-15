@@ -1,0 +1,60 @@
+---
+layout: post
+status: publish
+published: true
+title: TextMate的一个小兼容问题
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 39
+wordpress_url: http://leaskh.wordpress.com/2009/12/23/textmate%e7%9a%84%e4%b8%80%e4%b8%aa%e5%b0%8f%e5%85%bc%e5%ae%b9%e9%97%ae%e9%a2%98
+date: '2009-12-23 16:25:01 +0800'
+date_gmt: '2009-12-23 16:25:01 +0800'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div id="msgcns!15BAC1A170471DB!15136" class="bvMsg">
+<p>我手头有不少项目是用TextMate写的，虽然最近几天开始改用vim（改用vim主要是想保持一个统一的编辑环境，在Command Line和GUI之间。），在vim完全上手之前，还是需要用TextMate一段时间。</p>
+<p>今天工作的时候，遇到一个很奇怪的问题，我无法用Textmate的FTP&#47;SSH插件（<a title="http:&#47;&#47;fuerstnet.de&#47;en&#47;ftp-ssh-bundle-textmate" href="http:&#47;&#47;fuerstnet.de&#47;en&#47;ftp-ssh-bundle-textmate" target="_blank">http:&#47;&#47;fuerstnet.de&#47;en&#47;ftp-ssh-bundle-textmate<&#47;a>）来上传程序到服务器。程序提示PHP错误：</p>
+<p><a href="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2009&#47;12&#47;e136ec5076d6641ad7843212a73438af.png"><img class="alignnone size-full wp-image-1856" title="e136ec5076d6641ad7843212a73438af" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2009&#47;12&#47;e136ec5076d6641ad7843212a73438af.png" alt="" width="667" height="57" &#47;><&#47;a></p>
+<p>才知道原来TextMate的FTP&#47;SSH插件是通过PHP环境上传和下载文件的。<br />
+考虑到前几天我配置了Snow Leopard本地的PHP环境体换掉了MAMP集成环境。于是考虑是不是本地的PHP环境和TextMate的插件环境不兼容。</p>
+<p>查看插件的源代码：</p>
+<blockquote><p><em>&hellip;&hellip;<br />
+usr&#47;bin&#47;env php<br />
+<?php<br />
+&#47;&#47; Initialize variables and load helper functions<br />
+require(<strong>$_ENV['TM_BUNDLE_SUPPORT'].<&#47;strong>'&#47;lib&#47;helper_functions.php');<br />
+&#47;&#47; put file to the remote host<br />
+put_file($_ENV['TM_FILENAME'], $_ENV['TM_FILEPATH'], $_ENV['TM_DIRECTORY'], $PROJECT_DIR, $PREFS);<br />
+&hellip;&hellip;<&#47;em><&#47;blockquote><br />
+不难看出TextMate通过PHP环境变量的方式传递变量给一个PHP Shell，然后由PHP Shell的Function()上传和下载文件。经过对php.ini的分析研究，发现原来php.ini中有关于环境变量的这一个描述：</p>
+<blockquote><p><em>&hellip;&hellip;<br />
+; This directive determines which super global arrays are registered when PHP<br />
+; starts up. If the register_globals directive is enabled, it also determines<br />
+; what order variables are populated into the global space. G,P,C,E &amp; S are<br />
+; abbreviations for the following respective super globals: GET, POST, COOKIE,<br />
+; ENV and SERVER. There is a performance penalty paid for the registration of<br />
+; these arrays and because ENV is not as commonly used as the others, ENV is<br />
+; is not recommended on productions servers. You can still get access to<br />
+; the environment variables through getenv() should you need to.<br />
+; Default Value: "EGPCS"<br />
+; Development Value: "GPCS"<br />
+; Production Value: "GPCS";<br />
+; &hellip;&hellip;<br />
+<strong>variables_order = "GPCS"<&#47;strong><br />
+&hellip;&hellip;<&#47;em><&#47;blockquote><br />
+Snow Leopard在启用php.ini这个配置文件的时候，会更改PHP环境<strong>variables_order<&#47;strong>的默认值，然而这个设置将导致PHP定义全局环境变量的功能失效。于是尝试修改为：</p>
+<blockquote><p><strong><em>variables_order = "EGPCS"<&#47;em><&#47;strong><&#47;blockquote><br />
+重新加载插件：</p>
+<blockquote><p><em>osascript -e 'tell app "TextMate" to reload bundles'<&#47;em><&#47;blockquote><br />
+问题得到解决。</p>
+<p>注意，如果你使用Snow Leoprad并使用系统内置的PHP环境，而且你用TextMate+FTP&#47;SSH Bundle，你将遇到和我一样的问题。虽然variables_order = "EGPCS"并不是PHP推荐的设置值，但是目前看来只能这样了。期待TextMate的后续版本能解决这个问题。</p>
+<p><&#47;div></p>

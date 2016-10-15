@@ -1,0 +1,105 @@
+---
+layout: post
+status: publish
+published: true
+title: "条条大路通罗马，IPv6"
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 28
+wordpress_url: http://leaskh.wordpress.com/2009/12/27/%e6%9d%a1%e6%9d%a1%e5%a4%a7%e8%b7%af%e9%80%9a%e7%bd%97%e9%a9%ac%ef%bc%8cipv6
+date: '2009-12-27 07:43:28 +0800'
+date_gmt: '2009-12-27 07:43:28 +0800'
+categories:
+- Uncategorized
+tags: []
+comments:
+- id: 364
+  author: Qiang
+  author_email: ''
+  author_url: ''
+  date: '2010-02-03 03:18:34 +0800'
+  date_gmt: '2010-02-03 03:18:34 +0800'
+  content: "呵呵，你真的很能折腾，目前我只用了一个ssh，感觉就够用了。不过我对你的自动测速很好奇，有时间可以详细写一下你是怎么自动测速并选取最快的代理吗？"
+- id: 365
+  author: SBC
+  author_email: ''
+  author_url: ''
+  date: '2010-02-02 02:30:14 +0800'
+  date_gmt: '2010-02-02 02:30:14 +0800'
+  content: "你好，我是单位局域网上网，我在he.com上申请了通道，也按照他的配置进行配置了以下（windows xp）ipconfigEthernet
+    adapter 本地连接:        Connection-specific DNS Suffix  . :        IP Address. .
+    . . . . . . . . . . : 172.20.76.252        Subnet Mask . . . . . . . . . . . :
+    255.255.0.0        IP Address. . . . . . . . . . . . : fe80::221:70ff:fee0:26a6%8
+    \       Default Gateway . . . . . . . . . : 172.20.76.1Tunnel adapter Teredo Tunneling
+    Pseudo-Interface:        Connection-specific DNS Suffix  . :        IP Address.
+    . . . . . . . . . . . : fe80::ffff:ffff:fffd%7        Default Gateway . . . .
+    . . . . . :Tunnel adapter Automatic Tunneling Pseudo-Interface:        Connection-specific
+    DNS Suffix  . :        IP Address. . . . . . . . . . . . : fe80::5efe:10.27.14.2%2
+    \       Default Gateway . . . . . . . . . : ::72.52.104.74Tunnel adapter Automatic
+    Tunneling Pseudo-Interface:        Connection-specific DNS Suffix  . :        IP
+    Address. . . . . . . . . . . . : fe80::5efe:172.20.76.252%2        Default Gateway
+    . . . . . . . . . : ::72.52.104.74"
+- id: 366
+  author: Bingo
+  author_email: ''
+  author_url: ''
+  date: '2010-01-10 08:48:18 +0800'
+  date_gmt: '2010-01-10 08:48:18 +0800'
+  content: "你好,我遇到点问题,望指教:网站给出了三条命令netsh interface ipv6 add v6v4tunnel IP6Tunnel XX.XX.71.117
+    XX.XX.221.6netsh interface ipv6 add address IP6Tunnel 2001:470:18:XXX::2netsh
+    interface ipv6 add route ::&#47;0 IP6Tunnel 2001:470:18:XXX::1执行后,ping不通ipv6地址,系统为win7,经路由上网,开了自带防火墙,ipconfig
+    &#47;all如下:Windows IP Configuration   Host Name . . . . . . . . . . . . : XXXXXX
+    \  Primary Dns Suffix  . . . . . . . :   Node Type . . . . . . . . . . . . : Hybrid
+    \  IP Routing Enabled. . . . . . . . : No   WINS Proxy Enabled. . . . . . . .
+    : NoEthernet adapter Local Area Connection:   Connection-specific DNS Suffix  .
+    :   Description . . . . . . . . . . . : Realtek RTL8139&#47;810x Family Fast Ethernet
+    NIC   Physical Address. . . . . . . . . : 00-0C-76-4C-XX-XX   DHCP Enabled. .
+    . . . . . . . . . : No   Autoconfiguration Enabled . . . . : Yes   Link-local
+    IPv6 Address . . . . . : fe80::8034:d4d8:77f9:dca2%11(Preferred)   IPv4 Address.
+    . . . . . . . . . . : 192.168.0.3(Preferred)   Subnet Mask . . . . . . . . . .
+    . : 255.255.255.0   Default Gateway . . . . . . . . . : 192.168.0.1   DHCPv6 IAID
+    . . . . . . . . . . . : 234884214   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-12-A1-CC-B1-00-0C-76-4C-DC-EB
+    \  DNS Servers . . . . . . . . . . . : 8.8.8.8                                       8.8.4.4
+    \  NetBIOS over Tcpip. . . . . . . . : EnabledTunnel adapter isatap.&#123;4651C7DB-8932-4F3F-935B-7FC215BE302B&#125;:
+    \  Media State . . . . . . . . . . . : Media disconnected   Connection-specific
+    DNS Suffix  . :   Description . . . . . . . . . . . : Microsoft ISATAP Adapter
+    \  Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0   DHCP Enabled.
+    . . . . . . . . . . : No   Autoconfiguration Enabled . . . . : YesTunnel adapter
+    Local Area Connection* 9:   Media State . . . . . . . . . . . : Media disconnected
+    \  Connection-specific DNS Suffix  . :   Description . . . . . . . . . . . : Teredo
+    Tunneling Pseudo-Interface   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+    \  DHCP Enabled. . . . . . . . . . . : No   Autoconfiguration Enabled . . . .
+    : YesTunnel adapter IP6Tunnel:   Media State . . . . . . . . . . . : Media disconnected
+    \  Connection-specific DNS Suffix  . :   Description . . . . . . . . . . . : Microsoft
+    Direct Point-to-point Adapater   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+    \  DHCP Enabled. . . . . . . . . . . : No   Autoconfiguration Enabled . . . .
+    : Yes"
+- id: 367
+  author: Alan
+  author_email: ''
+  author_url: ''
+  date: '2010-01-10 06:44:03 +0800'
+  date_gmt: '2010-01-10 06:44:03 +0800'
+  content: "感谢分享。"
+---
+<div id="msgcns!15BAC1A170471DB!15140" class="bvMsg">
+<p><a href="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2009&#47;12&#47;youtu.png"><img class="alignnone size-full wp-image-1846" title="youtu" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2009&#47;12&#47;youtu.png" alt="" width="814" height="724" &#47;><&#47;a></p>
+<p>什么是IPv6？不明白的自己Google吧，目前Ipv6还没有成为&ldquo;敏感字&rdquo;不过相信在不久的将来，&ldquo;IPv6&rdquo;很有可能&ldquo;上榜&rdquo;。<br />
+IPv6是翻墙技术？错了，IPv6不是翻墙技术！注意了，IPv6是一种通用性的基础技术，其设计的主要目的是解决Internet上IPv4地址枯竭的问题。<br />
+目前而言，IPv6的部署在国内是很有限的，国内ADSL方式接入互联网的网民占大多数，通过PPPoE申请得到IPv4地址，只有少部分网民能够原生得到IPv6地址，其中教育网用户占多数。<br />
+那为什么要探索IPv6用于&ldquo;突围&rdquo;？主要是目前而言，墙的过滤功能主要通过干扰IPv4网络中的各级网关和DNS实现，尚未有准确的技术资料证明墙在干扰IPv6网络。<br />
+注意！这只是暂时的，墙迟早会对IPv6下手，这个只是时间问题。</p>
+<p>那么如何接入IPv6网络呢？如果你的网络已经部署好IPv6功能，那么你在查看网络状态的时候就能够看到你的IPv6地址（IPv6地址的样子在上图可见）。<br />
+现代操作系统：Unix、Linux以及Windows Vista以上都能直接获取IPv6地址。仅需注意的是XP以及之前的Windows系统需要先安装IPv6协议，DHCP服务才能找到IPv6地址。<br />
+显然，大多数网民所处的网络是还没有部署IPv6的，这里我推荐大家到<a href="http:&#47;&#47;he.com" target="_blank">http:&#47;&#47;he.com<&#47;a>申请一个IPv6 Over IPv4通道（tunnel）。申请好以后你会得到一大堆的IP地址、DNS、Router等资料，这些参数如果你可以看懂那么配置起来就很容易了，如果你实在看不懂也不要紧，上面有一个配置向导，会给你生成一段命令，把这几行命令往你的操作系统的命令行里头粘贴，基本上就能解决问题了。值得注意的是，如果你的是动态IP，在IP地址改变以后，你需要上去修改一下你的IPv4地址（endpoint）。然而，相应地向导所提供的代码也会根据endpoint的改变而改变。这些配置会根据你网络现状和操作系统的不同而有所改变。我在自己的Unix上面写了一段shell脚本，当IP地址改变的时候自动更新endpoint以及改变tunnel配置，原来打算把脚本公开出来，但是考虑到每个人的网络具体的情况都不一样，看来通用性不大，就不把问题复杂化了。大家跟着he.com的向导一般都能接入了，实在不行可以联系我共同研究一下。</p>
+<p>接入后你可以通过ping ipv6.google.com命令测试你的IPv6连接（类Unix系统使用 ping6命令），测试通过后就能够在浏览器中访问IPv6站点了。这仅仅是个开始。接下来添加IPv6地址到你的hosts文件中，让电脑在访问这些站点的时候优先通过IPv6通道。这里的地址有两类，一类是如Google的服务，本来就支持IPv6访问的，另一类是IPv6反向代理，你不用管那么多，只管添加进去就可以了。配置范例：<a title="http:&#47;&#47;d.leaskh.com&#47;7bz2E" href="http:&#47;&#47;d.leaskh.com&#47;7bz2E" target="_blank">http:&#47;&#47;d.leaskh.com&#47;7bz2E<&#47;a></p>
+<p>然后你会发现前所未有的翻墙速度。特别是访问各种被墙的Google服务，由于仅仅是通过IPv6通道，并没有通过代理服务器转发，所以效率是相当不错的。IPv6翻墙在目前而言效率还是相当好的，值不值得折腾就看你自己权衡了。值得再提一提的是IPv6的反向代理目前还没找到能够支持SSL证书的，所以经过IPv6反向代理的网站如果需要通过https访问的话，IPv6反向代理就无能为力了（twitter，facebook等），不过Google服务不需要通过代理（原生IPv6），所以工作得挺好的。由于我的ssh服务器一个在美国，一个在日本，一个在新西兰，访问不同网站的速度都各自有制约，所以IPv6的高效率作为了一个利好的补充资源，提供稳定而快速的访问能力。</p>
+<p>在我的Mac上，每次开机我的Shell脚本都会建立三条并行的ssh -D通道，以及GAppProxy代理（我的下一篇文章会介绍），还有IPv6 tunnel，然后自动进行测速，并配置好pac文件，当我的应用需要访问网络的时候，就会根据pac文件决定是否使用代理以及使用那一组比较快速的代理。虽然折腾花了我很长的时间，但是目前看来运行得相当良好，而且重要的是过程中学到了很多有趣的网络编程知识。看来这就是墙对我的一种积极意义吧。</p>
+<p>正如俗语，世界上没有丑女人，只有懒女人。我说：世界上也没有不自由的人，只有懒于折腾的人罢了。若为自由故，一切皆可抛。这不是豪言壮语，是作为一个人，骨子里面的向往。互联网是上天送给中国人的礼物，是我们心中的&ldquo;美丽岛（不许联想）&rdquo;。</p>
+<p><&#47;div></p>

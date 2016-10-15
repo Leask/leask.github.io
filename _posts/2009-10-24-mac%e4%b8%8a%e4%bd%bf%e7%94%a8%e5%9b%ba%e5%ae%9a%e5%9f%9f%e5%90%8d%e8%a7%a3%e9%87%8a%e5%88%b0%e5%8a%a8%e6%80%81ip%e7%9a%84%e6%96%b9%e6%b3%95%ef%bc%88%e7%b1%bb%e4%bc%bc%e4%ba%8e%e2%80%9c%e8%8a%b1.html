@@ -1,0 +1,46 @@
+---
+layout: post
+status: publish
+published: true
+title: Mac上使用固定域名解释到动态IP的方法（类似于&ldquo;花生壳&rdquo;的用法）
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 58
+wordpress_url: http://leaskh.wordpress.com/2009/10/24/mac%e4%b8%8a%e4%bd%bf%e7%94%a8%e5%9b%ba%e5%ae%9a%e5%9f%9f%e5%90%8d%e8%a7%a3%e9%87%8a%e5%88%b0%e5%8a%a8%e6%80%81ip%e7%9a%84%e6%96%b9%e6%b3%95%ef%bc%88%e7%b1%bb%e4%bc%bc%e4%ba%8e%e2%80%9c%e8%8a%b1
+date: '2009-10-24 09:09:13 +0800'
+date_gmt: '2009-10-24 09:09:13 +0800'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div id="msgcns!15BAC1A170471DB!15073" class="bvMsg">
+<p>很多人都有需要把固定域名解释到动态IP，因为很多人想在自己的电脑上提供主机服务，但是又苦于ISP提供的是动态IP而非固定IP。<br />
+怎么办呢？Windows上有&ldquo;花生壳&rdquo;（请自行Google），那么Mac上呢？其实Mac上也有简便的解决方案的。</p>
+<p>实现固定域名解释到动态IP，我们需要满足两个条件：</p>
+<ol>
+<li>我们首先需要一个支持实时修改IP地址映射的DNS服务器；<&#47;li>
+<li>我们还需要一个上传本地IP地址到远程DNS服务器的客户端程序。<&#47;li><br />
+<&#47;ol><br />
+OK，我们来一个一个解决。</p>
+<p>第一个问题我们可以通过D-Link Dynamic DNS解决，该服务目前免费。注册地址是：<a title="https:&#47;&#47;www.dlinkddns.com&#47;" href="https:&#47;&#47;www.dlinkddns.com&#47;" target="_blank">https:&#47;&#47;www.dlinkddns.com&#47;<br />
+<&#47;a><img style="display: inline; border-style: initial; border-color: initial; border-width: 0px;" title="Screen shot 2009-10-24 at 4.32.54 PM" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2010&#47;09&#47;screenshot2009-10-24at41.png" alt="Screen shot 2009-10-24 at 4.32.54 PM" width="660" height="771" border="0" &#47;><br />
+注册后会得到一个域名，然后你可以填上你当前的IP地址。 那么你已经能让全球的朋友通过这个域名访问你的电脑了，那么问题是如果你的IP改变了，是不是就需要重新登录这个页面填写新的IP呢？所以我们需要接着解决第二个问题。</p>
+<p>第二个问题我们可以通过DNS-O-Matic解决，该服务目前免费。注册地址是：<a title="https:&#47;&#47;www.dnsomatic.com&#47;" href="https:&#47;&#47;www.dnsomatic.com&#47;" target="_blank">https:&#47;&#47;www.dnsomatic.com&#47;<&#47;a><br />
+DNS-O-Matic是不提供DNS服务的，它关注的是更新各种DNS服务上的动态IP地址，DNS-O-Matic支持上面提到的D-Link Dynamic DNS，同时也支持OpenDNS。<br />
+<img style="display: inline; border-style: initial; border-color: initial; border-width: 0px;" title="Screen shot 2009-10-24 at 4.39.39 PM" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2010&#47;09&#47;screenshot2009-10-24at4.png" alt="Screen shot 2009-10-24 at 4.39.39 PM" border="0" &#47;><br />
+DNS-O-Matic的注册也同样简单，注册后你可以添加你所使用的DNS服务，如输入你的D-Link Dynamic DNS帐号、密码和域名。<br />
+为什么要引入DNS-O-Matic呢？因为DNS-O-Matic支持开放式的API，你可以通过各种形式的客户端或者脚本来更新你提交你的本地IP地址。<br />
+如以下这个Mac上的小脚本DNS-O-Matic Updater就是我们所需要的了：<br />
+<a title="http:&#47;&#47;web.me.com&#47;zweigand&#47;zweisoft&#47;Software&#47;Entries&#47;2009&#47;1&#47;13_DNS-O-Matic_Updater_1.4.html" href="http:&#47;&#47;web.me.com&#47;zweigand&#47;zweisoft&#47;Software&#47;Entries&#47;2009&#47;1&#47;13_DNS-O-Matic_Updater_1.4.html" target="_blank">http:&#47;&#47;web.me.com&#47;zweigand&#47;zweisoft&#47;Software&#47;Entries&#47;2009&#47;1&#47;13_DNS-O-Matic_Updater_1.4.html<&#47;a><br />
+下载并填写你的DNS-O-Matic帐号就OK了，以后只需要启动这个小脚本，就能自动更新你的动态IP了哦。</p>
+<p>使用起来，比&ldquo;花生壳&rdquo;还要便捷，而且一切都是免费的。<br />
+对了，最后提一下，如果你自己有一个域名，那么可以把自己的域名CNAME到你的D-Link Dynamic DNS域名，就能实现通过自己的域名，任何时候都能访问你的电脑了。</p>
+<p>&#47;&#47; 最后预告一下，Flora_ssh-D，也就是我的翻墙脚本的下一个版本也将直接使用DNS-O-Matic的API而不是调用DNS-O-Matic_Updater来更新动态IP了，敬请关注。</p>
+<p><&#47;div></p>

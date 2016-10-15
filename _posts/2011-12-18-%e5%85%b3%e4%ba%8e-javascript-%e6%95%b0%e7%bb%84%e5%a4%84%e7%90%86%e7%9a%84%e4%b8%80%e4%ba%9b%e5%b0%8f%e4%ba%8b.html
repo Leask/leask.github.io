@@ -1,0 +1,86 @@
+---
+layout: post
+status: publish
+published: true
+title: "关于 Javascript 数组处理的一些小事"
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 1916
+wordpress_url: http://www.leaskh.com/?p=1916
+date: '2011-12-18 23:20:53 +0800'
+date_gmt: '2011-12-18 15:20:53 +0800'
+categories:
+- Uncategorized
+tags: []
+comments:
+- id: 2068
+  author: AlsoTang
+  author_email: alsotang@gmail.com
+  author_url: http://tangzhan.li
+  date: '2012-04-20 18:32:28 +0800'
+  date_gmt: '2012-04-20 10:32:28 +0800'
+  content: "文章最后一句是&ldquo;改为 arr.splice(1, 1)&rdquo;，还是&ldquo;改为 arr.splice(0, 1)&rdquo;？"
+- id: 2101
+  author: Leask
+  author_email: i@leaskh.com
+  author_url: http://www.leaskh.com
+  date: '2012-04-22 17:51:20 +0800'
+  date_gmt: '2012-04-22 09:51:20 +0800'
+  content: "感谢勘误，已经修正。"
+---
+<p>昨天工作中，需要使用 localStorage&nbsp;本地存储一个数组，用于缓冲一些数据，避免频繁的服务器存取，优化用户体验。但是出现一个很奇怪的现象，调试用了不少时间。这里把一些小经验分享一下，避免遇到类似情况的码农兄弟浪费时间。</p>
+<p>localStorage 是 HTML5 的新功能之一，能快速存储大量的本地数据，使用 key-value 的访问方式，比 cookies 便利。然而它并不支持对象存储，当然也不支持数组，因 Javascript 中数组也属于对象，所以你需要先把对象和数组转为字符序列，比较方便也很通行的做法就是转成 JSON 了。</p>
+<p>我把一个数组用 JSON.stringify()&nbsp;编成 JSON 存入&nbsp;localStorage，在取出后用 JSON.parse() 让其重新对象化。问题是取出来后，数组中出现了很多 null 元素，让我后续遍历这个数组的代码频繁报错。</p>
+<p>先彻底检查了一下代码，没有发现明显的可疑之处。使用 WebKit 的调试工具看了一下&nbsp;localStorage 的数组，果然是多了一些 null 在字符序列中。心想应该和&nbsp;localStorage 没有直接关系，于是把怀疑点转向&nbsp;JSON.stringify()。直接把&nbsp;JSON.stringify() 之前的数组和之后的 JSON 字串输出，果然 null 是在 JSON.stringify()&nbsp;阶段产生的。</p>
+<p>问题来了：为什么&nbsp;JSON.stringify() 后，原本干净的数组会出现若干看似无规律的 null 的呢？经过仔细的分析，发现我在数组代码中，对数组执行过 unshift() 和 delete 等操作。于是立刻想到是不是 delete 造成的垃圾遗留，但是为什么遍历时就没出现问题呢？想了一下，突然想起我习惯使用 for in 方式遍历数组，而不是比较传统的 for 循环，于是有了以下这个简单的实验：</p>
+<pre><script></p>
+<p>    var arr = ['a', 'b', 'c', 'd', 'e'];</p>
+<p>    delete arr[0];</p>
+<p>    console.log('for:');<br />
+    var maxI = arr.length;<br />
+    for (var i = 0; i < maxI; i++) {<br />
+        console.log(arr[i]);<br />
+    }</p>
+<p>    console.log('for in:');<br />
+    for (var j in arr) {<br />
+        console.log(arr[j]);<br />
+    }</p>
+<p>    console.log('foreach:');<br />
+    arr.forEach(function(k) {<br />
+        console.log(k);<br />
+    });</p>
+<p>    console.log('stringify:');<br />
+    console.log(JSON.stringify(arr));</p>
+<p><&#47;script><&#47;pre><br />
+程序输出：</p>
+<pre>for:<br />
+undefined<br />
+b<br />
+c<br />
+d<br />
+e</p>
+<p>for in:<br />
+b<br />
+c<br />
+d<br />
+e</p>
+<p>foreach:<br />
+b<br />
+c<br />
+d<br />
+e</p>
+<p>stringify:<br />
+[null,"b","c","d","e"]<&#47;pre><br />
+哈哈，问题终于冒出来了：</p>
+<ul>
+<li>Javascript &nbsp;中使用 delete 删除一个数组或对象的元素后，会将其标记为 undefined，而非彻底删除该索引；<&#47;li>
+<li>Javascript 在 for in 或 foreach 遍历中，会自动跳过&nbsp;undefined 元素，而普通 for 遍历则不会，JSON.stringify() 也不会；<&#47;li>
+<li>由于 JSON 缺少 undefined，于是 Javascript&nbsp;将 undefined 转为 JSON 的时候，undefined 会被转为 null。<&#47;li><br />
+<&#47;ul><br />
+果断尝试把 delete arr[0]; 改为 arr.splice(0, 1); 问题得到解决。</p>

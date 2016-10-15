@@ -1,0 +1,68 @@
+---
+layout: post
+status: publish
+published: true
+title: Sony Ericsson P1i 运行全屏Gmail Java客户端
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 149
+wordpress_url: http://leaskh.wordpress.com/2009/05/25/sony-ericsson-p1i-%e8%bf%90%e8%a1%8c%e5%85%a8%e5%b1%8fgmail-java%e5%ae%a2%e6%88%b7%e7%ab%af
+date: '2009-05-25 06:06:28 +0800'
+date_gmt: '2009-05-25 06:06:28 +0800'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div id="msgcns!15BAC1A170471DB!10507" class="bvMsg">
+<div>入手P1i已经一小段时间了，用得算顺手，摄像头比预想的好。遗憾的是键盘稍微偏小（可能是我的手比较大）。<br &#47;><br />
+但是遇到一个问题，直接上线安装的Gmail Java客户端在最新版本系统（R10A）中不能全屏。<br &#47;><br />
+于是Google了一下，发现修改gmail.jad后再安装就能解决。<br &#47;><br />
+遗憾的是网上修改的jad都是中文版本的Gmail客户端，因此我特意做了这个文件，能够在你的手上安装英文版本的全屏Gmail。<br &#47;><br />
+使用的时候把下面代码保存成gmail.jad文件，用这个文件传到手机引导上网安装Gmail<br &#47;><br />
+Java客户端，你将得到一个全屏英文版本的Gmail Java客户端了。<br &#47;><br />
+注意，如果你需要其他的语言，把倒数第三行的"EN_US"修改成你的国家语言代码就OK，例如中文为"ZH_CN"。<br &#47;><br />
+剩下的大家执行探索吧。<br &#47;><br />
+<br &#47;><br />
+MIDlet-1: Gmail, GmailIcon.png, com.google.mail.ui.midp.GoogleMailMidlet<br &#47;><br />
+MIDlet-Jar-URL: <a href="http:&#47;&#47;m.google.com&#47;app&#47;v2.0.6&#47;L1&#47;gmail-g.jar&#010;MIDlet-Jar-Size" target="_blank">http:&#47;&#47;m.google.com&#47;app&#47;v2.0.6&#47;L1&#47;gmail-g.jar<br &#47;><br />
+MIDlet-Jar-Size<&#47;a>: 262627<br &#47;><br />
+MIDlet-Name: Gmail<br &#47;><br />
+MIDlet-Permissions: javax.microedition.io.Connector.http,<br &#47;><br />
+javax.microedition.io.Connector.https<br &#47;><br />
+MIDlet-Icon: GmailIcon.png<br &#47;><br />
+MIDlet-Version: 2.0.6<br &#47;><br />
+MIDlet-Vendor: Google<br &#47;><br />
+RequestBackgroundSupported: false<br &#47;><br />
+PlatformID: Generic-Advanced MIDP2<br &#47;><br />
+BackKey: -9991<br &#47;><br />
+SelectKey: -9994<br &#47;><br />
+MaxFlashSize: 200000<br &#47;><br />
+ConversationListBlockSize: 20<br &#47;><br />
+MailRefreshEnabled: true<br &#47;><br />
+UseNativeMenus: false<br &#47;><br />
+UseNativeTextButtons: false<br &#47;><br />
+MailNoteEnabled: false<br &#47;><br />
+DefaultMailDomain: <a href="http:&#47;&#47;gmail.com" target="_blank">gmail.com<&#47;a><br &#47;><br />
+RightSoftKey: -7<br &#47;><br />
+MailNotificationEnabled: true<br &#47;><br />
+MenuKey: -9995<br &#47;><br />
+ReverseSoftkeys: true<br &#47;><br />
+MicroEdition-Profile: MIDP-2.0<br &#47;><br />
+MailMultipleAccountsEnabled: true<br &#47;><br />
+TalkKey: -10<br &#47;><br />
+UseNativeCommands: false<br &#47;><br />
+ClearKey: -8<br &#47;><br />
+LeftSoftKey: -6<br &#47;><br />
+DistributionChannel: gorganic<br &#47;><br />
+MicroEdition-Configuration: CLDC-1.0<br &#47;><br />
+DownloadLocale: EN_US<br &#47;><br />
+MIDlet-Install-Notify:<br &#47;><br />
+<a href="http:&#47;&#47;m.google.com&#47;app&#47;gmail.install?signed=false&amp;dc=gorganic&amp;deviceId=Generic;Advanced MIDP2&amp;dc=gorganic&amp;ver=v2.0.6" target="_blank">http:&#47;&#47;m.google.com&#47;app&#47;gmail.install?signed=false&amp;dc=gorganic&amp;deviceId=Generic;Advanced%20MIDP2&amp;dc=gorganic&amp;ver=v2.0.6<&#47;a><&#47;div><br />
+<&#47;div></p>

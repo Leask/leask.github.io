@@ -1,0 +1,37 @@
+---
+layout: post
+status: publish
+published: true
+title: "毕业设计 DEMO_1 地图显示模块 源码分享"
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 310
+wordpress_url: http://leaskh.wordpress.com/2008/01/26/%e6%af%95%e4%b8%9a%e8%ae%be%e8%ae%a1-demo_1-%e5%9c%b0%e5%9b%be%e6%98%be%e7%a4%ba%e6%a8%a1%e5%9d%97-%e6%ba%90%e7%a0%81%e5%88%86%e4%ba%ab
+date: '2008-01-26 10:02:57 +0800'
+date_gmt: '2008-01-26 10:02:57 +0800'
+categories:
+- Computers and Internet
+tags: []
+comments: []
+---
+<div id="msgcns!15BAC1A170471DB!2292" class="bvMsg">
+<div>'=============================================================<br &#47;>'地图显示模块 DEMO 1<br &#47;>'<br &#47;>'设计&#47;编程: 黄思夏<br &#47;>'Design&#47;Program: Leask Huang<br &#47;>'Copyfree (C) 2008 Leask Huang<br &#47;>'<br &#47;>'==============================================================<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>Option Explicit<br &#47;>Dim Move_X As Long<br &#47;>Dim Move_Y As Long<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>Private Sub Map_Init()<br &#47;>Map_CT_X.Top = Map_FM.Top + Map_FM.Height + 10<br &#47;>Map_CT_Y.Left = Map_FM.Left + Map_FM.Width + 10<br &#47;>Map_CT_X.Height = 280<br &#47;>Map_CT_Y.Width = 280<br &#47;>Map_CT_X.Width = Map_FM.Width<br &#47;>Map_CT_Y.Height = Map_FM.Height<br &#47;>Map_CT_X.Left = Map_FM.Left<br &#47;>Map_CT_Y.Top = Map_FM.Top<br &#47;>Map_CT_X.Min = 0<br &#47;>Map_CT_X.Max = Map_FM.Width - Map_CT.Width<br &#47;>Map_CT_Y.Min = 0<br &#47;>Map_CT_Y.Max = Map_FM.Height - Map_CT.Height<br &#47;>Map_CT.Left = 0<br &#47;>Map_CT.Top = 0<br &#47;>End Sub<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>Private Sub Form_Load()<br &#47;>Map_Init<br &#47;>End Sub<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>Private Sub Map_CT_MouseDown(Button As Integer, Shift As Integer, X As Single, Y As Single)<br &#47;>If Button = 1 Then<br &#47;>Move_X = X<br &#47;>Move_Y = Y<br &#47;>End If<br &#47;>End Sub<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>Private Sub Map_CT_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)<br &#47;>If Button = 1 Then<br &#47;>Dim Move_X_Do As Long<br &#47;>Dim Move_Y_Do As Long<br &#47;>Move_X_Do = Map_CT.Left + X - Move_X<br &#47;>Move_Y_Do = Map_CT.Top + Y - Move_Y<br &#47;>If Move_X_Do > 0 Then Move_X_Do = 0<br &#47;>If Move_X_Do + Map_CT.Width - Map_FM.Width < 0 Then Move_X_Do = Map_FM.Width - Map_CT.Width<br &#47;>If Move_Y_Do + Map_CT.Height - Map_FM.Height < 0 Then Move_Y_Do = Map_FM.Height - Map_CT.Height<br &#47;>If Move_Y_Do > 0 Then Move_Y_Do = 0<br &#47;>Map_CT.Left = Move_X_Do<br &#47;>Map_CT.Top = Move_Y_Do<br &#47;>Map_CT_X.Value = Map_CT.Left<br &#47;>Map_CT_Y.Value = Map_CT.Top<br &#47;>End If<br &#47;>Label1(0).Caption = "X: " &amp; X<br &#47;>Label1(1).Caption = "Y: " &amp; Y<br &#47;>End Sub<&#47;div></p>
+<div><br &#47;>Private Sub Map_CT_x_Scroll()<br &#47;>Map_CT.Left = Map_CT_X.Value<br &#47;>End Sub<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>Private Sub Map_CT_Y_Scroll()<br &#47;>Map_CT.Top = Map_CT_Y.Value<br &#47;>End Sub<&#47;div><&#47;div></p>

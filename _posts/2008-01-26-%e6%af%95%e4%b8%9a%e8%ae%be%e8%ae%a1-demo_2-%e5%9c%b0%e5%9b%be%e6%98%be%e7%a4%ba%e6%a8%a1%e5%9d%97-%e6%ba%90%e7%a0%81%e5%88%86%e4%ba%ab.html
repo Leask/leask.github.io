@@ -1,0 +1,67 @@
+---
+layout: post
+status: publish
+published: true
+title: "毕业设计 DEMO_2 地图显示模块 源码分享"
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 309
+wordpress_url: http://leaskh.wordpress.com/2008/01/26/%e6%af%95%e4%b8%9a%e8%ae%be%e8%ae%a1-demo_2-%e5%9c%b0%e5%9b%be%e6%98%be%e7%a4%ba%e6%a8%a1%e5%9d%97-%e6%ba%90%e7%a0%81%e5%88%86%e4%ba%ab
+date: '2008-01-26 10:07:58 +0800'
+date_gmt: '2008-01-26 10:07:58 +0800'
+categories:
+- Computers and Internet
+tags: []
+comments: []
+---
+<div id="msgcns!15BAC1A170471DB!2293" class="bvMsg">
+<div>以下程序使用 MS VB6 SP6 English Edition 完成，最新版本加入地图切片显示的功能。<&#47;div></p>
+<div>注意地图切片矩阵尚未实现拖动时的再组合，这也是今晚工作的重点了。<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>'=============================================================<br &#47;>'地图显示模块 DEMO 2<br &#47;>'<br &#47;>'设计&#47;编程: 黄思夏<br &#47;>'Design&#47;Program: Leask Huang<br &#47;>'Copyfree (C) 2008 Leask Huang<br &#47;>'<br &#47;>'==============================================================<&#47;div></p>
+<div><br &#47;>Option Explicit&nbsp;&nbsp; '强制声明变量<br &#47;>Dim Map_Left As Integer&nbsp;&nbsp; '地图切片左界限<br &#47;>Dim Map_Right As Integer&nbsp;&nbsp; '地图切片右界限<br &#47;>Dim Map_Up As Integer&nbsp;&nbsp; '地图切片上界限<br &#47;>Dim Map_Down As Integer&nbsp;&nbsp; '地图切片下界限<br &#47;>Dim Cur_City_Name As String&nbsp;&nbsp; '当前城市<br &#47;>Dim Map_Cou_Width As Long<br &#47;>Dim Map_Cou_Height As Long<br &#47;>Dim Map_Bas_X As Long<br &#47;>Dim Map_Bas_Y As Long<br &#47;>Dim Map_Cur_X As Long<br &#47;>Dim Map_Cur_Y As Long<br &#47;>Dim Map_Max_W As Long<br &#47;>Dim Map_Max_H As Long<br &#47;>Dim Map_Move_X As Integer<br &#47;>Dim Map_Move_Y As Integer<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>Private Sub Map_Exp(X As Long, Y As Long)<br &#47;>Dim Show_X As Long<br &#47;>Dim Show_Y As Long<br &#47;>Dim Cell_X As Long<br &#47;>Dim Cell_Y As Long<br &#47;>Dim ix As Integer<br &#47;>Dim iy As Integer<br &#47;>Dim iDx As Integer<br &#47;>Dim iDy As Integer<br &#47;>Dim i As Integer<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>If X < 0 Or X > Map_Max_W Or Y < 0 Or Y > Map_Max_H Then Exit Sub<&#47;div></p>
+<div>Map_Image(0).Top = 0<br &#47;>Map_Image(0).Left = 0<&#47;div></p>
+<div>Map_Image(1).Top = 0<br &#47;>Map_Image(1).Left = 300<&#47;div></p>
+<div>Map_Image(2).Top = 0<br &#47;>Map_Image(2).Left = 600<&#47;div></p>
+<div>Map_Image(3).Top = 0<br &#47;>Map_Image(3).Left = 900<&#47;div></p>
+<div>Map_Image(4).Top = 300<br &#47;>Map_Image(4).Left = 0<&#47;div></p>
+<div>Map_Image(5).Top = 300<br &#47;>Map_Image(5).Left = 300<&#47;div></p>
+<div>Map_Image(6).Top = 300<br &#47;>Map_Image(6).Left = 600<&#47;div></p>
+<div>Map_Image(7).Top = 300<br &#47;>Map_Image(7).Left = 900<&#47;div></p>
+<div>Map_Image(8).Top = 600<br &#47;>Map_Image(8).Left = 0<&#47;div></p>
+<div>Map_Image(9).Top = 600<br &#47;>Map_Image(9).Left = 300<&#47;div></p>
+<div>Map_Image(10).Top = 600<br &#47;>Map_Image(10).Left = 600<&#47;div></p>
+<div>Map_Image(11).Top = 600<br &#47;>Map_Image(11).Left = 900<&#47;div></p>
+<div>Show_X = X<br &#47;>Show_Y = Y<&#47;div></p>
+<div>Cell_X = Show_X  300<br &#47;>Cell_Y = Show_Y  300<&#47;div></p>
+<div>If Show_X - Cell_X * 300 < 150 Then<br &#47;>iDx = -2<br &#47;>Else<br &#47;>iDx = -1<br &#47;>End If<&#47;div></p>
+<div>If Show_Y - Cell_Y * 300 < 150 Then<br &#47;>iDy = -1<br &#47;>Else<br &#47;>iDy = 0<br &#47;>End If<&#47;div></p>
+<div>For iy = 0 To 2<br &#47;>&nbsp;&nbsp;&nbsp; For ix = 0 To 3<br &#47;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Load_Map_Image Cell_X + ix - iDx, Cell_Y + iy - iDy, i<br &#47;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i = i + 1<br &#47;>&nbsp;&nbsp;&nbsp; Next<br &#47;>Next<&#47;div></p>
+<div>ix = (Map_Frm.Width - 1200) &#47; 2 - (Show_X - Cell_X * 300)<br &#47;>iy = (Map_Frm.Height - 900) &#47; 2 - (Show_Y - Cell_Y * 300)<&#47;div></p>
+<div>For i = 0 To 11<br &#47;>Map_Image(i).Left = Map_Image(i).Left + ix<br &#47;>Map_Image(i).Top = Map_Image(i).Top + iy<br &#47;>Next<br &#47;>End Sub<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>Private Sub Map_Init()<br &#47;>Dim i As Integer<br &#47;>For i = 0 To 11<br &#47;>Map_Image(i).Stretch = False<br &#47;>Map_Image(i).Width = 300<br &#47;>Map_Image(i).Height = 300<br &#47;>Next<&#47;div></p>
+<div>Map_Bas_X = 22753<br &#47;>Map_Bas_Y = 39284<&#47;div></p>
+<div>Map_Cou_Width = 171 - 1<br &#47;>Map_Cou_Height = 106 - 1<&#47;div></p>
+<div>Map_Max_W = Map_Cou_Width * 300<br &#47;>Map_Max_H = Map_Cou_Height * 300<&#47;div></p>
+<div>Cur_City_Name = "Shenzhen"<br &#47;>End Sub<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>Private Function Get_Map_Path()&nbsp;&nbsp; '获得当前城市的地图数据路径<br &#47;>Get_Map_Path = App.Path &amp; "LibraryMaps" &amp; Cur_City_Name &amp; ""<br &#47;>End Function<&#47;div></p>
+<div>Private Function Get_Map_Image(X As Integer, Y As Integer)&nbsp;&nbsp; '获得地图切片路径<br &#47;>Dim temp_Path As String<br &#47;>temp_Path = Get_Map_Path &amp; (Y + Map_Bas_Y) &amp; "" &amp; (Y + Map_Bas_Y) &amp; "_" &amp; (X + Map_Bas_X) &amp; ".bmp"<br &#47;>Dim FSO As New FileSystemObject<br &#47;>If FSO.FileExists(temp_Path) = False Then temp_Path = App.Path &amp; "LibraryImagesspace.bmp"<br &#47;>Get_Map_Image = temp_Path<br &#47;>End Function<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>Private Sub Load_Map_Image(X As Integer, Y As Integer, Map_Image_ID As Integer)&nbsp;&nbsp; '加载地图切片<br &#47;>Map_Image(Map_Image_ID).Picture = LoadPicture(Get_Map_Image(X, Y))<br &#47;>End Sub<&#47;div></p>
+<div>Private Sub Form_Load()<br &#47;>Map_Init<br &#47;>Map_Exp 9800, 8000<br &#47;>End Sub<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>Private Sub Map_Image_MouseDown(Index As Integer, Button As Integer, Shift As Integer, X As Single, Y As Single)<br &#47;>If Button = 1 Then<br &#47;>Map_Move_X = X<br &#47;>Map_Move_Y = Y<br &#47;>End If<br &#47;>End Sub<&#47;div></p>
+<div>&nbsp;<&#47;div></p>
+<div>Private Sub Map_Image_MouseMove(Index As Integer, Button As Integer, Shift As Integer, X As Single, Y As Single)<br &#47;>Me.Caption = X &amp; " " &amp; Y<br &#47;>Dim i As Integer<br &#47;>If Button = 1 Then<br &#47;>&nbsp;&nbsp;&nbsp; For i = 0 To 11<br &#47;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Map_Image(i).Left = Map_Image(i).Left + (X - Map_Move_X) &#47; 15<br &#47;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Map_Image(i).Top = Map_Image(i).Top + (Y - Map_Move_Y) &#47; 15<br &#47;>&nbsp;&nbsp;&nbsp; Next<br &#47;>End If<br &#47;>End Sub<&#47;div><&#47;div></p>

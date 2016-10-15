@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: "拯救TinyGrab中止通过CNAME绑定域名后失效的图片"
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 1397
+wordpress_url: http://www.leaskh.com/?p=1397
+date: '2010-10-07 22:00:22 +0800'
+date_gmt: '2010-10-07 14:00:22 +0800'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<p>我曾经通过 t.leaskh.com 绑定到&nbsp;grab.by 在blog上发了好些图片.<br />
+无奈 TinyGrab&nbsp;中止了解释这样形式的地址.<br />
+于是就开始构思通过php重定向的方式试试恢复这些图片.</p>
+<p>重新把 t.leaskh.com A记录解释到自己的主机,编写以下 index.php 文件:</p>
+<blockquote><p><span style="font-size: 13px; line-height: 19px;"><?php header('Location: http:&#47;&#47;grab.by' . $_SERVER['REQUEST_URI']); ?><&#47;span><&#47;blockquote><br />
+<span style="line-height: 19px;">编写 .htaccess<&#47;span> 文件:</p>
+<blockquote><p><span style="font-size: 13px; line-height: 19px;">Options +FollowSymLinks<br />
+<&#47;span><span style="font-size: 13px; line-height: 19px;">IndexIgnore *&#47;*<br />
+<&#47;span><span style="font-size: 13px; line-height: 19px;">RewriteEngine on<br />
+<&#47;span><span style="font-size: 13px; line-height: 19px;"># if a directory or a file exists, use it directly<br />
+<&#47;span><span style="font-size: 13px; line-height: 19px;">RewriteCond %{REQUEST_FILENAME} !-f<br />
+<&#47;span><span style="font-size: 13px; line-height: 19px;">RewriteCond %{REQUEST_FILENAME} !-d<br />
+<&#47;span><span style="font-size: 13px; line-height: 19px;"># otherwise forward it to index.php<br />
+<&#47;span><span style="font-size: 13px; line-height: 19px;">RewriteRule . index.php<&#47;span><&#47;blockquote><br />
+<span style="line-height: 19px;">程序调试通过,图片得以恢复.<&#47;span></p>
+<p><span style="line-height: 19px;">后来实验发现通过dreamhost的redirect模式绑定域名能达到同样的目的.<br />
+<&#47;span><span style="line-height: 19px;">dreamhost在转发域名的时候会把后面的路径一并转发.<br />
+问过用其他host的朋友,暂时没有发现有类似行为.<&#47;span></p>
+<p><span style="line-height: 19px;">PS: 理论上通过这个思想大家可以把任意一款你喜欢的短网址服务"绑定"到自己的域名.<&#47;span></p>

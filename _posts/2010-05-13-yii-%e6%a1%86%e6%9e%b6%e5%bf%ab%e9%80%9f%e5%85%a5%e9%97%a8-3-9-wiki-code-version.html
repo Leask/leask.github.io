@@ -1,0 +1,971 @@
+---
+layout: post
+status: publish
+published: true
+title: Yii 框架快速入门 3.9 Wiki Code Version
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 12
+wordpress_url: http://leaskh.wordpress.com/2010/05/13/yii-%e6%a1%86%e6%9e%b6%e5%bf%ab%e9%80%9f%e5%85%a5%e9%97%a8-3-9-wiki-code-version
+date: '2010-05-13 17:51:45 +0800'
+date_gmt: '2010-05-13 17:51:45 +0800'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div id="msgcns!15BAC1A170471DB!15333" class="bvMsg">
+<div>
+<div id="msgcns!15BAC1A170471DB!15333">
+<p>本文仅为搜索引擎和想要复制代码做实验的朋友发布。<br />
+用肉眼阅读的朋友请忽略并移步到以下地址查看比较友好的版本:</p>
+<blockquote><p><a title="http:&#47;&#47;honeonet.spaces.live.com&#47;Blog&#47;cns!15BAC1A170471DB!15332.entry" href="http:&#47;&#47;honeonet.spaces.live.com&#47;Blog&#47;cns!15BAC1A170471DB!15332.entry">http:&#47;&#47;honeonet.spaces.live.com&#47;Blog&#47;cns!15BAC1A170471DB!15332.entry<&#47;a><&#47;blockquote><br />
+或直接下载文章截图：</p>
+<blockquote><p><a title="http:&#47;&#47;public.bay.livefilestore.com&#47;y1pPX3-XFVmpANZ-GjLwVK-CYtOGUHkcSxedQ3U18fLbgql2miiaDHDZSSso8oyFvRhLs7nz9zQOBvM51dPcvtz3Q&#47;Yii_Express.gif" href="http:&#47;&#47;public.bay.livefilestore.com&#47;y1pPX3-XFVmpANZ-GjLwVK-CYtOGUHkcSxedQ3U18fLbgql2miiaDHDZSSso8oyFvRhLs7nz9zQOBvM51dPcvtz3Q&#47;Yii_Express.gif">http:&#47;&#47;public.bay.livefilestore.com&#47;y1pPX3-XFVmpANZ-GjLwVK-CYtOGUHkcSxedQ3U18fLbgql2miiaDHDZSSso8oyFvRhLs7nz9zQOBvM51dPcvtz3Q&#47;Yii_Express.gif<&#47;a><br />
+（测试时发现貌似IE不能看，呵呵，那就换个浏览器吧。我就不照顾了。）<&#47;blockquote><br />
+以下Wiki代码于Redmine写作完成。</p>
+<p>h1. Yii 框架快速入门</p>
+<p>Version 3.9</p>
+<p>注意！本教程中的实例只适合于PHP5.3或以上，PHP5.2可能会有细节上的差异。</p>
+<p>&amp;nbsp;</p>
+<p>作者：黄思夏 &#47; Leask Huang</p>
+<p>&amp;nbsp;</p>
+<p>h2. 1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Yii是什么？</p>
+<p>&amp;nbsp;</p>
+<p>什么是Yii，Yii的官方解释可以概括为以下几点：</p>
+<p># Yii是一个高性能、组件化、面向大型Web应用的PHP开发框架。<br />
+# Yii的设计完全面向对象，基于完整的MVC编程思想；<br />
+# Yii的发音类似于英文Yee[ji:]，或者汉语普通话的&ldquo;易&rdquo;；<br />
+# Yii是开源软件，基于BSD许可发布。</p>
+<p>更多信息可参考Yii官方网站：<a href="http:&#47;&#47;www.yiiframework.com&#47;">http:&#47;&#47;www.yiiframework.com&#47;<&#47;a></p>
+<p>&amp;nbsp;<br />
+&amp;nbsp;<br />
+&amp;nbsp;</p>
+<p>h2. 2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;MVC是什么？</p>
+<p>&amp;nbsp;</p>
+<p>上文中提到MVC，到底什么是MVC呢：</p>
+<pre>
+MVC -> M-V-C -> Model-View-Controller -> 模型-视图-控制器<br />
+<&#47;pre></p>
+<p>!&#47;AnYuan&#47;attachments&#47;download&#47;28&#47;yii_express_mvc_logic.png!</p>
+<p>MVC是一种重要的编程思想，最初由挪威计算机科学家Trygve Reenskaug于1979提出，无论是B&#47;S还是C&#47;S模式的开发都能从中受益。</p>
+<p>MVC思想带来以下几点比较突出的优势：</p>
+<p># 数据结构得以独立，使得部署应用的时候便于处理不同平台的文件系统，数据库系统等的差异；<br />
+# 视图呈现得以独立，便于把同质的应用部署在不同的平台上，例如一个Web应用可以通过桌面浏览器、掌上设备或其他客户端软件访问，而不需要重写大部分的程序；<br />
+# 大型复杂的算法和逻辑得以独立，有利于最大限度的代码重用，使代码重用不单是项目内的重用，甚至能实现跨项目的重用；</p>
+<p>然而正因为有上文的第3点优势，才使得通过Yii、CodeIgniter、Kohana、Zend等开源框架能大大加快PHP应用的开发，因本质上我们是通过重用框架的&ldquo;类&rdquo;和&ldquo;方法&rdquo;以提高效率的。</p>
+<p>MVC思想还大大有利于团队协作和敏捷开发。</p>
+<p>想了解更多，可参阅维基百科：<a href="http:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Model%E2%80%93view%E2%80%93controller">http:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Model%E2%80%93view%E2%80%93controller<&#47;a> 。</p>
+<p>&amp;nbsp;<br />
+&amp;nbsp;<br />
+&amp;nbsp;</p>
+<p>h2. 3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;了解Yii</p>
+<p>&amp;nbsp;</p>
+<p>在开始折腾Yii之前，我们首先需要理清一些Yii的基本概念：</p>
+<p>&amp;nbsp;</p>
+<p>h3. 3.1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;入口脚本 &#47; Entry Script</p>
+<p>Yii框架需要项目根目录下有一个index.php来响应所有用户的所有请求。</p>
+<p>这个index.php主要有两个作用：<br />
+# 负责加载Yii框架，Yii框架被加载后，根据入口脚本（index.php）中指定的配置文件来创建应用程序实例；<br />
+# 负责传递用户的请求，包括&ldquo;路由请求&rdquo;和&ldquo;GET&#47;POST请求&rdquo;到Yii应用实例的控制器中，控制器根据请求调用相应的业务逻辑作出响应；</p>
+<p>入口脚本可以自己编写，也可以通过Yii命令行（CLI）工具，也就是Yii Shell在创建项目的时候自动建立。</p>
+<p>以下是一个典型的入口脚本：</p>
+<pre><code><br />
+<?php</p>
+<p>&#47;&#47; change the following paths if necessary<br />
+$yii=dirname(__FILE__).'&#47;..&#47;framework&#47;yii.php';<br />
+$config=dirname(__FILE__).'&#47;..&#47;protected&#47;config&#47;main.php';</p>
+<p>&#47;&#47; remove the following lines when in production mode<br />
+defined('YII_DEBUG') or define('YII_DEBUG',true);<br />
+defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);</p>
+<p>require_once($yii);<br />
+Yii::createWebApplication($config)->run();<br />
+<&#47;code><&#47;pre></p>
+<p>下面我简单解释一下这个入后脚本：<br />
+* 第4行：$yii字符串用于指定Yii框架所在的位置，这个字符串必须定位到Yii框架的&ldquo;yii.php&rdquo;文件；<br />
+* 第5行：$config字符串用于指定应用程序的配置文件，yii会根据配置文件的参数来初始化应用程序；<br />
+* 第8、9行：配置Yii应用实例的调试功能，这两行代码在实际部署应用的时候应该注释之或者直接把其删除，否则程序出错的输出可能招致安全隐患；<br />
+* 第11行，载入Yii框架；<br />
+* 第12行，创建Yii应用实例并初始化。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 3.2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;应用程序 &#47; Application</p>
+<p>&ldquo;应用程序&rdquo;是Yii区别于其他PHP MVC框架的特性之一，其主要任务是负责根据不同的配置文件和用户请求来实例化控制器。</p>
+<p>严格意义上来讲，这是把M-V-C中的C（Controller）再细分为两层，因此&ldquo;应用程序&rdquo;也叫做&ldquo;front-fontroller&rdquo;（前端控制器）。</p>
+<p>在Yii框架中的任何地方都可以通过：</p>
+<pre><code><br />
+Yii::app()<br />
+<&#47;code><&#47;pre></p>
+<p>访问&ldquo;应用程序&rdquo;。</p>
+<p>当一个应用程序的功能比较多，逻辑比较复杂，在必要时还可以把&ldquo;应用程序&rdquo;分割为若干的应用程序组件（Application Component）。这是比较进阶的技巧，大家可以稍后再详细了解。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 3.3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;控制器 &#47; Controller</p>
+<p>控制器是整个应用的核心，负责管理着整个项目绝大部分的功能逻辑。</p>
+<p>控制器接收来自入口脚本的用户请求，分析这些请求并调用不同的方法进行处理，最后交由&ldquo;视图&rdquo;把处理结果返回给用户。</p>
+<p>我们的开发任务绝大部分将在控制器中编程完成。</p>
+<p>事实上，在控制器中您可以用原始的PHP语言来实现各种功能逻辑，但适当调用Yii框架内置的常用对象更能够大大提高开发效率。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 3.4&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;模型 &#47; Model</p>
+<p>模型就是MVC中的M（Model），结合到Web开发中，主要指的是数据的抽象层。</p>
+<p>Yii的&ldquo;模型&rdquo;主要具象化为以下两个部分：</p>
+<p>* CActiveRecord（AR）：用于抽象化数据库访问；<br />
+* CFromModel：用于处理用户表单。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 3.5&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;视图 &#47; View</p>
+<p>&ldquo;视图&rdquo;是比较好理解的，在控制器处理逻辑结束后，一般情况下会交由视图把处理结果呈现给用户。</p>
+<p>这里的呈现是多种形式的，包括生成网页返回给浏览器，或提供Feed或各种API的形式输出。</p>
+<p>视图主要包含的是HTML、CSS、Javascript、XML、图片或其他多媒体内容等。</p>
+<p>有些情况下我们可能需要把PHP当作模板语言使用，主要是能够便于通过循环输出生成复杂的视图。</p>
+<p>所以，视图文件中事实上是可以包含PHP代码的，但是Yii框架建议只把负责控制输出的PHP代码写在视图文件中，而其他实现功能逻辑的PHP代码尽量写在控制器中。</p>
+<p>至于如何渲染视图以及视图中如何访问控制器中的变量等问题下文将详细讲解。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 3.6&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;组件 &#47; Component</p>
+<p>组件是Yii框架内部的逻辑单位，组件有自己的属性、事件和行为，Yii框架由若干个组件封装而成。</p>
+<p>这里提出组件仅仅是让大家明确一下Yii的一些概念，添加和修改组件是扩展Yii的高级技巧，暂时可以不理会。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 3.7&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;模块 &#47; Module</p>
+<p>模块就像一个小型的Application（应用程序）。</p>
+<p>模块封装在独立的一个文件夹中，包含自己独立的MVC分层结构，在执行逻辑上也和Application十分类似。</p>
+<p>&ldquo;模块&rdquo;和&ldquo;应用程序&rdquo;的主要区别是，&ldquo;应用程序&rdquo;可以单独部署，&ldquo;模块&rdquo;不可以单独部署（必须依附在一个&ldquo;应用程序中&rdquo;）。</p>
+<p>在大型应用的开发中，通常根据功能需求把应用分割为若干个模块，由不同的开发人员对其进行开发和维护。</p>
+<p>通过细分模块也为代码重用带来便利。</p>
+<p>下面来看看一个典型的模块的&ldquo;骨架结构&rdquo;：</p>
+<pre>
+forum&#47;<br />
+|-ForumModule.php&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> 模块的类文件<br />
+|-components&#47;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> 组件文件夹<br />
+|&nbsp;&nbsp;&nbsp;&nbsp; |-views&#47;<br />
+|-controllers&#47;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> 控制器文件夹（C）<br />
+|&nbsp;&nbsp;&nbsp;&nbsp; |-DefaultController.php<br />
+|-extensions&#47;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> 扩展文件夹<br />
+|-models&#47;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> 模型文件夹（M）<br />
+|-views&#47;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> 视图文件夹（V）<br />
+|-layouts&#47;<br />
+|-default&#47;<br />
+|-index.php<br />
+<&#47;pre></p>
+<p>至于如何创建模块，将在下文详细讲解。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 3.8&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;路径别名 &#47; Path Alias</p>
+<p>路径别名用于快速定位资源，Yii中别名的使用是很广泛的。</p>
+<p>例如你可以这样指向一个Class：</p>
+<pre><code><br />
+RootAlias.path.to.target<br />
+<&#47;code><&#47;pre></p>
+<p>这里的RootAlias（根别名）一共有6个被预定义：</p>
+<pre>
+system&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> 指向 Yii 框架目录;<br />
+zii&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> 指向zii库目录；<br />
+application&nbsp;&nbsp;&nbsp; -> 指向应用程序（base directory）；<br />
+webroot&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> 指向入口脚本所在的目录；<br />
+ext&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> 指向扩展目录（该目录包含所有第三方扩展）;<br />
+root&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> 指向module所在的目录（该别名仅限在module内可用）。<br />
+<&#47;pre></p>
+<p>任何时候都可以通过&ldquo;YiiBase::getPathOfAlias()&rdquo;把别名转换为完整的路径，如：</p>
+<pre><code><br />
+YiiBase::getPathOfAlias('system.web.CController')<br />
+<&#47;code><&#47;pre></p>
+<p>将返回：</p>
+<pre><code><br />
+'yii&#47;framework&#47;web&#47;CController'<br />
+<&#47;code><&#47;pre></p>
+<p>反之&ldquo;YiiBase::setPathOfAlias()&rdquo;可以设置指定路径为一个新的别名。</p>
+<p>了解别名后，我们就可以用别名来导入一个预定义的类了。</p>
+<pre><code><br />
+Yii::import('system.web.CController');<br />
+<&#47;code><&#47;pre></p>
+<p>您甚至可以使用通配符，如：</p>
+<pre><code><br />
+Yii::import('system.web.*');<br />
+<&#47;code><&#47;pre></p>
+<p>的方式实现批量导入。</p>
+<p>为什么用&ldquo;Yii::import()&rdquo;而不直接用PHP的&ldquo;include&rdquo;和&ldquo;require&rdquo;语句呢？</p>
+<p>事实上由于Yii智能的导入机制，使用&ldquo;Yii::import()&rdquo;导入的类直到其真正需要调用之前，是没有被&ldquo;包含&rdquo;的。</p>
+<p>当这个被&ldquo;Yii::import()&rdquo;导入的类真正需要被用到的时候，Yii才会载入它。这使得你可以一次性导入很多的类，而不需要担心额外的资源消耗。这一个做法显然比PHP的&ldquo;include&rdquo;和&ldquo;require&rdquo;语句效率高得多。同样的，多次导入同一个命名空间要比&ldquo;include_once&rdquo;和&ldquo;require_once&rdquo;快很多。</p>
+<p>类似地，不单是&ldquo;Yii::import()&rdquo;，如&ldquo;Yii::createComponent()&rdquo;等很多Yii内置的方法，都支持通过别名来指定资源，而不需要指定完整的路径。</p>
+<p>【TIPS】当调用一个通过Yii框架定义的类时，我们不必导入或者包含它。所有的Yii核心类都是被预定义的。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 3.9&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;名称空间 &#47; Name Spaces</p>
+<p>Yii的官方教材（Guide）中，把&ldquo;名称空间&rdquo;与上文的&ldquo;路径别名&rdquo;放在同一节叙述。对于基础较为薄弱的同学比较不好理解，因此，这里单独谈谈名称空间。</p>
+<p>大型软件项目常会出现函数名或类名重复的问题，为了解决这个问题，很多编程语言都引入了&ldquo;名称空间&rdquo;的概念。</p>
+<p>通过名称空间来规范一个函数名或类名的作用范围，是各编程语言的发展趋势，PHP从5.3.0版本开始也引入了此特性。</p>
+<p>具体到Yii框架中，&ldquo;名称空间&rdquo;的名称和&ldquo;路径别名&rdquo;的名称是相同的，这个名称既可以用来指定一个&ldquo;类&rdquo;文件，也可以用在指定该&ldquo;类&rdquo;所包含的&ldquo;名称空间&rdquo;。</p>
+<p>但是注意不要把路径别名和命名空间在意义上混淆了：</p>
+<p>* &ldquo;名称空间&rdquo;调用了一些类名的逻辑分组以便他们可以同其他类名区分开，即使他们的名称是一样的；<br />
+* &ldquo;路径别名&rdquo;则是用来引用类文件或者目录的。</p>
+<p>所以路径别名和名称空间并不冲突，即使他们写法上类似。</p>
+<p>*【注意！】因为PHP 5.3.0以前的版本并不支持名称空间，所以并不能创建两个有着同样名称但是不同定义的类的实例。为此，所有Yii框架的系统类都以字母&ldquo;C&rdquo;（代表&ldquo;Class&rdquo;）为前缀，以避免与用户自定义类冲突。我们推荐为Yii框架保留&ldquo;C&rdquo;字母前缀的唯一使用权，用户自定义类则可以使用其他字母作为前缀，以保持整体代码的一致性和稳定性。*</p>
+<p>&amp;nbsp;</p>
+<p>h3. 3.10&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;约定俗成 &#47; Conventions</p>
+<p>Yii主张开发过程中遵守约定俗成的惯例，这样的好处是可以通过Yii开发复杂的应用程序而不需要重新制定和维护复杂的配置文件。</p>
+<p>这些约定俗成的惯例并不是必要的，事实上Yii绝大多数单元部件的特性，都可以通过手动配置来修改之。</p>
+<p>但是遵守惯例最少能带来以下几点优势：</p>
+<p># 便于团队协作，让其他团队成员更容易看懂和维护您的代码；<br />
+# 在升级Yii框架版本的过程中，更便于实现平滑过渡；<br />
+# 更容易实现代码块的迁移和重用。</p>
+<p>那么Yii中有哪些常用的惯例呢？</p>
+<p>*3.10.1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;URL惯例*</p>
+<p>默认情况下，Yii能识别如下的URL格式：</p>
+<pre>
+<a href="http:&#47;&#47;hostname&#47;index.php?r=ControllerID&#47;ActionID">http:&#47;&#47;hostname&#47;index.php?r=ControllerID&#47;ActionID<&#47;a><br />
+<&#47;pre></p>
+<p>Yii解释GET方法请求中的变量r的值，然后路由到相应的控制器和动作中。</p>
+<p>如果&ldquo;ActionID&rdquo;没有指定，那么默认动作就会被激活，按照惯例，Yii中默认的动作是&ldquo;CController::defaultAction&rdquo;;</p>
+<p>类似地如果&ldquo;ControllerID&rdquo;没有指定，那么默认控制器就会被激活，按照惯例，Yii中默认的控制器是&ldquo;CWebApplication::defaultController&rdquo;。</p>
+<p>当然，可以修改&ldquo;CUrlManager&rdquo;中的配置，以实现更复杂的和个性化的URL路由特性。</p>
+<p>*3.10.2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;代码惯例*</p>
+<p>Yii推荐在命名变量、函数和类的时候使用驼峰式（Camel Case）风格，且必须遵守以下规则：</p>
+<p># 变量和函数名称的首字母小写；<br />
+# 类名称首字母大写，<br />
+# 后续的字符中每个单词的首字母大写；<br />
+# 私有类成员变量添加下划线前缀；<br />
+# 为避免Yii框架的类和用户自定义类发生冲突，所有Yii框架类都以&ldquo;C&rdquo;（大写字母C）作为前缀，用户自定义类应避免使用&ldquo;C&rdquo;作为前缀。<br />
+# 控制器类名的特别规则是，他们必须附上&ldquo;Controller&rdquo;后缀，如&ldquo;ExampleController&rdquo;，同时相应地该类的ID将自动识别为&ldquo;example&rdquo;（类ID的首字母将自动识别为小写字母），此规则使代码更安全，也使URL更简洁（可用&ldquo;&#47;index.php?r=example&#47;index&rdquo;替代较繁琐的&ldquo;&#47;index.php?r=ExampleController&#47;index&rdquo;）。</p>
+<p>如：</p>
+<pre><code><br />
+$iAmAVar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#47;&#47; 普通变量<br />
+iAmAFunction()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#47;&#47; 普通函数<br />
+IAmAClass&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#47;&#47; 普通类<br />
+CIAmAClassFromYii&nbsp;&nbsp;&nbsp; &#47;&#47; Yii框架类<br />
+$_iAmAPrivateVar&nbsp;&nbsp;&nbsp;&nbsp; &#47;&#47; 私有类成员变量<br />
+ExampleController&nbsp;&nbsp;&nbsp; &#47;&#47; 控制器类（其ID自动识别为"example"）<br />
+<&#47;code><&#47;pre></p>
+<p>*3.10.3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;配置惯例*</p>
+<p>配置应为数组关键值对，每个键代表对象名称属性的配置，每个值代表相应属性的初始值，如：</p>
+<pre><code><br />
+array(<br />
+'nameA'=>'valueA',<br />
+'nameB'=>'valueA'<br />
+)<br />
+<&#47;code><&#47;pre></p>
+<p>*3.10.4&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;文件命名惯例*</p>
+<p>文件命名的管理会根据文件的类型不同而有所差异。</p>
+<p>* 公有类的类文件需要根据其包含的公有类（Public Class，即可被其他任何类使用的类）来命名，如：&ldquo;CController&rdquo;类应该保存在&ldquo;CController.php&rdquo;文件内；<br />
+* 私有类（Private Class，仅能被唯一公有类使用的类）应该保存在其依附的公有类的类文件内；<br />
+* 视图文件需要根据其包含的视图名称来命名，如：&ldquo;index&rdquo;视图应该保存在&ldquo;index.php&rdquo;文件内；<br />
+* 配置（Configuration）文件的命名相对比较自由，您可以根据自己的喜好来对其命名。</p>
+<p>*3.10.5&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;文件系统惯例*</p>
+<p>* WebRoot&#47;protected：此文件夹包含所有程序文件和资源文件，因此，出于安全理由，应该限制用户通过Web服务器直接访问这个文件夹以及其所有子文件夹；<br />
+* WebRoot&#47;protected&#47;runtime：这个文件夹包含所有运行时创建的临时文件，这个文件夹必须给予Web服务器进程以可写入的权限，这个文件夹的路径可通过&ldquo;CApplication::runtimePath&rdquo;配置；<br />
+* WebRoot&#47;protected&#47;extensions：此文件夹包含所有的第三方扩展，可通过&ldquo;CApplication::extensionPath&rdquo;配置；<br />
+* WebRoot&#47;protected&#47;modules：此文件夹包含所有的模块，每个模块占用一个独立的子文件夹；<br />
+* WebRoot&#47;protected&#47;controllers: 此文件夹包含所有的控制器文件，可通过&ldquo;CWebApplication::controllerPath&rdquo;配置；<br />
+* WebRoot&#47;protected&#47;views：此文件夹包含所有的视图文件，包括视图文件、布局文件以及系统视图文件，可通过&ldquo;CWebApplication::viewPath&rdquo;配置；<br />
+* WebRoot&#47;protected&#47;views&#47;ControllerID：此文件夹包含某一ID为ControllerID的控制器的视图文件，可通过&ldquo;CController::viewPath&rdquo;配置；<br />
+* WebRoot&#47;protected&#47;views&#47;layouts：此文件夹包含所有的布局文件，可通过&ldquo;CWebApplication::layoutPath&rdquo;配置；<br />
+* WebRoot&#47;protected&#47;views&#47;system：此文件夹包含所有的系统视图文件，这些视图文件用作格式化显示系统的意外信息以及错误信息，可通过&ldquo;CWebApplication::systemViewPath&rdquo;配置；<br />
+* WebRoot&#47;assets：此文件夹用于管理发布在Web上的文件，这些文件将直接发布在Web服务器上，供Web访客访问，这个文件夹必须给予Web服务器进程以可写入的权限，可通过&ldquo;CAssetManager::basePath&rdquo;配置；<br />
+* WebRoot&#47;themes：此文件夹包含可应用在应用程序上的主题文件，每一个主题独占一个与该主题同名的子文件夹，可通过&ldquo;CThemeManager::basePath&rdquo;配置。</p>
+<p>*3.10.6&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;数据库惯例*</p>
+<p>大多数Web应用需要使用数据库，为了获得最好的兼容性，同时也增加代码的易读性，我们推荐大家在使用数据库的时候遵守以下惯例：</p>
+<p>* 所有的数据表名，字段名（列名）均以小写字母命名；<br />
+* 数据表名和字段名的各个单词应该用下划线来分隔，如&ldquo;product_table&rdquo;;<br />
+* 在命名表明的时候，您可以使用单数或者复数形式，如&ldquo;user&rdquo;或&ldquo;users&rdquo;均可，但是注意要保持统一，不要混用，为了简单起见，我们推荐统一使用单数形式的表名；<br />
+* 数据表在命名的时候应该考虑加上如&ldquo;tbl_&rdquo;这样的常规前缀，当应用程序需要访问几个数据库且数据库中有相同表名的时候就可以通过不同的前缀来区分，让代码更容易被理解。</p>
+<p>【注意！】以上使用数据库的惯例在Yii的开发中并不是必须的，Yii推荐使用这些惯例仅为了最大限度提高数据库的兼容性和代码的易读性。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 3.11&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;开发流程 &#47; Development Workflow</p>
+<p>基于Yii框架开发应用程序，一般可以参考以下流程进行：</p>
+<p># 创建Yii应用程序骨架，这一步大家可以自己动手，也可以通过Yii命令行工具yiic在瞬间完成；<br />
+# 配置应用程序，这一步一般可以通过修改配置文件来完成，当然，对于比较复杂的应用程序，可能还需要编写某些组件的代码（如用户组件）；<br />
+# 为每一种数据创建数据模型以便对其管理，你也可以通过yiic自动根据数据库配置为某些数据表创建active record类，然后通过修改定制这些类以完成此步骤；<br />
+# 为每一种用户请求创建相应的控制器来响应之，如何编写控制器取决于具体的功能需求，一般情况下如果某个模块的数据需要被用户访问，那么应该有相应的控制器，yiic能为您生成常规的控制器骨架代码（这些骨架代码能够完成基本的CRUD功能）； &#47;&#47; CRUD指对数据库的四种基本操作&ldquo;Creat-Retrieve-Update-Delete&rdquo;<br />
+# 完善控制器的动作以及制作视图文件，这是整个开发工作中真正需要话时间和精力的地方；<br />
+# 为控制器类建立必要的过滤器，例如那些动作需要哪些权限级别的用户才能执行；<br />
+# 如果该应用有主题功能的需求还需要创建主题；<br />
+# 如果应用有国际化需求还需要创建翻译文本；<br />
+# 如果必要，考虑使用缓存技术对数据或视图文件进行缓存处理，提高应用的执行效率；<br />
+# 完善细节，准备部署；</p>
+<p>&amp;nbsp;<br />
+&amp;nbsp;<br />
+&amp;nbsp;</p>
+<p>h2. 4&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;安装Yii</p>
+<p>&amp;nbsp;</p>
+<p>h3. 4.1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;获得Yii</p>
+<p>获得Yii最便捷的方法就是到Yii的官方网站去下载：<a href="http:&#47;&#47;www.yiiframework.com&#47;download&#47;">http:&#47;&#47;www.yiiframework.com&#47;download&#47;<&#47;a></p>
+<p>此文成文的时候Yii框架的最新版本是1.1.2，发布日期是2010年5月2日，此版本可以通过以下地址直接下载：</p>
+<p>* .tar.gz 方式压缩（适合Unix、Linux等系统）：<br />
+<a href="http:&#47;&#47;www.yiiframework.com&#47;files&#47;yii-1.1.2.tar.gz">http:&#47;&#47;www.yiiframework.com&#47;files&#47;yii-1.1.2.tar.gz<&#47;a><br />
+* .zip 方式压缩（适合Windows系统）：<br />
+<a href="http:&#47;&#47;www.yiiframework.com&#47;files&#47;yii-1.1.2.zip">http:&#47;&#47;www.yiiframework.com&#47;files&#47;yii-1.1.2.zip<&#47;a><br />
+* 本地高速下载：<br />
+<a href="http:&#47;&#47;192.168.1.247&#47;shared&#47;yii-1.1.2.r2086p.zip">http:&#47;&#47;192.168.1.247&#47;shared&#47;yii-1.1.2.r2086p.zip<&#47;a></p>
+<p>&amp;nbsp;</p>
+<p>h3. 4.2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;安装Yii</p>
+<p>严格来说Yii并不需要安装，把Yii随便解压在电脑的任何地方，并不需要是Web服务器的发布文件夹内，都可以顺利创建Yii应用。</p>
+<p>但是为了确保服务器满足Yii所要求的运行环境，我们需要借助Yii内置的环境检测功能对服务器进行简单检测。</p>
+<p>我们计划建立&ldquo;SaaS测试项目&rdquo;到&ldquo;用户文件夹&rdquo;内的&ldquo;SaaS目录&rdquo;下，步骤如下：</p>
+<p># 部署好PHP开发环境，通常包含：Apache + PHP + MySQL；<br />
+# 创建&ldquo;SaaS&rdquo;文件夹到你的&ldquo;用户文件夹&rdquo;中；<br />
+# 创建&ldquo;sources&rdquo;文件夹到&ldquo;SaaS&rdquo;文件夹中；<br />
+# 解压下载得到的Yii框架到任意文件夹，复制解压得到的&ldquo;framework&rdquo;到&ldquo;SaaS&rdquo;目录中（Linux 下 &ldquo;ln -s&rdquo; 亦可）；<br />
+# 复制解压得到的&ldquo;requirements&rdquo;文件夹到&ldquo;sources&rdquo;文件夹中（Linux 下 &ldquo;ln -s&rdquo; 亦可）；<br />
+# 把Apache的DocumentRoot配置为刚刚创建的&ldquo;sources&rdquo;文件夹，如：</p>
+<pre>
+DocumentRoot "&#47;path&#47;to&#47;SaaS&#47;sources"<br />
+<&#47;pre></p>
+<p>一切准备就绪后，打开浏览器，访问：</p>
+<p><a href="http:&#47;&#47;localhost&#47;requirements&#47;index.php">http:&#47;&#47;localhost&#47;requirements&#47;index.php<&#47;a></p>
+<p>如果顺利，你应该看到一个如下的页面：</p>
+<p>> !&#47;AnYuan&#47;attachments&#47;48&#47;yii_requirements_checker.png!</p>
+<p>简单说明：</p>
+<p>* 其中凡Required By标记为Yii Frameworks的都是必须要满足的，否则框架将无法正常运行；<br />
+* 数据库扩展中PDO extension是使用Yii DAO和AR（Active Record）所必需的，Yii DAO和AR为Yii框架提供数据库访问功能，所以请务必满足这一条件；<br />
+* 数据库扩展中PDO SQLite extension、PDO MySQL extension、PDO PostgreSQL extension这三项并不需要同时满足，根据具体的需求进行配置即可；<br />
+* Mencache extension和APC extension都是缓存插件，在需要通过缓存来加速项目的运行速度时才需要配置；<br />
+* DOM extension、Mcrypt extension、SOAP extension和GD extension都是Yii框架实现某些关键功能的时候所需要的，严格来说不算是必须，但是最好都具备他们，否则框架可能会出现某些重大的功能缺失。</p>
+<p>&amp;nbsp;<br />
+&amp;nbsp;<br />
+&amp;nbsp;</p>
+<p>h2. 5&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;创建第一个Yii项目</p>
+<p>&amp;nbsp;</p>
+<p>上文我们已经配置好&ldquo;DocumentRoot "&#47;path&#47;to&#47;SaaS&#47;sources"&rdquo;以及已经解压Yii框架（&ldquo;framework&rdquo;文件夹）到&ldquo;&#47;path&#47;to&#47;SaaS&#47;framework&rdquo;文件夹下。</p>
+<p>下文的实验都将在这个环境下进行，如果您需要测试文中的命令或代码，请修改其中的路径为您服务器上正确的配置值。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 5.1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;认识脚手架</p>
+<p>Yii框架集成一个强大而实用的命令行工具yiic（Yii Console），yiic主要是便于快速创建应用程序或者某一功能模块的骨架（骨架包括必要的文件夹结构和基本的示例代码），提高项目开发初期的工作效率，因此，yiic在官方教材中也被形象地称为&ldquo;Scaffolding&rdquo;（脚手架）。</p>
+<p>其实yiic并非仅此而已，yiic基于PHP实现，所以在任何安装了PHP CLI（PHP命令行执行模式）的系统都能使用。</p>
+<p>yiic和Yii框架（PHP Web框架）共享着一个叫做YiiBase的类，YiiBase包含着Yii框架中大部分的基础逻辑，因此你其实可以基于yiic做开发，甚至可以在yiic中通过MVC思想构建复杂的命令行应用程序，步骤上和开发基于Yii的Web应用十分类似。</p>
+<p>所以，在项目开发的中后期，巧妙扩展yiic将对调试和部署Yii应用带来极大的便利。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 5.2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;使用脚手架创建一个新的Yii应用骨架</p>
+<p>*5.2.1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;在Windows系统中创建*</p>
+<p>进入Command或者Power Shell，运行如下命令：</p>
+<pre>
+X:pathtoSaaSframeworkyiic webapp X:pathtoSaaSsources<br />
+<&#47;pre></p>
+<p>如果您的命令行&ldquo;PATH&rdquo;环境变量中没有添加&ldquo;php.exe&rdquo;所在的路径，你可能需要运行如下命令：</p>
+<pre>
+C:Progra~1PHPphp.exe X:pathtoSaaSframeworkyiic.php webapp X:pathtoSaaSsources<br />
+<&#47;pre></p>
+<p>为了方便工作，建议把php.exe添加到&ldquo;PHTH变量中&rdquo;，下文的命令均以第一种风格输入，也就是假定你已经配置好该变量，方法可参考：[[本地测试环境的搭建]]。</p>
+<p>*5.2.2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;在Unix或Linux的Bash Shell环境中创建*</p>
+<pre>
+$ &#47;path&#47;to&#47;SaaS&#47;framework&#47;yiic webapp &#47;path&#47;to&#47;SaaS&#47;sources<br />
+<&#47;pre></p>
+<p>以上三个命令的效果是等价的，程序会询问你是否需要创建一个新的Web应用到&ldquo;sources&rdquo;文件夹，回答&ldquo;yes&rdquo;，程序将自动生成该文件夹，并创建一个新的应用程序骨架在其中。</p>
+<p>*5.2.3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;移动&ldquo;protected&rdquo;文件夹并更改&ldquo;入口脚本&rdquo;*</p>
+<p>出于安全性考虑，我们移动&ldquo;protected&rdquo;到&ldquo;DocumentRoot之外&rdquo;，直接放在&ldquo;SaaS&rdquo;文件夹下（也就是把&ldquo;protected&rdquo;移动到上一级文件夹中）。</p>
+<p>最终的项目文件夹结构如下：</p>
+<pre>
+SaaS&#47;<br />
+|-framework&#47;<br />
+|-protected&#47;<br />
+|-sources&#47;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> DocumentRoot<br />
+<&#47;pre></p>
+<p>【TIPS】这样做在程序开发的角度看是不必要的，但是这样杜绝了网站访客直接访问&ldquo;protected&rdquo;文件夹，有利于加强了项目的安全系数。</p>
+<p>由于移动了&ldquo;protected&rdquo;文件夹，我们还需要在入口脚本里做一点小修改，把：</p>
+<pre><code><br />
+$config=dirname(__FILE__).'&#47;protected&#47;config&#47;main.php';<br />
+<&#47;code><&#47;pre></p>
+<p>改为：</p>
+<pre><code><br />
+$config=dirname(__FILE__).'&#47;..&#47;protected&#47;config&#47;main.php';<br />
+<&#47;code><&#47;pre></p>
+<p>可以通过浏览器访问如下地址进行测试：</p>
+<p><a href="http:&#47;&#47;localhost&#47;index.php">http:&#47;&#47;localhost&#47;index.php<&#47;a></p>
+<p>如果您可以看到如下的页面，说明您的Yii应用已经创建成功了：</p>
+<p>> !&#47;AnYuan&#47;attachments&#47;42&#47;yii_yiic_creat_testapp.png!</p>
+<p>&amp;nbsp;</p>
+<p>h3. 5.3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Hello World</p>
+<p>在本小节中，我们将创建一个新的控制器和一个新的视图文件，并用新的控制器和视图文件显示&ldquo;Hello World&rdquo;。</p>
+<p>*5.3.1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;准备工作一：*</p>
+<p>首先打开NetBeans，根据下图的配置创建新项目：</p>
+<p>!&#47;AnYuan&#47;attachments&#47;43&#47;yii_testapp_in_netbeans.png!</p>
+<p>NetBeans的简介，配置、安装和创建新项目的教程可根据需要参考以下的文章：</p>
+<p>* [[NetBeans 基本说明]]（待完成）<br />
+* [[Linux 下 NetBeans 配置与使用简介]]（待完成）<br />
+* [[Windows 下 NetBeans 配置与使用简介]]（已完成）</p>
+<p>*5.3.2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;准备工作二：*</p>
+<p>对项目启用版本管理。</p>
+<p>启用版本管理来跟踪代码的更改不是必须，但推荐养成版本管理的习惯，在日后代码出现问题，才能够从容处理。</p>
+<p>启用版本管理功能需要先初始化代码库，如何初始化代码库请参考以下的文章：</p>
+<p>* [[版本控制的概念、分布式版本控制与 git 简介]]<br />
+* [[Linux 下 git 配置与使用指南]]<br />
+* [[Windows 下 git 配置与使用指南]]<br />
+* [[git 进阶功能]]</p>
+<p>*5.3.3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第一步：创建控制器*</p>
+<p>在&ldquo;protected&#47;controllers&rdquo;目录下创建&ldquo;HelloworldController.php&rdquo;，并编辑如下代码：</p>
+<pre><code><br />
+<?php</p>
+<p>class HelloworldController extends Controller<br />
+{<br />
+public $strToDisplayByPull = 'Hello';</p>
+<p>public function actionIndex()<br />
+{<br />
+$this->renderPartial('index',array(<br />
+'strToDisplayByPush'=>'World'<br />
+));<br />
+}<br />
+}<br />
+<&#47;code><&#47;pre></p>
+<p>简单分析：<br />
+* 该例子中创建了一个名为&ldquo;HelloworldController&rdquo;的，继承自&ldquo;Controller&rdquo;的控制器类，该类的ID已被自动识别为&ldquo;helloworld&rdquo;（此规则可参见上文有关控制器概念的章节），该控制器类包含一个默认方法&ldquo;actionIndex()&rdquo;，用户访问该控制器的时候如果没有指定执行什么动作，那么这个默认动作将被调用；<br />
+* 为&ldquo;HelloworldController&rdquo;类定义一个公有属性&ldquo;strToDisplayByPull&rdquo;，并设置值为字符串'Hello'，接下来的教程中，将演示如何在视图中访问这个属性，进而将'Hello'字符串传递到视图中；<br />
+* &ldquo;renderPartial()&rdquo;方法同&ldquo;render()&rdquo;方法都是用来输出结果的，用法也完全一样，区别是前者不会加载视图的Layout（布局）文件，在实际使用中，用&ldquo;render()&rdquo;输出的场合比较多，&ldquo;renderPartial()&rdquo;则在Hello World、调试、输出为API等场合十分实用。<br />
+* 我们在&ldquo;renderPartial()&rdquo;方法中指定了两个参数，第一个是字符串&ldquo;index&rdquo;，这将告诉系统，使用&ldquo;helloworld&rdquo;控制器的&ldquo;index&rdquo;视图来渲染页面；<br />
+* 第二个参数是一个数组，数据里面的值将被传递到视图中，在视图里可以通过访问&ldquo;$strToDisplay&rdquo;变量得到所传递的'World'字符串。</p>
+<p>*【注意！】控制器文件的PHP代码以&ldquo;<?php&rdquo;开头，却不以&ldquo;?>&rdquo;结尾，这是因为事实上&ldquo;?>&rdquo;在PHP编码规则中并不是必须的，在HTML中嵌入PHP程序时加入&ldquo;?>&rdquo;仅为了让解释程序区分PHP代码与HTML代码，所以在纯PHP程序中，并不需要以&ldquo;?>&rdquo;结尾，而且由于&ldquo;?>&rdquo;后面的内容将不经解释而被直接输出，因此容易造成错误输出额外的空格，以及其他字符。正因为这样，在如Zend这样要求代码严谨的框架中，是禁止添加&ldquo;?>&rdquo;结尾的。Yii中并没有强制要求，但是为了输出精确，我们推荐类文件中的代码不以&ldquo;?>&rdquo;结尾。*</p>
+<p>*5.3.4&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第二步：创建视图*</p>
+<p>在&ldquo;protected&#47;views&rdquo;目录下创建&ldquo;helloworld&rdquo;文件夹，这个文件夹将用来存储所有ID为&ldquo;helloworld&rdquo;的控制器要用到的所有视图文件；</p>
+<p>在&ldquo;protected&#47;views&#47;helloworld&rdquo;目录下创建&ldquo;index.php&rdquo;文件，并编辑如下代码：</p>
+<pre><code><br />
+<?php<br />
+echo $this->strToDisplayByPull.' '.$strToDisplayByPush;<br />
+?><br />
+<&#47;code><&#47;pre></p>
+<p>简单分析：<br />
+* $this->strToDisplayByPull返回字符串'Hello'，演示通过Pull方法直接访问调用该视图的控制器的公有属性的值；<br />
+* $strToDisplayByPush的值等于字符串'World'，演示通过Push方法得到&ldquo;renderPartial()&rdquo;传递过来的字符串值；</p>
+<p>Pull和Push方法在Yii开发中都很常用，他们都能实现在控制器中往视图传递变量，至于那种情况下用哪一种，需要具体情况具体分析。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 5.4&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;阶段小结</p>
+<p>在浏览器访问：</p>
+<p><a href="http:&#47;&#47;localhost&#47;index.php?r=helloworld">http:&#47;&#47;localhost&#47;index.php?r=helloworld<&#47;a></p>
+<p>如无意外您应该看到&ldquo;Hello World&rdquo;了。</p>
+<p>这一章是Yii入门教程中最重要的一章，在这一章中我们从创建应用程序骨架，到实现第一个&ldquo;Hello World&rdquo;。不管你是顺顺利利还是经历无数艰难曲折，那都是可喜可贺的。</p>
+<p>这一章不同于上一章，上一章我基本上按照官方Guide教程的模式，叙述Yii基本概念中的精华部分，这一章我自己构思了一个&ldquo;Hello World&rdquo;例子，因为这正是官方教材所缺失的，官方Guide仅以创建应用骨架作为&ldquo;Hello World&rdquo;教程，而且官方教材只包含Push方法传递变量，对Pull方法仅一笔带过，这样对初学者难免造成困惑。</p>
+<p>相信至此大家对基于Yii进行开发已经少有心得，在下面的教程中，我将针对常见的开发任务，使用表单、访问数据库配置URL路由等方面继续深入Yii。</p>
+<p>&amp;nbsp;<br />
+&amp;nbsp;<br />
+&amp;nbsp;</p>
+<p>h2. 6&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;从Yii中使用表单</p>
+<p>&amp;nbsp;</p>
+<p>Yii内置的表单功能是很强大的，从生成表单到收集用户输入都有专门的类来完成。这里举一个例子，模拟一个用户反馈表单：</p>
+<p>&amp;nbsp;</p>
+<p>h3. 6.1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第一步：建立表单模型</p>
+<p>在&ldquo;protected&#47;models&rdquo;目录下创建&ldquo;FeedbackForm.php&rdquo;，并编辑如下代码：</p>
+<pre><code><br />
+<?php</p>
+<p>class FeedbackForm extends CFormModel<br />
+{<br />
+public $name;<br />
+public $email;<br />
+public $subject;<br />
+public $body;</p>
+<p>public function rules()<br />
+{<br />
+return array(<br />
+&#47;&#47; name, email, subject and body are required<br />
+array('name, email, subject, body', 'required'),<br />
+&#47;&#47; email has to be a valid email address<br />
+array('email', 'email'),<br />
+&#47;&#47; verifyCode needs to be entered correctly<br />
+);<br />
+}</p>
+<p>}<br />
+<&#47;code><&#47;pre></p>
+<p>这样就新建一个表单模型了。</p>
+<p>*【注意！】代码中的&ldquo;rules()&rdquo;方法用来检查数据的有效性，Yii在接收用户输入的数据之前，会先检查数据的有效性，如果此方法缺失，将导致无法确保数据是有效的，Yii将拒绝使用这些数据。因此请务必在建立模型的时候加入这个方法，如果您通过&ldquo;脚手架&rdquo;创建模型，类似的验证代码将自动被创建。*</p>
+<p>*【TIPS】*<br />
+* Yii在验证数据有效性这方面提供了很多实用的参数，如&ldquo;校验码&rdquo;等，具体可以参考这个地址：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;api&#47;CModel#rules-detail">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;api&#47;CModel#rules-detail<&#47;a> ;<br />
+* Yii还提供一个&ldquo;Validators Cheatsheet&rdquo;帮助大家快速创建校验规则，这个文件在本文附录处有提供下载地址。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 6.2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第二步：建立反馈表单视图</p>
+<p>在&ldquo;protected&#47;views&#47;helloworld&rdquo;目录下创建&ldquo;feedback.php&rdquo;，并编辑如下代码：</p>
+<pre><code><br />
+<meta http-equiv="Content-Type" content="text&#47;html; charset=utf-8" &#47;></p>
+<div>
+<p><?php $form=$this->beginWidget('CActiveForm'); ?></p>
+<div>
+<?php echo $form->labelEx($model,'姓名'); ?><br />
+<?php echo $form->textField($model,'name'); ?><br />
+<&#47;div></p>
+<div>
+<?php echo $form->labelEx($model,'E-mail'); ?><br />
+<?php echo $form->textField($model,'email'); ?><br />
+<&#47;div></p>
+<div>
+<?php echo $form->labelEx($model,'主题'); ?><br />
+<?php echo $form->textField($model,'subject',array('size'=>60,'maxlength'=>128)); ?><br />
+<&#47;div></p>
+<div>
+<?php echo $form->labelEx($model,'内容'); ?><br />
+<?php echo $form->textArea($model,'body',array('rows'=>6, 'cols'=>50)); ?><br />
+<&#47;div></p>
+<div>
+<?php echo CHtml::submitButton('提交'); ?><br />
+<&#47;div><br />
+<?php $this->endWidget(); ?></p>
+<p><&#47;div><br />
+<&#47;code><&#47;pre></p>
+<p>简单分析：<br />
+* 第一行不要漏掉哦，要不然中文会出现乱码；<br />
+* &ldquo;$form=$this->beginWidget('CActiveForm');&rdquo;到&ldquo;$this->endWidget();&rdquo;之间是表单的内容，在输出这个视图的时候，他们将输出为&ldquo;<br />
+<form *******>&rdquo;和&ldquo;<&#47;form>&rdquo;；<br />
+* &ldquo;echo $form->labelEx($model,'姓名');&rdquo;此代码用于输出一个Label标签；<br />
+* &ldquo;echo $form->textField($model,'name');&rdquo;此代码用于生成一个文本框，<br />
+* &ldquo;echo $form->textField($model,'subject',array('size'=>60,'maxlength'=>128));&rdquo;此代码用于生成指定尺寸的文本域；<br />
+* &ldquo;echo CHtml::submitButton('Submit');&rdquo;此代码用于生成一个提交按钮。</p>
+<p>表单视图的源代码比较简单，有HTML基础的话一下子应该就能理解了。</p>
+<p>值得一提的是，&ldquo;$form->*******&rdquo;方法还能生成如密码文本框、单选框、复选框等，和生成基本的文本框在用法上是一致的，因此就不啰嗦了，具体可参考：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;api&#47;CActiveForm">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;api&#47;CActiveForm<&#47;a></p>
+<p>上面的地址还提到在&ldquo;CActiveForm&rdquo;中配置AJAX结合表单模型中的规则对用户输入的数据进行有效性检查的方法，这暂不属于入门教程探讨的范畴，但是在实际工作中经常会用到，建议大家在学习完本教程后务必要仔细研究一下。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 6.3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第三步：建立反馈表单控制器</p>
+<p>接下来回到我们在上一章中创建的&ldquo;helloworld&rdquo;控制器，根据以下Diff添加一个&ldquo;actionFeedback&rdquo;方法：</p>
+<pre><code><br />
+<?php</p>
+<p>class HelloworldController extends Controller<br />
+{<br />
+public $strToDisplayByPull = 'Hello';</p>
+<p>public function actionIndex()<br />
+{<br />
+$this->renderPartial('index',array(<br />
+'strToDisplayByPush'=>'World'<br />
+));<br />
+}</p>
+<p>+&nbsp;&nbsp; public function actionFeedback()<br />
++&nbsp;&nbsp; {<br />
++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $model=new FeedbackForm;<br />
++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $this->renderPartial('feedback',array('model'=>$model));<br />
++&nbsp;&nbsp; }</p>
+<p>}<br />
+<&#47;code><&#47;pre></p>
+<p>下面我们集中看看新添加的几行代码：</p>
+<pre><code><br />
+public function actionFeedback()<br />
+{<br />
+$model=new FeedbackForm;<br />
+$this->renderPartial('feedback',array('model'=>$model));<br />
+}<br />
+<&#47;code><&#47;pre></p>
+<p>简单分析：</p>
+<p>* 第三行：创建一个&ldquo;FeedbackForm&rdquo;类的实例，名为&ldquo;model&rdquo;；<br />
+* 第四行：将&ldquo;model&rdquo;传递到视图中，并输出&ldquo;feedback&rdquo;视图。</p>
+<p>在浏览器中通过以下地址测试：</p>
+<p><a href="http:&#47;&#47;localhost&#47;index.php?r=helloworld&#47;feedback">http:&#47;&#47;localhost&#47;index.php?r=helloworld&#47;feedback<&#47;a></p>
+<p>如果看到下图，说明表单已经被成功创建了：</p>
+<p>> !&#47;AnYuan&#47;attachments&#47;45&#47;yii_helloworld_feedback_form_creat.png!</p>
+<p>&amp;nbsp;</p>
+<p>h3. 6.4&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第四步：建立处理反馈表单的视图</p>
+<p>在&ldquo;protected&#47;views&#47;helloworld&rdquo;目录下创建&ldquo;feedbackshow.php&rdquo;，并编辑如下代码：</p>
+<pre><code><br />
+<meta http-equiv="Content-Type" content="text&#47;html; charset=utf-8" &#47;></p>
+<div>
+<div>
+<?php echo '姓名: '; ?><br />
+<?php echo $model->name; ?><br />
+<&#47;div></p>
+<div>
+<?php echo 'E-mail: ' ?><br />
+<?php echo $model->email; ?><br />
+<&#47;div></p>
+<div>
+<?php echo '主题: ' ?><br />
+<?php echo $model->subject; ?><br />
+<&#47;div></p>
+<div>
+<?php echo '内容: ' ?><br />
+<?php echo $model->body; ?><br />
+<&#47;div></p>
+<p><&#47;div><br />
+<&#47;code><&#47;pre></p>
+<p>这次用到的代码比较简单，就不多解释了。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 6.5&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第五步：建立反馈表单控制器</p>
+<p>接下来我们重新回到&ldquo;helloworld&rdquo;控制器，根据以下Diff修改代码：</p>
+<pre><code><br />
+<?php</p>
+<p>class HelloworldController extends Controller<br />
+{<br />
+public $strToDisplayByPull = 'Hello';</p>
+<p>public function actionIndex()<br />
+{<br />
+$this->renderPartial('index',array(<br />
+'strToDisplayByPush'=>'World'<br />
+));<br />
+}</p>
+<p>public function actionFeedback()<br />
+{<br />
+$model=new FeedbackForm;<br />
+-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $this->renderPartial('feedback',array('model'=>$model));</p>
+<p>+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (isset($_POST['FeedbackForm'])) {<br />
++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $model->attributes=$_POST['FeedbackForm'];<br />
++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $this->renderPartial('feedbackshow',array('model'=>$model));<br />
++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } else {<br />
++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $this->renderPartial('feedback',array('model'=>$model));<br />
++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br />
++&nbsp;&nbsp; }</p>
+<p>}<br />
+<&#47;code><&#47;pre></p>
+<p>聚焦到修改后的&ldquo;actionFeedback()&rdquo;方法：</p>
+<pre><code><br />
+public function actionFeedback()<br />
+{<br />
+$model=new FeedbackForm;<br />
+if (isset($_POST['FeedbackForm'])) {<br />
+$model->attributes=$_POST['FeedbackForm'];<br />
+$this->renderPartial('feedbackshow',array('model'=>$model));<br />
+} else {<br />
+$this->renderPartial('feedback',array('model'=>$model));<br />
+}<br />
+}<br />
+<&#47;code><&#47;pre></p>
+<p>这次的修改中，只需要好好理解以下这一句就可以了：</p>
+<pre><code><br />
+$model->attributes=$_POST['FeedbackForm'];<br />
+<&#47;code><&#47;pre></p>
+<p>这种赋值方式是Yii 1.1.1中新加入的，也是Yii目前推荐的接收表单输入的方式，在使用该方式的时候请确保&ldquo;FeedbackForm&rdquo;这个Model中已经具备用于校验数据有效性的Rule，否则此赋值语句将无效（这一点前文已有解释）。</p>
+<p>再次通过浏览器访问：</p>
+<p><a href="http:&#47;&#47;localhost&#47;index.php?r=helloworld&#47;feedback">http:&#47;&#47;localhost&#47;index.php?r=helloworld&#47;feedback<&#47;a></p>
+<p>随便输入一些测试数据，提交表单后服务器返回您填写的内容，则实验已顺利通过。</p>
+<p>【TIPS】Yii中还有更强大的表单功能，可参阅：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;form.overview">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;form.overview<&#47;a> 。</p>
+<p>&amp;nbsp;<br />
+&amp;nbsp;<br />
+&amp;nbsp;</p>
+<p>h2. 7&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;从Yii中访问数据库</p>
+<p>&amp;nbsp;</p>
+<p>上文我们已经学会了如何构建用户表单，以及如何收集、校验和利用用户填写的数据，现在我们来看看如何把这些数据存入数据库，并以此为例介绍Yii中访问数据库的一些常识。</p>
+<p>Yii提供两组访问数据库的API：</p>
+<p>* Yii DAO：Yii Data Access Objects，基于PHP Data Objects（PDO）扩展建立，提供通过统一的接口访问各种常见数据库的能力，Yii DAO能实现所有类型的数据库操作；<br />
+* AR：Active Record，AR提供&ldquo;更&rdquo;面向对象的方法处理数据且无需书写SQL语句，是一种流行的对象关系映射（ORM &#47; Object-Relational Mapping）技术，一个AR类代表一个数据模型（可以是数据表或表单），其字段作为AR的属性，一个AR实例代表在表中的一行，常见的CRUD操作对应AR中的成员函数，但AR只能实现对数据库进行常见的CRUD操作，不能实现所有类型的数据库操作。</p>
+<p>【TIPS】由于AR经过高度的封装，其实际运行性能不如Yii DAO，且AR的支持受限于数据库管理系统，并不是所有的数据库都支持AR（如MySQL需要4.1或以上版本）。</p>
+<p>下文将尝试通过Yii DAO访问MySQL数据库，因为Yii DAO更加&ldquo;通用&rdquo;、强大和高效，如愿进一步了解AR可参阅：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;database.ar">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;database.ar<&#47;a> 。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 7.1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;准备工作一：准备数据库和数据表</p>
+<p>我们首先创建&ldquo;&#47;path&#47;to&#47;SaaS&#47;protected&#47;data&#47;dbinit.sql&rdquo;数据库脚本（SQL脚本并不一定要存放在该文件夹，放这里仅是Yii框架的习惯而已，事实上可根据喜好放置），用于创建表格结构：</p>
+<pre><code><br />
+CREATE TABLE tbl_feedback (<br />
+id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,<br />
+fb_name VARCHAR(128) NOT NULL,<br />
+fb_email VARCHAR(128) NOT NULL,<br />
+fb_subject TEXT NOT NULL,<br />
+fb_body TEXT NOT NULL<br />
+);<br />
+<&#47;code><&#47;pre></p>
+<p>我们推荐把建立数据表结构的命令存放在脚本中，这将便于日后在其他机器部署该应用的时候避免因为数据表结构的差异而影响应用程序的运行。</p>
+<p>进入CLI，如下执行：</p>
+<pre>
+$ mysql -u root -p<br />
+Enter password: *******</p>
+<p>mysql> creat database saas character set utf8;<br />
+Query OK, 1 row affected (0.01 sec)</p>
+<p>mysql> use saas;<br />
+Database changed</p>
+<p>mysql> source &#47;path&#47;to&#47;SaaS&#47;protected&#47;data&#47;dbinit.sql<br />
+Query OK, 0 rows affected (0.29 sec)</p>
+<p>mysql> grant all privileges on saas.* to saas_user@localhost identified by 'saas_password';<br />
+Query OK, 0 rows affected<br />
+<&#47;pre></p>
+<p>完成后我们就创建了一个名为&ldquo;saas&rdquo;的新数据库，一个名为&ldquo;tbl_feedback&rdquo;的新数据表，以及在数据表中添加了若干字段，下面我们来预览一下数据库的结构：</p>
+<pre>
+mysql> show tables;<br />
++-------------------+<br />
+| Tables_in_saas&nbsp;&nbsp;&nbsp; |<br />
++-------------------+<br />
+| tbl_feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br />
++-------------------+</p>
+<p>mysql> describe tbl_feedback;<br />
++------------+--------------+------+-----+---------+----------------+<br />
+| Field&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Null | Key | Default | Extra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br />
++------------+--------------+------+-----+---------+----------------+<br />
+| id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | int(11)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | NO&nbsp;&nbsp; | PRI | NULL&nbsp;&nbsp;&nbsp; | auto_increment |<br />
+| fb_name&nbsp;&nbsp;&nbsp; | varchar(128) | NO&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; | NULL&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br />
+| fb_email&nbsp;&nbsp; | varchar(128) | NO&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; | NULL&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br />
+| fb_subject | text&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | NO&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; | NULL&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br />
+| fb_body&nbsp;&nbsp;&nbsp; | text&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | NO&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; | NULL&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br />
++------------+--------------+------+-----+---------+----------------+<br />
+5 rows in set (0.02 sec)<br />
+<&#47;pre></p>
+<p>*【TIPS】当然，您也可以选择在phpMyAdmin中进行以上操作，但在CLI中，您将对过程的细节有更好的把握，而且在实际项目的部署中，往往并不部署phpMyAdmin，因此应该学会在CLI中进行常规的数据库操作。*</p>
+<p>&amp;nbsp;</p>
+<p>h3. 7.2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;准备工作二：配置Yii的数据库功能</p>
+<p>打开Yii应用的主配置文件&ldquo;protected&#47;config&#47;main.php&rdquo;，根据以下Diff修改配置：</p>
+<pre><code><br />
++&nbsp;&nbsp; &#47;&#47; 注释以下语句因为我们需要使用MySQL数据库代替默认的SQLite数据库<br />
++&nbsp;&nbsp; &#47;*<br />
+'db'=>array(<br />
+'connectionString' => 'sqlite:protected&#47;data&#47;testdrive.db',<br />
+),<br />
++&nbsp;&nbsp;&nbsp; *&#47;<br />
+&#47;&#47; uncomment the following to use a MySQL database<br />
+-&nbsp;&nbsp; &#47;*<br />
+-&nbsp;&nbsp; 'db'=>array(<br />
+-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'connectionString' => 'mysql:host=localhost;dbname=testdrive',<br />
+-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'emulatePrepare' => true,<br />
+-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'username' => 'root',<br />
+-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'password' => '',<br />
+-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'charset' => 'utf8',<br />
+-&nbsp;&nbsp; ),<br />
+-&nbsp;&nbsp; *&#47;<br />
++&nbsp;&nbsp; 'db'=>array(<br />
++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'connectionString' => 'mysql:host=localhost;dbname=saas',<br />
++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'tablePrefix' => 'tbl_',<br />
++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'emulatePrepare' => true,<br />
++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'username' => 'saas_user',<br />
++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'password' => 'saas_password',<br />
++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'charset' => 'utf8',<br />
++&nbsp;&nbsp; ),<br />
+<&#47;code><&#47;pre></p>
+<p>我们仅做了两步修改：<br />
+# 注释默认的SQLite配置代码；<br />
+# 添加MySQL数据库的配置代码。</p>
+<p>聚焦到新添加的代码：</p>
+<pre><code><br />
+'db'=>array(<br />
+'connectionString' => 'mysql:host=localhost;dbname=saas',<br />
+'tablePrefix' => 'tbl_',<br />
+'emulatePrepare' => true,<br />
+'username' => 'saas_user',<br />
+'password' => 'saas_password',<br />
+'charset' => 'utf8',<br />
+),<br />
+<&#47;code><&#47;pre></p>
+<p>以上代码我们根据Yii的规则通过数组的形式配置了一个MySQL数据库连接，代码很容易看懂，仅有以下细节需要解释一下：<br />
+* 第3行的&ldquo;tablePrefix&rdquo;参数是&ldquo;使用表前缀以简化SQL代码&rdquo;的时才是必要的，在这个例子中暂时不需要使用，为了便于扩展我先配置了它，可参阅：<br />
+<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;database.dao">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;database.dao<&#47;a> ；<br />
+* 第7行的&ldquo;charset&rdquo;需要根据您的项目语言来配置，如果需要在项目中支持中文，建议如上配置为&ldquo;utf8&rdquo;。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 7.3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;保存数据条目</p>
+<p>接下来修改&ldquo;helloworld&rdquo;控制器&ldquo;actionFeedback&rdquo;方法的代码为：</p>
+<pre><code><br />
+public function actionFeedback()<br />
+{<br />
+$model=new FeedbackForm;<br />
+if (isset($_POST['FeedbackForm'])) {<br />
+$model->attributes=$_POST['FeedbackForm'];<br />
+&#47;&#47;$this->renderPartial('feedbackshow',array('model'=>$model));<br />
+$dbconnect=Yii::app()->db;<br />
+$strSQL="insert into tbl_feedback<br />
+(fb_name,fb_email,fb_subject,fb_body) VALUES<br />
+('$model->name','$model->email',<br />
+'$model->subject','$model->body')";<br />
+$dbcommand=$dbconnect->createCommand($strSQL);<br />
+$dbcommand->execute();<br />
+} else {<br />
+$this->renderPartial('feedback',array('model'=>$model));<br />
+}<br />
+}<br />
+<&#47;code><&#47;pre></p>
+<p>简单分析：<br />
+* 第7行：引用Yii主配置文件中的数据库连接（这个连接的实例会被自动创建）；<br />
+* 第8-11行：新建一个字符串&ldquo;$strSQL&rdquo;以保存需要执行的SQL语句；<br />
+* 第12行：用&ldquo;createCommand()&rdquo;方法根据&ldquo;$strSQL&rdquo;（SQL语句）创建一个SQL命令对象；<br />
+* 第13行：用&ldquo;execute()&rdquo;方法执行SQL命令；</p>
+<p>这是执行结果：</p>
+<p># 浏览器打开：<br />
+<a href="http:&#47;&#47;localhost&#47;index.php?r=helloworld&#47;feedback">http:&#47;&#47;localhost&#47;index.php?r=helloworld&#47;feedback<&#47;a><br />
+填入一些信息并提交表单；<br />
+# 进入MySQL的CLI查看信息是否已经被保存入数据库：</p>
+<pre>
+mysql> select * from tbl_feedback;<br />
++----+---------+--------------+------------+---------------------+<br />
+| id | fb_name | fb_email&nbsp;&nbsp;&nbsp;&nbsp; | fb_subject | fb_body&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br />
++----+---------+--------------+------------+---------------------+<br />
+|&nbsp; 3 | Leask&nbsp;&nbsp; | i@leaskh.com | Hello Yii&nbsp; | I do not like wall! |<br />
++----+---------+--------------+------------+---------------------+<br />
+1 row in set (0.00 sec)<br />
+<&#47;pre></p>
+<p>&amp;nbsp;</p>
+<p>h3. 7.4&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;读取并显示数据库条目</p>
+<p>接下来我们测试直接在网页上输出这个数据表的所有条目，以学习在Yii中如何查询数据条目。</p>
+<p>首先创建一个新的视图&ldquo;protected&#47;views&#47;dbfetch.php&rdquo;，用来显示数据条目。代码如下：</p>
+<pre><code></p>
+<table border="1" cellpadding="7">
+<tr>
+<td>姓名<&#47;td></p>
+<td>E-mail<&#47;td></p>
+<td>主题<&#47;td></p>
+<td>内容<&#47;td><br />
+<&#47;tr><br />
+<?php foreach ($results as $result){ ?></p>
+<tr>
+<td><?php echo $result['fb_name'] ; ?><&#47;td></p>
+<td><?php echo $result['fb_email'] ; ?><&#47;td></p>
+<td><?php echo $result['fb_subject'] ; ?><&#47;td></p>
+<td><?php echo $result['fb_body'] ; ?><&#47;td><br />
+<&#47;tr><br />
+<?php } ?><br />
+<&#47;table><br />
+<&#47;code><&#47;pre></p>
+<p>如下修改&ldquo;actionFeedback&rdquo;方法的代码为：</p>
+<pre><code><br />
+public function actionFeedback()<br />
+{<br />
+$model=new FeedbackForm;<br />
+if (isset($_POST['FeedbackForm'])) {<br />
+$model->attributes=$_POST['FeedbackForm'];<br />
+&#47;&#47;$this->renderPartial('feedbackshow',array('model'=>$model));<br />
+$dbconnect=Yii::app()->db;<br />
+$strSQL="insert into tbl_feedback<br />
+(fb_name,fb_email,fb_subject,fb_body) VALUES<br />
+('$model->name','$model->email',<br />
+'$model->subject','$model->body')";<br />
+$dbcommand=$dbconnect->createCommand($strSQL);<br />
+$dbcommand->execute();</p>
+<p>$strSQL="select * from tbl_feedback";<br />
+$dbcommand=$dbconnect->createCommand($strSQL);<br />
+$results=$dbcommand->queryAll();<br />
+$this->renderPartial('dbfetch',array('results'=>$results));<br />
+} else {<br />
+$this->renderPartial('feedback',array('model'=>$model));<br />
+}<br />
+}<br />
+<&#47;code><&#47;pre></p>
+<p>其中第15至18行为新增代码，实现查询数据库并通过视图&ldquo;dbfetch&rdquo;输出结果；</p>
+<p>重复上文的测试方法，得到如下输出表示实验成功：</p>
+<p>> !&#47;AnYuan&#47;attachments&#47;46&#47;yii_mysql_db_fetch.png!</p>
+<p>&ldquo;queryAll()&rdquo;是Yii查询数据库的其中一种方式，常用的查询（访问）数据库的方式还包括：</p>
+<p>* execute()&nbsp;&nbsp;&nbsp; &#47;&#47; 执行非查询性质的SQL语句（如&ldquo;insert&rdquo;、&ldquo;delete&rdquo;等），返回被操作的行数；<br />
+* query()&nbsp;&nbsp;&nbsp; &#47;&#47; 执行查询性的SQL语句，返回一个&ldquo;DataReader&rdquo;对象；<br />
+* queryAll()&nbsp;&nbsp;&nbsp; &#47;&#47; 执行查询性的SQL语句，以二维数组的形式返回所有行；<br />
+* queryRow()&nbsp;&nbsp;&nbsp; &#47;&#47; 执行查询性的SQL语句，以一维数组的形式返回第一行；<br />
+* queryColumn()&nbsp;&nbsp;&nbsp; &#47;&#47; 执行查询性的SQL语句，以一维数组的形式返回第一列；<br />
+* queryScalar()&nbsp;&nbsp;&nbsp; &#47;&#47; 执行查询性的SQL语句，返回第一行的第一个字段。</p>
+<p>【TIPS】更详细的介绍可以参阅：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;database.dao">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;database.dao<&#47;a></p>
+<p>&amp;nbsp;</p>
+<p>h3. 7.5&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;删除数据条目</p>
+<p>删除数据条目这里就不罗嗦了，直接用&ldquo;execute()&rdquo;方法执行如下SQL语句即可：</p>
+<pre><code><br />
+delete from [数据表名称] where [删除条件]<br />
+<&#47;code><&#47;pre></p>
+<p>&amp;nbsp;</p>
+<p>h3. 7.6&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;其他数据库功能简介</p>
+<p>我们已经学习了通过Yii访问数据库的一些常识，事实上Yii还内置很多有用的类和方法以大大方便我们操作数据库，如：<br />
+# Yii DAO部分（本文没有介绍的）：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;database.dao">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;database.dao<&#47;a><br />
+** 以&ldquo;事务&rdquo;方式操作数据库；<br />
+** 参数绑定；<br />
+** 字段绑定；<br />
+** 表前缀。<br />
+# Active Record：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;database.ar">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;database.ar<&#47;a> ；<br />
+# 在Active Record中使用跨表关联：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;database.arr">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;database.arr<&#47;a> 。</p>
+<p>&amp;nbsp;<br />
+&amp;nbsp;<br />
+&amp;nbsp;</p>
+<p>h2. 8&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;简单的URL路由配置</p>
+<p>&amp;nbsp;</p>
+<p>我们回顾一下之前测试代码的时候所使用的URL，如：</p>
+<p>*&nbsp;<a href="http:&#47;&#47;localhost&#47;index.php?r=helloworld">http:&#47;&#47;localhost&#47;index.php?r=helloworld<&#47;a><br />
+*&nbsp;<a href="http:&#47;&#47;localhost&#47;index.php?r=helloworld&#47;feedback">http:&#47;&#47;localhost&#47;index.php?r=helloworld&#47;feedback<&#47;a></p>
+<p>您也许已经留意到，其实两个地址访问的都是同一个入口脚本&ldquo;index.php&rdquo;，只是后面跟的&ldquo;r&rdquo;参数的值不一样。</p>
+<p>事实上无论Yii承载多大的项目，用户直接访问的都仅是&ldquo;index.php&rdquo;这个文件，Yii通过根据不同的访问参数，决定实例化那个类来响应用户的访问请求。</p>
+<p>然而面对纷繁复杂的用户请求，如何正确响应呢？Yii通过&ldquo;URL路由&rdquo;解决了这个问题。</p>
+<p>可是Yii默认的URL无论对用户还是对搜索引擎都不够友好，因此，我们需要稍加配置来完善它。</p>
+<p>在这个例子中我们尝试把以下URL：</p>
+<p><a href="http:&#47;&#47;localhost&#47;index.php?r=helloworld&#47;feedback">http:&#47;&#47;localhost&#47;index.php?r=helloworld&#47;feedback<&#47;a></p>
+<p>转化为更友好的形式：</p>
+<p><a href="http:&#47;&#47;localhost&#47;helloworld&#47;feedback">http:&#47;&#47;localhost&#47;helloworld&#47;feedback<&#47;a></p>
+<p>&amp;nbsp;</p>
+<p>h3. 8.1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第一步：配置服务器的URL Rewrite（URL重写）功能</p>
+<p>在Apache的站点配置文件中添加如下配置代码（其他Web服务器可能会有所差异）：</p>
+<pre>
+Options +FollowSymLinks<br />
+IndexIgnore *&#47;*<br />
+RewriteEngine on</p>
+<p># if a directory or a file exists, use it directly<br />
+RewriteCond %{REQUEST_FILENAME} !-f<br />
+RewriteCond %{REQUEST_FILENAME} !-d</p>
+<p># otherwise forward it to index.php<br />
+RewriteRule . index.php<br />
+<&#47;pre></p>
+<p>以告知Web服务器，在该站点中，如果用户需要访问的文件是存在的，那么直接访问该文件，否则就重定向到&ldquo;index.php&rdquo;文件。</p>
+<p>【TIPS】<br />
+* 如果以上配置不起作用，请确定&ldquo;RewriteEngine&rdquo;模块是否已被正确配置；<br />
+* 虽然您也可以在Yii应用程序的根文件夹里通过&ldquo;.htaccess&rdquo;文件实现以上功能，但是这种方法会降低服务器的性能，因此并不推荐。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 8.2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第二步：配置Yii处理URL的规则</p>
+<p>编辑&ldquo;protected&#47;config&#47;main.php&rdquo;，加入如下配置：</p>
+<pre><code><br />
+'urlManager'=>array(<br />
+'urlFormat'=>'path',<br />
+'showScriptName' => false,<br />
+'rules'=>array(<br />
+'post&#47;<id:d+>&#47;<title:.*?>'=>'post&#47;view',<br />
+'posts&#47;<tag:.*?>'=>'post&#47;index',<br />
+'<controller:w+>&#47;<action:w+>'=>'<controller>&#47;<action>',<br />
+),<br />
+),<br />
+<&#47;code><&#47;pre></p>
+<p>这将告知Yii以虚拟路径的方式处理URL，并在创建新URL的时候在路径中隐藏&ldquo;index.php&rdquo;。</p>
+<p>其中的&ldquo;rule&rdquo;参数只是一个例子，大家可以根据具体需要进行个性化。</p>
+<p>&amp;nbsp;</p>
+<p>h3. 8.3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;小结</p>
+<p>至此您已经可以通过新的URL：</p>
+<p><a href="http:&#47;&#47;localhost&#47;helloworld&#47;feedback">http:&#47;&#47;localhost&#47;helloworld&#47;feedback<&#47;a></p>
+<p>访问前文所创建的程序了。</p>
+<p>Yii还提供更复杂的URL路由配置，来满足个性化和SEO的需求，例如&ldquo;伪静态化&rdquo;等。</p>
+<p>想了解更多Yii URL路由的配置以及负责URL生成的类，可参阅：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;topics.url">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;topics.url<&#47;a> 。</p>
+<p>&amp;nbsp;<br />
+&amp;nbsp;<br />
+&amp;nbsp;</p>
+<p>h2. 9&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;进阶指引</p>
+<p>&amp;nbsp;</p>
+<p>通过以下的学习，大家对基于Yii进行开发已经有一个大致的了解了。事实上，通过对以上技巧的灵活运用，构建一些逻辑相对简单的应用来说，已经足够了。然而Yii的目标是面向大型网站的，提高开发大型网站的效率才是学习Yii的目的。因此在掌握Yii的基础以后，如何进一步提高呢？这里列举一下接下来要学习的相关知识：</p>
+<p>* 进一步了解Yii命令行（yiic），特别是&ldquo;model&rdquo;和&ldquo;crud&rdquo;命令：<br />
+<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;topics.console">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;topics.console<&#47;a> ；<br />
+* 了解Theming（主题）功能：<br />
+<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;topics.theming">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;topics.theming<&#47;a> ；<br />
+* 了解Yii的&ldquo;认证和授权&rdquo;机制：<br />
+<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;topics.auth">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;topics.auth<&#47;a> ；<br />
+* 了解Yii的官方扩展&ldquo;Zii&rdquo;：<br />
+<a href="http:&#47;&#47;code.google.com&#47;p&#47;zii&#47;">http:&#47;&#47;code.google.com&#47;p&#47;zii&#47;<&#47;a> ；<br />
+* 了解如何通过&ldquo;component&rdquo;、&ldquo;behavior&rdquo;、&ldquo;widget&rdquo;、&ldquo;filter&rdquo;、&ldquo;helper&rdquo;、&ldquo;module&rdquo;形式等扩展Yii，这些形式严格上来说是不必要的，但是合理利用他们能够更有效组织大型项目，更便于功能的增删调整和局部调试：<br />
+<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;extension.overview">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;extension.overview<&#47;a> ；<br />
+* 了解如何使用Cache（缓存）来为应用加速：<br />
+<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;caching.overview">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;caching.overview<&#47;a> ；<br />
+* 学会调试Yii，以及通过配置&ldquo;PHPUnit&rdquo;和&ldquo;xdebug&rdquo;实现更高级的调试功能：<br />
+<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;test.overview">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;test.overview<&#47;a> 。<br />
+* Yii官方教材《Guide》中还包括：国际化（I18N）、安全技术、性能优化等实用章节，可以根据您的项目有哪些具体要求再仔细研究，这些内容都在《Special Topics》一章，这里就不一一给出链接了。</p>
+<p>&amp;nbsp;<br />
+&amp;nbsp;<br />
+&amp;nbsp;</p>
+<p>h2. 10&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;附录 &#47; 列举一些较理想的学习资源</p>
+<p>&amp;nbsp;</p>
+<p>h3. 10.1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;必修教程</p>
+<p>* The Yii Blog Tutorial &#47; 语言：英文+局部汉化 &#47; 评级：★★★★★<br />
+在线阅读：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;blog&#47;">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;blog&#47;<&#47;a><br />
+PDF下载：<a href="http:&#47;&#47;www.yiiframework.com&#47;files&#47;yii-blog-1.1.1.pdf">http:&#47;&#47;www.yiiframework.com&#47;files&#47;yii-blog-1.1.1.pdf<&#47;a><br />
+本地下载：<a href="http:&#47;&#47;192.168.1.247&#47;shared&#47;yii-blog-1.1.1.pdf">http:&#47;&#47;192.168.1.247&#47;shared&#47;yii-blog-1.1.1.pdf<&#47;a> （推荐）<br />
+局部汉化：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;blog&#47;zh_cn&#47;start.overview">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;blog&#47;zh_cn&#47;start.overview<&#47;a> （汉化不完整，API较旧）<br />
+中文SVN：<a href="http:&#47;&#47;yii.googlecode.com&#47;svn&#47;branches&#47;1.0&#47;docs&#47;guide&#47;zh_cn&#47;">http:&#47;&#47;yii.googlecode.com&#47;svn&#47;branches&#47;1.0&#47;docs&#47;guide&#47;zh_cn&#47;<&#47;a> （汉化有进展但仍不完整，API较旧）<br />
+备注：此教材英文版已经打印装订成册</p>
+<p>* The Definitive Guide to Yii &#47; 语言：英文+局部汉化 &#47; 评级：★★★★★<br />
+在线阅读：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;<&#47;a><br />
+PDF下载：<a href="http:&#47;&#47;www.yiiframework.com&#47;files&#47;yii-guide-1.1.1.pdf">http:&#47;&#47;www.yiiframework.com&#47;files&#47;yii-guide-1.1.1.pdf<&#47;a><br />
+本地下载：<a href="http:&#47;&#47;192.168.1.247&#47;shared&#47;yii-guide-1.1.1.pdf">http:&#47;&#47;192.168.1.247&#47;shared&#47;yii-guide-1.1.1.pdf<&#47;a> （推荐）<br />
+局部汉化：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;zh_cn&#47;index">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;guide&#47;zh_cn&#47;index<&#47;a> （汉化不完整，API较旧）<br />
+非官方汉化：<a href="http:&#47;&#47;dreamneverfall.cn&#47;yiidoc&#47;quickstart.what-is-yii.htm">http:&#47;&#47;dreamneverfall.cn&#47;yiidoc&#47;quickstart.what-is-yii.htm<&#47;a> （汉化比官方版本完整，但部分版本有误，详情请见：[[Yii 文档勘误、陷阱提示与心得记录]]）</p>
+<p>&amp;nbsp;</p>
+<p>h3. 10.2&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;选修教程</p>
+<p>* Larry Ullman's Learning Yii Series &#47; 语言：英文 &#47; 评级：★★★☆☆<br />
+在线阅读：<a href="http:&#47;&#47;blog.dmcinsights.com&#47;2009&#47;06&#47;18&#47;introduction-to-the-yii-framework&#47;">http:&#47;&#47;blog.dmcinsights.com&#47;2009&#47;06&#47;18&#47;introduction-to-the-yii-framework&#47;<&#47;a></p>
+<p>* The Yii Cookbook &#47; 语言：英文 &#47; 评级：★★★☆☆<br />
+在线阅读：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;cookbook&#47;">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;cookbook&#47;<&#47;a></p>
+<p>&amp;nbsp;</p>
+<p>h3. 10.3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;常备查阅</p>
+<p>* Yii Framework Class Reference &#47; 语言：英文 &#47; 评级：★★★★★<br />
+在线阅读：<a href="http:&#47;&#47;www.yiiframework.com&#47;doc&#47;api&#47;">http:&#47;&#47;www.yiiframework.com&#47;doc&#47;api&#47;<&#47;a></p>
+<p>* The Yii Cheat Sheet &#47; 语言：英文 &#47; 评级：★★☆☆☆<br />
+PDF下载：<a href="http:&#47;&#47;www.yiiframework.com&#47;files&#47;yii-1.0-cheatsheet.pdf">http:&#47;&#47;www.yiiframework.com&#47;files&#47;yii-1.0-cheatsheet.pdf<&#47;a><br />
+本地下载：<a href="http:&#47;&#47;192.168.1.247&#47;shared&#47;yii-1.0-cheatsheet.pdf">http:&#47;&#47;192.168.1.247&#47;shared&#47;yii-1.0-cheatsheet.pdf<&#47;a> （推荐）<br />
+备注：此文件当前版本为1.0.8，滞后于框架当前版本</p>
+<p>* Yii validator cheatsheet &#47; 语言：英文 &#47; 评级：★★☆☆☆<br />
+PDF下载：<a href="http:&#47;&#47;yii.googlecode.com&#47;files&#47;yii-1.1.0-validator-cheatsheet.pdf">http:&#47;&#47;yii.googlecode.com&#47;files&#47;yii-1.1.0-validator-cheatsheet.pdf<&#47;a><br />
+本地下载：<a href="http:&#47;&#47;192.168.1.247&#47;shared&#47;yii-1.1.0-validator-cheatsheet.pdf">http:&#47;&#47;192.168.1.247&#47;shared&#47;yii-1.1.0-validator-cheatsheet.pdf<&#47;a> （推荐）<br />
+备注：此文件当前版本为1.1.0，滞后于框架当前版本</p>
+<p>&amp;nbsp;</p>
+<p>h3. 10.4&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;多媒体教程</p>
+<p>* How to create a blog system using Yii in less than 30 minutes &#47; 语言：英文 &#47; 评级：★★★☆☆<br />
+在线观看：<a href="http:&#47;&#47;www.yiiframework.com&#47;screencast&#47;blog&#47;">http:&#47;&#47;www.yiiframework.com&#47;screencast&#47;blog&#47;<&#47;a> （缓冲较慢）<br />
+本地下载：<a href="http:&#47;&#47;192.168.1.247&#47;shared&#47;yii_blog_in30ms.mov">http:&#47;&#47;192.168.1.247&#47;shared&#47;yii_blog_in30ms.mov<&#47;a> （推荐）</p>
+<p>* Yii Radio Podcasts &#47; 语言：英文 &#47; 评级：★★☆☆☆<br />
+在线收听：<a href="http:&#47;&#47;yiiradiio.mehesz.net&#47;">http:&#47;&#47;yiiradiio.mehesz.net&#47;<&#47;a><br />
+RSS订阅：<a href="http:&#47;&#47;feeds.feedburner.com&#47;YiiRadiio-APodcastAboutTheYiiphpFramework">http:&#47;&#47;feeds.feedburner.com&#47;YiiRadiio-APodcastAboutTheYiiphpFramework<&#47;a>（推荐）<br />
+iTunes订阅：<a href="http:&#47;&#47;itunes.apple.com&#47;WebObjects&#47;MZStore.woa&#47;wa&#47;viewPodcast?id=325740146">http:&#47;&#47;itunes.apple.com&#47;WebObjects&#47;MZStore.woa&#47;wa&#47;viewPodcast?id=325740146<&#47;a></p>
+<p>&amp;nbsp;<br />
+&amp;nbsp;<br />
+&amp;nbsp;</p>
+<p>h2. 11&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;总结</p>
+<p>&amp;nbsp;</p>
+<p>终于完成此教程了，也衷心感谢能够看到最后一节的朋友们！</p>
+<p>此文从比较基础的概念入手，通过简单的例子介绍了Yii开发中的一些常识，由于本人才疏学浅，文中难免有错漏粗糙之处，还望大家批评指出，我将及时修正。</p>
+<p>本文由于成文时间仓促以及本人对Yii的认识也实为有限，并不能囊括Yii开发的方方面面，因此本文只愿能起到抛砖引玉之作用，成为大家学习Yii的一份比较理想的中文入门教程。</p>
+<p>最后希望Yii能成为大家日后进行Web开发的又一神兵利器。</p>
+<p><&#47;div><br />
+<&#47;div><br />
+<&#47;div></p>

@@ -1,0 +1,79 @@
+---
+layout: post
+status: publish
+published: true
+title: "让 pac 文件修改后立即生效"
+author:
+  display_name: Leask
+  login: leask
+  email: i@leaskh.com
+  url: http://www.leaskh.com
+author_login: leask
+author_email: i@leaskh.com
+author_url: http://www.leaskh.com
+wordpress_id: 1899
+wordpress_url: http://www.leaskh.com/?p=1899
+date: '2011-11-12 17:46:37 +0800'
+date_gmt: '2011-11-12 09:46:37 +0800'
+categories:
+- Uncategorized
+tags: []
+comments:
+- id: 1138
+  author: sink
+  author_email: sinkstyle@gmail.com
+  author_url: http://www.sinkstyle.com/
+  date: '2011-11-25 11:06:28 +0800'
+  date_gmt: '2011-11-25 03:06:28 +0800'
+  content: "设计民工表示看不懂。。Mac 里直接在终端输入吗？包括 #! 号？"
+- id: 1192
+  author: Leask
+  author_email: i@leaskh.com
+  author_url: http://www.leaskh.com
+  date: '2011-12-01 23:27:58 +0800'
+  date_gmt: '2011-12-01 15:27:58 +0800'
+  content: |-
+    在终端输入也可以，但是要小改。
+    我文中的例子是做成shell脚本的。
+    Mac 基于 BSD，是 UNIX 的一个分支，感兴趣的话可以学习一下 BSD 的 Shell，很有趣的。
+    #代表注释。
+- id: 1235
+  author: sink
+  author_email: sinkstyle@gmail.com
+  author_url: http://www.sinkstyle.com/
+  date: '2011-12-05 20:23:27 +0800'
+  date_gmt: '2011-12-05 12:23:27 +0800'
+  content: "牛！只有遥远的膜拜一下了。\r\n有适用于普通用户的办法么？比如拷贝你写好的 Shell，修改为自己网络的 Service name，保存成什么文件及扩展名，放到指定的目录让它运行"
+- id: 2166
+  author: "互联网战"
+  author_email: admin@diannao.it
+  author_url: http://www.diannao.it
+  date: '2012-05-10 11:18:24 +0800'
+  date_gmt: '2012-05-10 03:18:24 +0800'
+  content: "对不起，不用 Windows 好多年了，自己跟自己过不去吗？"
+- id: 5191
+  author: testmore
+  author_email: finalfantasy@yeah.net
+  author_url: ''
+  date: '2013-02-06 23:51:28 +0800'
+  date_gmt: '2013-02-06 15:51:28 +0800'
+  content: windows一样可以 修改注册表即可
+---
+<p>ssh -D 和 VPN 是我认为目前最靠谱的翻墙方式了。<br />
+但是，他们都面临同一个问题，就是需要区分被墙与没有被墙的网站，以使用较快的方式访问所需要的站点。</p>
+<p>我使用 VPN 的时候会使用&nbsp;chnroutes 项目：http:&#47;&#47;code.google.com&#47;p&#47;chnroutes&#47;<br />
+使用 ssh -D 的时候，我有自己的 .pac 文件，且我的 pac 文件修改很频繁。<br />
+于是怎么在不重启浏览器（或其他应用）的情况下，让新修改的 .pac 文件生效呢？<br />
+经过研究，发现只需要修改一下 .pac 文件的地址，浏览器就会重新加载代理脚本了。<br />
+但每次都在图形界面下干这活儿，实在太反人类了，于是，决定尝试写 shell：</p>
+<p>Mac:</p>
+<pre>#!&#47;bin&#47;sh<br />
+pac="http:&#47;&#47;www.xxx.com&#47;yyy.pac?time=`date +%s`";<br />
+networksetup -setautoproxyurl Wi-Fi "$pac";<br />
+# 你需要把 Wi-Fi 改为自己网络的 Service name<&#47;pre><br />
+Linux with gnome:</p>
+<pre>#!&#47;bin&#47;sh<br />
+pac="http:&#47;&#47;www.xxx.com&#47;yyy.pac?time=`date +%s`";<br />
+gconftool -s &#47;system&#47;proxy&#47;autoconfig_url -t string "$pac";<&#47;pre><br />
+Windows?</p>
+<pre>对不起，不用 Windows 好多年了。<&#47;pre></p>
