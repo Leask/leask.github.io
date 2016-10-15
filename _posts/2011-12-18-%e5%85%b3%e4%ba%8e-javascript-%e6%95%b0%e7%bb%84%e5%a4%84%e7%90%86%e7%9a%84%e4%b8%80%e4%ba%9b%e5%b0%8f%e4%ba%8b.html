@@ -16,7 +16,7 @@ wordpress_url: http://www.leaskh.com/?p=1916
 date: '2011-12-18 23:20:53 +0800'
 date_gmt: '2011-12-18 15:20:53 +0800'
 categories:
-- Uncategorized
+
 tags: []
 comments:
 - id: 2068
@@ -57,7 +57,7 @@ comments:
     });</p>
 <p>    console.log('stringify:');<br />
     console.log(JSON.stringify(arr));</p>
-<p><&#47;script><&#47;pre><br />
+<p></script></pre><br />
 程序输出：</p>
 <pre>for:<br />
 undefined<br />
@@ -76,11 +76,11 @@ c<br />
 d<br />
 e</p>
 <p>stringify:<br />
-[null,"b","c","d","e"]<&#47;pre><br />
+[null,"b","c","d","e"]</pre><br />
 哈哈，问题终于冒出来了：</p>
 <ul>
-<li>Javascript &nbsp;中使用 delete 删除一个数组或对象的元素后，会将其标记为 undefined，而非彻底删除该索引；<&#47;li>
-<li>Javascript 在 for in 或 foreach 遍历中，会自动跳过&nbsp;undefined 元素，而普通 for 遍历则不会，JSON.stringify() 也不会；<&#47;li>
-<li>由于 JSON 缺少 undefined，于是 Javascript&nbsp;将 undefined 转为 JSON 的时候，undefined 会被转为 null。<&#47;li><br />
-<&#47;ul><br />
+<li>Javascript &nbsp;中使用 delete 删除一个数组或对象的元素后，会将其标记为 undefined，而非彻底删除该索引；</li>
+<li>Javascript 在 for in 或 foreach 遍历中，会自动跳过&nbsp;undefined 元素，而普通 for 遍历则不会，JSON.stringify() 也不会；</li>
+<li>由于 JSON 缺少 undefined，于是 Javascript&nbsp;将 undefined 转为 JSON 的时候，undefined 会被转为 null。</li><br />
+</ul><br />
 果断尝试把 delete arr[0]; 改为 arr.splice(0, 1); 问题得到解决。</p>

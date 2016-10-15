@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Synchronizing Address Book with Google Contacts &#47;&#47; 为了忘却的纪念
+title: Synchronizing Address Book with Google Contacts // 为了忘却的纪念
 author:
   display_name: Leask
   login: leask
@@ -16,26 +16,26 @@ wordpress_url: http://leaskh.wordpress.com/2009/08/17/synchronizing-address-book
 date: '2009-08-17 05:51:47 +0800'
 date_gmt: '2009-08-17 05:51:47 +0800'
 categories:
-- Uncategorized
+
 tags: []
 comments: []
 ---
 <div id="msgcns!15BAC1A170471DB!14847" class="bvMsg">
-<p>&#47;&#47; 以下Script的作者是Riobard Zhan，作用是能够让Apple的Address Book实现与Google Contacts实现同步，而不仅仅是当iPod touch或者iPhone连接iTunes的时候同步。<br &#47;>&#47;&#47; 不过仅仅是在使用10.5.x的时候，你需要这个脚本，如果是10.6的话，Address&nbsp; Book和Google Contacts已经能自动同步了，当然，还包括iCal和Goolge Calendar。<br &#47;>&#47;&#47; 贴上来仅仅是为了忘却的纪念吧，使用Snow Leopard已经好几天了，不知道10A342是不是GM，也不知道GM和Retail Version会不会有差异，我只知道距离上一个版本，10A342已经把几乎所有的Bug都修正了，系统能够作为日常工作和使用的系统了。除了VMware的鼠标捕捉还有一点点不流畅。不过影响不大。<br &#47;>&#47;&#47; 不过每次告别上一代的Mac OS，我都会伤感一下子，感叹时光又一去不返了。
-<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="Screen shot 2009-08-17 at 1.18.44 PM" border="0" alt="Screen shot 2009-08-17 at 1.18.44 PM" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2010&#47;09&#47;screenshot2009-08-17at1.png?w=245" width="321" height="393" &#47;>
+<p>// 以下Script的作者是Riobard Zhan，作用是能够让Apple的Address Book实现与Google Contacts实现同步，而不仅仅是当iPod touch或者iPhone连接iTunes的时候同步。<br />// 不过仅仅是在使用10.5.x的时候，你需要这个脚本，如果是10.6的话，Address&nbsp; Book和Google Contacts已经能自动同步了，当然，还包括iCal和Goolge Calendar。<br />// 贴上来仅仅是为了忘却的纪念吧，使用Snow Leopard已经好几天了，不知道10A342是不是GM，也不知道GM和Retail Version会不会有差异，我只知道距离上一个版本，10A342已经把几乎所有的Bug都修正了，系统能够作为日常工作和使用的系统了。除了VMware的鼠标捕捉还有一点点不流畅。不过影响不大。<br />// 不过每次告别上一代的Mac OS，我都会伤感一下子，感叹时光又一去不返了。
+<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="Screen shot 2009-08-17 at 1.18.44 PM" border="0" alt="Screen shot 2009-08-17 at 1.18.44 PM" src="http://www.leaskh.com/wp-content/uploads/2010/09/screenshot2009-08-17at1.png?w=245" width="321" height="393" />
 <p>好了，如果你还在用10.5，又和我一样，喜欢Apple和Google，那么，下面的脚本适合你：
 <p>------------------------- gconsync.sh ---------------------------
-<p>#!&#47;bin&#47;bash
-<p>#############################################################################<br &#47;># Synchronizing Address Book with Google Contacts<br &#47;>#<br &#47;># Author:&nbsp; Riobard Zhan<br &#47;># Email:&nbsp;&nbsp; me@riobard.com<br &#47;># Web:&nbsp;&nbsp;&nbsp;&nbsp; <a href="http:&#47;&#47;riobard.com">http:&#47;&#47;riobard.com<&#47;a><br &#47;># Version: 0.1<br &#47;>#<br &#47;># This script will modify your system to synchronize your Address Book with <br &#47;># Google Contacts without needing an iPhone&#47;iPod. The synchronization is done <br &#47;># periodically in the background using `launchd`. <br &#47;>#<br &#47;># WARNING: I WILL NOT BE RESPONSABLE FOR ANY DATA LOSS OR DAMAGES CAUSED BY <br &#47;>#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; THIS SCRIPT. USE AT YOUR OWN RISK!<br &#47;>#############################################################################
-<p># location of the gconsync command<br &#47;>GCONSYNC=&#47;System&#47;Library&#47;PrivateFrameworks&#47;GoogleContactSync.framework&#47;Resources&#47;gconsync
+<p>#!/bin/bash
+<p>#############################################################################<br /># Synchronizing Address Book with Google Contacts<br />#<br /># Author:&nbsp; Riobard Zhan<br /># Email:&nbsp;&nbsp; me@riobard.com<br /># Web:&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://riobard.com">http://riobard.com</a><br /># Version: 0.1<br />#<br /># This script will modify your system to synchronize your Address Book with <br /># Google Contacts without needing an iPhone/iPod. The synchronization is done <br /># periodically in the background using `launchd`. <br />#<br /># WARNING: I WILL NOT BE RESPONSABLE FOR ANY DATA LOSS OR DAMAGES CAUSED BY <br />#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; THIS SCRIPT. USE AT YOUR OWN RISK!<br />#############################################################################
+<p># location of the gconsync command<br />GCONSYNC=/System/Library/PrivateFrameworks/GoogleContactSync.framework/Resources/gconsync
 <p># trick OS X to think there is an iPod attached
-<p>echo "&#123; Devices = &#123; red-herring = &#123; 'Family ID' = 10001; &#125;; &#125;; &#125;"&nbsp; > ~&#47;Library&#47;Preferences&#47;com.apple.iPod.plist
-<p># enable Address Book synchronization with Google<br &#47;>echo<br &#47;>echo Now open "Address Book" and click "Preferences" in the menu. Check "Synchronize with Google" box. It will ask for your Google account and password. <br &#47;>echo<br &#47;>read -p "Did you check the box and enter your Google account and password? (Yes&#47;No): " answer<br &#47;>if [[ "$answer" != [Yy]* ]]; then<br &#47;>&nbsp;&nbsp;&nbsp; echo Bye.<br &#47;>&nbsp;&nbsp;&nbsp; exit<br &#47;>fi
-<p># start initial sync<br &#47;>echo<br &#47;>echo Initial synchronization started, please wait ... <br &#47;>$GCONSYNC&nbsp; --sync gconclid
+<p>echo "&#123; Devices = &#123; red-herring = &#123; 'Family ID' = 10001; &#125;; &#125;; &#125;"&nbsp; > ~/Library/Preferences/com.apple.iPod.plist
+<p># enable Address Book synchronization with Google<br />echo<br />echo Now open "Address Book" and click "Preferences" in the menu. Check "Synchronize with Google" box. It will ask for your Google account and password. <br />echo<br />read -p "Did you check the box and enter your Google account and password? (Yes/No): " answer<br />if [[ "$answer" != [Yy]* ]]; then<br />&nbsp;&nbsp;&nbsp; echo Bye.<br />&nbsp;&nbsp;&nbsp; exit<br />fi
+<p># start initial sync<br />echo<br />echo Initial synchronization started, please wait ... <br />$GCONSYNC&nbsp; --sync gconclid
 <p>echo Initial synchronization done. You may open Address Book and your Gmail Contacts page to check the result.
-<p># enable perodic sync<br &#47;>echo<br &#47;>echo How often do you want the synchronization to happen periodically?
-<p>while true; do<br &#47;>&nbsp;&nbsp;&nbsp; read -p "Enter a number in seconds [Default: 300]: " INTERVAL<br &#47;>&nbsp;&nbsp;&nbsp; if [[ $INTERVAL == "" ]]; then<br &#47;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INTERVAL=300<br &#47;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; break<br &#47;>&nbsp;&nbsp;&nbsp; elif [[ $INTERVAL =~ ^[0-9]+$ ]]; then<br &#47;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; break<br &#47;>&nbsp;&nbsp;&nbsp; else<br &#47;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo Invalid number!<br &#47;>&nbsp;&nbsp;&nbsp; fi<br &#47;>done
-<p># create launchd job file<br &#47;>cd ~&#47;Library&#47;LaunchAgents&#47;<br &#47;>echo "<?xml version="1.0" encoding="UTF-8"?><br &#47;><!DOCTYPE plist PUBLIC "-&#47;&#47;Apple&#47;&#47;DTD PLIST 1.0&#47;&#47;EN" "<a href="http:&#47;&#47;www.apple.com&#47;DTDs&#47;PropertyList-1.0.dtd"">http:&#47;&#47;www.apple.com&#47;DTDs&#47;PropertyList-1.0.dtd"<&#47;a>><br &#47;>
-<plist version="1.0"><br &#47;><dict><br &#47;>&nbsp;&nbsp;&nbsp; <key>Label<&#47;key><br &#47;>&nbsp;&nbsp;&nbsp; <string>com.google.contacts.sync.addressbook<&#47;string><br &#47;>&nbsp;&nbsp;&nbsp; <key>ProgramArguments<&#47;key><br &#47;>&nbsp;&nbsp;&nbsp; <array><br &#47;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <string>$GCONSYNC<&#47;string><br &#47;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <string>--sync<&#47;string><br &#47;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <string>gconclid<&#47;string><br &#47;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <string>--syncmode<&#47;string><br &#47;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <string>fast<&#47;string><br &#47;>&nbsp;&nbsp;&nbsp; <&#47;array><br &#47;>&nbsp;&nbsp;&nbsp; <key>StartInterval<&#47;key><br &#47;>&nbsp;&nbsp;&nbsp; <integer>$INTERVAL<&#47;integer><br &#47;><&#47;dict><br &#47;><&#47;plist>" >&nbsp; com.google.contacts.sync.addressbook.plist
-<p># load the job<br &#47;>launchctl load com.google.contacts.sync.addressbook.plist
-<p>echo Done. <&#47;p>  <&#47;div></p>
+<p># enable perodic sync<br />echo<br />echo How often do you want the synchronization to happen periodically?
+<p>while true; do<br />&nbsp;&nbsp;&nbsp; read -p "Enter a number in seconds [Default: 300]: " INTERVAL<br />&nbsp;&nbsp;&nbsp; if [[ $INTERVAL == "" ]]; then<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INTERVAL=300<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; break<br />&nbsp;&nbsp;&nbsp; elif [[ $INTERVAL =~ ^[0-9]+$ ]]; then<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; break<br />&nbsp;&nbsp;&nbsp; else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo Invalid number!<br />&nbsp;&nbsp;&nbsp; fi<br />done
+<p># create launchd job file<br />cd ~/Library/LaunchAgents/<br />echo "<?xml version="1.0" encoding="UTF-8"?><br /><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "<a href="http://www.apple.com/DTDs/PropertyList-1.0.dtd"">http://www.apple.com/DTDs/PropertyList-1.0.dtd"</a>><br />
+<plist version="1.0"><br /><dict><br />&nbsp;&nbsp;&nbsp; <key>Label</key><br />&nbsp;&nbsp;&nbsp; <string>com.google.contacts.sync.addressbook</string><br />&nbsp;&nbsp;&nbsp; <key>ProgramArguments</key><br />&nbsp;&nbsp;&nbsp; <array><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <string>$GCONSYNC</string><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <string>--sync</string><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <string>gconclid</string><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <string>--syncmode</string><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <string>fast</string><br />&nbsp;&nbsp;&nbsp; </array><br />&nbsp;&nbsp;&nbsp; <key>StartInterval</key><br />&nbsp;&nbsp;&nbsp; <integer>$INTERVAL</integer><br /></dict><br /></plist>" >&nbsp; com.google.contacts.sync.addressbook.plist
+<p># load the job<br />launchctl load com.google.contacts.sync.addressbook.plist
+<p>echo Done. </p>  </div></p>

@@ -16,20 +16,20 @@ wordpress_url: http://leaskh.wordpress.com/2009/10/15/%e5%a6%82%e4%bd%95%e5%88%8
 date: '2009-10-15 07:07:06 +0800'
 date_gmt: '2009-10-15 07:07:06 +0800'
 categories:
-- Uncategorized
+
 tags: []
 comments: []
 ---
 <div id="msgcns!15BAC1A170471DB!15021" class="bvMsg">
-<p>很多人问我ssh -D的&ldquo;新鲜空气&rdquo;如何分享给别的计算机？又或者如何讲Mac Host Machine的ssh -D代理分享给VMware或者PD里面的虚拟机？<&#47;p>
-<p>其实稍稍想一下就能想到办法了。以我的例子说一下，望能抛砖引玉。<&#47;p>
-<p>我的ssh -D在Mac上建立，我想在VM里用IE看&ldquo;外贸网站&rdquo;。<&#47;p>
-<p>首先我们明确一点，IE是不支持通过Socks代理打开网页的，所以我们需要把Socks代理转化为IE能够识别的HTTP代理。工具上理论上用Privoxy或者SocksCap都可以的。但是Privoxy支持配置文件，能够智能选择那些通过Privoxy，那些不通过Privoxy，所以我选择了它。<&#47;p>
-<p>这里主要考虑到ssh -D主机大多都是算流量的，所以能不通过ssh -D的站点还是直接连接比较划算，Privoxy就提供这个可能性。<&#47;p>
-<p>看图（我不解释了，有心人一下子就看明白了）：<&#47;p>
-<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="Screen shot 2009-10-15 at 2.49.16 PM" border="0" alt="Screen shot 2009-10-15 at 2.49.16 PM" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2010&#47;09&#47;screenshot2009-10-15at2.png?w=300" width="644" height="404" &#47;> <&#47;p>
-<p>当然，如果你需要看的&ldquo;外贸网站&rdquo;比较多，你可以用pac文件做一下智能筛选。pac文件如何写？在终端执行：<&#47;p>
-<p><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; curl <&#47;em><a href="https:&#47;&#47;dl.getdropbox.com&#47;u&#47;873345&#47;download&#47;gfwlist.pac"><em>https:&#47;&#47;dl.getdropbox.com&#47;u&#47;873345&#47;download&#47;gfwlist.pac<&#47;em><&#47;a><&#47;p>
-<p>你就能得到一个很好的范例（基本上是Javascript的语法），这个pac文件也能附加到IE的代理设置里面：<&#47;p>
-<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="Screen shot 2009-10-15 at 2.52.03 PM" border="0" alt="Screen shot 2009-10-15 at 2.52.03 PM" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2010&#47;09&#47;screenshot2009-10-15at21.png?w=241" width="591" height="734" &#47;> <&#47;p>
-<p>祝大家好运！<&#47;p>  <&#47;div></p>
+<p>很多人问我ssh -D的&ldquo;新鲜空气&rdquo;如何分享给别的计算机？又或者如何讲Mac Host Machine的ssh -D代理分享给VMware或者PD里面的虚拟机？</p>
+<p>其实稍稍想一下就能想到办法了。以我的例子说一下，望能抛砖引玉。</p>
+<p>我的ssh -D在Mac上建立，我想在VM里用IE看&ldquo;外贸网站&rdquo;。</p>
+<p>首先我们明确一点，IE是不支持通过Socks代理打开网页的，所以我们需要把Socks代理转化为IE能够识别的HTTP代理。工具上理论上用Privoxy或者SocksCap都可以的。但是Privoxy支持配置文件，能够智能选择那些通过Privoxy，那些不通过Privoxy，所以我选择了它。</p>
+<p>这里主要考虑到ssh -D主机大多都是算流量的，所以能不通过ssh -D的站点还是直接连接比较划算，Privoxy就提供这个可能性。</p>
+<p>看图（我不解释了，有心人一下子就看明白了）：</p>
+<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="Screen shot 2009-10-15 at 2.49.16 PM" border="0" alt="Screen shot 2009-10-15 at 2.49.16 PM" src="http://www.leaskh.com/wp-content/uploads/2010/09/screenshot2009-10-15at2.png?w=300" width="644" height="404" /> </p>
+<p>当然，如果你需要看的&ldquo;外贸网站&rdquo;比较多，你可以用pac文件做一下智能筛选。pac文件如何写？在终端执行：</p>
+<p><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; curl </em><a href="https://dl.getdropbox.com/u/873345/download/gfwlist.pac"><em>https://dl.getdropbox.com/u/873345/download/gfwlist.pac</em></a></p>
+<p>你就能得到一个很好的范例（基本上是Javascript的语法），这个pac文件也能附加到IE的代理设置里面：</p>
+<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="Screen shot 2009-10-15 at 2.52.03 PM" border="0" alt="Screen shot 2009-10-15 at 2.52.03 PM" src="http://www.leaskh.com/wp-content/uploads/2010/09/screenshot2009-10-15at21.png?w=241" width="591" height="734" /> </p>
+<p>祝大家好运！</p>  </div></p>

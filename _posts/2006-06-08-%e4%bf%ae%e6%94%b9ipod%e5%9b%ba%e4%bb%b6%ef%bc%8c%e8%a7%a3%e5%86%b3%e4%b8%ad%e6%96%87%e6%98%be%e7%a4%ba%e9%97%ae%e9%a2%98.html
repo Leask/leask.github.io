@@ -27,40 +27,40 @@ comments:
   date_gmt: '2006-06-08 14:53:36 +0800'
   content: "不错，继你的sx1解锁之后又是一篇名著！继续加油。做你自己喜欢做的事。支持你。希望你坚持下去！"
 ---
-<div id="msgcns!15BAC1A170471DB!1742" class="bvMsg"><br &#47;>用过iPod的人可能都知道，当iPod的语言设置成非中文，例如英文，iPod的中文显示就会出问题，字体大小不一，显示不清晰等。<br />
-<br &#47;>但或许也有人会和我一样，喜欢使用英文界面。这个时候，浏览中文的音乐和查看中文电子书的时候就很痛苦了。<br />
-<br &#47;>经过一番尝试，终于解决了这个问题。<br />
-<br &#47;>不敢独享，和有需要的朋友分享一下修改方法。<br />
-<br &#47;><br />
-<br &#47;>（Warning：以下内容涉及修改iPod的Firmware，修改固件带有危险性，而且有可能失去保修！）<br />
-<br &#47;>PS：由于我在Mac上使用固件读取程序无法抽出iPod的固件，所以以下操作在Windows下完成。<br />
-<br &#47;><br />
-<br &#47;>A：首先下载iPod固件修改软件：iPod Wizard 1.2（http:&#47;&#47;www.ipodwizard.net）；<br />
-<br &#47;>B：连上你的iPod，可以选择FireWire或USB。尽量不要使用前置端口或USB HUB，因为电压低时刷iPod是很危险的（注意，在后面的步骤执行完前千万不要断开你的iPod！）；<br />
-<br &#47;>C：解压运行iPod Wizard 1.2；<br />
-<br &#47;>D：Edit Mode：iPod；<br />
-<br &#47;>E：按Load，等待固件读取完毕；<br />
-<br &#47;>F：找到 Firmware editor&#47;String&#47;；<br />
-<br &#47;>G：很容易发现，Lang block：16是简体中文的语言资源，17是繁体中文，18就是英文了；<br />
-<br &#47;>（*说明一下ID=18的文字资源中还包括一些各种语言间共享的字段，所以条目比其他的语言包多一些，不能把18的文字资源直接替换到其他的语言包中。例如：&ldquo;ID=-2&rdquo;的字段就是iPod标题栏的文字，大家可以替换成自己个性化的文字哦。）<br />
-<br &#47;>H：在简体中文（16）或繁体中文（17）两者中选择一种比较少用的语言包，按Translate，程序会提示保存一份文本文件（那份文本文件就是英文界面语言包），然后按Load List载入刚才保存的字段列表到你要修改的语言包中；<br />
-<br &#47;>I：回到Lang block：18，如果你刚才选择修改的是&ldquo;简体中文&rdquo;语言包就找ID：10194，如果刚才你选择修改的是&ldquo;繁体中文&rdquo;的语言包就找ID：10195。把这个字段的内容修改成一个新的名字，例如：&ldquo;English_New&rdquo;;<br />
-<br &#47;>J：按Write，把修改好的软件刷入iPod，大功告成！<br />
-<br &#47;>K：弹出设备，断开iPod，在iPod语言设置中选上修改好的语言包。<br />
-<br &#47;><br />
-<br &#47;>赶快浏览中文名称的音乐和查看中文的电子书，是不是已经清晰很多了？偷着乐吧。<br />
-<br &#47;><br />
-<br &#47;>PS：<br />
-<br &#47;>1：本文只是抛砖引玉，iPod Wizard这个软件的功能很强大，使用它加上你的想象力，就可以把你的iPod改造得更个性化；<br />
-<br &#47;>2：本文是在我的iPod mini上实践的，如果用在其他型号的iPod上，一些细节要改动一下，大家注意咯；<br />
-<br &#47;>3：如果不幸刷机过程出现意外导致iPod不能开机，别急：<br />
-<br &#47;>先用iPod Wizard的Downgrade Firmware功能降级你的iPod软件，然后就可以使用iPod Updater（http:&#47;&#47;www.apple.com&#47;ipod&#47;download&#47;）的Update功能重新装入iPod系统，此时应该可以开机了；<br />
-<br &#47;>如果还是不能开机，直接用iPod Updater的Restore功能还原iPod就可以了（此过程会丢失iPod上的全部数据）。<br />
-<br &#47;>祝你好运！<br />
-<br &#47;><br />
-<br &#47;>刷机时要胆大心细，注意不要断开连接，还要保证接口有足够的电压；<br />
-<br &#47;>希望本文对大家有用，也欢迎大家继续探讨研究，找到什么好玩的要告诉我咯。<br />
-<br &#47;><br />
-<br &#47;>by Leask Huang<br />
-<br &#47;>June, 2006<br />
-<br &#47;>in Guangzhou<&#47;div></p>
+<div id="msgcns!15BAC1A170471DB!1742" class="bvMsg"><br />用过iPod的人可能都知道，当iPod的语言设置成非中文，例如英文，iPod的中文显示就会出问题，字体大小不一，显示不清晰等。<br />
+<br />但或许也有人会和我一样，喜欢使用英文界面。这个时候，浏览中文的音乐和查看中文电子书的时候就很痛苦了。<br />
+<br />经过一番尝试，终于解决了这个问题。<br />
+<br />不敢独享，和有需要的朋友分享一下修改方法。<br />
+<br /><br />
+<br />（Warning：以下内容涉及修改iPod的Firmware，修改固件带有危险性，而且有可能失去保修！）<br />
+<br />PS：由于我在Mac上使用固件读取程序无法抽出iPod的固件，所以以下操作在Windows下完成。<br />
+<br /><br />
+<br />A：首先下载iPod固件修改软件：iPod Wizard 1.2（http://www.ipodwizard.net）；<br />
+<br />B：连上你的iPod，可以选择FireWire或USB。尽量不要使用前置端口或USB HUB，因为电压低时刷iPod是很危险的（注意，在后面的步骤执行完前千万不要断开你的iPod！）；<br />
+<br />C：解压运行iPod Wizard 1.2；<br />
+<br />D：Edit Mode：iPod；<br />
+<br />E：按Load，等待固件读取完毕；<br />
+<br />F：找到 Firmware editor/String/；<br />
+<br />G：很容易发现，Lang block：16是简体中文的语言资源，17是繁体中文，18就是英文了；<br />
+<br />（*说明一下ID=18的文字资源中还包括一些各种语言间共享的字段，所以条目比其他的语言包多一些，不能把18的文字资源直接替换到其他的语言包中。例如：&ldquo;ID=-2&rdquo;的字段就是iPod标题栏的文字，大家可以替换成自己个性化的文字哦。）<br />
+<br />H：在简体中文（16）或繁体中文（17）两者中选择一种比较少用的语言包，按Translate，程序会提示保存一份文本文件（那份文本文件就是英文界面语言包），然后按Load List载入刚才保存的字段列表到你要修改的语言包中；<br />
+<br />I：回到Lang block：18，如果你刚才选择修改的是&ldquo;简体中文&rdquo;语言包就找ID：10194，如果刚才你选择修改的是&ldquo;繁体中文&rdquo;的语言包就找ID：10195。把这个字段的内容修改成一个新的名字，例如：&ldquo;English_New&rdquo;;<br />
+<br />J：按Write，把修改好的软件刷入iPod，大功告成！<br />
+<br />K：弹出设备，断开iPod，在iPod语言设置中选上修改好的语言包。<br />
+<br /><br />
+<br />赶快浏览中文名称的音乐和查看中文的电子书，是不是已经清晰很多了？偷着乐吧。<br />
+<br /><br />
+<br />PS：<br />
+<br />1：本文只是抛砖引玉，iPod Wizard这个软件的功能很强大，使用它加上你的想象力，就可以把你的iPod改造得更个性化；<br />
+<br />2：本文是在我的iPod mini上实践的，如果用在其他型号的iPod上，一些细节要改动一下，大家注意咯；<br />
+<br />3：如果不幸刷机过程出现意外导致iPod不能开机，别急：<br />
+<br />先用iPod Wizard的Downgrade Firmware功能降级你的iPod软件，然后就可以使用iPod Updater（http://www.apple.com/ipod/download/）的Update功能重新装入iPod系统，此时应该可以开机了；<br />
+<br />如果还是不能开机，直接用iPod Updater的Restore功能还原iPod就可以了（此过程会丢失iPod上的全部数据）。<br />
+<br />祝你好运！<br />
+<br /><br />
+<br />刷机时要胆大心细，注意不要断开连接，还要保证接口有足够的电压；<br />
+<br />希望本文对大家有用，也欢迎大家继续探讨研究，找到什么好玩的要告诉我咯。<br />
+<br /><br />
+<br />by Leask Huang<br />
+<br />June, 2006<br />
+<br />in Guangzhou</div></p>

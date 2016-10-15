@@ -21,36 +21,36 @@ tags: []
 comments: []
 ---
 <div id="msgcns!15BAC1A170471DB!2047" class="bvMsg">我们学校的网络是PPPoE加网卡MAC地址验证，早上8点开网，晚上11点断网。<br />
-<br &#47;>由于断网后需要用iChat和另外一个Mac用户通讯，而iChat的Bonjour协议无法通过路由器，登陆iChat前需要删除网络设置中的Router选项。<br />
-<br &#47;>而且本人有用Google Notifier自动检查邮件的习惯，于是也需要在开网的时候自动启动Google Notifier，断网的时候自动关闭。<br />
-<br &#47;>于是打算用Apple Script结合iCal的自动执行功能解决这个问题。<br />
-<br &#47;>经过构思写下以下的程序，很幸运地，调试通过了。<br />
-<br &#47;><br />
-<br &#47;>if hours of (current date) > 7 and hours of (current date) < 24 then<br />
-<br &#47;>	tell application "Finder"<br />
-<br &#47;>		activate<br />
-<br &#47;>	end tell<br />
-<br &#47;>	tell application "System Events"<br />
-<br &#47;>		click menu item "SCNU_ZCC_2#4008_Online" of menu "Location" of menu item "Location" of menu "Apple" of menu bar 1 of <br &#47;>process "Finder"<br />
-<br &#47;>	end tell<br />
-<br &#47;>	tell application "Google Notifier"<br />
-<br &#47;>		activate<br />
-<br &#47;>	end tell<br />
-<br &#47;>else<br />
-<br &#47;>	tell application "Finder"<br />
-<br &#47;>		activate<br />
-<br &#47;>	end tell<br />
-<br &#47;>	tell application "System Events"<br />
-<br &#47;>		click menu item "SCNU_ZCC_2#4008_Offline" of menu "Location" of menu item "Location" of menu "Apple" of menu bar 1 of <br &#47;>process "Finder"<br />
-<br &#47;>	end tell<br />
-<br &#47;>	tell application "Google Notifier"<br />
-<br &#47;>		quit<br />
-<br &#47;>	end tell<br />
-<br &#47;>end if<br />
-<br &#47;><br />
-<br &#47;>其实Apple Script的编写很简单，不需要额外的学习，功能却很强大，通过应用程序类库调用，可是实现很多很有趣的功能。<br />
-<br &#47;>希望可以抛砖引玉给大家一点灵感吧。<br />
-<br &#47;><br />
-<br &#47;>程序下载：<br />
-<br &#47;><br />
-<br &#47;><a href="http:&#47;&#47;www.box.net&#47;lite&#47;787v5aons8"><img src="http:&#47;&#47;www.box.net&#47;lite&#47;image&#47;787v5aons8.png" border="0" &#47;><&#47;a><&#47;div></p>
+<br />由于断网后需要用iChat和另外一个Mac用户通讯，而iChat的Bonjour协议无法通过路由器，登陆iChat前需要删除网络设置中的Router选项。<br />
+<br />而且本人有用Google Notifier自动检查邮件的习惯，于是也需要在开网的时候自动启动Google Notifier，断网的时候自动关闭。<br />
+<br />于是打算用Apple Script结合iCal的自动执行功能解决这个问题。<br />
+<br />经过构思写下以下的程序，很幸运地，调试通过了。<br />
+<br /><br />
+<br />if hours of (current date) > 7 and hours of (current date) < 24 then<br />
+<br />	tell application "Finder"<br />
+<br />		activate<br />
+<br />	end tell<br />
+<br />	tell application "System Events"<br />
+<br />		click menu item "SCNU_ZCC_2#4008_Online" of menu "Location" of menu item "Location" of menu "Apple" of menu bar 1 of <br />process "Finder"<br />
+<br />	end tell<br />
+<br />	tell application "Google Notifier"<br />
+<br />		activate<br />
+<br />	end tell<br />
+<br />else<br />
+<br />	tell application "Finder"<br />
+<br />		activate<br />
+<br />	end tell<br />
+<br />	tell application "System Events"<br />
+<br />		click menu item "SCNU_ZCC_2#4008_Offline" of menu "Location" of menu item "Location" of menu "Apple" of menu bar 1 of <br />process "Finder"<br />
+<br />	end tell<br />
+<br />	tell application "Google Notifier"<br />
+<br />		quit<br />
+<br />	end tell<br />
+<br />end if<br />
+<br /><br />
+<br />其实Apple Script的编写很简单，不需要额外的学习，功能却很强大，通过应用程序类库调用，可是实现很多很有趣的功能。<br />
+<br />希望可以抛砖引玉给大家一点灵感吧。<br />
+<br /><br />
+<br />程序下载：<br />
+<br /><br />
+<br /><a href="http://www.box.net/lite/787v5aons8"><img src="http://www.box.net/lite/image/787v5aons8.png" border="0" /></a></div></p>

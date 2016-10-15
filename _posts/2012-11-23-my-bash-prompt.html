@@ -16,23 +16,23 @@ wordpress_url: http://www.leaskh.com/?p=1986
 date: '2012-11-23 01:20:32 +0800'
 date_gmt: '2012-11-22 17:20:32 +0800'
 categories:
-- Uncategorized
+
 tags: []
 comments: []
 ---
-<p><a href="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2012&#47;11&#47;Screen-Shot-2012-11-23-at-1.17.10-AM.png"><img class="alignnone  wp-image-1987" title="Screen Shot 2012-11-23 at 1.17.10 AM" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2012&#47;11&#47;Screen-Shot-2012-11-23-at-1.17.10-AM.png" alt="" width="684" height="480" &#47;><&#47;a></p>
+<p><a href="http://www.leaskh.com/wp-content/uploads/2012/11/Screen-Shot-2012-11-23-at-1.17.10-AM.png"><img class="alignnone  wp-image-1987" title="Screen Shot 2012-11-23 at 1.17.10 AM" src="http://www.leaskh.com/wp-content/uploads/2012/11/Screen-Shot-2012-11-23-at-1.17.10-AM.png" alt="" width="684" height="480" /></a></p>
 <p>有人在 twitter 上问我的 bash prompt 是怎么写的，简单解说无效，直接把代码贴出来吧：</p>
 <pre>git_inspect_branch() {<br />
-    git branch 2> &#47;dev&#47;null | grep ^* | sed 's&#47;^\* \(.*\)$&#47;:\1&#47;g'<br />
+    git branch 2> /dev/null | grep ^* | sed 's/^\* \(.*\)$/:\1/g'<br />
 }</p>
 <p>git_inspect_added() {<br />
-    [[ $(git status 2> &#47;dev&#47;null | grep 'Untracked files:') != '' ]] &amp;&amp; echo '+'<br />
+    [[ $(git status 2> /dev/null | grep 'Untracked files:') != '' ]] &amp;&amp; echo '+'<br />
 }</p>
 <p>git_inspect_modified() {<br />
-    [[ $(git status 2> &#47;dev&#47;null | grep 'modified:')        != '' ]] &amp;&amp; echo '*'<br />
+    [[ $(git status 2> /dev/null | grep 'modified:')        != '' ]] &amp;&amp; echo '*'<br />
 }</p>
 <p>git_inspect_deleted() {<br />
-    [[ $(git status 2> &#47;dev&#47;null | grep 'deleted:')         != "" ]] &amp;&amp; echo "-"<br />
+    [[ $(git status 2> /dev/null | grep 'deleted:')         != "" ]] &amp;&amp; echo "-"<br />
 }</p>
 <p>git_inspect_dirty() {<br />
     echo "$(git_inspect_added)$(git_inspect_modified)$(git_inspect_deleted)"<br />
@@ -49,7 +49,7 @@ MOD="\`if [ \$? = 0 ]; then echo :\); else echo :\(; fi\`"<br />
 GIT="\`git_inspect_branch\`"<br />
 DIF="\`git_inspect_dirty\`"<br />
 PMT="\`if [ "$(id -u)" = "0" ]; then echo '#'; else echo '>'; fi\`"<br />
-PS1="$MOD $NME@$RED$HST$OFF:$DIR$GEN$GIT$OFF$RED$DIF$OFF$PMT "<&#47;pre><br />
+PS1="$MOD $NME@$RED$HST$OFF:$DIR$GEN$GIT$OFF$RED$DIF$OFF$PMT "</pre><br />
 PS: Prompt 不包括那头小牛，那头小牛其实是这样写的: alias cowtune='fortune | cowsay'</p>
 <p>------- &nbsp; ------- &nbsp; -------</p>
-<p>Updated[Dec 5, 2012]: 放到 Github 上了 <a title="Flora Prompt" href="https:&#47;&#47;gist.github.com&#47;4153091" target="_blank">https:&#47;&#47;gist.github.com&#47;4153091<&#47;a></p>
+<p>Updated[Dec 5, 2012]: 放到 Github 上了 <a title="Flora Prompt" href="https://gist.github.com/4153091" target="_blank">https://gist.github.com/4153091</a></p>

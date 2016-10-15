@@ -16,87 +16,87 @@ wordpress_url: http://leaskh.wordpress.com/2009/05/25/%e8%a7%a3%e5%86%b3%e7%ae%8
 date: '2009-05-25 07:07:15 +0800'
 date_gmt: '2009-05-25 07:07:15 +0800'
 categories:
-- Uncategorized
+
 tags: []
 comments: []
 ---
 <div id="msgcns!15BAC1A170471DB!10584" class="bvMsg">
-<div>今天有人问我一个数学问题：<br &#47;><br />
-&ldquo;在由数字1、2、3、4、5组成的所有没有重复的5位数中，大于23145且小于43521的数共有多少个。&rdquo;<br &#47;><br />
-<br &#47;><br />
-最初想了想用排列组合的思想做，试算发现数量超过10个&hellip;&hellip;<br &#47;><br />
-天呀，那么多！超过十个的事情就交给计算机算吧，于是放弃数学方法，改用Javascript解决。<br &#47;><br />
-首先尝试把重点放在五个数字的排列上，后来发现写出五个数字排列的算法还不如写出验证所合成的五位数的有效性来得简单，于是有了如下的程序：<br &#47;><br />
-<br &#47;><br />
-<br &#47;><br />
-<script type="text&#47;javascript"><br &#47;><br />
-&#47;*<br &#47;><br />
-=================================<br &#47;><br />
-ver 0.3<br &#47;><br />
-by LeaskH.com<br &#47;><br />
-<a href="mailto:i@leaskh.com">i@leaskh.com<&#47;a><br &#47;><br />
-April 7, 2009<br &#47;><br />
-=================================<br &#47;><br />
-*&#47;<br &#47;><br />
-<br &#47;><br />
-var iShan=0;<br &#47;><br />
-<br &#47;><br />
-var ia;<br &#47;><br />
-var ib;<br &#47;><br />
-<br &#47;><br />
-var xa;<br &#47;><br />
-var xb;<br &#47;><br />
-var xc;<br &#47;><br />
-var xd;<br &#47;><br />
-var xe;<br &#47;><br />
-<br &#47;><br />
-for (ia=23145+1;ia<43521;ia++)<br &#47;><br />
-&#123;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp;xa=0;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp;xb=0;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp;xc=0;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp;xd=0;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp;xe=0;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp;for (ib=0;ib<5;ib++)<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp;&#123;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;switch(String(ia).substr(ib,1))&#123;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;case '1':<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xa+=1;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;break;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;case '2':<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xb+=1;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;break;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;case '3':<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xc+=1;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;break;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;case '4':<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xd+=1;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;break;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;case '5':<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xe+=1;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;break;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#125;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp;&#125;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp;if(xa==1 &amp;&amp; xb==1 &amp;&amp; xc==1 &amp;&amp; xd==1 &amp;&amp; xe==1)<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp;&#123;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;iShan+=1;<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;document.write(ia + ' | ');<br &#47;><br />
- &nbsp; &nbsp; &nbsp; &nbsp;&#125;<br &#47;><br />
-&#125;<br &#47;><br />
-document.write('<br &#47;>sum is: ' + iShan);<br &#47;><br />
-<&#47;script><br &#47;><br />
-<br &#47;><br />
-<br &#47;><br />
-程序输出的结果如下：<br &#47;><br />
-<br &#47;><br />
-23154 | 23415 | 23451 | 23514 | 23541 | 24135 | 24153 | 24315 | 24351<br &#47;><br />
-| 24513 | 24531 | 25134 | 25143 | 25314 | 25341 | 25413 | 25431 |<br &#47;><br />
-31245 | 31254 | 31425 | 31452 | 31524 | 31542 | 32145 | 32154 | 32415<br &#47;><br />
-| 32451 | 32514 | 32541 | 34125 | 34152 | 34215 | 34251 | 34512 |<br &#47;><br />
-34521 | 35124 | 35142 | 35214 | 35241 | 35412 | 35421 | 41235 | 41253<br &#47;><br />
-| 41325 | 41352 | 41523 | 41532 | 42135 | 42153 | 42315 | 42351 |<br &#47;><br />
-42513 | 42531 | 43125 | 43152 | 43215 | 43251 | 43512 |<br &#47;><br />
-sum is: 58<br &#47;><br />
-<br &#47;><br />
-PS：由于我特别粗心大意，不知道程序有没有其他错漏。呵呵，我完成调试的环境是：Mac OS X Leopard 10.5.6 + Safari 3.2.1<&#47;div><br />
-<a href="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2010&#47;09&#47;picture6364.png?w=300" target="_blank" rel="WLPP;url=https:&#47;&#47;2ax6iq.bay.livefilestore.com&#47;y1mcBDqKPdWVF1JA3JXAgSBlgPhKP6eO9uQS0rpP4PhIL2W1-X8cWQABegC4bcjNa4i5QDqGzydv_PcOxPeLlk2CY2BQgdm3738rDrKfQnfi79SyzS4d3zcMzt1hbhwdjZvvg4yBBN28H8bkAto4qbLrA&#47;Picture%206364.png"><img src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2010&#47;09&#47;picture6364.png?w=300" alt="" &#47;><&#47;a><br &#47;><&#47;div></p>
+<div>今天有人问我一个数学问题：<br /><br />
+&ldquo;在由数字1、2、3、4、5组成的所有没有重复的5位数中，大于23145且小于43521的数共有多少个。&rdquo;<br /><br />
+<br /><br />
+最初想了想用排列组合的思想做，试算发现数量超过10个&hellip;&hellip;<br /><br />
+天呀，那么多！超过十个的事情就交给计算机算吧，于是放弃数学方法，改用Javascript解决。<br /><br />
+首先尝试把重点放在五个数字的排列上，后来发现写出五个数字排列的算法还不如写出验证所合成的五位数的有效性来得简单，于是有了如下的程序：<br /><br />
+<br /><br />
+<br /><br />
+<script type="text/javascript"><br /><br />
+/*<br /><br />
+=================================<br /><br />
+ver 0.3<br /><br />
+by LeaskH.com<br /><br />
+<a href="mailto:i@leaskh.com">i@leaskh.com</a><br /><br />
+April 7, 2009<br /><br />
+=================================<br /><br />
+*/<br /><br />
+<br /><br />
+var iShan=0;<br /><br />
+<br /><br />
+var ia;<br /><br />
+var ib;<br /><br />
+<br /><br />
+var xa;<br /><br />
+var xb;<br /><br />
+var xc;<br /><br />
+var xd;<br /><br />
+var xe;<br /><br />
+<br /><br />
+for (ia=23145+1;ia<43521;ia++)<br /><br />
+&#123;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp;xa=0;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp;xb=0;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp;xc=0;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp;xd=0;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp;xe=0;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp;for (ib=0;ib<5;ib++)<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp;&#123;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;switch(String(ia).substr(ib,1))&#123;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;case '1':<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xa+=1;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;break;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;case '2':<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xb+=1;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;break;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;case '3':<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xc+=1;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;break;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;case '4':<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xd+=1;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;break;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;case '5':<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xe+=1;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;break;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#125;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp;&#125;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp;if(xa==1 &amp;&amp; xb==1 &amp;&amp; xc==1 &amp;&amp; xd==1 &amp;&amp; xe==1)<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp;&#123;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;iShan+=1;<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;document.write(ia + ' | ');<br /><br />
+ &nbsp; &nbsp; &nbsp; &nbsp;&#125;<br /><br />
+&#125;<br /><br />
+document.write('<br />sum is: ' + iShan);<br /><br />
+</script><br /><br />
+<br /><br />
+<br /><br />
+程序输出的结果如下：<br /><br />
+<br /><br />
+23154 | 23415 | 23451 | 23514 | 23541 | 24135 | 24153 | 24315 | 24351<br /><br />
+| 24513 | 24531 | 25134 | 25143 | 25314 | 25341 | 25413 | 25431 |<br /><br />
+31245 | 31254 | 31425 | 31452 | 31524 | 31542 | 32145 | 32154 | 32415<br /><br />
+| 32451 | 32514 | 32541 | 34125 | 34152 | 34215 | 34251 | 34512 |<br /><br />
+34521 | 35124 | 35142 | 35214 | 35241 | 35412 | 35421 | 41235 | 41253<br /><br />
+| 41325 | 41352 | 41523 | 41532 | 42135 | 42153 | 42315 | 42351 |<br /><br />
+42513 | 42531 | 43125 | 43152 | 43215 | 43251 | 43512 |<br /><br />
+sum is: 58<br /><br />
+<br /><br />
+PS：由于我特别粗心大意，不知道程序有没有其他错漏。呵呵，我完成调试的环境是：Mac OS X Leopard 10.5.6 + Safari 3.2.1</div><br />
+<a href="http://www.leaskh.com/wp-content/uploads/2010/09/picture6364.png?w=300" target="_blank" rel="WLPP;url=https://2ax6iq.bay.livefilestore.com/y1mcBDqKPdWVF1JA3JXAgSBlgPhKP6eO9uQS0rpP4PhIL2W1-X8cWQABegC4bcjNa4i5QDqGzydv_PcOxPeLlk2CY2BQgdm3738rDrKfQnfi79SyzS4d3zcMzt1hbhwdjZvvg4yBBN28H8bkAto4qbLrA/Picture%206364.png"><img src="http://www.leaskh.com/wp-content/uploads/2010/09/picture6364.png?w=300" alt="" /></a><br /></div></p>

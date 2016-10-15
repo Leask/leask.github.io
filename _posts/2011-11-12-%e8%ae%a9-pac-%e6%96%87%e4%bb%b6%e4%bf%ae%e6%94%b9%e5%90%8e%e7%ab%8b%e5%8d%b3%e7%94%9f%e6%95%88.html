@@ -16,7 +16,7 @@ wordpress_url: http://www.leaskh.com/?p=1899
 date: '2011-11-12 17:46:37 +0800'
 date_gmt: '2011-11-12 09:46:37 +0800'
 categories:
-- Uncategorized
+
 tags: []
 comments:
 - id: 1138
@@ -61,19 +61,19 @@ comments:
 ---
 <p>ssh -D 和 VPN 是我认为目前最靠谱的翻墙方式了。<br />
 但是，他们都面临同一个问题，就是需要区分被墙与没有被墙的网站，以使用较快的方式访问所需要的站点。</p>
-<p>我使用 VPN 的时候会使用&nbsp;chnroutes 项目：http:&#47;&#47;code.google.com&#47;p&#47;chnroutes&#47;<br />
+<p>我使用 VPN 的时候会使用&nbsp;chnroutes 项目：http://code.google.com/p/chnroutes/<br />
 使用 ssh -D 的时候，我有自己的 .pac 文件，且我的 pac 文件修改很频繁。<br />
 于是怎么在不重启浏览器（或其他应用）的情况下，让新修改的 .pac 文件生效呢？<br />
 经过研究，发现只需要修改一下 .pac 文件的地址，浏览器就会重新加载代理脚本了。<br />
 但每次都在图形界面下干这活儿，实在太反人类了，于是，决定尝试写 shell：</p>
 <p>Mac:</p>
-<pre>#!&#47;bin&#47;sh<br />
-pac="http:&#47;&#47;www.xxx.com&#47;yyy.pac?time=`date +%s`";<br />
+<pre>#!/bin/sh<br />
+pac="http://www.xxx.com/yyy.pac?time=`date +%s`";<br />
 networksetup -setautoproxyurl Wi-Fi "$pac";<br />
-# 你需要把 Wi-Fi 改为自己网络的 Service name<&#47;pre><br />
+# 你需要把 Wi-Fi 改为自己网络的 Service name</pre><br />
 Linux with gnome:</p>
-<pre>#!&#47;bin&#47;sh<br />
-pac="http:&#47;&#47;www.xxx.com&#47;yyy.pac?time=`date +%s`";<br />
-gconftool -s &#47;system&#47;proxy&#47;autoconfig_url -t string "$pac";<&#47;pre><br />
+<pre>#!/bin/sh<br />
+pac="http://www.xxx.com/yyy.pac?time=`date +%s`";<br />
+gconftool -s /system/proxy/autoconfig_url -t string "$pac";</pre><br />
 Windows?</p>
-<pre>对不起，不用 Windows 好多年了。<&#47;pre></p>
+<pre>对不起，不用 Windows 好多年了。</pre></p>

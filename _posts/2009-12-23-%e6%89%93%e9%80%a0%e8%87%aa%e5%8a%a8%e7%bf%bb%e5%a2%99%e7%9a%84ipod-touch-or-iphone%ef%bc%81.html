@@ -16,7 +16,7 @@ wordpress_url: http://leaskh.wordpress.com/2009/12/23/%e6%89%93%e9%80%a0%e8%87%a
 date: '2009-12-23 16:58:14 +0800'
 date_gmt: '2009-12-23 16:58:14 +0800'
 categories:
-- Uncategorized
+
 tags: []
 comments:
 - id: 361
@@ -39,21 +39,21 @@ comments:
 不知道大家有没有和我一样，有在移动设备上翻墙的需要。<br />
 由于iPhone OS基于完整的UNIX，那么想象的空间就很大了，ssh -D直接跑在iPhone OS上已经不是什么新鲜事情，但是ssh的链接有一点脆弱，碰上网络不稳定的时候还真的挺郁闷的。<br />
 既然Desktop UNIX上有autossh（实现ssh断线或者无响应的时候自动重新发起连接，注意如果想实现自动身份验证，你需要上传你的公匙【方法自行Google，十分简单】。），那么是不是iPhone OS也能编译一个对应的autossh呢？打开xcode，正打算对autossh的代码开刀。突然想起上Cydia上看看，果然已经有人编译好了，于是站在巨人的肩膀上：</p>
-<p><a href="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2009&#47;12&#47;ipodssh1.png"><img class="alignnone size-full wp-image-1852" title="ipodssh1" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2009&#47;12&#47;ipodssh1.png" alt="" width="320" height="480" &#47;><&#47;a></p>
+<p><a href="http://www.leaskh.com/wp-content/uploads/2009/12/ipodssh1.png"><img class="alignnone size-full wp-image-1852" title="ipodssh1" src="http://www.leaskh.com/wp-content/uploads/2009/12/ipodssh1.png" alt="" width="320" height="480" /></a></p>
 <p>简单编辑一下以下的脚本，并上传到设备上（注意设置权限为&ldquo;可执行&rdquo;）：</p>
-<blockquote><p><em>#!&#47;bin&#47;bash<br />
+<blockquote><p><em>#!/bin/bash<br />
 killall autossh;<br />
 killall ssh;<br />
-autossh -M20000 -f -q -N &ndash;D <strong>yourPort<&#47;strong> -g <strong>yourUserName@yourSSHServer<&#47;strong>;<br />
+autossh -M20000 -f -q -N &ndash;D <strong>yourPort</strong> -g <strong>yourUserName@yourSSHServer</strong>;<br />
 echo Flora tssh [Done];<br />
-exit 0;<&#47;em><&#47;blockquote><br />
+exit 0;</em></blockquote><br />
 当然了，脚本名字和提示信息等个性化的东西你随便写就可以，执行效果如下：</p>
-<p><a href="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2009&#47;12&#47;ipodssh02.png"><img class="alignnone size-full wp-image-1853" title="ipodssh02" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2009&#47;12&#47;ipodssh02.png" alt="" width="320" height="480" &#47;><&#47;a></p>
+<p><a href="http://www.leaskh.com/wp-content/uploads/2009/12/ipodssh02.png"><img class="alignnone size-full wp-image-1853" title="ipodssh02" src="http://www.leaskh.com/wp-content/uploads/2009/12/ipodssh02.png" alt="" width="320" height="480" /></a></p>
 <p>可爱的Facebook又回来了：</p>
-<p><a href="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2009&#47;12&#47;f964bfa1c9b8d9bb33047cea1ca2a1d8.png"><img class="alignnone size-full wp-image-1854" title="f964bfa1c9b8d9bb33047cea1ca2a1d8" src="http:&#47;&#47;www.leaskh.com&#47;wp-content&#47;uploads&#47;2009&#47;12&#47;f964bfa1c9b8d9bb33047cea1ca2a1d8.png" alt="" width="320" height="480" &#47;><&#47;a></p>
+<p><a href="http://www.leaskh.com/wp-content/uploads/2009/12/f964bfa1c9b8d9bb33047cea1ca2a1d8.png"><img class="alignnone size-full wp-image-1854" title="f964bfa1c9b8d9bb33047cea1ca2a1d8" src="http://www.leaskh.com/wp-content/uploads/2009/12/f964bfa1c9b8d9bb33047cea1ca2a1d8.png" alt="" width="320" height="480" /></a></p>
 <p>当然你也是可以配合pac文件用。pac文件和电脑上的语法完全一样，几乎不用做什么修改就能用到iPhone OS上了。<br />
 现在开始只需要启动一次脚本，就永远自动挂着ssh-D了哦，和电脑上翻墙一样方便了。</p>
 <p>PS 1 ：硬启动以后需要运行一次脚本哦，休眠醒来后不需要，千万不要忘记上传公匙。<br />
 PS 2 ：有兴趣的朋友还可以把autossh放在启动项目上。<br />
 PS 3 ：脚本其实不是必要的，autossh比较必要，脚本是为了让大家免去每次输入繁琐的命令。</p>
-<p><&#47;div></p>
+<p></div></p>

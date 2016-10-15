@@ -16,7 +16,7 @@ wordpress_url: http://www.leaskh.com/?p=1982
 date: '2012-11-23 00:29:36 +0800'
 date_gmt: '2012-11-22 16:29:36 +0800'
 categories:
-- Uncategorized
+
 tags: []
 comments:
 - id: 3983
@@ -40,7 +40,7 @@ comments:
   date: '2012-11-27 20:03:33 +0800'
   date_gmt: '2012-11-27 12:03:33 +0800'
   content: "捉摸了半天终于弄好了，可惜CHROME上的插件老是不起作用。\r\n先把Flora_Pac文件下载下来，后缀加上.py。\r\n装了python3.3.0运行提示错误，又装了python2.7.3运行的。\r\n运行前把default这条改成这个\r\ndefault
-    = 'PROXY 127.0.0.1:8087',\r\n生成了flora_pac.pac，把这个文件拷贝到d盘，\r\n然后在ie的internet属性里-〉连接-〉\r\n选中宽带连接-〉再点设置-〉勾选使用自动脚本\r\n位置这样写file:&#47;&#47;D:&#47;flora_pac.pac\r\n终于搞定拉，这个用的真过瘾啊，我以前不用gfwlist常常是firefox用wallproxy代理，chrome浏览国内站，切换来切换去的，这下终于爽了。\r\n我想询问下，chrome的插件switchy里位置怎么写，而且我勾选了插件设置的网络选项卡里的宽带连接，但是它不去改宽带连接的脚本，老是去改局域网设置里的脚本。"
+    = 'PROXY 127.0.0.1:8087',\r\n生成了flora_pac.pac，把这个文件拷贝到d盘，\r\n然后在ie的internet属性里-〉连接-〉\r\n选中宽带连接-〉再点设置-〉勾选使用自动脚本\r\n位置这样写file://D:/flora_pac.pac\r\n终于搞定拉，这个用的真过瘾啊，我以前不用gfwlist常常是firefox用wallproxy代理，chrome浏览国内站，切换来切换去的，这下终于爽了。\r\n我想询问下，chrome的插件switchy里位置怎么写，而且我勾选了插件设置的网络选项卡里的宽带连接，但是它不去改宽带连接的脚本，老是去改局域网设置里的脚本。"
 - id: 3988
   author: '12312'
   author_email: 123123@hotmail.com
@@ -111,27 +111,27 @@ comments:
     抱歉，业余项目时间不多。
 ---
 <p>十八大以来，网络就越发异常了，VPN 断断续续，工作受影响严重。盼星星盼月亮终于盼走了十八大。没想到网络依旧不好用，看来党妈已经想把封锁 VPN 作为常规策略了。幸好 ssh 还好用，于是借机会升级了&nbsp;Flora_Pac 项目，加入了几个大家都比较期待的小功能，合并了 @forresty 的 fork 的部分代码，现在基本能用了。</p>
-<p>项目介绍：http:&#47;&#47;www.leaskh.com&#47;2011&#47;12&#47;02&#47;用-flora_pac-py-生成自动翻墙的-pac-文件&#47;</p>
-<p>项目地址：https:&#47;&#47;github.com&#47;Leask&#47;Flora_Pac</p>
+<p>项目介绍：http://www.leaskh.com/2011/12/02/用-flora_pac-py-生成自动翻墙的-pac-文件/</p>
+<p>项目地址：https://github.com/Leask/Flora_Pac</p>
 <p>具体改动：</p>
-<pre>leask@Flora:~&#47;Documents&#47;Working&#47;Flora_Pac:master> git diff ee2e8e83b2ca5b4d178c091555d99a67d0bcb7fa<br />
-diff --git a&#47;README.md b&#47;README.md<br />
+<pre>leask@Flora:~/Documents/Working/Flora_Pac:master> git diff ee2e8e83b2ca5b4d178c091555d99a67d0bcb7fa<br />
+diff --git a/README.md b/README.md<br />
 new file mode 100644<br />
 index 0000000..c2de47f<br />
---- &#47;dev&#47;null<br />
-+++ b&#47;README.md<br />
+--- /dev/null<br />
++++ b/README.md<br />
 @@ -0,0 +1 @@<br />
 +Generate proxy auto-config rules. (Working with GFW)<br />
 \ No newline at end of file<br />
-diff --git a&#47;flora_pac.py b&#47;flora_pac.py<br />
+diff --git a/flora_pac.py b/flora_pac.py<br />
 old mode 100644<br />
 new mode 100755<br />
 index 528e29a..317335e<br />
---- a&#47;flora_pac.py<br />
-+++ b&#47;flora_pac.py<br />
+--- a/flora_pac.py<br />
++++ b/flora_pac.py<br />
 @@ -20,20 +20,27 @@ def generate_pac(proxy):<br />
-         "&#47;&#47; Flora_Pac by @leaskh"<br />
-         "\n&#47;&#47; www.leaskh.com, i@leaskh.com"<br />
+         "// Flora_Pac by @leaskh"<br />
+         "\n// www.leaskh.com, i@leaskh.com"<br />
          "\n"<br />
 -        "\nfunction FindProxyForURL(url, host)"<br />
 -        "\n{"<br />
@@ -153,11 +153,11 @@ index 528e29a..317335e<br />
 +        "\n    if (isPlainHostName(host)"<br />
 +        "\n     || (host == '127.0.0.1')"<br />
 +        "\n     || (host == 'localhost')"<br />
-+        "\n     || (&#47;\\b([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\\b&#47;.test(host))) {"<br />
++        "\n     || (/\\b([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\\b/.test(host))) {"<br />
 +        "\n        return 'DIRECT';"<br />
 +        "\n    }"<br />
 +        "\n"<br />
          "\n    var ip = dnsResolve(host);"<br />
          "\n"<br />
-         "\n    for (var i in list) {"<&#47;pre><br />
+         "\n    for (var i in list) {"</pre><br />
 还是那一句，希望早日不用折腾这些事儿吧。</p>
