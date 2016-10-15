@@ -30,11 +30,11 @@ comments: []
 </ol><br />
 OK，我们来一个一个解决。</p>
 <p>第一个问题我们可以通过D-Link Dynamic DNS解决，该服务目前免费。注册地址是：<a title="https://www.dlinkddns.com/" href="https://www.dlinkddns.com/" target="_blank">https://www.dlinkddns.com/<br />
-</a><img style="display: inline; border-style: initial; border-color: initial; border-width: 0px;" title="Screen shot 2009-10-24 at 4.32.54 PM" src="http://www.leaskh.com/wp-content/uploads/2010/09/screenshot2009-10-24at41.png" alt="Screen shot 2009-10-24 at 4.32.54 PM" width="660" height="771" border="0" /><br />
+</a><img style="display: inline; border-style: initial; border-color: initial; border-width: 0px;" title="Screen shot 2009-10-24 at 4.32.54 PM" src="/public/2010/09/screenshot2009-10-24at41.png" alt="Screen shot 2009-10-24 at 4.32.54 PM" width="660" height="771" border="0" /><br />
 注册后会得到一个域名，然后你可以填上你当前的IP地址。 那么你已经能让全球的朋友通过这个域名访问你的电脑了，那么问题是如果你的IP改变了，是不是就需要重新登录这个页面填写新的IP呢？所以我们需要接着解决第二个问题。</p>
 <p>第二个问题我们可以通过DNS-O-Matic解决，该服务目前免费。注册地址是：<a title="https://www.dnsomatic.com/" href="https://www.dnsomatic.com/" target="_blank">https://www.dnsomatic.com/</a><br />
 DNS-O-Matic是不提供DNS服务的，它关注的是更新各种DNS服务上的动态IP地址，DNS-O-Matic支持上面提到的D-Link Dynamic DNS，同时也支持OpenDNS。<br />
-<img style="display: inline; border-style: initial; border-color: initial; border-width: 0px;" title="Screen shot 2009-10-24 at 4.39.39 PM" src="http://www.leaskh.com/wp-content/uploads/2010/09/screenshot2009-10-24at4.png" alt="Screen shot 2009-10-24 at 4.39.39 PM" border="0" /><br />
+<img style="display: inline; border-style: initial; border-color: initial; border-width: 0px;" title="Screen shot 2009-10-24 at 4.39.39 PM" src="/public/2010/09/screenshot2009-10-24at4.png" alt="Screen shot 2009-10-24 at 4.39.39 PM" border="0" /><br />
 DNS-O-Matic的注册也同样简单，注册后你可以添加你所使用的DNS服务，如输入你的D-Link Dynamic DNS帐号、密码和域名。<br />
 为什么要引入DNS-O-Matic呢？因为DNS-O-Matic支持开放式的API，你可以通过各种形式的客户端或者脚本来更新你提交你的本地IP地址。<br />
 如以下这个Mac上的小脚本DNS-O-Matic Updater就是我们所需要的了：<br />

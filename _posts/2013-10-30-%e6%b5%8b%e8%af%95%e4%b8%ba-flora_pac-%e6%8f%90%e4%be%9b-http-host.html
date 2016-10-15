@@ -85,7 +85,7 @@ comments:
   content: "使用VPN保護隱私不受任何人侵犯在任何國家任何時候都有必要。"
 ---
 <p>有 Flora_Pac&nbsp;用户（yyxst***@gmail.com 等）提出能不能提供官方 HTTP host 方式，通过 request 参数来返回适用的 PAC 文件（类似于 <a title="autoproxy2pac" href="https://autoproxy2pac.appspot.com" target="_blank">autoproxy2pac</a>）。这个需求我早前就有考虑，起初主要担心集中提供 PAC host 会导致服务器被墙而徒劳无功。但最近又想了想，很多朋友的机器上其实是没有开发环境的，他们也不见得全都熟悉 Python 等工具，本着让翻墙能尽可能简单便利，尽可能降低门槛的期望，我简单实现了一下这个功能。目前的实现相当简陋，但凑合能用。</p>
-<p><img class="alignnone  wp-image-2102" style="border: 0px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;" alt="Flora_Pac host demo" src="http://www.leaskh.com/wp-content/uploads/2013/10/Screen-Shot-2013-10-30-at-10.08.01-PM.jpg" width="1564" height="1388" /></p>
+<p><img class="alignnone  wp-image-2102" style="border: 0px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;" alt="Flora_Pac host demo" src="/public/2013/10/Screen-Shot-2013-10-30-at-10.08.01-PM.jpg" width="1564" height="1388" /></p>
 <p>使用相当简单，我就不写什么教程了，直接上几个 demo 大家一看就懂了：</p>
 <p style="padding-left: 30px;">* 创建代理地址为&nbsp;SOCKS 127.0.0.1:8964 的 PAC 文件:<br />
 $ curl&nbsp;<a href="http://flora.leaskh.com/pac?proxy=SOCKS%20127.0.0.1%3A8964" target="_blank">http://flora.leaskh.com/pac?proxy=SOCKS%20127.0.0.1%3A8964</a></p></p>

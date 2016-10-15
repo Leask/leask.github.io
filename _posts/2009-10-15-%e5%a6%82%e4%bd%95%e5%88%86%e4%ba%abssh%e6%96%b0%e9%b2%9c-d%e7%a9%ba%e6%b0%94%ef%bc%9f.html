@@ -27,9 +27,9 @@ comments: []
 <p>首先我们明确一点，IE是不支持通过Socks代理打开网页的，所以我们需要把Socks代理转化为IE能够识别的HTTP代理。工具上理论上用Privoxy或者SocksCap都可以的。但是Privoxy支持配置文件，能够智能选择那些通过Privoxy，那些不通过Privoxy，所以我选择了它。</p>
 <p>这里主要考虑到ssh -D主机大多都是算流量的，所以能不通过ssh -D的站点还是直接连接比较划算，Privoxy就提供这个可能性。</p>
 <p>看图（我不解释了，有心人一下子就看明白了）：</p>
-<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="Screen shot 2009-10-15 at 2.49.16 PM" border="0" alt="Screen shot 2009-10-15 at 2.49.16 PM" src="http://www.leaskh.com/wp-content/uploads/2010/09/screenshot2009-10-15at2.png?w=300" width="644" height="404" /> </p>
+<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="Screen shot 2009-10-15 at 2.49.16 PM" border="0" alt="Screen shot 2009-10-15 at 2.49.16 PM" src="/public/2010/09/screenshot2009-10-15at2.png?w=300" width="644" height="404" /> </p>
 <p>当然，如果你需要看的&ldquo;外贸网站&rdquo;比较多，你可以用pac文件做一下智能筛选。pac文件如何写？在终端执行：</p>
 <p><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; curl </em><a href="https://dl.getdropbox.com/u/873345/download/gfwlist.pac"><em>https://dl.getdropbox.com/u/873345/download/gfwlist.pac</em></a></p>
 <p>你就能得到一个很好的范例（基本上是Javascript的语法），这个pac文件也能附加到IE的代理设置里面：</p>
-<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="Screen shot 2009-10-15 at 2.52.03 PM" border="0" alt="Screen shot 2009-10-15 at 2.52.03 PM" src="http://www.leaskh.com/wp-content/uploads/2010/09/screenshot2009-10-15at21.png?w=241" width="591" height="734" /> </p>
+<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="Screen shot 2009-10-15 at 2.52.03 PM" border="0" alt="Screen shot 2009-10-15 at 2.52.03 PM" src="/public/2010/09/screenshot2009-10-15at21.png?w=241" width="591" height="734" /> </p>
 <p>祝大家好运！</p>  </div></p>
