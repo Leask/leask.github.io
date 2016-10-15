@@ -27,16 +27,16 @@ comments: []
 <p>才知道原来TextMate的FTP/SSH插件是通过PHP环境上传和下载文件的。<br />
 考虑到前几天我配置了Snow Leopard本地的PHP环境体换掉了MAMP集成环境。于是考虑是不是本地的PHP环境和TextMate的插件环境不兼容。</p>
 <p>查看插件的源代码：</p>
-<blockquote><p><em>&hellip;&hellip;<br />
+<blockquote><p><em>!!<br />
 usr/bin/env php<br />
 <?php<br />
 // Initialize variables and load helper functions<br />
 require(<strong>$_ENV['TM_BUNDLE_SUPPORT'].</strong>'/lib/helper_functions.php');<br />
 // put file to the remote host<br />
 put_file($_ENV['TM_FILENAME'], $_ENV['TM_FILEPATH'], $_ENV['TM_DIRECTORY'], $PROJECT_DIR, $PREFS);<br />
-&hellip;&hellip;</em></blockquote><br />
+!!</em></blockquote><br />
 不难看出TextMate通过PHP环境变量的方式传递变量给一个PHP Shell，然后由PHP Shell的Function()上传和下载文件。经过对php.ini的分析研究，发现原来php.ini中有关于环境变量的这一个描述：</p>
-<blockquote><p><em>&hellip;&hellip;<br />
+<blockquote><p><em>!!<br />
 ; This directive determines which super global arrays are registered when PHP<br />
 ; starts up. If the register_globals directive is enabled, it also determines<br />
 ; what order variables are populated into the global space. G,P,C,E &amp; S are<br />
@@ -48,9 +48,9 @@ put_file($_ENV['TM_FILENAME'], $_ENV['TM_FILEPATH'], $_ENV['TM_DIRECTORY'], $PRO
 ; Default Value: "EGPCS"<br />
 ; Development Value: "GPCS"<br />
 ; Production Value: "GPCS";<br />
-; &hellip;&hellip;<br />
+; !!<br />
 <strong>variables_order = "GPCS"</strong><br />
-&hellip;&hellip;</em></blockquote><br />
+!!</em></blockquote><br />
 Snow Leopard在启用php.ini这个配置文件的时候，会更改PHP环境<strong>variables_order</strong>的默认值，然而这个设置将导致PHP定义全局环境变量的功能失效。于是尝试修改为：</p>
 <blockquote><p><strong><em>variables_order = "EGPCS"</em></strong></blockquote><br />
 重新加载插件：</p>
