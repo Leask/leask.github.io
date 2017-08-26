@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>豆腐小公主 subscriptions in Google Reader</title>
+    </head>
+    <body>
+        <outline title="amuse" text="amuse">
+            <outline text="Mr. Lee CatCam" title="Mr. Lee CatCam"
+                type="rss"
+                xmlUrl="http://www.mr-lee-catcam.de/rss_feed.xml" htmlUrl="http://www.Mr-Lee-CatCam.de"/>
+        </outline>
+        <outline title="news" text="news">
+            <outline text="龙岗政府在线--区内公告" title="龙岗政府在线--区内公告" type="rss"
+                xmlUrl="http://www.lg.gov.cn/web/govopen/indexRss.aspx?govId=122" htmlUrl="http://www.google.com/reader/view/feed%2Fhttp%3A%2F%2Fwww.lg.gov.cn%2Fweb%2Fgovopen%2FindexRss.aspx%3FgovId%3D122"/>
+            <outline text="龙岗教育信息网" title="龙岗教育信息网" type="rss"
+                xmlUrl="http://www.szlg.edu.cn/xml/Rss.xml" htmlUrl="http://www.szlg.edu.cn/"/>
+        </outline>
+        <outline title="素材" text="素材">
+            <outline text="DryIcons.com" title="DryIcons.com" type="rss"
+                xmlUrl="http://dryicons.com/feed/" htmlUrl="http://dryicons.com/feed/"/>
+            <outline text="Free Powerpoint Templates"
+                title="Free Powerpoint Templates" type="rss"
+                xmlUrl="http://free4powerpoint.com/feed/" htmlUrl="http://free4powerpoint.com"/>
+            <outline text="PNG" title="PNG" type="rss"
+                xmlUrl="http://www.zcool.com.cn/plus/rss/6.xml" htmlUrl="http://www.zcool.com.cn/png/"/>
+            <outline text="PPT模板" title="PPT模板" type="rss"
+                xmlUrl="http://www.zlcool.com/e/web/?type=rss2&amp;classid=164" htmlUrl="http://www.zlcool.com/ppt/"/>
+            <outline text="PSD" title="PSD" type="rss"
+                xmlUrl="http://www.zcool.com.cn/plus/rss/7.xml" htmlUrl="http://www.zcool.com.cn/psd/"/>
+            <outline text="Vladstudio desktop wallpapers, clocks, news"
+                title="Vladstudio desktop wallpapers, clocks, news"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/vladstudio" htmlUrl="http://www.vladstudio.com"/>
+            <outline text="We Love Icons" title="We Love Icons"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/all_icons" htmlUrl="http://weloveicons.com"/>
+            <outline text="字体" title="字体" type="rss"
+                xmlUrl="http://www.zcool.com.cn/plus/rss/10.xml" htmlUrl="http://www.zcool.com.cn/font/"/>
+            <outline text="无忧PPT" title="无忧PPT" type="rss"
+                xmlUrl="http://www.51ppt.com.cn/xml/Rss.xml" htmlUrl="http://www.51ppt.com.cn/"/>
+            <outline text="爱软 - 素材" title="爱软 - 素材" type="rss"
+                xmlUrl="http://airuan.net/feed.asp?cateID=7" htmlUrl="http://airuan.net/"/>
+            <outline text="矢量" title="矢量" type="rss"
+                xmlUrl="http://www.zcool.com.cn/plus/rss/1.xml" htmlUrl="http://www.zcool.com.cn/vector/"/>
+            <outline text="矢量人物素材" title="矢量人物素材" type="rss"
+                xmlUrl="http://www.zcool.com.cn/plus/rss/19.xml" htmlUrl="http://www.zcool.com.cn/vector/vector_people/"/>
+            <outline text="矢量图标" title="矢量图标" type="rss"
+                xmlUrl="http://www.zcool.com.cn/plus/rss/3.xml" htmlUrl="http://www.zcool.com.cn/vector/vector_icon/"/>
+            <outline text="矢量潮流设计元素" title="矢量潮流设计元素" type="rss"
+                xmlUrl="http://www.zcool.com.cn/plus/rss/4.xml" htmlUrl="http://www.zcool.com.cn/vector/vector_design/"/>
+            <outline text="矢量花卉花边花纹" title="矢量花卉花边花纹" type="rss"
+                xmlUrl="http://www.zcool.com.cn/plus/rss/16.xml" htmlUrl="http://www.zcool.com.cn/vector/vector_fw/"/>
+            <outline text="矢量风景素材" title="矢量风景素材" type="rss"
+                xmlUrl="http://www.zcool.com.cn/plus/rss/18.xml" htmlUrl="http://www.zcool.com.cn/vector/vector_fj/"/>
+            <outline text="维奇--矢量素材" title="维奇--矢量素材" type="rss"
+                xmlUrl="http://www.veeqi.com/plus/rss/8.xml" htmlUrl="http://www.veeqi.com/vector/"/>
+        </outline>
+        <outline title="Appreciation" text="Appreciation">
+            <outline text="A Collection a Day, 2010"
+                title="A Collection a Day, 2010" type="rss"
+                xmlUrl="http://collectionaday2010.blogspot.com/feeds/posts/default" htmlUrl="http://collectionaday2010.blogspot.com/"/>
+            <outline text="A CUP OF JO" title="A CUP OF JO" type="rss"
+                xmlUrl="http://joannagoddard.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://joannagoddard.blogspot.com/"/>
+            <outline text="A Merry Mishap" title="A Merry Mishap"
+                type="rss"
+                xmlUrl="http://amerrymishap.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://www.amerrymishapblog.com/"/>
+            <outline text="avie designs" title="avie designs" type="rss"
+                xmlUrl="http://aviedesigns.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://aviedesigns.blogspot.com/"/>
+            <outline text="decor8" title="decor8" type="rss"
+                xmlUrl="http://decor8blog.com/feed/" htmlUrl="http://decor8blog.com"/>
+            <outline text="Design Crush" title="Design Crush" type="rss"
+                xmlUrl="http://4designerd.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://www.designcrushblog.com"/>
+            <outline text="Designboom - Weblog"
+                title="Designboom - Weblog" type="rss"
+                xmlUrl="http://www.designboom.com/weblog/rss.php" htmlUrl="http://www.designboom.com"/>
+            <outline text="desire to inspire - desiretoinspire.net"
+                title="desire to inspire - desiretoinspire.net"
+                type="rss"
+                xmlUrl="http://desiretoinspire.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://desiretoinspire.blogspot.com/"/>
+            <outline text="DigiArt" title="DigiArt" type="rss"
+                xmlUrl="http://feed.feedsky.com/digiart" htmlUrl="http://www.adfuns.net/index.php"/>
+            <outline text="orange you lucky!" title="orange you lucky!"
+                type="rss"
+                xmlUrl="http://orangeyoulucky.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://orangeyoulucky.blogspot.com/"/>
+            <outline text="Simple Lovely" title="Simple Lovely"
+                type="rss"
+                xmlUrl="http://simplelovely.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://www.simplelovelyblog.com/"/>
+            <outline text="Since1984创意杂货 / 商品更新记录"
+                title="Since1984创意杂货 / 商品更新记录" type="rss"
+                xmlUrl="http://feed.feedsky.com/store" htmlUrl="http://since1984.cn/post/2012-04-13/store"/>
+            <outline text="乐活乐品" title="乐活乐品" type="rss"
+                xmlUrl="http://feedsky.blogbus.com/loohoocn_blogbus_com" htmlUrl="http://loohoocn.blogbus.com/"/>
+            <outline text="创意设计" title="创意设计" type="rss"
+                xmlUrl="http://www.chuangyishejiboke.net/index.php/feed/" htmlUrl="http://www.chuangyishejiboke.net"/>
+            <outline text="发现生活 发现新鲜" title="发现生活 发现新鲜" type="rss"
+                xmlUrl="http://feedsky.blogbus.com/since84_blogbus_com" htmlUrl="http://since84.blogbus.com/"/>
+            <outline text="天使出走" title="天使出走" type="rss"
+                xmlUrl="http://feed.feedsky.com/kidonly" htmlUrl="http://kidonly.blogbus.com"/>
+            <outline text="学院" title="学院" type="rss"
+                xmlUrl="http://www.zcool.com.cn/plus/rss/139.xml" htmlUrl="http://www.zcool.com.cn/school/"/>
+            <outline text="梅子的写食日记" title="梅子的写食日记" type="rss"
+                xmlUrl="http://plum.blog.sohu.com/rss" htmlUrl="http://plum.blog.sohu.com/"/>
+            <outline text="维奇--学习教程" title="维奇--学习教程" type="rss"
+                xmlUrl="http://www.veeqi.com/plus/rss/7.xml" htmlUrl="http://www.veeqi.com/learn/"/>
+            <outline text="美味工厂" title="美味工厂" type="rss"
+                xmlUrl="http://feed.feedsky.com/stooory_info" htmlUrl="http://meiwei.me"/>
+            <outline text="胖星儿" title="胖星儿" type="rss"
+                xmlUrl="http://blog.sina.com.cn/rss/wangxiaoxing.xml" htmlUrl="http://blog.sina.com.cn/wangxiaoxing"/>
+            <outline text="设计｜生活｜发现新鲜" title="设计｜生活｜发现新鲜" type="rss"
+                xmlUrl="http://feed.feedsky.com/since1984" htmlUrl="http://since1984.cn"/>
+            <outline text="酷站" title="酷站" type="rss"
+                xmlUrl="http://www.zcool.com.cn/plus/rss/5.xml" htmlUrl="http://www.zcool.com.cn/coolsite/"/>
+        </outline>
+        <outline title="blog" text="blog">
+            <outline text="Deng" title="Deng" type="rss"
+                xmlUrl="http://shuzhiyin.blogbus.com/index.rdf" htmlUrl="http://shuzhiyin.blogbus.com"/>
+            <outline text="Eva" title="Eva" type="rss"
+                xmlUrl="http://model-eva.blog.163.com/rss/" htmlUrl="http://model-eva.blog.163.com"/>
+            <outline text="lacky" title="lacky" type="rss"
+                xmlUrl="http://lacky-kobe.blog.163.com/rss/" htmlUrl="http://lacky-kobe.blog.163.com"/>
+            <outline text="Pluto" title="Pluto" type="rss"
+                xmlUrl="http://plutokwok.blog.163.com/rss/" htmlUrl="http://plutokwok.blog.163.com"/>
+            <outline text="Rabbit" title="Rabbit" type="rss"
+                xmlUrl="http://koreta.blog.163.com/rss/" htmlUrl="http://koreta.blog.163.com"/>
+            <outline text="Sindy" title="Sindy" type="rss"
+                xmlUrl="http://sindy-huiling.blog.163.com/rss/" htmlUrl="http://sindy-huiling.blog.163.com"/>
+            <outline text="Tina" title="Tina" type="rss"
+                xmlUrl="http://tina5178118.blog.163.com/rss/" htmlUrl="http://tina5178118.blog.163.com"/>
+            <outline text="Tracy" title="Tracy" type="rss"
+                xmlUrl="http://blog.163.com/tracy_xing/rss/" htmlUrl="http://blog.163.com/tracy_xing"/>
+            <outline text="ɑ|極k.亂メ" title="ɑ|極k.亂メ" type="rss"
+                xmlUrl="http://feeds.qzone.qq.com/cgi-bin/cgi_rss_out?uin=524044988" htmlUrl="http://524044988.qzone.qq.com"/>
+            <outline text="寻找那遗失的翅膀" title="寻找那遗失的翅膀" type="rss"
+                xmlUrl="http://blog.163.com/rebecca0707@126/rss/" htmlUrl="http://blog.163.com/rebecca0707@126"/>
+            <outline text="师途前行" title="师途前行" type="rss"
+                xmlUrl="http://blog.sina.com.cn/rss/shirley20100407.xml" htmlUrl="http://blog.sina.com.cn/shirley20100407"/>
+            <outline text="豆腐小公主" title="豆腐小公主" type="rss"
+                xmlUrl="http://babyrss.leaskh.com/" htmlUrl="http://baby.leaskh.com"/>
+        </outline>
+        <outline title="Handmade" text="Handmade">
+            <outline text="++As mama blog++" title="++As mama blog++"
+                type="rss"
+                xmlUrl="http://asmama-blog.jugem.jp/?mode=rss" htmlUrl="http://asmama-blog.jugem.jp/"/>
+            <outline text="." title="." type="rss"
+                xmlUrl="http://indiecraftdocumentary.blogspot.com/feeds/posts/default" htmlUrl="http://indiecraftdocumentary.blogspot.com/"/>
+            <outline text="...细石滩" title="...细石滩" type="rss"
+                xmlUrl="http://www.pinbu.com/?uid-114665-action-rss-type-" htmlUrl="http://www.pinbu.com/?uid-114665"/>
+            <outline text="All Free Crafts Blog"
+                title="All Free Crafts Blog" type="rss"
+                xmlUrl="http://www.allfreecrafts.com/blog/feed/" htmlUrl="http://www.allfreecrafts.com/blog"/>
+            <outline text="allaboutPapercutting"
+                title="allaboutPapercutting" type="rss"
+                xmlUrl="http://elsita.typepad.com/allaboutpapercutting/rss.xml" htmlUrl="http://elsita.typepad.com/allaboutpapercutting/"/>
+            <outline text="amy rue" title="amy rue" type="rss"
+                xmlUrl="http://amyrue.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://amyrue.blogspot.com/"/>
+            <outline text="betz white" title="betz white" type="rss"
+                xmlUrl="http://feeds2.feedburner.com/BetzWhitesBlog" htmlUrl="http://blog.betzwhite.com/"/>
+            <outline text="bluepoolroad" title="bluepoolroad" type="rss"
+                xmlUrl="http://103bluepoolroad.blogspot.com/feeds/posts/default" htmlUrl="http://www.onbluepoolroad.com/"/>
+            <outline text="Boston Handmade" title="Boston Handmade"
+                type="rss"
+                xmlUrl="http://bostonhandmade.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://bostonhandmade.blogspot.com/"/>
+            <outline text="cafe de rin 製作日記" title="cafe de rin 製作日記"
+                type="rss"
+                xmlUrl="http://www.tascmart.org/cafederin/diary/log/index.rdf" htmlUrl="http://www.tascmart.org/cafederin/diary/"/>
+            <outline text="cathy of california"
+                title="cathy of california" type="rss"
+                xmlUrl="http://cathyofcalifornia.typepad.com/cathy_of_california/atom.xml" htmlUrl="http://cathyofcalifornia.typepad.com/cathy_of_california/"/>
+            <outline text="cheeky magpie" title="cheeky magpie"
+                type="rss"
+                xmlUrl="http://www.cheekymagpie.com/?feed=rss2" htmlUrl="http://www.cheekymagpie.com"/>
+            <outline text="CoCo-RoLL*" title="CoCo-RoLL*" type="rss"
+                xmlUrl="http://cocoroll.blog92.fc2.com/?xml" htmlUrl="http://cocoroll.blog92.fc2.com/"/>
+            <outline text="Coisas da Doris" title="Coisas da Doris"
+                type="rss"
+                xmlUrl="http://coisasdadoris.blogspot.com/feeds/posts/default" htmlUrl="http://coisasdadoris.blogspot.com/"/>
+            <outline
+                text="Comments on LucyKate Crafts...: Love letter for a valentine, tutorial and a giveaw..."
+                title="Comments on LucyKate Crafts...: Love letter for a valentine, tutorial and a giveaw..."
+                type="rss"
+                xmlUrl="http://lucykatecrafts.blogspot.com/feeds/4304797581830996208/comments/default" htmlUrl="http://lucykatecrafts.blogspot.com/2009/02/love-letter-for-valentine-tutorial-and.html"/>
+            <outline text="craftlog" title="craftlog" type="rss"
+                xmlUrl="http://craftlog.org/craftlog/?feed=rss2" htmlUrl="http://craftlog.org/craftlog"/>
+            <outline
+                text="Crafts Products from the Dow Chemical Company"
+                title="Crafts Products from the Dow Chemical Company"
+                type="rss"
+                xmlUrl="http://craft.dow.com/proj/rssfeed.xml" htmlUrl="http://www.dow.com/craft"/>
+            <outline text="craftster.org blog"
+                title="craftster.org blog" type="rss"
+                xmlUrl="http://www.craftster.org/blog/?feed=rss2" htmlUrl="http://www.craftster.org/blog"/>
+            <outline text="CraftStylish - All featured posts"
+                title="CraftStylish - All featured posts" type="rss"
+                xmlUrl="http://feeds.craftstylish.com/feeds/rss/all.xml" htmlUrl="http://www.craftstylish.com/"/>
+            <outline text="CraftStylish - Kaytet's posts"
+                title="CraftStylish - Kaytet's posts" type="rss"
+                xmlUrl="http://feeds.craftstylish.com/feeds/rss/profile/kaytet.xml" htmlUrl="http://www.craftstylish.com/profile/kaytet"/>
+            <outline text="Crafty Synergy" title="Crafty Synergy"
+                type="rss"
+                xmlUrl="http://craftysynergy.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://craftysynergy.blogspot.com/"/>
+            <outline text="Creative Thursday" title="Creative Thursday"
+                type="rss"
+                xmlUrl="http://creativethursday.typepad.com/my_weblog/rss.xml" htmlUrl="http://creativethursday.typepad.com/my_weblog/"/>
+            <outline text="CUT+PASTE Blog" title="CUT+PASTE Blog"
+                type="rss" xmlUrl="http://cutxpaste.com/blog/?feed=rss2" htmlUrl="http://www.cutxpaste.com"/>
+            <outline text="Design Style Guide"
+                title="Design Style Guide" type="rss"
+                xmlUrl="http://designstyleguide.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://designstyleguide.blogspot.com/"/>
+            <outline text="Design*Sponge" title="Design*Sponge"
+                type="rss"
+                xmlUrl="http://www.designspongeonline.com/feed" htmlUrl="http://www.designsponge.com"/>
+            <outline text="Diary of a Crafty Chica"
+                title="Diary of a Crafty Chica" type="rss"
+                xmlUrl="http://feeds.feedburner.com/TheCraftyChica" htmlUrl="http://thecraftychica.blogspot.com/"/>
+            <outline text="DIY Blog" title="DIY Blog" type="rss"
+                xmlUrl="http://www.diyblog.net/feed/" htmlUrl="http://www.diyblog.net"/>
+            <outline text="DIY吧!布艺DIY" title="DIY吧!布艺DIY" type="rss"
+                xmlUrl="http://bbs.diy8.cn/rss.php?fid=132&amp;auth=f6995kDo96URA6tG1dfV0HSQnHwbcgJW9n1W6A7VzoJ5BOIuE1dIAS5kyhcdYno" htmlUrl="http://bbs.diy8.cn/forumdisplay.php?fid=132"/>
+            <outline text="DIY吧!手工艺品" title="DIY吧!手工艺品" type="rss"
+                xmlUrl="http://bbs.diy8.cn/rss.php?fid=407&amp;auth=d347PsJublj%2F7Hi36EHstNcgqko4bm6Vd%2BycBURiFPVKz1TenSfCPf7ij58pXic" htmlUrl="http://bbs.diy8.cn/forumdisplay.php?fid=407"/>
+            <outline text="DIY吧!纸艺DIY交流" title="DIY吧!纸艺DIY交流" type="rss"
+                xmlUrl="http://bbs.diy8.cn/rss.php?fid=112&amp;auth=10aaYJyK6ZGqLpRaONpyU2WVY75PWhSAK6tD3EWmJdjNt5fD3eVRxFyeJpnd6nM" htmlUrl="http://bbs.diy8.cn/forumdisplay.php?fid=112"/>
+            <outline text="DIY吧！好东东分享" title="DIY吧！好东东分享" type="rss"
+                xmlUrl="http://bbs.diy8.cn/rss.php?fid=187&amp;auth=93585FcSSONwsYr8csGPOw%2Bd4Er2Cp6iQaI1KuG3OD28HdNTTZrXSoHvHt4MgKQ" htmlUrl="http://bbs.diy8.cn/forumdisplay.php?fid=187"/>
+            <outline text="DIY吧！巧手扮家居" title="DIY吧！巧手扮家居" type="rss"
+                xmlUrl="http://bbs.diy8.cn/rss.php?fid=10&amp;auth=e5d2%2F9W5iijPUIdtexgz4a3%2Bh5xtm5XwI4buPwXrImp1xBkQZg3%2B0vYEmMKqaQ" htmlUrl="http://bbs.diy8.cn/forumdisplay.php?fid=10"/>
+            <outline text="DIY大全资讯订阅" title="DIY大全资讯订阅" type="rss"
+                xmlUrl="http://www.diy114.cn/index2.php?option=com_rss&amp;feed=RSS2.0&amp;no_html=1" htmlUrl="http://www.diy114.cn"/>
+            <outline text="elsie marley" title="elsie marley" type="rss"
+                xmlUrl="http://www.elsiemarley.com/feed" htmlUrl="http://www.elsiemarley.com"/>
+            <outline text="Evil Mad Scientist Laboratories"
+                title="Evil Mad Scientist Laboratories" type="rss"
+                xmlUrl="http://www.evilmadscientist.com/backend/geeklog.rss" htmlUrl="http://www.evilmadscientist.com"/>
+            <outline text="For the Love of Cute"
+                title="For the Love of Cute" type="rss"
+                xmlUrl="http://fortheloveofcute.blogspot.com/feeds/posts/default" htmlUrl="http://fortheloveofcute.blogspot.com/"/>
+            <outline text="good + happy day" title="good + happy day"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/GoodHappyDay" htmlUrl="http://goodhappyday.blogspot.com/"/>
+            <outline text="Handmade Nation" title="Handmade Nation"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/HandmadeNation" htmlUrl="http://indiecraftdocumentary.blogspot.com/"/>
+            <outline text="Hannah Nunn" title="Hannah Nunn" type="rss"
+                xmlUrl="http://hannahnunn.blogspot.com/feeds/posts/default" htmlUrl="http://hannahnunn.blogspot.com/"/>
+            <outline text="Heart of Mary" title="Heart of Mary"
+                type="rss"
+                xmlUrl="http://pinoyinoz.blogspot.com/feeds/posts/default" htmlUrl="http://pinoyinoz.blogspot.com/"/>
+            <outline text="HELLOmynameisHeather"
+                title="HELLOmynameisHeather" type="rss"
+                xmlUrl="http://heatherbailey.typepad.com/heather_bailey/rss.xml" htmlUrl="http://heatherbailey.typepad.com/heather_bailey/"/>
+            <outline text="hengheng made" title="hengheng made"
+                type="rss"
+                xmlUrl="http://hengheng86.blogbus.com/index.rdf" htmlUrl="http://hengheng86.blogbus.com"/>
+            <outline text="How About Orange" title="How About Orange"
+                type="rss"
+                xmlUrl="http://howaboutorange.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://howaboutorange.blogspot.com/"/>
+            <outline text="(Inside A Black Apple)"
+                title="(Inside A Black Apple)" type="rss"
+                xmlUrl="http://theblackapple.typepad.com/inside_a_black_apple/rss.xml" htmlUrl="http://theblackapple.typepad.com/inside_a_black_apple/"/>
+            <outline text="Instructables-craft"
+                title="Instructables-craft" type="rss"
+                xmlUrl="http://www.instructables.com/tag/type:id/primarycategory:craft/rss.xml" htmlUrl="http://www.instructables.com"/>
+            <outline text="Instructables-featured craft"
+                title="Instructables-featured craft" type="rss"
+                xmlUrl="http://www.instructables.com/tag/type:id/featured:true/primarycategory:craft/rss.xml" htmlUrl="http://www.instructables.com"/>
+            <outline text="Instructables-popular craft"
+                title="Instructables-popular craft" type="rss"
+                xmlUrl="http://www.instructables.com/tag/type:id/popular:true/primarycategory:craft/rss.xml" htmlUrl="http://www.instructables.com"/>
+            <outline text="La Pomme" title="La Pomme" type="rss"
+                xmlUrl="http://lapommeblogs.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://lapommeblogs.blogspot.com/"/>
+            <outline text="Living Creatively" title="Living Creatively"
+                type="rss"
+                xmlUrl="http://www.livingcreatively.com.au/rss.php" htmlUrl="http://www.livingcreatively.com.au"/>
+            <outline text="MadeByGirl" title="MadeByGirl" type="rss"
+                xmlUrl="http://madebygirl.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://madebygirl.blogspot.com/"/>
+            <outline text="memego" title="memego" type="rss"
+                xmlUrl="http://memego-time.blogbus.com/index.rdf" htmlUrl="http://memego-time.blogbus.com"/>
+            <outline text="mintagehome" title="mintagehome" type="rss"
+                xmlUrl="http://mintagehome.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://mintagehome.blogspot.com/"/>
+            <outline text="MuMuCow" title="MuMuCow" type="rss"
+                xmlUrl="http://mumucow.blogbus.com/index.rdf" htmlUrl="http://mumucow.blogbus.com"/>
+            <outline text="My Craft Book" title="My Craft Book"
+                type="rss"
+                xmlUrl="http://www.mycraftbook.com/rssfeed.xml" htmlUrl="http://www.mycraftbook.com"/>
+            <outline text="My little blog on the big web"
+                title="My little blog on the big web" type="rss"
+                xmlUrl="http://cmfoster2005.blogspot.com/feeds/posts/default" htmlUrl="http://cmfoster2005.blogspot.com/"/>
+            <outline text="my love for you is a stampede of horses."
+                title="my love for you is a stampede of horses."
+                type="rss"
+                xmlUrl="http://myloveforyou.typepad.com/my_love_for_you/rss.xml" htmlUrl="http://myloveforyou.typepad.com/my_love_for_you/"/>
+            <outline text="nesting" title="nesting" type="rss"
+                xmlUrl="http://www.cookiemag.com/magazine/blogs/nesting/rss.xml" htmlUrl="http://www.cookiemag.com/magazine/blogs/nesting/"/>
+            <outline text="O.F. Patterns and Tutorials"
+                title="O.F. Patterns and Tutorials" type="rss"
+                xmlUrl="http://orangeflowerpatterns.blogspot.com/feeds/posts/default" htmlUrl="http://orangeflowerpatterns.blogspot.com/"/>
+            <outline text="Oh Joy!" title="Oh Joy!" type="rss"
+                xmlUrl="http://ohjoy.blogs.com/my_weblog/rss.xml" htmlUrl="http://ohjoy.blogs.com/my_weblog/"/>
+            <outline text="orange flower: sketchbook"
+                title="orange flower: sketchbook" type="rss"
+                xmlUrl="http://orangeflowersketchbook.blogspot.com/feeds/posts/default" htmlUrl="http://orangeflowersketchbook.blogspot.com/"/>
+            <outline text="Pikaland: The Illustrated Life"
+                title="Pikaland: The Illustrated Life" type="rss"
+                xmlUrl="http://pikaland.com/rss/" htmlUrl="http://www.pikaland.com"/>
+            <outline text="self" title="self" type="rss"
+                xmlUrl="http://dokidoki.blogbus.com/index.rdf" htmlUrl="http://dokidoki.blogbus.com"/>
+            <outline text="SewLover's garden" title="SewLover's garden"
+                type="rss"
+                xmlUrl="http://sewlover.blogspot.com/feeds/posts/default" htmlUrl="http://sewlover.blogspot.com/"/>
+            <outline text="Sparkle Thots" title="Sparkle Thots"
+                type="rss"
+                xmlUrl="http://sparklethots.com/blog/index.php/feed/" htmlUrl="http://sparklethots.com/blog"/>
+            <outline text="su" title="su" type="rss"
+                xmlUrl="http://omiao.blogbus.com/index.rdf" htmlUrl="http://omiao.blogbus.com"/>
+            <outline text="Sweet Fancy" title="Sweet Fancy" type="rss"
+                xmlUrl="http://xxsweetfancyxx.blogspot.com/feeds/posts/default" htmlUrl="http://xxsweetfancyxx.blogspot.com/"/>
+            <outline text="The Best of DIY" title="The Best of DIY"
+                type="rss"
+                xmlUrl="http://www.thebestofdiy.com/index.php/feed" htmlUrl="http://www.thebestofdiy.com"/>
+            <outline text="The Girl With A Curl"
+                title="The Girl With A Curl" type="rss"
+                xmlUrl="http://www.thegirlwithacurl.com/feed/" htmlUrl="http://www.thegirlwithacurl.com"/>
+            <outline text="The Haby Goddess" title="The Haby Goddess"
+                type="rss"
+                xmlUrl="http://thehabygoddess.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://thehabygoddess.blogspot.com/"/>
+            <outline text="The Latest from dominomag.com"
+                title="The Latest from dominomag.com" type="rss"
+                xmlUrl="http://www.dominomag.com/services/rss/feeds/everything.xml" htmlUrl="http://www.dominomag.com/services/rss/feeds/everything.xml"/>
+            <outline text="The Paper Moon Project"
+                title="The Paper Moon Project" type="rss"
+                xmlUrl="http://thepapermoonproject.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://www.thepapermoonproject.com/"/>
+            <outline text="The Storque" title="The Storque" type="rss"
+                xmlUrl="http://www.etsy.com/storque/feeds/latest/" htmlUrl="http://www.etsy.com/blog/en"/>
+            <outline text="TheClayPony" title="TheClayPony" type="rss"
+                xmlUrl="http://theclaypony.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://theclaypony.blogspot.com/"/>
+            <outline text="thelongthread.com" title="thelongthread.com"
+                type="rss" xmlUrl="http://thelongthread.com/?feed=rss2" htmlUrl="http://thelongthread.com"/>
+            <outline text="Three_2one微缩工坊" title="Three_2one微缩工坊"
+                type="rss"
+                xmlUrl="http://three2one311.blogbus.com/index.rdf" htmlUrl="http://three2one311.blogbus.com"/>
+            <outline text="Treasures Under The Willow Tree"
+                title="Treasures Under The Willow Tree" type="rss"
+                xmlUrl="http://treasuresunderthewillowtree.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://treasuresunderthewillowtree.blogspot.com/"/>
+            <outline text="WREN handmade" title="WREN handmade"
+                type="rss"
+                xmlUrl="http://wrenhandmade.typepad.com/wren_handmade/rss.xml" htmlUrl="http://wrenhandmade.typepad.com/wren_handmade/"/>
+            <outline text="Yis" title="Yis" type="rss"
+                xmlUrl="http://yisiteer.blogbus.com/index.rdf" htmlUrl="http://yisiteer.blogbus.com"/>
+            <outline text="Your guide to arts and craf"
+                title="Your guide to arts and craf" type="rss"
+                xmlUrl="http://jogjacrafts.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://jogjacrafts.blogspot.com/"/>
+            <outline text="『不可思议国』 布和线的爱情花絮" title="『不可思议国』 布和线的爱情花絮"
+                type="rss"
+                xmlUrl="http://www.pinbu.com/?uid-115491-action-rss-type-blog" htmlUrl="http://www.pinbu.com/?uid-115491"/>
+            <outline text="ショップブログ" title="ショップブログ" type="rss"
+                xmlUrl="http://kirakira-suteki.love-handmade-charmant.com/index.rdf" htmlUrl="http://kirakira-suteki.love-handmade-charmant.com/"/>
+            <outline text="不工堂" title="不工堂" type="rss"
+                xmlUrl="http://handcraft.blogbus.com/index.rdf" htmlUrl="http://handcraft.blogbus.com"/>
+            <outline text="乐乐原创熊熊屋" title="乐乐原创熊熊屋" type="rss"
+                xmlUrl="http://www.pinbu.com/?uid-113798-action-rss-type-" htmlUrl="http://www.pinbu.com/?uid-113798"/>
+            <outline text="乡间 足迹两行..." title="乡间 足迹两行..." type="rss"
+                xmlUrl="http://www.pinbu.com/?uid-145151-action-rss-type-" htmlUrl="http://www.pinbu.com/?uid-145151"/>
+            <outline text="会猫猫叫的小喵" title="会猫猫叫的小喵" type="rss"
+                xmlUrl="http://feedsky.blogbus.com/freshtime_blogbus_com" htmlUrl="http://freshtime.blogbus.com/"/>
+            <outline text="兄弟牌家用缝纫机专卖店 - 缝纫机使用"
+                title="兄弟牌家用缝纫机专卖店 - 缝纫机使用" type="rss"
+                xmlUrl="http://my.3er.cn/feed.asp?cate=3" htmlUrl="http://my.3er.cn/"/>
+            <outline text="可爱的娃娃" title="可爱的娃娃" type="rss"
+                xmlUrl="http://caoxiaojun197868.blog.163.com/rss/" htmlUrl="http://caoxiaojun197868.blog.163.com"/>
+            <outline text="叽哩咕 · KIRIKOU" title="叽哩咕 · KIRIKOU"
+                type="rss" xmlUrl="http://kirikou.blogbus.com/index.rdf" htmlUrl="http://kirikou.blogbus.com"/>
+            <outline text="品味论坛 - 品味手工" title="品味论坛 - 品味手工" type="rss"
+                xmlUrl="http://bbs.pinwei.org/rss.php?fid=51&amp;auth=0" htmlUrl="http://bbs.pinwei.org/forumdisplay.php?fid=51"/>
+            <outline text="型紙屋　かわうそブック" title="型紙屋　かわうそブック" type="rss"
+                xmlUrl="http://cawausobook.ocnk.net/rss/rss.php" htmlUrl="http://cawausobook.ocnk.net/"/>
+            <outline text="小赖的手工生活" title="小赖的手工生活" type="rss"
+                xmlUrl="http://yaminshen.blog.sohu.com/rss" htmlUrl="http://yaminshen.blog.sohu.com/"/>
+            <outline text="彩虹十字绣论坛 - 纸艺" title="彩虹十字绣论坛 - 纸艺" type="rss"
+                xmlUrl="http://www.chszx.com/rss.php?fid=109&amp;auth=0" htmlUrl="http://www.7szx.com/forumdisplay.php?fid=109"/>
+            <outline text="手作资料库" title="手作资料库" type="rss"
+                xmlUrl="http://blog.sina.com.cn/rss/sewlover.xml" htmlUrl="http://blog.sina.com.cn/sewlover"/>
+            <outline text="手做云城手工DIY教学社区" title="手做云城手工DIY教学社区"
+                type="rss" xmlUrl="http://www.yuncity.com/bbs/rss.php" htmlUrl="http://www.yuncity.com/bbs"/>
+            <outline text="拜金小姐走在遮遮掩掩的小路上" title="拜金小姐走在遮遮掩掩的小路上"
+                type="rss"
+                xmlUrl="http://fallwarm.blogbus.com/index.rdf" htmlUrl="http://fallwarm.blogbus.com"/>
+            <outline text="沉默的夏天" title="沉默的夏天" type="rss"
+                xmlUrl="http://violasummer.blogbus.com/index.rdf" htmlUrl="http://violasummer.blogbus.com"/>
+            <outline text="波拉里斯: 丫头的手工屋" title="波拉里斯: 丫头的手工屋" type="rss"
+                xmlUrl="http://www.pinbu.com/?uid-28999-action-rss-type-blog" htmlUrl="http://www.pinbu.com/?uid-28999"/>
+            <outline text="淳淋 败家女人 悠闲自在" title="淳淋 败家女人 悠闲自在" type="rss"
+                xmlUrl="http://blog.sina.com.cn/rss/1509163261.xml" htmlUrl="http://blog.sina.com.cn/chunlin924"/>
+            <outline text="清缘坊仿真花卉、折纸花艺" title="清缘坊仿真花卉、折纸花艺" type="rss"
+                xmlUrl="http://bbs.qyf.com.cn/rss.php?fid=148" htmlUrl="http://bbs.qyf.com.cn"/>
+            <outline text="清缘坊纸艺手工展示厅" title="清缘坊纸艺手工展示厅" type="rss"
+                xmlUrl="http://bbs.qyf.com.cn/rss.php?fid=145" htmlUrl="http://bbs.qyf.com.cn"/>
+            <outline text="狸窝" title="狸窝" type="rss"
+                xmlUrl="http://sara-lee.blogbus.com/index.rdf" htmlUrl="http://sara-lee.blogbus.com"/>
+            <outline text="猫之倦语" title="猫之倦语" type="rss"
+                xmlUrl="http://www.pinbu.com/?uid-138831-action-rss-type-blog" htmlUrl="http://www.pinbu.com/?uid-138831"/>
+            <outline text="生活文化馆 DIY工具研究馆" title="生活文化馆 DIY工具研究馆"
+                type="rss"
+                xmlUrl="http://bbs.craftworkshop.com/rss.php?fid=26&amp;auth=0" htmlUrl="http://bbs.craftworkshop.com/forumdisplay.php?fid=26"/>
+            <outline text="生活文化馆娃娃乐园" title="生活文化馆娃娃乐园" type="rss"
+                xmlUrl="http://bbs.craftworkshop.com/rss.php?fid=68&amp;auth=0" htmlUrl="http://bbs.craftworkshop.com/forumdisplay.php?fid=68"/>
+            <outline text="生活文化馆布艺馆" title="生活文化馆布艺馆" type="rss"
+                xmlUrl="http://bbs.craftworkshop.com/rss.php?fid=8&amp;auth=0" htmlUrl="http://bbs.craftworkshop.com/forumdisplay.php?fid=8"/>
+            <outline text="生活文化馆纸艺馆" title="生活文化馆纸艺馆" type="rss"
+                xmlUrl="http://bbs.craftworkshop.com/rss.php?fid=9&amp;auth=0" htmlUrl="http://bbs.craftworkshop.com/forumdisplay.php?fid=9"/>
+            <outline text="短柬" title="短柬" type="rss"
+                xmlUrl="http://ch-a.blogbus.com/index.rdf" htmlUrl="http://ch-a.blogbus.com"/>
+            <outline text="竹林深处" title="竹林深处" type="rss"
+                xmlUrl="http://www.pinbu.com/?uid-52914-action-rss-type-blog" htmlUrl="http://www.pinbu.com/?uid-52914"/>
+            <outline text="粉  屋" title="粉  屋" type="rss"
+                xmlUrl="http://cherryleaf.blogbus.com/index.rdf" htmlUrl="http://cherryleaf.blogbus.com"/>
+            <outline text="纸の童话" title="纸の童话" type="rss"
+                xmlUrl="http://f5555.blogbus.com/index.rdf" htmlUrl="http://f5555.blogbus.com"/>
+            <outline text="野叶的宝贝们" title="野叶的宝贝们" type="rss"
+                xmlUrl="http://www.pinbu.com/?uid-131328-action-rss-type-blog" htmlUrl="http://www.pinbu.com/?uid-131328"/>
+            <outline text="饱饱花房" title="饱饱花房" type="rss"
+                xmlUrl="http://baobaorss.leaskh.com/" htmlUrl="http://bbflowers.blogbus.com/"/>
+        </outline>
+    </body>
+</opml>
