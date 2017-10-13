@@ -1,3 +1,3 @@
-# leaskh.com / leask.github.io
+# leaskh.com (leask.github.io)
 
 Leask Wong
