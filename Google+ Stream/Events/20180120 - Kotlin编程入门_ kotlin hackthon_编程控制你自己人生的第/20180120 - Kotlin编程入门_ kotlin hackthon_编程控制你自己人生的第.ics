@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:gikrli8m1ft49dk1u1baj039ac@events.plus.google.com
+DTSTAMP:20190322T115044-0400
+CREATED:20180108T062031-0500
+LAST-MODIFIED:20180108T062044-0500
+SUMMARY:Kotlin编程入门& kotlin hackthon"编程控制你自己人生的第一盏明灯"
+DESCRIPTION:Kotlin编程入门&amp;编程控制你自己人生的第一盏明灯<br /><br />        meetup报名地址：<br /><a href="https://www.meetup.com/GDG-Shenzhen/events/246314832" class="ot-anchor">https://www.meetup.com/GDG-Shenzhen/events/246314832</a><br />        继12.17日GDD Review和kotlin分享之后，大家是不是对kotlin的兴趣和热情高涨了呢？不知道小伙伴们回去后有没有练习？<br /><br />为了让小伙伴们的学习成果和经验，得到更好的分享，GDG深圳组织将在本月的1.20日组织一场 Kotlin Hackthon。<br /><br />本次的活动将持续一天，从早上10:00到下午18:00，不仅请来应用宝团队的另外一位优秀开发工程师来给大家现场进行一天的教学、指导，还会对小伙伴的最终的代码进行现场Review、点评。本次选出的前三名将会获得GDG官方赠送的小礼品。<br /><br />    在休息环节现场可以体验到社区小伙伴带来了Google pixel 2和PIxel Buds。<br /><br />活动议程：<br /><br />10:00 -12:00      Kotlin编程入门，导师现场指导（腾讯：Tim）<br />12:00 -14:00      午餐、Google pixel 2和Buds体验<br /><br />14:00 -17:00      现场Hackthon：Kotlin写一个程序<br />17:00 -18:00       获奖评选，一、二、三等奖<br /><br /><br />kotlin编程分享嘉宾：Tim<br /><br />腾讯高级工程师，负责应用宝APP功能的开发，多年Android开发经验。<br /><br />点击以下链接阅免费报名参与<br /><a href="https://www.meetup.com/GDG-Shenzhen/events/246314832" class="ot-anchor">https://www.meetup.com/GDG-Shenzhen/events/246314832</a><br />
+URL:https://plus.google.com/events/cgikrli8m1ft49dk1u1baj039ac
+END:VEVENT
+END:VCALENDAR

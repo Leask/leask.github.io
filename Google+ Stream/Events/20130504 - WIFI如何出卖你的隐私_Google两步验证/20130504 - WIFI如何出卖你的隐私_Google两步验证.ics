@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:do5ta8sn1mu0f5gfv9ge0dtilo@events.plus.google.com
+DTSTAMP:20190322T115041-0400
+CREATED:20130426T232815-0400
+LAST-MODIFIED:20130427T021756-0400
+SUMMARY:WIFI如何出卖你的隐私&Google两步验证
+DESCRIPTION:所有人都必须在 这里 <a href="http://www.huodongxing.com/go/gdgny0504" class="ot-anchor">http://www.huodongxing.com/go/gdgny0504</a> 报名，谢谢。<br /><br />主持人开场，介绍南阳谷歌开发者社区<br /><br />讲师isafer为大家带来以下内容：<br />1. WIFI 网络漏洞利用实战<br />1.1. 演示获取 WIFI 帐密进而攻破个人网络帐号的过程；<br />2. WIFI 网络安全知识入门<br />2.1. WIFI 网络数据传输原理<br />2.2. WIFI 网络安全级别介绍<br />2.3. WIFI 网络安全薄弱点介绍<br />3. WIFI 网络安全防护指南<br />3.1. WIFI 网络被攻破的原因与防护措施<br />3.2. 实用的上网安全指南<br />4. 谷歌两步验证在网络安全中的应用<br /><br />合影
+URL:https://plus.google.com/events/cdo5ta8sn1mu0f5gfv9ge0dtilo
+END:VEVENT
+END:VCALENDAR

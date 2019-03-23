@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:gl5jv3q3o9lv0sneqe1et624ok@events.plus.google.com
+DTSTAMP:20190322T115045-0400
+CREATED:20180401T114534-0400
+LAST-MODIFIED:20180401T114710-0400
+SUMMARY:深圳GDG WTM主题活动将在4.14日举办
+DESCRIPTION: 4.14 WTM主题活动期待您的参与！<br />Meetup链接报名：<br /><a href="https://www.meetup.com/GDG-Shenzhen/events/248537181/" class="ot-anchor">https://www.meetup.com/GDG-Shenzhen/events/248537181/</a><br />恭候大家光临！男女都可以参加。不过最好带上女朋友，因为小礼物是针对女性准备的。<br />
+URL:https://plus.google.com/events/cgl5jv3q3o9lv0sneqe1et624ok?authkey=CM7en8z7qLSD6AE
+END:VEVENT
+END:VCALENDAR

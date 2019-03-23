@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cba83mogsbq16qo1c03r0fbkdc@events.plus.google.com
+DTSTAMP:20190322T115044-0400
+CREATED:20160918T105906-0400
+LAST-MODIFIED:20160918T203602-0400
+SUMMARY:谷歌开源大数据技术的游戏应用&安卓应用兼容性交流
+DESCRIPTION:环节1 如何利用谷歌开源大数据技术来做游戏中的大数据应用<br />演讲嘉宾：嘉米游戏创始人 刘军勇<br />作品有 神手麻将<br /><br />环节2 让我们一起来聊聊大中华的app在安卓上的兼容性问题<br /><br />特别感谢比特咖啡提供活动场地<br />比特咖啡创客空间 科兴路10号科技园文化广场2F
+URL:https://plus.google.com/events/ccba83mogsbq16qo1c03r0fbkdc
+END:VEVENT
+END:VCALENDAR
