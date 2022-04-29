@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:47bm3nj07euo6p39rvv36feo3c@events.plus.google.com
+DTSTAMP:20190322T115044-0400
+CREATED:20170213T000932-0500
+LAST-MODIFIED:20170406T072445-0400
+SUMMARY:Cloud Next技术视频观看
+DESCRIPTION:<br />由于场地有限请各位到下面链接报名提前登记方便我们安排：<a href="https://goo.gl/forms/aHGSyDkP5bZezVsy1" class="ot-anchor">https://goo.gl/forms/aHGSyDkP5bZezVsy1</a><br /><br />活动背景： <br />3月8号到11号，谷歌云计算部门 (Google Cloud) 将会在旧金山举办一个全球谷歌云计算的大会 Cloud Next，届时会有云计算、地图、联网设备等几个产品部门分享最新云计算技术和产品。<br />虽然在中国谷歌的云计算平台使用受到一些限制，但我相信牛逼的开发者肯定有自己的办法实现正常访问，利用谷歌云平台进行云计算技术的学习和研究还是很有用的。对于我们社区里很多已经走向了国际市场、在国际平台上发布应用的开发者们和企业来说，了解最新的谷歌云平台和技术等，则更有重大意义和实际的用处。<br /><br />活动举办信息：<br />深圳 GDG 谷歌开发者社区，将于 2017 年4月 16日 14:00 - 18:00 在深圳思微联合办公空间4.0，举行 Cloud Next Recap录像观看活动，Google 以及 Cloud Next团队为现场参与活动的开发者准备了精美的周边，欢迎更多的 TensorFlow 开发者一起交流。<br /><br />活动地点：思微4.0：深圳市南山区科文路1号华富洋大厦4F (深大地铁站A3口,深大北门1公交站<br />日程:14:00 - 18:00 活动录像回放中间穿插交流讨论<br /><br />活动中我们有幸邀请到两位嘉宾进行云技术相关的分享<br /><br />第一个嘉宾是刘智聪，巴克云创始人、小应用云架构师、原迅雷首席工程师。在迅雷时设计开发了多款迅雷核心产品，是多个领域的技术专家，也是BOLT 界面引擎的发明人。<br />他分享的议题是 《浅谈容器编排》<br /><br />第二位嘉宾是白艺冲，前兔展COO及联合创始人，目前在进行人工智能方面的创业项目。<br />分享的议题是：基于tensorflow的群管理机器人。<br />目前这个机器人已经入驻了GDG SHENZHEN的群中。据说他会在有群友深夜发送美食图片时自动回复发出警告。图像识引擎别用的就是Tensorflow.。<br /><br />报名链接：<a href="https://goo.gl/forms/aHGSyDkP5bZezVsy1" class="ot-anchor">https://goo.gl/forms/aHGSyDkP5bZezVsy1</a><br />活动主办方GDG Shenzhen <br /><br />GDG是英语Google Developer Groups的缩写，它的中文名字是：谷歌开发者社区。它是由谷歌公司支持并赞助的全球性项目，目的是通过开发者们自发组成的社区，进行技术分享交流，推动开放型互联网技术和移动技术在业界的使用。谷歌开发者社区是一个面向开发者、大学生、企业经理及创业者们的全球范围的民间组织，以线下技术交流、经验分享为主要组织形式，为广大开发者、创业者提供分享和交流、以及学习国际最新开发技术的平台，谷歌公司将全程参与到社区的组织活动当中，对社区的技术学习活动提供资源的支持、对社区成员提供在全球范围内的技术与人员交流。目前在全球已经有数百个社区，中国也已经有20多个城市成立了GDG社区。<br /><br /><br />如何加入我们（一次加入终生有效）：<br />一、请先发送主题为 subscribe 的邮件到 shenzhen_gtug+subscribe@googlegroups.com进行订阅。<br />收到回复后点 Join This Group 按钮(需要科学上网)加入邮件组。请留意国内部分邮箱会当成垃圾邮件，最好添加为联系人。<br />二、关注我们获取最新活动信息。<br />G+ page <a href="https://plus.google.com/116409718883299342983/" class="ot-anchor">https://plus.google.com/116409718883299342983/</a><br />电报群：<a href="https://telegram.me/shenzhengdg" class="ot-anchor">https://telegram.me/shenzhengdg</a><br />微信公众号: SZ-GDG<br />
+URL:https://plus.google.com/events/c47bm3nj07euo6p39rvv36feo3c
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8hahjd9rufcnepjq3e76e44610@events.plus.google.com
+DTSTAMP:20190322T115042-0400
+CREATED:20170326T100053-0400
+LAST-MODIFIED:20170515T025334-0400
+SUMMARY:GDG Shenzhen 2017 I/O Extended
+DESCRIPTION:<a rel="nofollow" class="ot-hashtag" href="https://plus.google.com/s/%23IO/posts">#IO</a> Extended 请各位在这里填表以方便我我们准备晚上的茶点<br /><a href="https://gdgdocs.org/forms/d/e/1FAIpQLSexVeXytWSDiOM_9OJfJKwAN1wEGoGKZProMM2TbdzB8z91UQ/viewform" class="ot-anchor">https://gdgdocs.org/forms/d/e/1FAIpQLSexVeXytWSDiOM_9OJfJKwAN1wEGoGKZProMM2TbdzB8z91UQ/viewform</a><br /><br />每年一度的重要开发者大会 Google I/O，今年将会在美国时间 5 月 17 日至 19 日再度在加州山景城的海岸线圆形剧场，带来各种有意思的发布与开发研讨。每次 I/O 我们都可以期待有 Android 系统与 Google 相关的产品（通常还是软件居多）推出，而这次，也许可以看到更多 Pixel 或是 Daydream VR 虚拟实境的硬件或是相关应用等。今年深圳GDG将和去年一样在同样的地方思微2.0组织谷歌铁粉一起看keynote直播。欢迎大家来high！
+URL:https://plus.google.com/events/c8hahjd9rufcnepjq3e76e44610
+END:VEVENT
+END:VCALENDAR

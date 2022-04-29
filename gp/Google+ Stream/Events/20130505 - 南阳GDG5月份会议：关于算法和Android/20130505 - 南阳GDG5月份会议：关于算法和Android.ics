@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:16phhigvqih173kn2pt9bjf4eo@events.plus.google.com
+DTSTAMP:20190322T115044-0400
+CREATED:20130429T104848-0400
+LAST-MODIFIED:20130505T051811-0400
+SUMMARY:南阳GDG5月份会议：关于算法和Android
+DESCRIPTION:南阳GDG5月份会议：关于算法和Android<br /><br />报名网址：<a href="http://www.huodongxing.com/go/gdgny0505" class="ot-anchor">http://www.huodongxing.com/go/gdgny0505</a><br /><br />签到，凭票入场<br /><br />主持人介绍GDG，介绍本次活动流程<br /><br />演讲人：腾讯-张洁烽，主题： 常用数据结构和算法对程序性能的优化<br /><br />演讲人：新浪-牛帅，主题：算法在项目中的应用<br /><br />演讲人：创业公司-isafer，主题：Maven 在 Android 项目管理中的应用<br /><br />演讲人：isafer，主题：功夫网残害了Android工程师的什么（ PPT内容来自南京GDG ）<br />茶歇<br /><br />大屏幕“我来分享”环节<br /><br />合影<br /><br />请大家凭会议门票入场，谢谢。
+URL:https://plus.google.com/events/c16phhigvqih173kn2pt9bjf4eo?authkey=CKawmYrw943pFg
+END:VEVENT
+END:VCALENDAR
