@@ -6,7 +6,7 @@ window.YTD.account.part0 = [
       "username" : "LeaskH",
       "accountId" : "10065202",
       "createdAt" : "2007-11-08T13:07:19.000Z",
-      "accountDisplayName" : "Leask Wong / 離岸廢青"
+      "accountDisplayName" : "Leask 🇨🇦🇺🇦"
     }
   }
 ]
