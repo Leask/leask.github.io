@@ -1,0 +1,3 @@
+timestamp,event_name,email,location,ip,outcome,reason,application,device_info
+Mon Nov 06 04:26:53 UTC 2023,Login,i@leaskh.com,"Ottawa, ON, Canada",174.115.85.43,SUCCESS,,Fitbit Accounts,"os_name: iOS,os_version: 17.2,browser_name: WebKit,browser_version: 605.1.15,device_name: Apple iPad,device_model: iPad,device_manufacturer: Apple"
+Mon Nov 06 04:24:43 UTC 2023,Login,i@leaskh.com,"Ottawa, ON, Canada",174.115.85.43,SUCCESS,,Fitbit Accounts,"os_name: Mac OS,os_version: 10.15.7,browser_name: Chrome,browser_version: 120.0.0.0,device_name: Apple Macintosh,device_model: Macintosh,device_manufacturer: Apple"

@@ -1,0 +1,7 @@
+timestamp,event_name,email,location,ip,outcome,reason
+Mon Nov 06 04:32:21 UTC 2023,Update profile data,Leaskh@gmail.com,,172.22.34.21,SUCCESS,
+Mon Nov 06 04:32:16 UTC 2023,updateProfileMigratedUser,Leaskh@gmail.com,,,SUCCESS,
+Mon Nov 06 04:30:36 UTC 2023,verifypassword,i@leaskh.com,"Ottawa, ON, Canada",174.115.85.43,SUCCESS,
+Mon Nov 06 04:29:47 UTC 2023,Update profile data,i@leaskh.com,"Ottawa, ON, Canada",174.115.85.43,SUCCESS,
+Mon Nov 06 04:28:27 UTC 2023,Update profile data,i@leaskh.com,"Ottawa, ON, Canada",174.115.85.43,SUCCESS,
+Mon Nov 06 04:26:56 UTC 2023,Update profile data,i@leaskh.com,"Ottawa, ON, Canada",174.115.85.43,SUCCESS,

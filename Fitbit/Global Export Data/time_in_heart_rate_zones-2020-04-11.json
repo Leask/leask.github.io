@@ -1,0 +1,11 @@
+[{
+  "dateTime" : "04/11/20 00:00:00",
+  "value" : {
+    "valuesInZones" : {
+      "IN_DEFAULT_ZONE_3" : 10.0,
+      "IN_DEFAULT_ZONE_1" : 109.0,
+      "IN_DEFAULT_ZONE_2" : 6.0,
+      "BELOW_DEFAULT_ZONE_1" : 1305.0
+    }
+  }
+}]

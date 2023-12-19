@@ -1,0 +1,62 @@
+[{
+  "logId" : 28563587012,
+  "dateOfSleep" : "2020-08-22",
+  "startTime" : "2020-08-22T14:14:30.000",
+  "endTime" : "2020-08-22T16:27:30.000",
+  "duration" : 7980000,
+  "minutesToFallAsleep" : 0,
+  "minutesAsleep" : 122,
+  "minutesAwake" : 11,
+  "minutesAfterWakeup" : 0,
+  "timeInBed" : 133,
+  "efficiency" : 92,
+  "type" : "classic",
+  "infoCode" : 2,
+  "logType" : "auto_detected",
+  "levels" : {
+    "summary" : {
+      "restless" : {
+        "count" : 3,
+        "minutes" : 7
+      },
+      "awake" : {
+        "count" : 2,
+        "minutes" : 4
+      },
+      "asleep" : {
+        "count" : 0,
+        "minutes" : 122
+      }
+    },
+    "data" : [{
+      "dateTime" : "2020-08-22T14:14:30.000",
+      "level" : "awake",
+      "seconds" : 120
+    },{
+      "dateTime" : "2020-08-22T14:16:30.000",
+      "level" : "restless",
+      "seconds" : 60
+    },{
+      "dateTime" : "2020-08-22T14:17:30.000",
+      "level" : "asleep",
+      "seconds" : 3060
+    },{
+      "dateTime" : "2020-08-22T15:08:30.000",
+      "level" : "restless",
+      "seconds" : 240
+    },{
+      "dateTime" : "2020-08-22T15:12:30.000",
+      "level" : "awake",
+      "seconds" : 120
+    },{
+      "dateTime" : "2020-08-22T15:14:30.000",
+      "level" : "restless",
+      "seconds" : 120
+    },{
+      "dateTime" : "2020-08-22T15:16:30.000",
+      "level" : "asleep",
+      "seconds" : 4260
+    }]
+  },
+  "mainSleep" : true
+}]

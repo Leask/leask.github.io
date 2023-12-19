@@ -1,0 +1,231 @@
+[{
+  "id" : 1183589213,
+  "date" : "02/07/15",
+  "waterAmount" : 450.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1188580652,
+  "date" : "02/10/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1189890987,
+  "date" : "02/11/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1189915615,
+  "date" : "02/11/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1193870813,
+  "date" : "02/13/15",
+  "waterAmount" : 500.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1198140913,
+  "date" : "02/16/15",
+  "waterAmount" : 500.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1198145349,
+  "date" : "02/16/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1199538323,
+  "date" : "02/17/15",
+  "waterAmount" : 500.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1199569471,
+  "date" : "02/17/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1201259516,
+  "date" : "02/18/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1217773737,
+  "date" : "02/28/15",
+  "waterAmount" : 500.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1217813570,
+  "date" : "03/01/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1218085492,
+  "date" : "03/01/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1236717253,
+  "date" : "03/13/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1236738724,
+  "date" : "03/13/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1236775345,
+  "date" : "03/13/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1240552822,
+  "date" : "03/16/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1240580458,
+  "date" : "03/16/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1240595721,
+  "date" : "03/16/15",
+  "waterAmount" : 200.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1242425994,
+  "date" : "03/17/15",
+  "waterAmount" : 500.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1402829432,
+  "date" : "07/09/15",
+  "waterAmount" : 500.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 1406530710,
+  "date" : "07/11/15",
+  "waterAmount" : 519.7,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6173900666,
+  "date" : "04/19/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6174340265,
+  "date" : "04/19/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6176619003,
+  "date" : "04/20/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6176701419,
+  "date" : "04/20/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6179509306,
+  "date" : "04/21/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6179517146,
+  "date" : "04/21/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6179411235,
+  "date" : "04/21/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6179430828,
+  "date" : "04/21/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6182009594,
+  "date" : "04/22/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6182820010,
+  "date" : "04/22/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6182025092,
+  "date" : "04/22/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6182796701,
+  "date" : "04/22/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6182267867,
+  "date" : "04/22/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6182338523,
+  "date" : "04/22/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6182100757,
+  "date" : "04/23/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6182863594,
+  "date" : "04/23/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6182821429,
+  "date" : "04/23/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6182457431,
+  "date" : "04/23/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6182335930,
+  "date" : "04/23/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6182261505,
+  "date" : "04/23/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6190681169,
+  "date" : "04/25/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6191353000,
+  "date" : "04/25/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6190798781,
+  "date" : "04/25/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+},{
+  "id" : 6190904259,
+  "date" : "04/25/19",
+  "waterAmount" : 250.0,
+  "measurementUnit" : "MILLILITER"
+}]
