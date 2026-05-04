@@ -14,4 +14,4 @@ You just need FrontRow Enabler 1.3.1 to let it work.
 
 Download:  
 
-http://www.box.net/public/l37jab3mvs
+[FrontRow Enabler 1.3.1.dmg](https://app.box.com/s/l37jab3mvs)

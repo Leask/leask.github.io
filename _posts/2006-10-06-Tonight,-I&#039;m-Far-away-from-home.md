@@ -77,6 +77,6 @@ without you I´´ll be so far away from home.
   
 
   
-[![](http://www.box.net/lite/image/12dzbxqhdl.png)](http://www.box.net/lite/12dzbxqhdl)  
+[Far Away From Home.mp3](https://app.box.com/s/12dzbxqhdl)  
 
 [![](http://byfiles.storage.live.com/y1pvCyRMiqQo3b6dMyFDT61Os2XnvqLv0qohGb_TeY6MMMo4ZaczWs27WdRD-hTp6i0_VNtSUHjiiM)](http://byfiles.storage.live.com/y1pvCyRMiqQo3b6dMyFDT61OkIOiRT2-iY6T-QWfJQip_b57-axUeXBN7nwhf5JxKGzI6DFbOetr8w)

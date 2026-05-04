@@ -14,11 +14,11 @@ comments:
   date_gmt: '2006-11-02 10:19:42 +0800'
   content: "我买左距只碟..<innocent eyes>"
 ---
-![](http://www.box.net/lite/20l52t8d0j)  
+![](/assets/img/2006/11/snapshot-2006-11-02-06-38-36-box-20l52t8d0j.jpg)  
 
   
 
-![](http://www.box.net/lite/kvy9e442zj)  
+![](/assets/img/2006/11/snapshot-2006-11-02-06-39-55-box-kvy9e442zj.jpg)  
 
   
 

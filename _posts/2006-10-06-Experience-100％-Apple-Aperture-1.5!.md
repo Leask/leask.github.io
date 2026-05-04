@@ -92,7 +92,7 @@ Aperture是让人兴奋的摄影处理软件，强大修正功能加上方便的
 
 Download:  
 
-http://www.box.net/public/v1pvg4hllx  
+[Aperture_1.5k_Leask.dmg](https://app.box.com/s/v1pvg4hllx)  
 
 [![](http://byfiles.storage.live.com/y1p9Ye1wQ9sxRZ7MUO-ZUfB-NUcgtxYiOj3msPxNzJ1yKHrgA_lmxmHuFNRP4A7hXn7zldsWqzJ6eU)](http://byfiles.storage.live.com/y1p9Ye1wQ9sxRZ7MUO-ZUfB-HCT04VYgS7EHZ1gHCFJvOqqLX8RdXSf1rtxlzhJ3M3E-1nhBxtgERw)
 [![](http://byfiles.storage.live.com/y1pLYqhbp06-xzmlJfjUdZwz37CeYYDasHysShJQFkAoWUsN7iZBJCkh1TmzPyIHM0muGOyRzZHLAE)](http://byfiles.storage.live.com/y1pLYqhbp06-xzmlJfjUdZwz49giPL7hJGby_G_vi06gwhIgrN-vzNwugDmLjxXEo_5mqh1k4toj7g)  
