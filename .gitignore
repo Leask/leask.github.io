@@ -1,7 +1,2 @@
-_site
-.sass-cache
-.jekyll-metadata
-node_modules
-Gemfile.lock
-/data/tweets_media
 .DS_Store
+.history
