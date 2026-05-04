@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: Feel so good at home.
+author: Leask
+
+
+
+
+author_login: leask
+author_email: i@leaskh.com
+author_url: https://leaskh.com
+wordpress_id: 726
+wordpress_url: http://leaskh.wordpress.com/2005/07/11/feel-so-good-at-home
+date: '2005-07-11 09:03:59 +0800'
+date_gmt: '2005-07-11 09:03:59 +0800'
+categories:
+- Life
+tags: []
+comments: []
+---
+
+又几天没有上来写东西了，
+我想在这个七月我都不能经常上来写东西了。
+要开始为J公司做网站了，因为现阶段不方便透露，等做好后我会在这里公开连接，希望关注我所品的朋友会留意。
+VC的杂志设计也还有很多要跟进。
+忙碌ing...
+暑假，只是把我从一种忙碌转到另一种忙碌中。
+或许生活是没有解脱的，也许也不需要解脱，我慢慢学会了享受过程的美好。
+回家了，感觉真的很好。
+有好多好东西吃...

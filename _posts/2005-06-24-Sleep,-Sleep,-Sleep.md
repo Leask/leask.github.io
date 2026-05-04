@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: Sleep, Sleep, Sleep
+author: Leask
+
+
+
+
+author_login: leask
+author_email: i@leaskh.com
+author_url: https://leaskh.com
+wordpress_id: 749
+wordpress_url: http://leaskh.wordpress.com/2005/06/24/sleep-sleep-sleep
+date: '2005-06-24 21:08:01 +0800'
+date_gmt: '2005-06-24 21:08:01 +0800'
+categories:
+- Life
+tags: []
+comments: []
+---
+
+次日5时，我做了一个重大决定...
+
+睡觉去。
+
+忙不完的AD设计，该死的VB考试，还有烦人的心事都丢一边去吧...
+
+睡觉去。

@@ -1,0 +1,62 @@
+---
+layout: post
+status: publish
+published: true
+title: About BLOG
+author: Leask
+
+
+
+
+author_login: leask
+author_email: i@leaskh.com
+author_url: https://leaskh.com
+wordpress_id: 774
+wordpress_url: http://leaskh.wordpress.com/2005/06/05/about-blog
+date: '2005-06-05 07:03:23 +0800'
+date_gmt: '2005-06-05 07:03:23 +0800'
+categories:
+- Computers and Internet
+tags: []
+comments:
+- id: 21
+  author: Unknown
+  author_email: ''
+  author_url: ''
+  date: '2005-06-08 12:52:42 +0800'
+  date_gmt: '2005-06-08 12:52:42 +0800'
+  content: "我也要开始写BLOG拉~"
+---
+
+![](http://storage.msn.com/x1pGg9EMswqL-_2MbvYq-ZxXNATEjnOLKQMMYBHCdCOtt-7TVC2DDTUJ8qNeYpPNZLEbuTKM5BJB-rbnqH3NVSI01fEnGBIYfYXRM-TilfrOrFleNQ0wDWckD9kBBLmkpCRRc4NrbPXYjiWeHmnWoMA2A)
+
+看到 Microsoft 首页上面的这张图片，以及其链接的内容，看来 Blog 已经成为 Microsoft 整个互联网战略中很重要的一部分了。
+
+从 MSN Space 到 Wallop 微软投入的力度可以看出 Blog 已经成为人们互联网生活中不可缺失的一环，也是商机无限的一环。
+
+Blog 的出现已经很长一段时间了，自己开始写 Blog 也有一段日子。
+
+越来越喜欢这种，“发布式”的沟通方式。
+
+通过写 Blog 分享自己的生活，分享自己的心情，认识了一些可以接受我这种涂鸦式文字的朋友。
+
+听过一句很有误导性质的话：“Blog 是初级的网页制作。”
+
+觉得说这句话的人是很不负责任。
+
+以前我也做过自己的个人主页，其中的感觉和写 Blog 是完全不同的。
+
+对于极端追求个性的人来说，做个主页的确很不错。一切的版式，特效等都可以自己掌握。
+
+但是 Blog 让我们更加专注于内容，让我们从各种版式设计、网站宣传、代码维护、空间分配等繁琐的工作中抽离出来，专注于自己独特领域的内容。
+
+具体说 Blog 的内容表面上会更加随意，可以是日记，可以是论坛转贴，可以是网站择录，也可以是文学创作等等各种各样的内容。
+
+无疑，对于不想投入过多精力建设个人主页，但是想给自己一个表达自我、发泄情感、传播思想、共享生活感受的空间的话，写 Blog 是一个很好的方式。
+
+最后希望大家继续支持我的 Blog，也希望本人的文字可以慢慢成长起来，给大家带来一点什么。
+
+谢谢。
+
+  
+[![](http://byfiles.storage.live.com/y1p5V6iUrqVRHhNnK52ctNQzE2efLIwtFGnqg5OT6_WLx20y8p5DRzg78kZIv-UjZzOqjCaafXSX70)](http://byfiles.storage.live.com/y1p5V6iUrqVRHhNnK52ctNQzD4Xqi9MraI-4KdGZ4INKsJUHJkyQPjO3zkqsBi5vFLOFOOec-GK7ck)

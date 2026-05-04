@@ -1,0 +1,34 @@
+---
+layout: post
+status: publish
+published: true
+title: Blog Paused
+author: Leask
+
+
+
+
+author_login: leask
+author_email: i@leaskh.com
+author_url: https://leaskh.com
+wordpress_id: 114
+wordpress_url: http://leaskh.wordpress.com/2009/05/25/blog-paused
+date: '2009-05-25 07:16:12 +0800'
+date_gmt: '2009-05-25 07:16:12 +0800'
+categories:
+
+tags: []
+comments: []
+---
+
+我不知道是因为5.4、6.4、还是最近的台湾万人游行、又或者其他我所不知道的一些原因，事实上Blogger已经不能在国内使用了。  
+
+这是历史上最大的一次对Blogger的封锁，就我所在的Qingyuan  
+
+ADSL为例，被封锁的不单单是Blogspot.com的服务器，还包括用于维护Blog和提供Blog图片服务的Blogger.com服务器。  
+
+一切都显得十分“和谐”。  
+
+所以近期已经没有多大的热情上来写东西，因为已经显得毫无意义了。  
+
+无奈，实在太无奈。

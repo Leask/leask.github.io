@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: Not the feel I want
+author: Leask
+
+
+
+
+author_login: leask
+author_email: i@leaskh.com
+author_url: https://leaskh.com
+wordpress_id: 721
+wordpress_url: http://leaskh.wordpress.com/2005/07/16/not-the-feel-i-want
+date: '2005-07-16 10:22:55 +0800'
+date_gmt: '2005-07-16 10:22:55 +0800'
+categories:
+- Life
+tags: []
+comments:
+- id: 72
+  author: Leask
+  author_email: ''
+  author_url: ''
+  date: '2005-07-19 10:36:20 +0800'
+  date_gmt: '2005-07-19 10:36:20 +0800'
+  content: "谢谢。"
+- id: 73
+  author: "啦啦"
+  author_email: ''
+  author_url: ''
+  date: '2005-07-17 03:19:25 +0800'
+  date_gmt: '2005-07-17 03:19:25 +0800'
+  content: "求全之于工作是好态度。。放松点。^_*祝好。"
+---
+
+刚收到VC的照片，是封面的素材。
+不是我要的感觉。
+照得很一般，感觉很马虎，很随便...
+衣服，裙子，领带都不是我想要的款色，那个袒露的背影，也不唯美，却带一点情色。唉~~
+合作这么久了，第一次觉得和 sas 没有了默契，很难形容的感觉，失望。
+忙不是借口，压力也不是借口...
+我要的是质量，不是拿着这些作品和我发火，抱怨。
+一个好的设计，每一个细节都是关键。
+糟踏细节就是不尊重我的创意。
+最后还是感谢参与拍摄的模特和工作人员，感谢他们，错不在他们。
+感谢...
+心情很不好，对不起。

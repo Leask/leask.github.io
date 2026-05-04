@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: Attention
+author: Leask
+
+
+
+
+author_login: leask
+author_email: i@leaskh.com
+author_url: https://leaskh.com
+wordpress_id: 319
+wordpress_url: http://leaskh.wordpress.com/2007/12/25/attention-2
+date: '2007-12-25 00:17:44 +0800'
+date_gmt: '2007-12-25 00:17:44 +0800'
+categories:
+
+tags: []
+comments: []
+---
+
+This new version of "As Time Goes By..." published in the Christmas Eve, 2007.

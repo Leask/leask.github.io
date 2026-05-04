@@ -1,0 +1,56 @@
+---
+layout: post
+status: publish
+published: true
+title: Back To The Beginning
+author: Leask
+
+
+
+
+author_login: leask
+author_email: i@leaskh.com
+author_url: https://leaskh.com
+wordpress_id: 2075
+wordpress_url: https://leaskh.com/?p=2075
+date: '2013-10-18 16:41:44 +0800'
+date_gmt: '2013-10-18 08:41:44 +0800'
+categories:
+
+tags: []
+comments: []
+---
+
+![0d0f](/public/2013/10/DSC_0063.jpg)
+
+Lyrics of "The Call"
+
+It started out as a feeling  
+Which then grew into a hope  
+Which then turned into a quiet thought  
+Which then turned into a quiet word  
+And then that word grew louder and louder  
+'Til it was a battle cry  
+I'll come back when you call me  
+No need to say goodbye
+
+Just because everything's changing  
+Doesn't mean it's never been this way before  
+All you can do is try to know who your friends are  
+As you head off to the war  
+Pick a star on the dark horizon and follow the light  
+You'll come back when it's over  
+No need to say goodbye  
+You'll come back when it's over  
+No need to say goodbye
+
+Now we're back to the beginning  
+It's just a feeling and no one knows yet  
+But just because they can't feel it too  
+Doesn't mean that you have to forget  
+Let your memories grow stronger and stronger  
+'Til they're before your eyes  
+You'll come back when they call you  
+No need to say goodbye  
+You'll come back when they call you  
+No need to say goodbye

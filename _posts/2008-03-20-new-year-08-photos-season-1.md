@@ -1,0 +1,29 @@
+---
+layout: post
+status: publish
+published: true
+title: New Year 08 Photos season 1
+author: Leask
+
+
+
+
+author_login: leask
+author_email: i@leaskh.com
+author_url: https://leaskh.com
+wordpress_id: 272
+wordpress_url: http://leaskh.wordpress.com/2008/03/20/new-year-08-photos-season-1
+date: '2008-03-20 21:35:14 +0800'
+date_gmt: '2008-03-20 21:35:14 +0800'
+categories:
+
+tags: []
+comments: []
+---
+
+中国人对农历新年的理解是外国人所不能想象的。
+可以说没到大年初一，大多数人还是认为今年是2007年。
+每年除夕和大年初一我都会和家人、长辈在家乡过，主要也就是循旧例，感受一下节日气氛。
+自从有了可以照相的东西，每年我都会在家乡拍一些照片回来，今年就拍了百来张。
+这次先分享几张，拍的不好，见笑了。
+PS：告诉大家，现在的Blog标题图片就是其中的一张加工的。

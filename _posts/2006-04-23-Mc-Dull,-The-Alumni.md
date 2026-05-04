@@ -1,0 +1,43 @@
+---
+layout: post
+status: publish
+published: true
+title: Mc Dull, The Alumni
+author: Leask
+
+
+
+
+author_login: leask
+author_email: i@leaskh.com
+author_url: https://leaskh.com
+wordpress_id: 569
+wordpress_url: http://leaskh.wordpress.com/2006/04/23/mc-dull-the-alumni
+date: '2006-04-23 00:39:43 +0800'
+date_gmt: '2006-04-23 00:39:43 +0800'
+categories:
+- Movie
+tags: []
+comments:
+- id: 270
+  author: Unknown
+  author_email: ''
+  author_url: ''
+  date: '2006-05-05 19:06:03 +0800'
+  date_gmt: '2006-05-05 19:06:03 +0800'
+  content: "回到学校我也去拉来看看...好东西要一起分享"
+---
+
+终于忙完了音乐协会的首场晚会。   
+累，值得。   
+一直想看春田花花，也是刚刚才有时间看了。   
+别的不用多说了，   
+如果还是觉得Mc Dull幼稚无聊的还是认真再看一遍吧。   
+刚才的春天花花又让我流泪了，   
+也许是片子感人，   
+也许是最近经历太多。   
+不得而知。   
+
+去睡觉了，先和大家说声早上好。   
+习惯了昼夜颠倒的生活，   
+这样可以逃避很多东西...

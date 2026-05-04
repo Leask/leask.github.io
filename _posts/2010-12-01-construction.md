@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: CONSTRUCTION
+author: Leask
+
+
+
+
+author_login: leask
+author_email: i@leaskh.com
+author_url: https://leaskh.com
+wordpress_id: 1463
+wordpress_url: https://leaskh.com/?p=1463
+date: '2010-12-01 23:55:56 +0800'
+date_gmt: '2010-12-01 15:55:56 +0800'
+categories:
+
+tags: []
+comments: []
+---
+
+[![](/public/2010/12/dc18cadae04800063f5eb0adfb4b7822.png.jpeg "CONSTRUCTION")](/public/2010/12/dc18cadae04800063f5eb0adfb4b7822.png.jpeg)

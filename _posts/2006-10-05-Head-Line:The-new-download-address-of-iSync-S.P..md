@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: Head Line:The new download address of iSync S.P.
+author: Leask
+
+
+
+
+author_login: leask
+author_email: i@leaskh.com
+author_url: https://leaskh.com
+wordpress_id: 460
+wordpress_url: http://leaskh.wordpress.com/2006/10/05/head-linethe-new-download-address-of-isync-s-p
+date: '2006-10-05 08:22:12 +0800'
+date_gmt: '2006-10-05 08:22:12 +0800'
+categories:
+
+tags: []
+comments: []
+---
+
+http://leaskh.googlepages.com/iSync_Siemens_Plus_v2.3.1.dmg.zip

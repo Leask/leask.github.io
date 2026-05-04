@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: Sit on Apple&#039;s Dock
+author: Leask
+
+
+
+
+author_login: leask
+author_email: i@leaskh.com
+author_url: https://leaskh.com
+wordpress_id: 365
+wordpress_url: http://leaskh.wordpress.com/2007/03/05/sit-on-apples-dock
+date: '2007-03-05 05:47:03 +0800'
+date_gmt: '2007-03-05 05:47:03 +0800'
+categories:
+- Life
+tags: []
+comments: []
+---
+
+![](http://www.macx.cn/images/upload/2007/02/21/033453.jpg)
