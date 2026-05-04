@@ -5,6 +5,7 @@
         {% if meta_description == '' %}
             {% assign meta_description = site.description %}
         {% endif %}
+        {% assign css_version = site.time | date: '%s' %}
         <meta charset='utf-8'>
         <meta
             name='viewport'
@@ -18,7 +19,10 @@
             {% endif %}
         </title>
         <meta name='description' content='{{ meta_description | escape }}'>
-        <link rel='stylesheet' href='{{ "/assets/css/style.css" | relative_url }}'>
+        <link
+            rel='stylesheet'
+            href='{{ "/assets/css/style.css" | relative_url }}?v={{ css_version }}'
+        >
         <link
             rel='alternate'
             type='application/atom+xml'

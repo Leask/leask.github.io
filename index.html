@@ -25,7 +25,6 @@ title: Latest
         <nav class='site-nav' aria-label='Primary'>
             <a href='#latest'>Latest</a>
             <a href='#archive'>Archive</a>
-            <a href='#about'>About</a>
         </nav>
     </header>
 
@@ -96,17 +95,5 @@ title: Latest
             {% endfor %}
         </ul>
     </section>
-
-    <section class='about-summary' id='about'>
-        <h2>About</h2>
-        <p>{{ site.bio }}</p>
-        <p>
-            <span class='meta-label'>Posts</span>
-            {{ site.posts | size }}
-        </p>
-        <p>
-            <span class='meta-label'>Files</span>
-            <a href='{{ "/assets/files/" | relative_url }}'>assets/files</a>
-        </p>
-    </section>
+    {% include site-footer.html %}
 </main>
