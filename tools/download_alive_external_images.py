@@ -14,7 +14,10 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass
+from io import BytesIO
 from pathlib import Path
+
+from PIL import Image
 
 
 POSTS_DIR = Path('_posts')
@@ -174,7 +177,42 @@ def local_asset_url(reference: ImageReference, content_type: str, data: bytes) -
     return f'{ASSETS_PREFIX}{year}/{month}/{filename}'
 
 
+def image_validation_error(data: bytes, content_type: str) -> str:
+    stripped = data.lstrip()
+    lower_head = stripped[:64].lower()
+    if lower_head.startswith((b'data:image', b'<!doctype', b'<html')):
+        return 'text_image_or_html'
+
+    magic_match = any(
+        stripped.startswith(magic) for magic, _ext in IMAGE_MAGIC_EXTENSIONS
+    )
+    if not magic_match:
+        return 'unknown_image_magic'
+
+    if content_type == 'image/svg+xml':
+        return ''
+
+    try:
+        image = Image.open(BytesIO(data))
+        image.verify()
+        image = Image.open(BytesIO(data))
+        width, height = image.size
+    except Exception as exc:  # noqa: BLE001 - validation should report type
+        return f'image_decode_failed:{type(exc).__name__}'
+
+    if width <= 1 and height <= 1:
+        return 'one_pixel_placeholder'
+    return ''
+
+
 def download_url(reference: ImageReference) -> DownloadResult:
+    parsed = urllib.parse.urlparse(reference.url)
+    referer = parsed._replace(
+        path='/',
+        params='',
+        query='',
+        fragment='',
+    ).geturl()
     request = urllib.request.Request(
         reference.url,
         headers={
@@ -187,6 +225,7 @@ def download_url(reference: ImageReference) -> DownloadResult:
                 'image/avif,image/webp,image/apng,image/svg+xml,'
                 'image/*,*/*;q=0.8'
             ),
+            'Referer': referer,
         },
         method='GET',
     )
@@ -214,17 +253,14 @@ def download_url(reference: ImageReference) -> DownloadResult:
     except Exception as exc:  # noqa: BLE001 - migration diagnostic
         return DownloadResult(url=reference.url, ok=False, error=type(exc).__name__)
 
-    head = data.lstrip()[:16]
-    looks_like_image = content_type.startswith('image/') or any(
-        head.startswith(magic) for magic, _ext in IMAGE_MAGIC_EXTENSIONS
-    )
-    if not (200 <= status < 400 and looks_like_image):
+    validation_error = image_validation_error(data, content_type)
+    if not (200 <= status < 400) or validation_error:
         return DownloadResult(
             url=reference.url,
             ok=False,
             status=status,
             content_type=content_type,
-            error='not_image',
+            error=validation_error or 'bad_status',
         )
 
     local_url = local_asset_url(reference, content_type, data)

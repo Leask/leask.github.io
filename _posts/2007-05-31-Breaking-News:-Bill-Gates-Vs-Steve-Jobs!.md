@@ -222,27 +222,27 @@ Photos:
 
   
 
-![](http://d.smugmug.com/photos/157969457-S.jpg)  
+![](/assets/img/2007/05/157969457-s-d.smugmug.com-ddc0020af5.jpg)  
 
   
 
-![](http://d.smugmug.com/photos/157966415-S.jpg)  
+![](/assets/img/2007/05/157966415-s-d.smugmug.com-6b5ac9ffef.jpg)  
 
   
 
-![](http://d.smugmug.com/photos/157969487-S.jpg)  
+![](/assets/img/2007/05/157969487-s-d.smugmug.com-774294c493.jpg)  
 
   
 
-![](http://d.smugmug.com/photos/157966437-S.jpg)  
+![](/assets/img/2007/05/157966437-s-d.smugmug.com-480b975067.jpg)  
 
   
 
-![](http://d.smugmug.com/photos/157966454-S.jpg)  
+![](/assets/img/2007/05/157966454-s-d.smugmug.com-13bde361a2.jpg)  
 
   
 
-![](http://d.smugmug.com/photos/157966485-S.jpg)  
+![](/assets/img/2007/05/157966485-s-d.smugmug.com-a95a7986f5.jpg)  
 
   
 
