@@ -25,7 +25,7 @@ Adium Xtra是Adium的插件架构，该架构通过很多便捷接口把Adium插
 
 好了，上图吧：
 
-![](http://www.adiumxtras.com/images/pictures/snow_leopard_ichat_1_23751_7119_image_10765.png)
+![](/assets/img/2009/10/snow_leopard_ichat_1_23751_7119_image_10765-www.adiumxtras.com-879ffa2e9b.png)
 
 我的Snow Leopard iChat安装后，能够让你的Adium在Dock中显示和iChat 5一样的ICON，因为虽然Adium的小鸭子很可爱，但是很多Mac用户都怀念iChat图标的优雅。
 

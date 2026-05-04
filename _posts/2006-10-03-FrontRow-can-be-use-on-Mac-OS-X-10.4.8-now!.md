@@ -6,7 +6,7 @@ date: '2006-10-03 09:50:18 +0800'
 categories:
 - Computers and Internet
 ---
-![](http://store.apple.com/Catalog/US/Images/m40_frontrow_03.jpg)  
+![](/assets/img/2006/10/m40_frontrow_03-store.apple.com-0c957ee3cd.jpg)  
 
   
 

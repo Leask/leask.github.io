@@ -23,7 +23,7 @@ comments:
 **Mobile 5.0来自中国GUI设计师的声音**   
 作者：ChinaUI 来源：ChinaUI 时间：2005年5月17日
 
-![](http://www.visionunion.com/admin/data/file/img/20050516/20050516000701.jpg)
+![](/assets/img/2005/06/20050516000701-www.visionunion.com-49375af649.jpg)
 
 美国当地时间5月10日（北京时间5月11日），微软一年一度的MEDC大会在拉斯维加斯解开帷幕，在会上比尔盖茨宣布了Windows Mobile 5.0的正式发布，即Windows Mobile 2005。
 
@@ -33,22 +33,22 @@ Windows Mobile 图形界面的主创设计师中有2位是来自微软亚洲研�
 
 Bill Gates在MEDC2005大会上做产品发布的主题演讲:
 
-![](http://www.visionunion.com/admin/data/file/img/20050516/20050516000702.jpg)
+![](/assets/img/2005/06/20050516000702-www.visionunion.com-1de31c6e54.jpg)
 
 Bill Gates演讲中的PPT，画面正中为Robin.Z的RED Theme GUI:
 
-![](http://www.visionunion.com/admin/data/file/img/20050516/20050516000703.jpg)
+![](/assets/img/2005/06/20050516000703-www.visionunion.com-bdf3367eb9.jpg)
 
 RED Theme GUI:
 
-![](http://www.visionunion.com/admin/data/file/img/20050516/20050516000704.jpg)
+![](/assets/img/2005/06/20050516000704-www.visionunion.com-6d083a0306.jpg)
 
 MED产品技术经理Mike Hall在会上做产品演示:
 
-![](http://www.visionunion.com/admin/data/file/img/20050516/20050516000705.jpg)
+![](/assets/img/2005/06/20050516000705-www.visionunion.com-3e959c4381.jpg)
 
 Rokey的XBOX游戏主题的操作界面:
 
-[![](http://www.visionunion.com/admin/data/file/img/20050516/20050516000706.jpg)](http://www.visionunion.com/admin/data/file/img/20050516/20050516000706.jpg)
+[![](/assets/img/2005/06/20050516000706-www.visionunion.com-48454d5827.jpg)](http://www.visionunion.com/admin/data/file/img/20050516/20050516000706.jpg)
 
 申明:本文所有的产品界面图片均为微软官方于MEDC2005大会中公开正式放出的资源。图片与信息来源均出自Microsoft官方网站.

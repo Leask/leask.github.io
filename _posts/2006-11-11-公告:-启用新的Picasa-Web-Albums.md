@@ -18,10 +18,10 @@ http://picasaweb.google.com/Lexnsk/
 
   
 
-![](http://www.google.com/images/google_sm.gif)  
+![](/assets/img/2006/11/google_sm-www.google.com-36fa621fa4.gif)  
 
 ![](https://mail.google.com/mail/help/images/logo1.gif)  
 
 ![](http://picasaweb.google.com/s/v/10.23/img/picasaweblogo.gif)  
 
-![](https://www.google.com/a/apple.pro/images/logo.gif)
+![](/assets/img/2006/11/logo-www.google.com-24e34884e0.gif)

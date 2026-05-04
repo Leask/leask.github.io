@@ -10,7 +10,7 @@ categories:
 
   
 
-![](http://cimg2.163.com/cnews/2007/4/19/200704191002220fde5.jpg)  
+![](/assets/img/2007/06/200704191002220fde5-cimg2.163.com-0229eb379c.jpg)  
 
   
 

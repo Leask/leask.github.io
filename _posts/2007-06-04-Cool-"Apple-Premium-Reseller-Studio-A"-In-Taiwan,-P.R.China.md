@@ -6,24 +6,24 @@ date: '2007-06-04 03:51:03 +0800'
 categories:
 - Computers and Internet
 ---
-![](http://www.alextsai.com/files/2007/20070531_StudioA/1.jpg)  
+![](/assets/img/2007/06/1-www.alextsai.com-5bd2106c7b.jpg)  
 
   
 
-![](http://www.alextsai.com/files/2007/20070531_StudioA/2.jpg)  
+![](/assets/img/2007/06/2-www.alextsai.com-901caae36b.jpg)  
 
   
 
-![](http://www.alextsai.com/files/2007/20070531_StudioA/4.jpg)  
+![](/assets/img/2007/06/4-www.alextsai.com-09c0805e77.jpg)  
 
   
 
-![](http://www.alextsai.com/files/2007/20070531_StudioA/8.jpg)  
+![](/assets/img/2007/06/8-www.alextsai.com-6af41e6974.jpg)  
 
   
 
-![](http://www.alextsai.com/files/2007/20070531_StudioA/9.jpg)  
+![](/assets/img/2007/06/9-www.alextsai.com-85ef192e15.jpg)  
 
   
 
-![](http://www.alextsai.com/files/2007/20070531_StudioA/A.jpg)
+![](/assets/img/2007/06/a-www.alextsai.com-ef6818d660.jpg)

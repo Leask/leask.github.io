@@ -96,4 +96,4 @@ Download:
 
 http://www.box.net/public/junjze9kla  
 
-[![](http://www.box.net/img/refer_blue_big.gif)](http://www.box.net/signup/invitation/leaskh@gmail.com)
+[![](/assets/img/2006/06/refer_blue_big-www.box.net-7f763ed82b.gif)](http://www.box.net/signup/invitation/leaskh@gmail.com)
