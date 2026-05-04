@@ -56,4 +56,4 @@ PS:
 
 [![](http://leaskh.files.wordpress.com/2009/05/picture2585.jpg?w=300)](http://leaskh.files.wordpress.com/2009/05/picture2585.jpg?w=300)
 
-[![](https://2ax6iq.bay.livefilestore.com/y1ma92rLyoKeLF6HxWHN2BKWdgpRaRFW-vhflPFbdRgZpjG6jDKXU_XXE9w5hVGxFZiwm95AsUaH5OHgJ9EdW1e7jEgncyXX-IZ4hkGmbhYmryUOVGrbY_lLs-PbGynywoj35JxWYtncjJxv-gAzu40cA/queen3.jpg)](https://2ax6iq.bay.livefilestore.com/y1ma92rLyoKeLF6HxWHN2BKWdgpRaRFW-vhflPFbdRgZpjG6jDKXU_XXE9w5hVGxFZiwm95AsUaH5OHgJ9EdW1e7jEgncyXX-IZ4hkGmbhYmryUOVGrbY_lLs-PbGynywoj35JxWYtncjJxv-gAzu40cA/queen3.jpg)
+![](/assets/img/2009/05/queen3.jpg)
