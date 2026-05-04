@@ -1,0 +1,99 @@
+{% if site.social_links and site.social_links.size > 0 %}
+    <nav class='social-links' aria-label='Social links'>
+        {% for item in site.social_links %}
+            {% assign external = item.kind == 'x' or item.kind == 'github' or item.kind == 'telegram' %}
+            <a
+                class='social-links__item'
+                href='{{ item.url }}'
+                aria-label='{{ item.label }}'
+                title='{{ item.label }}'
+                {% if external %}
+                    target='_blank'
+                    rel='me noopener noreferrer'
+                {% endif %}
+            >
+                <span class='social-links__icon' aria-hidden='true'>
+                    {% case item.kind %}
+                        {% when 'x' %}
+                            <svg viewBox='0 0 24 24' role='img' focusable='false'>
+                                <path
+                                    d='M4 4L20 20M20 4L4 20'
+                                    fill='none'
+                                    stroke='currentColor'
+                                    stroke-linecap='round'
+                                    stroke-linejoin='round'
+                                    stroke-width='2'
+                                />
+                            </svg>
+                        {% when 'github' %}
+                            <svg viewBox='0 0 24 24' role='img' focusable='false'>
+                                <path
+                                    d='M9 19c-4 1.2-4-2-6-2m12 4v-3.1a3.4 3.4 0 0 0-.9-2.6c3-.3 6-1.5 6-6.6A5.2 5.2 0 0 0 18.7 5 4.8 4.8 0 0 0 18.6 1S17.5.7 15 2.3a13.2 13.2 0 0 0-6 0C6.5.7 5.4 1 5.4 1A4.8 4.8 0 0 0 5.3 5 5.2 5.2 0 0 0 4 8.7c0 5.1 3 6.3 6 6.6a3.4 3.4 0 0 0-.9 2.6V21'
+                                    fill='none'
+                                    stroke='currentColor'
+                                    stroke-linecap='round'
+                                    stroke-linejoin='round'
+                                    stroke-width='1.8'
+                                />
+                            </svg>
+                        {% when 'telegram' %}
+                            <svg viewBox='0 0 24 24' role='img' focusable='false'>
+                                <path
+                                    d='M21.5 3.8L18.3 20a1 1 0 0 1-1.4.7l-4.6-3.4-2.3 2.2a1 1 0 0 1-1.7-.7v-3.1L18.2 6 6.1 13l-4.7-1.6a1 1 0 0 1 0-1.9L20 2.7a1 1 0 0 1 1.5 1.1Z'
+                                    fill='none'
+                                    stroke='currentColor'
+                                    stroke-linecap='round'
+                                    stroke-linejoin='round'
+                                    stroke-width='1.6'
+                                />
+                            </svg>
+                        {% when 'email' %}
+                            <svg viewBox='0 0 24 24' role='img' focusable='false'>
+                                <rect
+                                    x='3'
+                                    y='5'
+                                    width='18'
+                                    height='14'
+                                    rx='2'
+                                    fill='none'
+                                    stroke='currentColor'
+                                    stroke-width='1.8'
+                                />
+                                <path
+                                    d='M4 7l8 6 8-6'
+                                    fill='none'
+                                    stroke='currentColor'
+                                    stroke-linecap='round'
+                                    stroke-linejoin='round'
+                                    stroke-width='1.8'
+                                />
+                            </svg>
+                        {% when 'phone' %}
+                            <svg viewBox='0 0 24 24' role='img' focusable='false'>
+                                <path
+                                    d='M6.8 3h3.1l1.4 4.2-2 1.8a15.6 15.6 0 0 0 5.7 5.7l1.8-2L21 14.1v3.1a1.8 1.8 0 0 1-2 1.8A17.8 17.8 0 0 1 5 5a1.8 1.8 0 0 1 1.8-2Z'
+                                    fill='none'
+                                    stroke='currentColor'
+                                    stroke-linecap='round'
+                                    stroke-linejoin='round'
+                                    stroke-width='1.8'
+                                />
+                            </svg>
+                        {% else %}
+                            <svg viewBox='0 0 24 24' role='img' focusable='false'>
+                                <circle
+                                    cx='12'
+                                    cy='12'
+                                    r='8'
+                                    fill='none'
+                                    stroke='currentColor'
+                                    stroke-width='1.8'
+                                />
+                            </svg>
+                    {% endcase %}
+                </span>
+                <span class='sr-only'>{{ item.label }}</span>
+            </a>
+        {% endfor %}
+    </nav>
+{% endif %}

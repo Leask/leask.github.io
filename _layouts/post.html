@@ -18,8 +18,11 @@ layout: default
         </a>
         <div class='site-header__copy'>
             <p class='site-header__eyebrow'>
-                <a href='{{ "/" | relative_url }}'>{{ site.title }}</a>
+                <a href='{{ "/" | relative_url }}'>
+                    {{ site.display_name | default: site.title }}
+                </a>
             </p>
+            {% include social-links.html %}
             <h1 class='site-header__title'>{{ page.title }}</h1>
             <p class='site-header__meta'>
                 <time datetime='{{ page.date | date_to_xmlschema }}'>

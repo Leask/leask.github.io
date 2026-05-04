@@ -17,8 +17,11 @@ title: Latest
                 </span>
             {% endif %}
         </div>
-        <h1 class='site-header__title'>{{ site.title }}</h1>
-        <p class='site-header__description'>{{ site.description }}</p>
+        <h1 class='site-header__title'>
+            {{ site.display_name | default: site.title }}
+        </h1>
+        <p class='site-header__description'>{{ site.bio }}</p>
+        {% include social-links.html %}
         <nav class='site-nav' aria-label='Primary'>
             <a href='#latest'>Latest</a>
             <a href='#archive'>Archive</a>

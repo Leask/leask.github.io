@@ -1,10 +1,27 @@
 title: Leask
 description: A long-running personal archive of notes, images, and code.
-bio: Essays, sketches, experiments, and fragments collected over time.
+display_name: 'Sixia "Leask" Huang'
+bio: break the wall or bring the war
 lang: zh-CN
 url: 'https://leask.github.io'
 baseurl: ''
 avatar: '/assets/avatar/profile.png'
+social_links:
+  - label: X
+    kind: x
+    url: 'https://x.com/LeaskH/'
+  - label: GitHub
+    kind: github
+    url: 'https://github.com/leask/'
+  - label: Telegram
+    kind: telegram
+    url: 'https://t.me/Leask'
+  - label: Email
+    kind: email
+    url: 'mailto:i@leaskh.com'
+  - label: Phone
+    kind: phone
+    url: 'tel:+19715177039'
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 highlighter: rouge
