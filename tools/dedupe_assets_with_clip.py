@@ -56,6 +56,11 @@ CONFIRMED_RELAXED_MERGES = [
         'source': 'assets/archived/0000/Z_Over_Mac.jpg',
         'target': 'assets/archived/0000/C_PB_Mac.jpg',
     },
+    {
+        'kind': 'promote_archived_into_img',
+        'source': 'assets/archived/0000/IMG_0091115777wer[3].png',
+        'target': 'assets/img/2010/09/img_0091115777wer_thumb5b15d.png',
+    },
 ]
 ORIGINAL_HINT_RE = re.compile(
     r'原圖|原图|full\s*size|fullsize|原大|点击看大图|點擊看大圖|看大圖|看大图|大圖|大图',
@@ -118,6 +123,22 @@ PROFILES = {
         stem_clip_ratio_min=0.25,
         stem_clip_aspect_max=0.2,
         same_size_mae_max=5.5,
+    ),
+    'aggressive': ProfileConfig(
+        name='aggressive',
+        nn_count=40,
+        dhash_max=8,
+        dhash_cosine_min=0.87,
+        dhash_aspect_max=0.08,
+        clip_very_high_min=0.985,
+        clip_very_high_aspect_max=0.1,
+        clip_hash_min=0.975,
+        clip_hash_dhash_max=18,
+        clip_hash_aspect_max=0.16,
+        stem_clip_min=0.94,
+        stem_clip_ratio_min=0.2,
+        stem_clip_aspect_max=0.24,
+        same_size_mae_max=7.0,
     ),
 }
 
@@ -819,6 +840,12 @@ def apply_confirmed_relaxed_merges() -> dict[str, int]:
         target_path = ROOT / item['target']
         source_ref = '/' + item['source']
         target_ref = '/' + item['target']
+        if kind in {'promote_archived_into_img', 'merge_img_refs'} and not target_path.exists():
+            results['skipped_missing_target'] += 1
+            continue
+        if not source_path.exists():
+            results['skipped_missing_source'] += 1
+            continue
         if kind == 'promote_archived_into_img':
             safe_sync_file(source_path, target_path)
             if not is_repo_ref_present(source_ref):
