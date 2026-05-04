@@ -8,7 +8,7 @@ date: '2009-11-16 10:27:18 +0800'
 
 另外为了提高安全性，我尝试把各种用户名和密码保存在Mac的Keychain里面，但是不知道是不是因为Mac OS X 10.6.x中比较烦人的脚本安全规则作怪，脚本每次访问Keychain都需要弹出对话框让用户确认，所以最终还是放弃了这个做法，希望有解决办法的朋友指教一下。
 
-![Screen shot 2009-10-28 at 8.33.53 PM](/public/2010/09/screenshot2009-10-28at8.png?w=300 "Screen shot 2009-10-28 at 8.33.53 PM")![Screen shot 2009-10-28 at 8.34.34 PM](/public/2010/09/screenshot2009-10-28at81.png?w=300 "Screen shot 2009-10-28 at 8.34.34 PM")
+![Screen shot 2009-10-28 at 8.33.53 PM](/assets/img/2010/09/screenshot2009-10-28at8.png "Screen shot 2009-10-28 at 8.33.53 PM")![Screen shot 2009-10-28 at 8.34.34 PM](/assets/img/2010/09/screenshot2009-10-28at81.png "Screen shot 2009-10-28 at 8.34.34 PM")
 
 好了，不多说，最后还是放出源代码（和往常一样，我将在Google Code放出封装好的app和源代码，有需要的朋友直接去下载更新吧）：
 

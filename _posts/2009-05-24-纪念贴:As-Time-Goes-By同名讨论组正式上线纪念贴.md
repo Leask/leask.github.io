@@ -25,4 +25,4 @@ PS：最近身边很多朋友开始使用 Google 的服务，包括 Gmail, Gtalk
 Documents, Google Calendar 等等。本人是 Google Fans，所以十分欢迎大家就 Google  
 
 应用方面进行讨论，一起探索，享受更人性化的互联网。  
-[![](/public/2010/09/picture4.png?w=300)](/public/2010/09/picture4.png?w=300)
+[![](/assets/img/2010/09/picture4.png)](/assets/img/2010/09/picture4.png)

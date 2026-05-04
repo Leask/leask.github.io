@@ -14,4 +14,4 @@ Enjoy!
 Jimmy SPA([http://www.jimmyspa.com/](http://www.jimmyspa.com/))
 麦兜官方网站([http://www.iyellowbus.com/](http://www.iyellowbus.com/))  
 
-![15BAC1A170471DB_764_0](/public/2005/07/15BAC1A170471DB_764_0.jpg)
+![15BAC1A170471DB_764_0](/assets/img/2005/07/15BAC1A170471DB_764_0.jpg)

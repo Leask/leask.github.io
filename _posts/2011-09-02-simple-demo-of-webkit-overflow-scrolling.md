@@ -32,7 +32,7 @@ source code:
     </head>
     <body>
 <div style="width:400px; height:400px; border-style:solid; overflow: scroll; -webkit-overflow-scrolling: touch;">
-            <img src="/public/2011/07/qingyuan_city_09_06_181.jpg">
+            <img src="/assets/img/2011/07/qingyuan_city_09_06_181.jpg">
         </div>
     </body>
 </html>

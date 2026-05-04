@@ -26,4 +26,4 @@ comments:
   date_gmt: '2011-02-05 14:26:15 +0800'
   content: "这么压抑。。"
 ---
-[![](/public/2010/12/fee26a4ec0a37f7f842f3f36389cb1e8.png.jpeg "阳台，灰色")](/public/2010/12/fee26a4ec0a37f7f842f3f36389cb1e8.png.jpeg)
+[![](/assets/img/2010/12/fee26a4ec0a37f7f842f3f36389cb1e8.png.jpeg "阳台，灰色")](/assets/img/2010/12/fee26a4ec0a37f7f842f3f36389cb1e8.png.jpeg)

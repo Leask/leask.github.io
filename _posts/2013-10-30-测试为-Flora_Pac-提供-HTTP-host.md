@@ -71,7 +71,7 @@ comments:
 ---
 有 Flora_Pac 用户（yyxst***@gmail.com 等）提出能不能提供官方 HTTP host 方式，通过 request 参数来返回适用的 PAC 文件（类似于 [autoproxy2pac](https://autoproxy2pac.appspot.com "autoproxy2pac")）。这个需求我早前就有考虑，起初主要担心集中提供 PAC host 会导致服务器被墙而徒劳无功。但最近又想了想，很多朋友的机器上其实是没有开发环境的，他们也不见得全都熟悉 Python 等工具，本着让翻墙能尽可能简单便利，尽可能降低门槛的期望，我简单实现了一下这个功能。目前的实现相当简陋，但凑合能用。
 
-![Flora_Pac host demo](/public/2013/10/Screen-Shot-2013-10-30-at-10.08.01-PM.jpg)
+![Flora_Pac host demo](/assets/img/2013/10/Screen-Shot-2013-10-30-at-10.08.01-PM.jpg)
 
 使用相当简单，我就不写什么教程了，直接上几个 demo 大家一看就懂了：
 

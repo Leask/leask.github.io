@@ -24,7 +24,7 @@ comments:
 由于iPhone OS基于完整的UNIX，那么想象的空间就很大了，ssh -D直接跑在iPhone OS上已经不是什么新鲜事情，但是ssh的链接有一点脆弱，碰上网络不稳定的时候还真的挺郁闷的。  
 既然Desktop UNIX上有autossh（实现ssh断线或者无响应的时候自动重新发起连接，注意如果想实现自动身份验证，你需要上传你的公匙【方法自行Google，十分简单】。），那么是不是iPhone OS也能编译一个对应的autossh呢？打开xcode，正打算对autossh的代码开刀。突然想起上Cydia上看看，果然已经有人编译好了，于是站在巨人的肩膀上：
 
-[![](/public/2009/12/ipodssh1.png "ipodssh1")](/public/2009/12/ipodssh1.png)
+[![](/assets/img/2009/12/ipodssh1.png "ipodssh1")](/assets/img/2009/12/ipodssh1.png)
 
 简单编辑一下以下的脚本，并上传到设备上（注意设置权限为“可执行”）：
 
@@ -37,11 +37,11 @@ comments:
 
 当然了，脚本名字和提示信息等个性化的东西你随便写就可以，执行效果如下：
 
-[![](/public/2009/12/ipodssh02.png "ipodssh02")](/public/2009/12/ipodssh02.png)
+[![](/assets/img/2009/12/ipodssh02.png "ipodssh02")](/assets/img/2009/12/ipodssh02.png)
 
 可爱的Facebook又回来了：
 
-[![](/public/2009/12/f964bfa1c9b8d9bb33047cea1ca2a1d8.png "f964bfa1c9b8d9bb33047cea1ca2a1d8")](/public/2009/12/f964bfa1c9b8d9bb33047cea1ca2a1d8.png)
+[![](/assets/img/2009/12/f964bfa1c9b8d9bb33047cea1ca2a1d8.png "f964bfa1c9b8d9bb33047cea1ca2a1d8")](/assets/img/2009/12/f964bfa1c9b8d9bb33047cea1ca2a1d8.png)
 
 当然你也是可以配合pac文件用。pac文件和电脑上的语法完全一样，几乎不用做什么修改就能用到iPhone OS上了。  
 现在开始只需要启动一次脚本，就永远自动挂着ssh-D了哦，和电脑上翻墙一样方便了。

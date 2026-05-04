@@ -9,7 +9,7 @@ date: '2009-08-17 05:51:47 +0800'
 // 贴上来仅仅是为了忘却的纪念吧，使用Snow Leopard已经好几天了，不知道10A342是不是GM，也不知道GM和Retail Version会不会有差异，我只知道距离上一个版本，10A342已经把几乎所有的Bug都修正了，系统能够作为日常工作和使用的系统了。除了VMware的鼠标捕捉还有一点点不流畅。不过影响不大。  
 // 不过每次告别上一代的Mac OS，我都会伤感一下子，感叹时光又一去不返了。
 
-![Screen shot 2009-08-17 at 1.18.44 PM](/public/2010/09/screenshot2009-08-17at1.png?w=245 "Screen shot 2009-08-17 at 1.18.44 PM")
+![Screen shot 2009-08-17 at 1.18.44 PM](/assets/img/2010/09/screenshot2009-08-17at1.png "Screen shot 2009-08-17 at 1.18.44 PM")
 
 好了，如果你还在用10.5，又和我一样，喜欢Apple和Google，那么，下面的脚本适合你：
 

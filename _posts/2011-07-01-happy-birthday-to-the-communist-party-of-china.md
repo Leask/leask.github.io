@@ -4,7 +4,7 @@ title: Happy Birthday to the Communist Party of China
 author: Leask
 date: '2011-07-01 12:01:39 +0800'
 ---
-[![](/public/2011/07/101210121403_chair_466_2.jpg "101210121403_chair_466_2")](/public/2011/07/101210121403_chair_466_2.jpg)
+[![](/assets/img/2011/07/101210121403_chair_466_2.jpg "101210121403_chair_466_2")](/assets/img/2011/07/101210121403_chair_466_2.jpg)
 
 **零八宪章**刘晓波等于2008年12月10日公布
 

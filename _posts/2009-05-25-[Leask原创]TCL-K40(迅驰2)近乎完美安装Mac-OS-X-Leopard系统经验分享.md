@@ -230,10 +230,10 @@ Mac，也有iBook和MacBook，希望能在必要时为大家提供帮助。
 Leask Huang  
 Dec 28, 2008
 
-![](/public/2009/05/15BAC1A170471DB_10503_0.jpg "15BAC1A170471DB_10503_0")
+![](/assets/img/2009/05/15BAC1A170471DB_10503_0.jpg "15BAC1A170471DB_10503_0")
 
-![](/public/2010/09/dsc02224.jpg)
+![](/assets/img/2010/09/dsc02224.jpg)
 
-![DSC02226](/public/2009/05/DSC02226.jpg)
+![DSC02226](/assets/img/2009/05/DSC02226.jpg)
 
-![](/public/2010/09/dsc02227.jpg)
+![](/assets/img/2010/09/dsc02227.jpg)

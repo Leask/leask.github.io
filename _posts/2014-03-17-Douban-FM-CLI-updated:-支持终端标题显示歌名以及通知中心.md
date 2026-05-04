@@ -10,7 +10,7 @@ date: '2014-03-17 09:31:14 +0800'
 
 主要添加了终端标签显示播放状态，以及 OS X / Linux 通知中心、Growl 提醒当前歌曲的功能：
 
-![Screen Shot 2014-03-17 at 8.38.11 AM](/public/2014/03/Screen-Shot-2014-03-17-at-8.38.11-AM.png)
+![Screen Shot 2014-03-17 at 8.38.11 AM](/assets/img/2014/03/Screen-Shot-2014-03-17-at-8.38.11-AM.png)
 
 嗯，这下舒服多了。
 

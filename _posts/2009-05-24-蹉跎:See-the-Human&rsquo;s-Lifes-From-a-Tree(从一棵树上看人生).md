@@ -268,4 +268,4 @@ July 05 12:43 AM
 
 呵呵·· 不错哦··
 
-[![](/public/2010/09/y1puwuvfon7ebc2awttnc4uibiwinyvmsjfwns9q1-pbni8kb20bymozzipq0xtfc1sgpdmxabgiz4.jpeg?w=225)](/public/2010/09/y1puwuvfon7ebc2awttnc4uibiwinyvmsjfwns9q1-pbni8kb20bymozzipq0xtfc1sgpdmxabgiz4.jpeg?w=225)
+[![](/assets/img/2010/09/y1puwuvfon7ebc2awttnc4uibiwinyvmsjfwns9q1-pbni8kb20bymozzipq0xtfc1sgpdmxabgiz4.jpeg)](/assets/img/2010/09/y1puwuvfon7ebc2awttnc4uibiwinyvmsjfwns9q1-pbni8kb20bymozzipq0xtfc1sgpdmxabgiz4.jpeg)

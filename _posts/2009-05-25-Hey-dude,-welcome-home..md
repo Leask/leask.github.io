@@ -13,4 +13,4 @@ Apple Mighty Mouse来到我的桌面了，热烈庆祝！
   
 
 感谢女友的馈赠！嘻嘻！  
-[![](/public/2010/09/dsc03259.jpg?w=300)](/public/2010/09/dsc03259.jpg?w=300)
+[![](/assets/img/2010/09/dsc03259.jpg)](/assets/img/2010/09/dsc03259.jpg)

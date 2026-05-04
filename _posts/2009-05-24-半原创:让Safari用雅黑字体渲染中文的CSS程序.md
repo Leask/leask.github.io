@@ -55,4 +55,4 @@ MSYHBD.TTF是粗体的雅黑字体，如果你的浏览器依然显示粗体，�
   
 
 Enjoy it！  
-[![](/public/2010/09/css.jpg?w=290)](/public/2010/09/css.jpg?w=290)
+[![](/assets/img/2010/09/css.jpg)](/assets/img/2010/09/css.jpg)

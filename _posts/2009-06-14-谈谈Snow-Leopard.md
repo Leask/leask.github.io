@@ -4,7 +4,7 @@ title: "谈谈Snow Leopard"
 author: Leask
 date: '2009-06-14 17:30:59 +0800'
 ---
-[![](/public/2010/09/screenshoton2009-06-13at1.png?w=300)](/public/2010/09/screenshoton2009-06-13at1.png?w=300)
+[![](/assets/img/2010/09/screenshoton2009-06-13at1.png)](/assets/img/2010/09/screenshoton2009-06-13at1.png)
 WWDC在漫长的等待后主要带来了4个消息：
 1：New MacBook Pro；
 2：Snow Leopard的开发情况；
@@ -15,55 +15,55 @@ WWDC在漫长的等待后主要带来了4个消息：
 于是第一时间下载到了这两个系统，iPhone OS 3.0 GM需要开发者帐号，所以暂时还没能装上，Snow Leopard就已经被我尝到了。
 下面谈谈我的感受吧。
 **1：安装体验**
- [![](/public/2010/09/dsc00006.jpg?w=300)](/public/2010/09/dsc00006.jpg?w=300)
+ [![](/assets/img/2010/09/dsc00006.jpg)](/assets/img/2010/09/dsc00006.jpg)
 只能说我的安装体验很一般，很多人说安装加快了，我没有体验到。
 我用USB硬盘引导安装的，装Leopard能在10分钟内完成（不装X11，而且我只用英文界面，不装国际化）。
 同样的安装方式和选项，装Snow Leopard需要大概15分钟，预测19分钟，但是最后几分钟在安装最后阶段会跳过。
 **2：64bit Finder**
-[![](/public/2010/09/screenshoton2009-06-13at11.png?w=300)](/public/2010/09/screenshoton2009-06-13at11.png?w=300)
-[![](/public/2010/09/screenshoton2009-06-13at12.png?w=300)](/public/2010/09/screenshoton2009-06-13at12.png?w=300)
+[![](/assets/img/2010/09/screenshoton2009-06-13at11.png)](/assets/img/2010/09/screenshoton2009-06-13at11.png)
+[![](/assets/img/2010/09/screenshoton2009-06-13at12.png)](/assets/img/2010/09/screenshoton2009-06-13at12.png)
 最大的改进是无处不在Quick Look。常见类型的文件上，只需要把鼠标移上，就能出现播放的图标，轻轻一点，就能立刻预览文件，速度非常快，基本上再大文件也不需要等待的时间。
 //Preview的速度也大大加快，特别是对矢量格式。
-[![](/public/2010/09/screenshoton2009-06-13at13.png?w=300)](/public/2010/09/screenshoton2009-06-13at13.png?w=300)
-[![](/public/2010/09/screenshoton2009-06-13at14.png?w=300)](/public/2010/09/screenshoton2009-06-13at14.png?w=300)
+[![](/assets/img/2010/09/screenshoton2009-06-13at13.png)](/assets/img/2010/09/screenshoton2009-06-13at13.png)
+[![](/assets/img/2010/09/screenshoton2009-06-13at14.png)](/assets/img/2010/09/screenshoton2009-06-13at14.png)
 Quick Look的性能也大大提升，并加入对多种矢量格式的支持，不再需要第三方插件，例如：EPS、AI等格式。
 **3：文字输入的长足进步**
-[![](/public/2010/09/screenshoton2009-06-13at15.png?w=300)](/public/2010/09/screenshoton2009-06-13at15.png?w=300)
+[![](/assets/img/2010/09/screenshoton2009-06-13at15.png)](/assets/img/2010/09/screenshoton2009-06-13at15.png)
 改进的中文输入法很不错，能打句子了。但是注意，IMKQIM能安装使用，但是选项不能修改。
 
-[![](/public/2010/09/screenshoton2009-06-13at16.png?w=300)](/public/2010/09/screenshoton2009-06-13at16.png?w=300)
+[![](/assets/img/2010/09/screenshoton2009-06-13at16.png)](/assets/img/2010/09/screenshoton2009-06-13at16.png)
 
 全局的自动字符转换，以前只能在iWork中用。
 
-[![](/public/2010/09/screenshoton2009-06-13at17.png?w=300)](/public/2010/09/screenshoton2009-06-13at17.png?w=300)
+[![](/assets/img/2010/09/screenshoton2009-06-13at17.png)](/assets/img/2010/09/screenshoton2009-06-13at17.png)
 
 带屏幕提示的输入法转换。
 
 **4：64bit带来的改变**
 
-[![](/public/2010/09/screenshoton2009-06-13at18.png?w=300)](/public/2010/09/screenshoton2009-06-13at18.png?w=300)
+[![](/assets/img/2010/09/screenshoton2009-06-13at18.png)](/assets/img/2010/09/screenshoton2009-06-13at18.png)
 
 系统组件大多数已经用64bit Cocoa重写了，系统效能大大提高，软件体积也缩小了不少。但iTunes等少量应用还是32bit。
 
-[![](/public/2010/09/screenshoton2009-06-13at19.png?w=300)](/public/2010/09/screenshoton2009-06-13at19.png?w=300)
+[![](/assets/img/2010/09/screenshoton2009-06-13at19.png)](/assets/img/2010/09/screenshoton2009-06-13at19.png)
 
 问题随之而来，64bit的System Preferences并不支持32bit的Pane，所以第三方的Pane你需要重启System Preferences到32bit模式使用（是自动的）。
 
-[![](/public/2010/09/screenshoton2009-06-13at110.png?w=300)](/public/2010/09/screenshoton2009-06-13at110.png?w=300)
+[![](/assets/img/2010/09/screenshoton2009-06-13at110.png)](/assets/img/2010/09/screenshoton2009-06-13at110.png)
 
 Rosetta已经不是必须组件了，你能够在系统安装的时候选择不安装Rosetta，那就能完全告别Power PC的应用程序支持了。
 
 **5：一些遗憾**
 
-[![](/public/2010/09/screenshoton2009-06-13at111.png?w=300)](/public/2010/09/screenshoton2009-06-13at111.png?w=300)
+[![](/assets/img/2010/09/screenshoton2009-06-13at111.png)](/assets/img/2010/09/screenshoton2009-06-13at111.png)
 
 Time Machine的排除选项不起作用，那将导致你不能排除不需要备份的数据，造成在小硬盘上无法实现Time Machine功能。
 
-[![](/public/2010/09/screenshoton2009-06-13at112.png?w=300)](/public/2010/09/screenshoton2009-06-13at112.png?w=300)
+[![](/assets/img/2010/09/screenshoton2009-06-13at112.png)](/assets/img/2010/09/screenshoton2009-06-13at112.png)
 
 电池续航时间和电脑性能的平衡选项不见了，不知道为什么。
 
-[![](/public/2010/09/screenshoton2009-06-13at113.png?w=300)](/public/2010/09/screenshoton2009-06-13at113.png?w=300)
+[![](/assets/img/2010/09/screenshoton2009-06-13at113.png)](/assets/img/2010/09/screenshoton2009-06-13at113.png)
 
 使用指定IP地址的网络中，尽管网络使用是正常的，AirPort都无法检测到Internet网络状态，显示为惊叹号。
 

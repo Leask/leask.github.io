@@ -18,4 +18,4 @@ KITT中用了Apple的键盘。
 
 挺有趣。  
 
-[![](/public/2010/09/snapshot20080404173714.jpg?w=300)](/public/2010/09/snapshot20080404173714.jpg?w=300)
+[![](/assets/img/2010/09/snapshot20080404173714.jpg)](/assets/img/2010/09/snapshot20080404173714.jpg)

@@ -26,7 +26,7 @@ comments:
   date_gmt: '2015-11-09 07:26:20 +0800'
   content: "歪下，博主打官司的下文出来了吗？"
 ---
-![ios_surge](/public/2015/10/ios_surge.png)
+![ios_surge](/assets/img/2015/10/ios_surge.png)
 
 最近 Twitter 上流行一款新的翻墙工具，Surge，使用 iOS 9 新接口Network Extension 开发。  
 Surge 简单好用， 配置灵活，运行高效，支持 HTTP、HTTPS、SOCKS 代理以及自定义代理模块。  

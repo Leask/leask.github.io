@@ -24,7 +24,7 @@ webkit2png的使用很简单，Terminal执行：
 > *python /Users/Leask/webkit2png* [*https://leaskh.com/*](https://leaskh.com/)
 
 执行效果如下：  
-![Screen shot 2009-11-06 at 9.57.57 PM](/public/2010/09/screenshot2009-11-06at9.png?w=300 "Screen shot 2009-11-06 at 9.57.57 PM")   
+![Screen shot 2009-11-06 at 9.57.57 PM](/assets/img/2010/09/screenshot2009-11-06at9.png "Screen shot 2009-11-06 at 9.57.57 PM")   
 然后你就会发现网页已经被截图放在你的home文件夹了。
 
 当然你还可以通过参数控制webkit2png的行为，你可以通过 *--help* 获得以下使用帮助：

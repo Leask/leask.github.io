@@ -4,8 +4,8 @@ title: "那个是Snow Leopard正式版！？"
 author: Leask
 date: '2009-08-29 06:19:18 +0800'
 ---
-![Screen shot 2009-08-29 at 11.27.06 AM](/public/2010/09/screenshot2009-08-29at11.png?w=300 "Screen shot 2009-08-29 at 11.27.06 AM")  
-![Screen shot 2009-08-29 at 11.04.15 AM](/public/2010/09/screenshot2009-08-29at111.png?w=300 "Screen shot 2009-08-29 at 11.04.15 AM")  
+![Screen shot 2009-08-29 at 11.27.06 AM](/assets/img/2010/09/screenshot2009-08-29at11.png "Screen shot 2009-08-29 at 11.27.06 AM")  
+![Screen shot 2009-08-29 at 11.04.15 AM](/assets/img/2010/09/screenshot2009-08-29at111.png "Screen shot 2009-08-29 at 11.04.15 AM")  
 Snow Leopard一夜之间风靡全球，一下子满网上都是BT、FTP等，大家都声称自己的才是正式版下载，容量有5.6x GB的，也有6.1x GB的。
 
 当然，也还有以往GM版本的Fans，声称GM和零售版是相同的。

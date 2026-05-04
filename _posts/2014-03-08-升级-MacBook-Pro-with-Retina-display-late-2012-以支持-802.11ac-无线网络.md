@@ -26,30 +26,30 @@ comments:
 改造过程相当简单，所以没有什么好详细写的，让大家看几个图吧。
 
 首先看看千兆无线网卡长什么样：  
-![IMG_0940](/public/2014/03/IMG_0940.jpg)
+![IMG_0940](/assets/img/2014/03/IMG_0940.jpg)
 
 翻个背面看看：  
-![IMG_0953](/public/2014/03/IMG_0953.jpg)
+![IMG_0953](/assets/img/2014/03/IMG_0953.jpg)
 
-拆开 Unibody 外壳，无线模块就在左上角风扇旁边：![IMG_0949](/public/2014/03/IMG_0949.jpg)
+拆开 Unibody 外壳，无线模块就在左上角风扇旁边：![IMG_0949](/assets/img/2014/03/IMG_0949.jpg)
 
 来张近照：  
-![IMG_0950](/public/2014/03/IMG_0950.jpg)
+![IMG_0950](/assets/img/2014/03/IMG_0950.jpg)
 
 小心把上图的这个模块拆下来，然后换上新的就好了。
 
 我们来看看升级前通过 Time Capsule 2013 的 5Ghz 802.11n 能达到的最高速度，450 Mbps：  
-![BhPT-UwCIAAZLic](/public/2014/03/BhPT-UwCIAAZLic.png)
+![BhPT-UwCIAAZLic](/assets/img/2014/03/BhPT-UwCIAAZLic.png)
 
 升级后，同样的网络环境，实现 802.11ac，跑满 1300 Mbps：  
-[![Screen Shot 2014-03-03 at 6.21.29 PM](/public/2014/03/Screen-Shot-2014-03-03-at-6.21.29-PM.png)](/public/2014/03/Screen-Shot-2014-03-03-at-6.21.29-PM.png)
+[![Screen Shot 2014-03-03 at 6.21.29 PM](/assets/img/2014/03/Screen-Shot-2014-03-03-at-6.21.29-PM.png)](/assets/img/2014/03/Screen-Shot-2014-03-03-at-6.21.29-PM.png)
 
 速度提升还是相当明显的，还需要留意的是，很多应用都是直接或者间接使用无线网卡的 mac 地址来作为每台电脑的唯一标识的，例如 iTunes 和 Sublime Text 等，你需要重新授权一下：  
-![Screen Shot 2014-03-04 at 4.24.05 PM](/public/2014/03/Screen-Shot-2014-03-04-at-4.24.05-PM.png)
+![Screen Shot 2014-03-04 at 4.24.05 PM](/assets/img/2014/03/Screen-Shot-2014-03-04-at-4.24.05-PM.png)
 
 由于 Mac 的设计无线网卡和 Bluetooth 适配器是集成在一个模块里面的，所以升级无线模块后，我的机器同时也获得了 Bluetooth 4.0 功能。
 
 这次升级应该算是小折腾见效快的便捷改造，十分推荐。如果需要查询更多拆机的细节、技巧，自行移步到 [http://www.ifixit.com](http://www.ifixit.com) 即可。
 
 PS：最后，我还尝试了安装 MacBook Air 2013 的无线网卡到 MacBook Air 2012 的机器里，但是发现这两代机器的网卡长短不同，13 年 Air 的网卡比较长，无法安装到 12 年的机器里，看图：  
-![IMG_0965](/public/2014/03/IMG_0965.jpg)
+![IMG_0965](/assets/img/2014/03/IMG_0965.jpg)

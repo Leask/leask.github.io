@@ -12,7 +12,7 @@ comments:
   date_gmt: '2009-10-29 13:10:26 +0800'
   content: "希望能开发linux版的Flora_ssh-D"
 ---
-![Screen shot 2009-10-29 at 10.10.21 AM](/public/2010/09/screenshot2009-10-29at10.png?w=300 "Screen shot 2009-10-29 at 10.10.21 AM")
+![Screen shot 2009-10-29 at 10.10.21 AM](/assets/img/2010/09/screenshot2009-10-29at10.png "Screen shot 2009-10-29 at 10.10.21 AM")
 
 Flora_ssh-D是什么？
 

@@ -4,7 +4,7 @@ title: Google Voice
 author: Leask
 date: '2009-07-28 15:21:05 +0800'
 ---
-![4232368305-voice_logo_sm](/public/2010/09/4232368305-voice_logo_sm5b125d.gif?w=174 "4232368305-voice_logo_sm")
+![4232368305-voice_logo_sm](/assets/img/2010/09/4232368305-voice_logo_sm5b125d.gif "4232368305-voice_logo_sm")
 
 今天有幸一次获得5个Google Voice的邀请，自己用了两个，不敢独享，转发给了谷奥，于是有了以下的抢邀请活动：  
 [http://google.org.cn/posts/3-google-voice-invitation.html](http://google.org.cn/posts/3-google-voice-invitation.html "http://google.org.cn/posts/3-google-voice-invitation.html")  

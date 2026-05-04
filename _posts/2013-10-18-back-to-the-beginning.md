@@ -4,7 +4,7 @@ title: Back To The Beginning
 author: Leask
 date: '2013-10-18 16:41:44 +0800'
 ---
-![0d0f](/public/2013/10/DSC_0063.jpg)
+![0d0f](/assets/img/2013/10/DSC_0063.jpg)
 
 Lyrics of "The Call"
 

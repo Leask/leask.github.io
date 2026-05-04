@@ -4,7 +4,7 @@ title: My Bash Prompt
 author: Leask
 date: '2012-11-23 01:20:32 +0800'
 ---
-[![](/public/2012/11/Screen-Shot-2012-11-23-at-1.17.10-AM.png "Screen Shot 2012-11-23 at 1.17.10 AM")](/public/2012/11/Screen-Shot-2012-11-23-at-1.17.10-AM.png)
+[![](/assets/img/2012/11/Screen-Shot-2012-11-23-at-1.17.10-AM.png "Screen Shot 2012-11-23 at 1.17.10 AM")](/assets/img/2012/11/Screen-Shot-2012-11-23-at-1.17.10-AM.png)
 
 有人在 twitter 上问我的 bash prompt 是怎么写的，简单解说无效，直接把代码贴出来吧：
 

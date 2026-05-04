@@ -23,7 +23,7 @@ comments:
     :-)也不要说你没有团队身边支持你的所有人不算是吗!!呵呵，祝你和你的软件走得更远"
 ---
 Introduction of Snowman.S
-![15BAC1A170471DB_826_0](/public/2005/07/15BAC1A170471DB_826_0.jpg)
+![15BAC1A170471DB_826_0](/assets/img/2005/07/15BAC1A170471DB_826_0.jpg)
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  
 Snowman.S, Enjoy Smart Media  
 体验智能多媒体  

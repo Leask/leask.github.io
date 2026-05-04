@@ -4,7 +4,7 @@ title: "低调上Twitter，新IP出来了！"
 author: Leask
 date: '2009-09-15 06:53:33 +0800'
 ---
-![Screen shot 2009-09-15 at 2.48.06 PM](/public/2010/09/screenshot2009-09-15at2.png?w=300 "Screen shot 2009-09-15 at 2.48.06 PM")
+![Screen shot 2009-09-15 at 2.48.06 PM](/assets/img/2010/09/screenshot2009-09-15at2.png "Screen shot 2009-09-15 at 2.48.06 PM")
 
 早两天就得到了能连上Twitter的新一组IP地址，不少人DM问我要，实在是考虑再三我还是贴出来了。
 

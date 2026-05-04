@@ -6,4 +6,4 @@ date: '2009-05-25 06:08:30 +0800'
 ---
 如题。
 Welcome to Obama for America.  
-[![](/public/2010/09/img_0002178.png?w=200)](/public/2010/09/img_0002178.png?w=200)
+[![](/assets/img/2010/09/img_0002178.png)](/assets/img/2010/09/img_0002178.png)

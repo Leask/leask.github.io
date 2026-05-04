@@ -13,6 +13,6 @@ Calendar ID: [mvnlf93vqvvgqvg7qvjjut9v28@group.calendar.google.com](mailto:mvnlf
 
 支持奥运，随时随地。
 
-[![](/public/2010/09/img_0001.jpg?w=200)](/public/2010/09/img_0001.jpg?w=200)
+[![](/assets/img/2010/09/img_0001.jpg)](/assets/img/2010/09/img_0001.jpg)
 
 [![](https://2ax6iq.bay.livefilestore.com/y1mCSARj3KPUT8-cE0AEFK5m-AMsRUhqkwlSM_rWsa4QicY2Yf2I7aRnVlb1iWyePIWgMjyvR8tZQt_AK6GBPiV1fZKrzUbouckJl3HZnnybZYJNMZQeymirfeAeXwbR_daDG90ANR-0UCt-tG8Tbn3iQ/IMG_0002.jpg)](https://2ax6iq.bay.livefilestore.com/y1mCSARj3KPUT8-cE0AEFK5m-AMsRUhqkwlSM_rWsa4QicY2Yf2I7aRnVlb1iWyePIWgMjyvR8tZQt_AK6GBPiV1fZKrzUbouckJl3HZnnybZYJNMZQeymirfeAeXwbR_daDG90ANR-0UCt-tG8Tbn3iQ/IMG_0002.jpg)

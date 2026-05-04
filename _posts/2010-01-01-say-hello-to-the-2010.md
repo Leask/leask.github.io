@@ -4,7 +4,7 @@ title: Say Hello to the 2010
 author: Leask
 date: '2010-01-01 06:03:35 +0800'
 ---
-[![](/public/2010/01/bf6c23f69543e2d65239944c9193759e.png.jpeg "bf6c23f69543e2d65239944c9193759e.png")](/public/2010/01/bf6c23f69543e2d65239944c9193759e.png.jpeg)
+[![](/assets/img/2010/01/bf6c23f69543e2d65239944c9193759e.png.jpeg "bf6c23f69543e2d65239944c9193759e.png")](/assets/img/2010/01/bf6c23f69543e2d65239944c9193759e.png.jpeg)
 
 We believe that we have changed something. Not just us, but all of us. We didnt just wanna run another tracker. We wanted it to mean something. And you our users have helped us with that. The history of the bay is still being written, it's way to early for a conclusion.  
 **-- The Pirate Bay @ Christmas, 2009**

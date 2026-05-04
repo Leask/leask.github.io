@@ -16,4 +16,4 @@ categories:
 今天还是在下雨，呵呵，算了，生活就是这样，改变不了就接受吧。
 虽然雨天不能像平日那样趴在阳台发呆看天空了。
 PS: Photo by hoyo with my SX1, yesterday
-![15BAC1A170471DB_690_0](/public/2005/06/15BAC1A170471DB_690_0.jpg) ![15BAC1A170471DB_690_1](/public/2005/06/15BAC1A170471DB_690_1.jpg)
+![15BAC1A170471DB_690_0](/assets/img/2005/06/15BAC1A170471DB_690_0.jpg) ![15BAC1A170471DB_690_1](/assets/img/2005/06/15BAC1A170471DB_690_1.jpg)

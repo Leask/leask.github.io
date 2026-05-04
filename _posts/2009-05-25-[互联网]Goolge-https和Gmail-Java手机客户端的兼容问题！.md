@@ -21,4 +21,4 @@ GMail可选强制启用https本是个很好的主意，因为https虽然会增�
 1:Gmail Java客户端需要手机网络配置cmnet连接。  
 
 2:我的Gmail Java客户端版本是1.5.0大小是356KB，关闭https后使用正常。  
-[![](/public/2010/09/https.jpg?w=300)](/public/2010/09/https.jpg?w=300)
+[![](/assets/img/2010/09/https.jpg)](/assets/img/2010/09/https.jpg)

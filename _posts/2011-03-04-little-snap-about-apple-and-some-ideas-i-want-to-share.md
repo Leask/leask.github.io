@@ -7,7 +7,7 @@ categories:
 - Computers and Internet
 - Design
 ---
-![](/public/2011/03/IMG_1241_640.png "IMG_1241_640")
+![](/assets/img/2011/03/IMG_1241_640.png "IMG_1241_640")
 
 Look at the picture.  
 It is a screenshot I made from iPad 2 conference, March 2nd just past.

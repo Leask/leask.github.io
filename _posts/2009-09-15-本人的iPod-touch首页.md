@@ -8,7 +8,7 @@ date: '2009-09-15 06:45:53 +0800'
 
 本人的touch首页在@Apple4us的twitter上已经贴过了，有人说看不到twitter，那么我就在这里再贴一下吧。
 
-![IMG_0101](/public/2010/09/img_01015b75d.png?w=150 "IMG_0101")
+![IMG_0101](/assets/img/2010/09/img_01015b75d.png "IMG_0101")
 
 iPhone和iPod touch的首页，特别是Dock，往往是使用最多的Apps，所以，所以分享iPhone OS的首页，的确是很有趣的。
 

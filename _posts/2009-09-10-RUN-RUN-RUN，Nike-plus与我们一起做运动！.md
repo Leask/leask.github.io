@@ -19,27 +19,27 @@ date: '2009-09-10 11:49:13 +0800'
 
 这张专辑是我听得最多的，其中有独白引导你何时休息，何时应该加速，挺不错的，整个运动过程有4次冲刺，全过程约40分钟，十分适合用作每日锻炼使用：
 
-![Screen shot 2009-09-10 at 2.49.29 PM](/public/2010/09/screenshot2009-09-10at2.png?w=300 "Screen shot 2009-09-10 at 2.49.29 PM")
+![Screen shot 2009-09-10 at 2.49.29 PM](/assets/img/2010/09/screenshot2009-09-10at2.png "Screen shot 2009-09-10 at 2.49.29 PM")
 
 以下这个是27分钟的小跑，我最新得到的，还没有来得及尝试：
 
-![Screen shot 2009-09-10 at 2.47.13 PM](/public/2010/09/screenshot20090910at2.png?w=300 "Screen shot 2009-09-10 at 2.47.13 PM")
+![Screen shot 2009-09-10 at 2.47.13 PM](/assets/img/2010/09/screenshot20090910at2.png "Screen shot 2009-09-10 at 2.47.13 PM")
 
 这个是比较专业的，全程只有两次冲刺，全过程约40分钟，每次加速平均维持8分钟，我跑过一次，跑下来相当不容易啊：
 
-![Screen shot 2009-09-10 at 12.53.33 PM](/public/2010/09/screenshot2009-09-10at12.png?w=300 "Screen shot 2009-09-10 at 12.53.33 PM")
+![Screen shot 2009-09-10 at 12.53.33 PM](/assets/img/2010/09/screenshot2009-09-10at12.png "Screen shot 2009-09-10 at 12.53.33 PM")
 
 这个是原始跑法，全程只有一次的加速和一次的减速，我觉得跑起来也挺痛苦的：
 
-![Screen shot 2009-09-10 at 12.54.01 PM](/public/2010/09/screenshot2009-09-10at121.png?w=300 "Screen shot 2009-09-10 at 12.54.01 PM")
+![Screen shot 2009-09-10 at 12.54.01 PM](/assets/img/2010/09/screenshot2009-09-10at121.png "Screen shot 2009-09-10 at 12.54.01 PM")
 
 以上都是跑的，下面分享一个适合大多数户外运动的激励音乐，如果我没有记错，好像也是有旁白教练指导的：
 
-![Screen shot 2009-09-10 at 3.30.26 PM](/public/2010/09/screenshot2009-09-10at3.png?w=300 "Screen shot 2009-09-10 at 3.30.26 PM")
+![Screen shot 2009-09-10 at 3.30.26 PM](/assets/img/2010/09/screenshot2009-09-10at3.png "Screen shot 2009-09-10 at 3.30.26 PM")
 
 这个是室内运动，风格类似与上面的一组：
 
-![Screen shot 2009-09-10 at 3.30.39 PM](/public/2010/09/screenshot2009-09-10at31.png?w=300 "Screen shot 2009-09-10 at 3.30.39 PM")
+![Screen shot 2009-09-10 at 3.30.39 PM](/assets/img/2010/09/screenshot2009-09-10at31.png "Screen shot 2009-09-10 at 3.30.39 PM")
 
 以上的音乐，大部分都是Nike的专业DJ通过使用一些节奏明快的音乐Remix出来的，当然了，有几个专辑还提供了Remix前的单曲下载，用来平时听也很不错。
 

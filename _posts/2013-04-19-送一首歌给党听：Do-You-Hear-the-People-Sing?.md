@@ -15,7 +15,7 @@ comments:
 Do You Hear the People Sing?  
 by Les Miserables Cast. From Les Miserables
 
-![Les-Miserables-The-Motion-Picture-Soundtrack-Deluxe-Edition](/public/2013/08/Les-Miserables-The-Motion-Picture-Soundtrack-Deluxe-Edition.jpg)
+![Les-Miserables-The-Motion-Picture-Soundtrack-Deluxe-Edition](/assets/img/2013/08/Les-Miserables-The-Motion-Picture-Soundtrack-Deluxe-Edition.jpg)
 
 Do You Hear the People Sing? by Les Miserables Cast  
 ENJOLRAS  
