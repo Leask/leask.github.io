@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: MSN Space any Time! any Where!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 682
-wordpress_url: http://leaskh.wordpress.com/2005/09/14/msn-space-any-time-any-where
 date: '2005-09-14 11:59:42 +0800'
-date_gmt: '2005-09-14 11:59:42 +0800'
 categories:
 - Mobile
-tags: []
-comments: []
 ---
-
 ![](http://storage.msn.com/x1pGg9EMswqL-_2MbvYq-ZxXNATEjnOLKQMMYBHCdCOtt88zyw9aFWFuAdQigmXElkZXdGp1D6S0qISguLp1FrS-T2SGGjM4kdw0mdk8IRPnJBS_dD6t1G2rVazQsmTJzOlX1oBNXY0eHTkMNT-pOAdnw)
 今天试用了[MSN Spaces的Mobile Edition](http://mobile.spaces.msn.com/)，感觉还好。
 终于可以随时随地用手机关注MSN Spaces了 。

@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: The Edge Outside The Window
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 759
-wordpress_url: http://leaskh.wordpress.com/2005/06/19/the-edge-outside-the-window
 date: '2005-06-19 14:23:40 +0800'
-date_gmt: '2005-06-19 14:23:40 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 今天吃饭的时候在小餐馆的窗子上照的，和大家分享一下。
 
 给这辑照片取名《The Edge》因为感觉上这些照片很“边缘”，

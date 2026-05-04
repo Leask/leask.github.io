@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "[纪念]Android Explorer失败"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 206
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/%e7%ba%aa%e5%bf%b5android-explorer%e5%a4%b1%e8%b4%a5
 date: '2009-05-25 05:21:05 +0800'
-date_gmt: '2009-05-25 05:21:05 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 和A-Qing合作参加的Google Android Developer Challenge开发大赛的结果如我们所料：我们并没有进入Round 1。  
 
 Any way，发帖纪念一下曾经的辛勤劳动。  

@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Tweets from May 21 to Jun 20
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1640
-wordpress_url: https://leaskh.com/?p=1640
 date: '2011-07-03 17:57:04 +0800'
-date_gmt: '2011-07-03 09:57:04 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 最近加班比较多，没时间维护Blog。感觉自己没多少青春可以挥霍了。既然对现实不满，就少点抱怨，努力工作，通过完善自己而提高对外部恶劣环境的驾驭能力吧。以后如果没时间更新了，就定期整理一些我在Twitter上的更新，以告知墙内的朋友们我的现状。
 
 最近听说过劳死的比较多，虽然媒体的报道难免有些危言耸听。我的好友们大多数都是做IT或者传媒工作的，一般都比较累，大家要好好保重身体。

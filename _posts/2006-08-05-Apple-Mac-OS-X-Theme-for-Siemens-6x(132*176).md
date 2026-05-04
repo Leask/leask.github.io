@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Apple Mac OS X Theme for Siemens 6x(132*176)
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 485
-wordpress_url: http://leaskh.wordpress.com/2006/08/05/apple-mac-os-x-theme-for-siemens-6x132176
 date: '2006-08-05 09:24:38 +0800'
-date_gmt: '2006-08-05 09:24:38 +0800'
 categories:
 - Mobile
-tags: []
-comments: []
 ---
-
 这是一套Siemens 6x系列的用户界面，包括主题(Theme)以及主菜单(FlexMenu)。
 理论上适用于所有132*176分辨率的65系列西机(暂不兼容130*130的6x)。
 这套UI是在Mac Mini(Mac OS X 10.4.7)上分离图片资源并PS加工完成。

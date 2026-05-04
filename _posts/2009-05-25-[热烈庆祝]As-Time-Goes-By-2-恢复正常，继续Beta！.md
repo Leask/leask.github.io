@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "[热烈庆祝]As Time Goes By 2 恢复正常，继续Beta！"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 190
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/%e7%83%ad%e7%83%88%e5%ba%86%e7%a5%9das-time-goes-by-2-%e6%81%a2%e5%a4%8d%e6%ad%a3%e5%b8%b8%ef%bc%8c%e7%bb%a7%e7%bb%adbeta%ef%bc%81
 date: '2009-05-25 05:34:54 +0800'
-date_gmt: '2009-05-25 05:34:54 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 托奥运的福，伟大的绿色长城最近开始休息，为更伟大的奥运会让路，本人的Blog因此得以苟延残存。  
 
 热烈庆祝，热烈庆祝。  

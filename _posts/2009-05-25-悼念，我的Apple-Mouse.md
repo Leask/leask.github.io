@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "悼念，我的Apple Mouse"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 165
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/%e6%82%bc%e5%bf%b5%ef%bc%8c%e6%88%91%e7%9a%84apple-mouse
 date: '2009-05-25 05:56:50 +0800'
-date_gmt: '2009-05-25 05:56:50 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 我的Apple Mouse是G4版的，单键，年代甚为久远。  
 
 Apple Mouse是女友送的，那个时候我刚刚卖掉Mac mini G4，从流浪歌手哪里入手iBook，那是我第二个Mac电脑。  

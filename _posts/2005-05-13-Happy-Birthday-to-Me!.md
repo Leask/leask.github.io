@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Happy Birthday to Me!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 809
-wordpress_url: http://leaskh.wordpress.com/2005/05/13/happy-birthday-to-me
 date: '2005-05-13 03:49:11 +0800'
-date_gmt: '2005-05-13 03:49:11 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 11
   author: Unknown
@@ -27,7 +14,6 @@ comments:
   date_gmt: '2005-05-13 10:04:57 +0800'
   content: "生日快乐啊~呵呵"
 ---
-
 今天自己生日，心情一般。没有生日会，没有让人感动的烛光，也没有许下难于实现的生日愿望。零星收到记得的人发来的问候，简短的问候!!
 
 当然，还有来自室友的祝福。

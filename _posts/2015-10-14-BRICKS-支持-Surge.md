@@ -1,19 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: BRICKS 支持 Surge
 author: Leask
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2395
-wordpress_url: https://leaskh.com/?p=2395
 date: '2015-10-14 02:23:00 +0800'
-date_gmt: '2015-10-13 18:23:00 +0800'
-categories:
-
-tags: []
 comments:
 - id: 17648
   author: Evans
@@ -37,7 +26,6 @@ comments:
   date_gmt: '2015-11-09 07:26:20 +0800'
   content: "歪下，博主打官司的下文出来了吗？"
 ---
-
 ![ios_surge](/public/2015/10/ios_surge.png)
 
 最近 Twitter 上流行一款新的翻墙工具，Surge，使用 iOS 9 新接口Network Extension 开发。  

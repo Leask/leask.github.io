@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Fwd: Chat with nihaozzb'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 296
-wordpress_url: http://leaskh.wordpress.com/2008/03/14/fwd-chat-with-nihaozzb
 date: '2008-03-14 05:29:39 +0800'
-date_gmt: '2008-03-14 05:29:39 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 呵呵，以下是ZZB给我的GTalk回复：
 
   

@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: "[Quote] The Voice from Chinese GUI Designer"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 771
-wordpress_url: http://leaskh.wordpress.com/2005/06/04/quote-the-voice-from-chinese-gui-designer
 date: '2005-06-04 07:35:31 +0800'
-date_gmt: '2005-06-04 07:35:31 +0800'
-categories:
-
-tags: []
 comments:
 - id: 19
   author: Unknown
@@ -27,7 +12,6 @@ comments:
   date_gmt: '2005-06-08 13:07:31 +0800'
   content: "顶"
 ---
-
 最近比较关注 UI Design，再 Quote 一篇关于 UI Design 的文章。
 
 同时也是我比较关心的关于智能手机的文章。

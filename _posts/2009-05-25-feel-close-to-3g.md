@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Feel Close to 3G
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 139
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/feel-close-to-3g
 date: '2009-05-25 06:14:46 +0800'
-date_gmt: '2009-05-25 06:14:46 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 老爸的小灵通“移动市话”升级为Samsung的CDMA电话了。  
 
 属于3G普及机型，机器内部不带browser software的。  

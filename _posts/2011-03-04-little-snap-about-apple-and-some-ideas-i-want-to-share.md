@@ -1,27 +1,12 @@
 ---
 layout: post
-status: publish
-published: true
 title: little snap about Apple and some ideas I want to share
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1483
-wordpress_url: https://leaskh.com/?p=1483
 date: '2011-03-04 18:32:45 +0800'
-date_gmt: '2011-03-04 10:32:45 +0800'
 categories:
 - Computers and Internet
 - Design
-tags: []
-comments: []
 ---
-
 ![](/public/2011/03/IMG_1241_640.png "IMG_1241_640")
 
 Look at the picture.  

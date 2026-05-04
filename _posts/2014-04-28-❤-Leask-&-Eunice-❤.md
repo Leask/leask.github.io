@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: "❤ Leask & Eunice ❤"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2157
-wordpress_url: https://leaskh.com/?p=2157
 date: '2014-04-28 09:59:32 +0800'
-date_gmt: '2014-04-28 01:59:32 +0800'
-categories:
-
-tags: []
 comments:
 - id: 6366
   author: Lucifr
@@ -48,7 +33,6 @@ comments:
   date_gmt: '2014-07-01 17:11:25 +0800'
   content: Best Wishes..
 ---
-
 ![invitation_web](/public/2014/04/invitation_web.png)  
 朋友们，经过各方面时间协调以及场地考察，最终确定于 2014 年 5 月 18 日，深圳 南山 益田假日广场 L3 四海一家 自助餐厅 设宴庆祝我和小妮终于共谐连理，开展人生的新篇章。
 

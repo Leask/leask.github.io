@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Draft of My Design
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 607
-wordpress_url: http://leaskh.wordpress.com/2006/02/25/draft-of-my-design
 date: '2006-02-25 16:13:37 +0800'
-date_gmt: '2006-02-25 16:13:37 +0800'
 categories:
 - Design
-tags: []
 comments:
 - id: 224
   author: "庆锋"
@@ -57,7 +44,6 @@ comments:
   date_gmt: '2006-02-25 17:31:38 +0800'
   content: "很好。。支持。"
 ---
-
 ![](http://tk.files.storage.msn.com/x1pM0jCSUoiRhC-MSJjm46CETkv39HATWeZy6yGVzLbHfMuXQtxyIczL-wMyE8_QgIdNSleQD1AKOn2mdEaoOfOooJa8AyhPknVbLA_yA6stboxcDFDudwOfmd-twsX7UcWXxrqS05wEUg)  
 
   

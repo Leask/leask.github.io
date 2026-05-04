@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "谈谈Snow Leopard"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 99
-wordpress_url: http://leaskh.wordpress.com/2009/06/14/%e8%b0%88%e8%b0%88snow-leopard
 date: '2009-06-14 17:30:59 +0800'
-date_gmt: '2009-06-14 17:30:59 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 [![](/public/2010/09/screenshoton2009-06-13at1.png?w=300)](/public/2010/09/screenshoton2009-06-13at1.png?w=300)
 WWDC在漫长的等待后主要带来了4个消息：
 1：New MacBook Pro；

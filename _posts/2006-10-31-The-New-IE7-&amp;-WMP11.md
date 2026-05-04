@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: The New IE7 &amp; WMP11
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 431
-wordpress_url: http://leaskh.wordpress.com/2006/10/31/the-new-ie7-wmp11
 date: '2006-10-31 07:15:56 +0800'
-date_gmt: '2006-10-31 07:15:56 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 ![](http://i3.microsoft.com/h/en-us/i/HP_13.5/IE7_launch_2_10.jpg)  
 
   

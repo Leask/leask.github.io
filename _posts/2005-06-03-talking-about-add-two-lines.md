@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Talking about Add Two Lines
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 782
-wordpress_url: http://leaskh.wordpress.com/2005/06/03/talking-about-add-two-lines
 date: '2005-06-03 13:52:15 +0800'
-date_gmt: '2005-06-03 13:52:15 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 很有诗意的一首英文诗，作者写了一个开头，然后让网友补完整的。
 
 一下子让我想起一句话：“网聚人的力量”

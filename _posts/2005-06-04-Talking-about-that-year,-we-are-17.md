@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Talking about that year, we are 17
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 780
-wordpress_url: http://leaskh.wordpress.com/2005/06/04/talking-about-that-year-we-are-17
 date: '2005-06-04 06:33:11 +0800'
-date_gmt: '2005-06-04 06:33:11 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 From my friend Xiaoxiao's MSN Space.
 
 Enjoy the pome and enjoy our youth~

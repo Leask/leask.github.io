@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Prison Break Season 2 纸鹤数字密码破译
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 441
-wordpress_url: http://leaskh.wordpress.com/2006/10/25/prison-break-season-2-%e7%ba%b8%e9%b9%a4%e6%95%b0%e5%ad%97%e5%af%86%e7%a0%81%e7%a0%b4%e8%af%91
 date: '2006-10-25 18:41:31 +0800'
-date_gmt: '2006-10-25 18:41:31 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 ![](http://pop.pcpop.com/upimg3/2006/10/17/0002083554.jpg)  
 
 第一集39分钟，Sarah在自己的包里找到的第一只纸鹤，上面写着“There is a plan to make all of this right ”。  

@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "[原创]浅谈iPod touch OS 2.2固件初步破解"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 157
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/%e5%8e%9f%e5%88%9b%e6%b5%85%e8%b0%88ipod-touch-os-2-2%e5%9b%ba%e4%bb%b6%e5%88%9d%e6%ad%a5%e7%a0%b4%e8%a7%a3
 date: '2009-05-25 05:57:55 +0800'
-date_gmt: '2009-05-25 05:57:55 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 Apple如期带来了iPhone OS 2.2，各种新特性这里就不一一叙述了。  
 我是使用iPod touch的，习惯在新固件发布的时候凑凑热闹，于是第一时间升级到2.2。  
 试着按照俄罗斯高手破解iPhone OS 2.2的方法（[http://russianiphone.ru/archives/2538](http://russianiphone.ru/archives/2538)）折腾我的touch。  

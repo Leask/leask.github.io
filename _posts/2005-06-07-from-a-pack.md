@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: From a Pack
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 769
-wordpress_url: http://leaskh.wordpress.com/2005/06/07/from-a-pack
 date: '2005-06-07 05:43:39 +0800'
-date_gmt: '2005-06-07 05:43:39 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 27
   author: Unknown
@@ -27,7 +14,6 @@ comments:
   date_gmt: '2005-06-08 12:43:51 +0800'
   content: "有这样一个朋友还不知足吗？虽然已经分手，但我觉得他们大家心中还是有对方的位置。女的这么关心他，足可见她爱得多么的深！"
 ---
-
 ![](http://storage.msn.com/x1pGg9EMswqL-_2MbvYq-ZxXNATEjnOLKQMMYBHCdCOtt9SOljJYIJyZzCkPBk3y4_z2m48ISvIk0Ugzx5yMEEc2x_tvT1kLmTdPs3X2hIjA4U57lhtQm7ehM_GkPu02bAg8quvQ-NMhJymvkwDkNb_VA)
 
 昨日，朋友收到一个来自深圳的包裹。  

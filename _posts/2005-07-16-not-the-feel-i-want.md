@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Not the feel I want
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 721
-wordpress_url: http://leaskh.wordpress.com/2005/07/16/not-the-feel-i-want
 date: '2005-07-16 10:22:55 +0800'
-date_gmt: '2005-07-16 10:22:55 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 72
   author: Leask
@@ -34,7 +21,6 @@ comments:
   date_gmt: '2005-07-17 03:19:25 +0800'
   content: "求全之于工作是好态度。。放松点。^_*祝好。"
 ---
-
 刚收到VC的照片，是封面的素材。
 不是我要的感觉。
 照得很一般，感觉很马虎，很随便...

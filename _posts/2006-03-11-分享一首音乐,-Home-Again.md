@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: "分享一首音乐, Home Again"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 596
-wordpress_url: http://leaskh.wordpress.com/2006/03/11/%e5%88%86%e4%ba%ab%e4%b8%80%e9%a6%96%e9%9f%b3%e4%b9%90-home-again
 date: '2006-03-11 05:28:19 +0800'
-date_gmt: '2006-03-11 05:28:19 +0800'
 categories:
 - Music
-tags: []
 comments:
 - id: 239
   author: renee
@@ -29,7 +16,6 @@ comments:
     good song~Home Again
     by Vonda Shepard
 ---
-
 Sometimes I wonder If I'm ever gonna make it home again  
 
 It's so far and out of sight  

@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Flora_ssh-D Version 2.47发布！//主要修正：iTunes更新大量Podcast的时候脚本超时的Bug。
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 47
-wordpress_url: http://leaskh.wordpress.com/2009/11/16/flora_ssh-d-version-2-47%e5%8f%91%e5%b8%83%ef%bc%81%e4%b8%bb%e8%a6%81%e4%bf%ae%e6%ad%a3%ef%bc%9aitunes%e6%9b%b4%e6%96%b0%e5%a4%a7%e9%87%8fpodcast%e7%9a%84%e6%97%b6%e5%80%99%e8%84%9a%e6%9c%ac
 date: '2009-11-16 10:27:18 +0800'
-date_gmt: '2009-11-16 10:27:18 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 这个版本早就做好了，但是一直徘徊要不要放出来。因为这段时间我在尝试修改autossh的源代码。autossh是一个很优秀的开源项目，我希望build一个带有更完善翻墙功能的autossh版本，目前还是遇到很多问题。由于工作比较忙，可能一时三刻还完成不了，所以还是放出这个版本。这个版本对于一般的用户已经比较完美了，但是对于用Terminal比较多的用户，还是会有一点不适应的，因为脚本中连接ssh的时候会独占Terminal，这个问题我暂时还没有比较好的解决办法。
 
 另外为了提高安全性，我尝试把各种用户名和密码保存在Mac的Keychain里面，但是不知道是不是因为Mac OS X 10.6.x中比较烦人的脚本安全规则作怪，脚本每次访问Keychain都需要弹出对话框让用户确认，所以最终还是放弃了这个做法，希望有解决办法的朋友指教一下。

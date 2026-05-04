@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Get it louder: Lifexperience 2010'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 765
-wordpress_url: http://leaskh.wordpress.com/2005/06/11/get-it-louder-lifexperience-2010
 date: '2005-06-11 19:58:38 +0800'
-date_gmt: '2005-06-11 19:58:38 +0800'
 categories:
 - Design
-tags: []
-comments: []
 ---
-
 ![](http://storage.msn.com/x1pGg9EMswqL-_2MbvYq-ZxXNATEjnOLKQMMYBHCdCOtt9YBM4etIyr_Ms83tGSYE_Spb28x3INYdIkFlWKh7HF0-EEQsy2Ssf5nPc2KUQSMbOSiqSHSj9ncTcqQNke1pycV1C9xMQfLR8enz0fz2wJnA)
 
 在中国，设计师作为一个独立的职业，起自七十年代末八十年代初。从那时算起，中国的设计师已经历了三个世代的演变：第一代设计师在七、八十年代接受传统美术学院的训练，基本上没有英语能力，他们崛起于八十年代末和九十年代初，那时个人电脑还未开始大面积进入中国，他们的设计都是手工作品；第二代设计师崛起于Macintosh电脑风行之时，多数都会操作电脑，部分人有英文基础，开始接受国际数码设计潮流的影响；第三代亦即今天这代设计师，成长于国际互联网兴起的时代，很多人都有在海外学习和工作的经验，精通技术，英文水平很高，视野开阔，发挥空间大，设计身份开始多元化（平面、网页、活动画面甚至声音等等）。

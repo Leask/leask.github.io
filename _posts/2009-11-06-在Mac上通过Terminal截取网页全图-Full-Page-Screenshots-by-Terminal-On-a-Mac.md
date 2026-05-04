@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "在Mac上通过Terminal截取网页全图 / Full Page Screenshots by Terminal On a Mac"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 52
-wordpress_url: http://leaskh.wordpress.com/2009/11/06/%e5%9c%a8mac%e4%b8%8a%e9%80%9a%e8%bf%87terminal%e6%88%aa%e5%8f%96%e7%bd%91%e9%a1%b5%e5%85%a8%e5%9b%be-full-page-screenshots-by-terminal-on-a-mac
 date: '2009-11-06 14:49:38 +0800'
-date_gmt: '2009-11-06 14:49:38 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 其实很多人都知道，如果说Snow Leopard和Windows 7的图形界面是可口的点心的话，那么在*nix系统里面，命令行Shell简直就是系统的灵魂。
 
 笔者是从事网站开发和设计的，俗称的D&D（Design and Development），经常遇到需要把制作效果汇报给上级，或者发Demo给客户的情况。然而由于Web pages脱离了Web server通常是无法完整预览的，这就需要截图了。

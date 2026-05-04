@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Experience 100％ Apple Aperture 1.5!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 459
-wordpress_url: http://leaskh.wordpress.com/2006/10/06/experience-100%ef%bc%85-apple-aperture-1-5
 date: '2006-10-06 01:29:08 +0800'
-date_gmt: '2006-10-06 01:29:08 +0800'
 categories:
 - Computers and Internet
-tags: []
 comments:
 - id: 318
   author: Leask
@@ -46,7 +33,6 @@ comments:
   date_gmt: '2006-10-06 09:37:20 +0800'
   content: aperture1.5 是不是非要升级到10。4。8后才会自动更新的？在10。4。6里面不能安装吗？
 ---
-
 ![](http://tkfiles.storage.msn.com/x1pM0jCSUoiRhC-MSJjm46CEVyoc-DloMD6PxtM6aRR_6dLqrFa-cyKTBH2NNxp4upv-5m6H8frN5LNAJBIXVcFXCxOblmzoOeJKw6NLZNPoiJrsGa7REjalB9vYSyY0qTuKtQx5YInisM)  
 
   

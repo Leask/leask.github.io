@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Sony Ericsson P1i 运行全屏Gmail Java客户端
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 149
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/sony-ericsson-p1i-%e8%bf%90%e8%a1%8c%e5%85%a8%e5%b1%8fgmail-java%e5%ae%a2%e6%88%b7%e7%ab%af
 date: '2009-05-25 06:06:28 +0800'
-date_gmt: '2009-05-25 06:06:28 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 入手P1i已经一小段时间了，用得算顺手，摄像头比预想的好。遗憾的是键盘稍微偏小（可能是我的手比较大）。  
 
 但是遇到一个问题，直接上线安装的Gmail Java客户端在最新版本系统（R10A）中不能全屏。  

@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Making a Important Decision
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 786
-wordpress_url: http://leaskh.wordpress.com/2005/06/02/making-a-important-decision
 date: '2005-06-02 05:29:51 +0800'
-date_gmt: '2005-06-02 05:29:51 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 今天我做了一个重大的决定：决定上下午的体育课。
 
 回校到今天已经好长一段了，体育课一直没有办理选修，一方面一直很忙，几乎没有一个星期是可以轻松度过的，另一方面是我这个人比较懒也没有什么运动细胞。

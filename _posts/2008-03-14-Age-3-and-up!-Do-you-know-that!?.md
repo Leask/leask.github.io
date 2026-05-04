@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Age 3 and up! Do you know that!?
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 300
-wordpress_url: http://leaskh.wordpress.com/2008/03/14/age-3-and-up-do-you-know-that
 date: '2008-03-14 00:55:35 +0800'
-date_gmt: '2008-03-14 00:55:35 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 这三张照片已经拍了很久了，一直忘记贴出，最近整理文件的时候发现。
 迟不要紧，和大家分享一下。
 

@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "拯救TinyGrab中止通过CNAME绑定域名后失效的图片"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1397
-wordpress_url: https://leaskh.com/?p=1397
 date: '2010-10-07 22:00:22 +0800'
-date_gmt: '2010-10-07 14:00:22 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 我曾经通过 t.leaskh.com 绑定到 grab.by 在blog上发了好些图片.  
 无奈 TinyGrab 中止了解释这样形式的地址.  
 于是就开始构思通过php重定向的方式试试恢复这些图片.

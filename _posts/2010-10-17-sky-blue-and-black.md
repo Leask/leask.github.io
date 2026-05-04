@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: Sky Blue And Black
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1409
-wordpress_url: https://leaskh.com/?p=1409
 date: '2010-10-17 20:13:59 +0800'
-date_gmt: '2010-10-17 12:13:59 +0800'
-categories:
-
-tags: []
 comments:
 - id: 391
   author: Seanlier
@@ -42,7 +27,6 @@ comments:
   date_gmt: '2010-12-12 14:55:40 +0800'
   content: me也看了三遍，正在复习&bull;&bull;&bull;&bull;&bull;&bull;
 ---
-
 [![](/public/2010/10/graysky.png "graysky")](/public/2010/10/graysky.png)
 
 最近室友们开始看Friends了,这部我看了不下3次的美剧由于太过经典,他们看的时候我也还会忍不住瞄上几眼.

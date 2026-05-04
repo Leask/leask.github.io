@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Mc Dull, The Alumni
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 569
-wordpress_url: http://leaskh.wordpress.com/2006/04/23/mc-dull-the-alumni
 date: '2006-04-23 00:39:43 +0800'
-date_gmt: '2006-04-23 00:39:43 +0800'
 categories:
 - Movie
-tags: []
 comments:
 - id: 270
   author: Unknown
@@ -27,7 +14,6 @@ comments:
   date_gmt: '2006-05-05 19:06:03 +0800'
   content: "回到学校我也去拉来看看...好东西要一起分享"
 ---
-
 终于忙完了音乐协会的首场晚会。   
 累，值得。   
 一直想看春田花花，也是刚刚才有时间看了。   

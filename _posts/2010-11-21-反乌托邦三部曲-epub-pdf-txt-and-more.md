@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "反乌托邦三部曲 epub / pdf / txt and more"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1441
-wordpress_url: https://leaskh.com/?p=1441
 date: '2010-11-21 22:42:55 +0800'
-date_gmt: '2010-11-21 14:42:55 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 在 iOS 上阅读，特别是对于用 iPhone 或者 iPad / iPod 的朋友，有 epub 格式的书就最便利了，通过 Apple 自家的 iBooks 就能舒舒服服看书，做笔记，同步书签。已经没有装 GoodReader 或者其他阅读软件的欲望了。
 
 最近 @wcm 给我几本好书：《1984》、《我们》和《美丽新世界》，他们常被称为“反乌托邦三部曲”，由于拿到的是 txt 格式，为了便于阅读，我用 Pages 把他们制作成了 epub 和 pdf 格式。

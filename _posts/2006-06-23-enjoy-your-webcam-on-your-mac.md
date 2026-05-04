@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Enjoy Your Webcam on Your Mac
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 521
-wordpress_url: http://leaskh.wordpress.com/2006/06/23/enjoy-your-webcam-on-your-mac
 date: '2006-06-23 17:47:14 +0800'
-date_gmt: '2006-06-23 17:47:14 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 很多人抱怨买Mac后原来为PC买的设备都罢工，最明显的就是webcam。  
 
 为郁闷中的Mac用户推荐一款叫做Macam的软件，可以在Mac OSX上驱动很多常见webcam。  

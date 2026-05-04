@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Beauty BIY
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 789
-wordpress_url: http://leaskh.wordpress.com/2005/05/26/beauty-biy
 date: '2005-05-26 03:05:54 +0800'
-date_gmt: '2005-05-26 03:05:54 +0800'
 categories:
 - Design
-tags: []
-comments: []
 ---
-
 马哲课辅导员来考勤，一节课没有感受音乐，只有专心看课外书。
 
 第二节课，一边听音乐，一边用一块不知道那里来的蜡球打造了这一个“美人”。

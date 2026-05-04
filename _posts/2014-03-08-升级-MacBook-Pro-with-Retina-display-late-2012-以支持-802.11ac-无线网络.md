@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: "升级 MacBook Pro with Retina display late 2012 以支持 802.11ac 无线网络"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2116
-wordpress_url: https://leaskh.com/?p=2116
 date: '2014-03-08 18:42:16 +0800'
-date_gmt: '2014-03-08 10:42:16 +0800'
-categories:
-
-tags: []
 comments:
 - id: 6766
   author: DD-WRT无线设置详解 | Aj&#039;s Blog
@@ -27,7 +12,6 @@ comments:
   date_gmt: '2014-05-07 19:52:03 +0800'
   content: "[&#8230;] rMBP无线网卡升级 [&#8230;]"
 ---
-
 2013 年 MacBook Pro with Retina display 有小幅更新，对比 2012 年款，有以下几点变动：
 
 1：从 Intel 第三代 Core IvyBridge 处理器升级到第四代的 Core Haswell / Crystalwell；  

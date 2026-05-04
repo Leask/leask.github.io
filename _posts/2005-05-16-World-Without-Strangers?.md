@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: World Without Strangers?
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 802
-wordpress_url: http://leaskh.wordpress.com/2005/05/16/world-without-strangers
 date: '2005-05-16 10:35:56 +0800'
-date_gmt: '2005-05-16 10:35:56 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 曾经相信一句话：世界上没有陌生人，只有还没来得及认识的朋友。
 
 然而，世界上真的没有陌生人吗？

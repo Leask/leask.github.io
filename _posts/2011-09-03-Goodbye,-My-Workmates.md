@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Goodbye, My Workmates
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1745
-wordpress_url: https://leaskh.com/2011/09/03/goodbye-my-workmates/
 date: '2011-09-03 10:31:20 +0800'
-date_gmt: '2011-09-03 02:31:20 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 1005
   author: "秘书派"
@@ -27,5 +14,4 @@ comments:
   date_gmt: '2011-10-25 02:42:46 +0800'
   content: "神马东东，看不懂"
 ---
-
 ![20110903-102430.jpg](/public/2011/09/20110903-1024301.jpg)

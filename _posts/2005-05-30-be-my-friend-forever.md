@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Be My Friend Forever
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 787
-wordpress_url: http://leaskh.wordpress.com/2005/05/30/be-my-friend-forever
 date: '2005-05-30 18:53:44 +0800'
-date_gmt: '2005-05-30 18:53:44 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 18
   author: "-"
@@ -27,7 +14,6 @@ comments:
   date_gmt: '2005-05-31 03:14:59 +0800'
   content: Don't leave me~~曾经有一段日子让我深切感受到男女间纯粹的友谊我还是很怀念我们三个人的日子那时我们很单纯，很开心我想这种快乐不会再出现在我的人生里高中那段时光对我而言非常重要真的，真的很感谢你们给了我这段回忆大家都要好好过我相信我们总会有一天再聚在一起的
 ---
-
 Kevin 曾经是我最好的朋友，但是因为一些事情感情变了质。
 
 事情过去有一段时间了，我不堪回首，只是觉得当时大家也只是孩子...

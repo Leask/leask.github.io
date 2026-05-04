@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: About My Design
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 605
-wordpress_url: http://leaskh.wordpress.com/2006/02/25/about-my-design
 date: '2006-02-25 19:40:01 +0800'
-date_gmt: '2006-02-25 19:40:01 +0800'
 categories:
 - Design
-tags: []
 comments:
 - id: 228
   author: Xiao
@@ -34,7 +21,6 @@ comments:
     &nbsp;
     梦需要基石，而它创造了更高的基石，实现更高的梦。
 ---
-
 夜，刚想上来和大家说晚安，才看到XIAO的留言。  
 
 首先感到非常的感动和欣慰。  

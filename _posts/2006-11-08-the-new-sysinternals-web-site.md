@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: The New Sysinternals Web Site
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 425
-wordpress_url: http://leaskh.wordpress.com/2006/11/08/the-new-sysinternals-web-site
 date: '2006-11-08 13:18:57 +0800'
-date_gmt: '2006-11-08 13:18:57 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 ![](http://www.microsoft.com/library/media/1033/technet/images/sysinternals/hero/hero_windows_sysinternals.jpg)  
 
   

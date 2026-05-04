@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: iPhoto 6 update(6.0.4)
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 528
-wordpress_url: http://leaskh.wordpress.com/2006/06/21/iphoto-6-update6-0-4
 date: '2006-06-21 08:07:11 +0800'
-date_gmt: '2006-06-21 08:07:11 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 ![](http://tk.files.storage.msn.com/x1pM0jCSUoiRhC-MSJjm46CEcu1uWG4OvGBsVWurHR0deCm5yBwxZrev-tcyJqzNWduVywI8c8xdGOQB_3yOGgn4EUyIlXXMIbM2kbD8fWsUTRVkspeHmDL2uiA6qn3xepaOXMJuEE-Ph8)  
 
   

@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: "打造自动翻墙的iPod touch or iPhone！"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 38
-wordpress_url: http://leaskh.wordpress.com/2009/12/23/%e6%89%93%e9%80%a0%e8%87%aa%e5%8a%a8%e7%bf%bb%e5%a2%99%e7%9a%84ipod-touch-or-iphone%ef%bc%81
 date: '2009-12-23 16:58:14 +0800'
-date_gmt: '2009-12-23 16:58:14 +0800'
-categories:
-
-tags: []
 comments:
 - id: 361
   author: Leask
@@ -34,7 +19,6 @@ comments:
   date_gmt: '2009-12-29 03:51:29 +0800'
   content: "你还得改代理服务器吧，没写这个步骤怎么翻。"
 ---
-
 最近天朝越来越“墙大”了，Twitter最后一组IP地址也已经耗尽。  
 不知道大家有没有和我一样，有在移动设备上翻墙的需要。  
 由于iPhone OS基于完整的UNIX，那么想象的空间就很大了，ssh -D直接跑在iPhone OS上已经不是什么新鲜事情，但是ssh的链接有一点脆弱，碰上网络不稳定的时候还真的挺郁闷的。  

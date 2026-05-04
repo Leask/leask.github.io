@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: Ali呸 / AliPei
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2013
-wordpress_url: https://leaskh.com/?p=2013
 date: '2013-01-09 21:39:38 +0800'
-date_gmt: '2013-01-09 13:39:38 +0800'
-categories:
-
-tags: []
 comments:
 - id: 5066
   author: ai
@@ -27,7 +12,6 @@ comments:
   date_gmt: '2013-01-30 13:01:10 +0800'
   content: "自从使用了Hips后，发现国内的大公司软件太流氓了。现在都统统戒掉了，只用不流氓的开源程序。开源程序也发现部分耍流氓的。这些支付控件还不都是被流氓软件逼出来的。但是安全控件不耍流氓又搞不过啊。杯具的环境啊，每次都是购买临时装一下插件，用完立马系统还原掉。"
 ---
-
 [![](/public/2013/01/Screen-Shot-2013-01-09-at-9.10.40-PM.png "AliPei")](/public/2013/01/Screen-Shot-2013-01-09-at-9.10.40-PM.png)
 
 来上海后就很少写东西了，工作忙，自己额外要做的事儿也多。看到大家给了我好多留言，大多数是关于一些开源项目的，我有时间再一一回复一下吧，实在抱歉。

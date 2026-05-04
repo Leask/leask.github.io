@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Tonight, I&#039;m Far away from home
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 456
-wordpress_url: http://leaskh.wordpress.com/2006/10/06/tonight-im-far-away-from-home
 date: '2006-10-06 12:06:35 +0800'
-date_gmt: '2006-10-06 12:06:35 +0800'
 categories:
 - Music
-tags: []
-comments: []
 ---
-
 by Groove Coverage  
 
   

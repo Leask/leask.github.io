@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Jon Lech Johansen now in Apple!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 450
-wordpress_url: http://leaskh.wordpress.com/2006/10/18/jon-lech-johansen-now-in-apple
 date: '2006-10-18 07:25:53 +0800'
-date_gmt: '2006-10-18 07:25:53 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 ![](http://www.wired.com/news/images/full/jon-johansen-2_f.jpg)  
 
   

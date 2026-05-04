@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Back To The Beginning
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2075
-wordpress_url: https://leaskh.com/?p=2075
 date: '2013-10-18 16:41:44 +0800'
-date_gmt: '2013-10-18 08:41:44 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 ![0d0f](/public/2013/10/DSC_0063.jpg)
 
 Lyrics of "The Call"

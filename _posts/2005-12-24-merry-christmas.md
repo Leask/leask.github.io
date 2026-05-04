@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Merry Christmas
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 625
-wordpress_url: http://leaskh.wordpress.com/2005/12/24/merry-christmas
 date: '2005-12-24 18:28:11 +0800'
-date_gmt: '2005-12-24 18:28:11 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 170
   author: Leask
@@ -41,7 +28,6 @@ comments:
   date_gmt: '2005-12-26 05:17:21 +0800'
   content: "新年到了~~~你的spaces最近添上了很多灰色。。。但愿新一年到来后，你的spaces出现更多的是&ldquo;彩虹&rdquo;^_^"
 ---
-
 今晚很开心，因为师傅Junliang，因为苏扬，因为托，因为Ouyang...
 我会永远记住他们，在我21岁寂寞的 Silent Night，有他们，我不寂寞了。
 感谢他们，也感谢身边 Qianjun 和 Ziying，远在英国的 Yaoxiao 和阳朔西街的蚂蚁，还有很多很多的朋友们。

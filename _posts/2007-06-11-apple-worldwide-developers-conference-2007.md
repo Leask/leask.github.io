@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Apple Worldwide Developers Conference 2007
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 339
-wordpress_url: http://leaskh.wordpress.com/2007/06/11/apple-worldwide-developers-conference-2007
 date: '2007-06-11 14:51:39 +0800'
-date_gmt: '2007-06-11 14:51:39 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 ![](http://developer.apple.com/wwdc/images/header_index_1.jpg)  
 
   

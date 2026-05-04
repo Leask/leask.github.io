@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "[看图说话]我家的AirPort Express无线网络"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 155
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/%e7%9c%8b%e5%9b%be%e8%af%b4%e8%af%9d%e6%88%91%e5%ae%b6%e7%9a%84airport-express%e6%97%a0%e7%ba%bf%e7%bd%91%e7%bb%9c
 date: '2009-05-25 05:53:09 +0800'
-date_gmt: '2009-05-25 05:53:09 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 家里又添一个Apple的玩意了。
 
 [![](/public/2010/09/dsc03200.jpg?w=300)](/public/2010/09/dsc03200.jpg?w=300)

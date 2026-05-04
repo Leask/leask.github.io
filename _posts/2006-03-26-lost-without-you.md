@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Lost without You
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 587
-wordpress_url: http://leaskh.wordpress.com/2006/03/26/lost-without-you
 date: '2006-03-26 07:53:33 +0800'
-date_gmt: '2006-03-26 07:53:33 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 251
   author: renee
@@ -31,7 +18,6 @@ comments:
     i keep tryin' to face the day,all i know,
     i'm lost without you..
 ---
-
 ![](http://tk.files.storage.msn.com/x1pM0jCSUoiRhC-MSJjm46CEd5rL3slMEs50gkmvBaVeupHIBw_R033UWpvG6lx0E0MpJS7ngHSl0Y3k8t776277CT4pyQY0WVIxLjOMiaVWrFoLWsdJmwKotZSAC86Kql3h6TFPP5CTR0)  
 
   

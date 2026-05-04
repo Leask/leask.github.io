@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Douban FM CLI updated: 支持终端标题显示歌名以及通知中心'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2143
-wordpress_url: https://leaskh.com/?p=2143
 date: '2014-03-17 09:31:14 +0800'
-date_gmt: '2014-03-17 01:31:14 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 早上醒来工作，听到一首歌不错，突然想知道是什么歌，但是终端开了很多，感觉要找到 Douban FM 的 tab 太不方便。
 
 于是吭哧吭哧敲了两个小功能，给原作者发了 pull request。

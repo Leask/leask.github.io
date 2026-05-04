@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Apple, Going On!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 329
-wordpress_url: http://leaskh.wordpress.com/2007/09/05/apple-going-on
 date: '2007-09-05 22:07:50 +0800'
-date_gmt: '2007-09-05 22:07:50 +0800'
 categories:
 - iPod + iTunes
-tags: []
-comments: []
 ---
-
 ![](http://images.apple.com/quicktime/qtv/specialevent0907/images/ipods_special_event_20070905.png)  
 
 又来一个发布会，使得还没有消化完iPhone激情的Apple Fans又再激动狂欢。  

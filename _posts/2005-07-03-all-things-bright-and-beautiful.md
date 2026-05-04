@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: All things bright and beautiful
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 733
-wordpress_url: http://leaskh.wordpress.com/2005/07/03/all-things-bright-and-beautiful
 date: '2005-07-03 13:32:08 +0800'
-date_gmt: '2005-07-03 13:32:08 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 45
   author: Edward
@@ -48,7 +35,6 @@ comments:
   date_gmt: '2005-07-04 16:44:05 +0800'
   content: "这个我很喜欢哦&middot;&middot;"
 ---
-
 ![](http://cimg.163.com/movie/0112/21/mcdull_poster.jpg)
 All things bright and beau-ti-ful,  
 all crea-tures great and small.  

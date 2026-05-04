@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Why not GPRS!?
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 723
-wordpress_url: http://leaskh.wordpress.com/2005/07/14/why-not-gprs
 date: '2005-07-14 14:35:52 +0800'
-date_gmt: '2005-07-14 14:35:52 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 今天不知道为什么，GPRS就是连不上，弄得我到处找网吧上网，清远很热，折腾得很痛苦。  
 J公司的站点 Design DEMO 已经发给 xiaoxiao 了，他看了很抬举我。  
 而我，更加期待有机会可以让我们三个一起工作，毕竟那种感觉已经遗失很多年了，希望吧。  

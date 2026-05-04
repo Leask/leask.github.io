@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Flora_Pac Updated: 更完善的内网段过滤'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2017
-wordpress_url: https://leaskh.com/?p=2017
 date: '2013-04-07 17:00:22 +0800'
-date_gmt: '2013-04-07 09:00:22 +0800'
-categories:
-
-tags: []
 comments:
 - id: 6261
   author: Evan Ferguson
@@ -28,7 +13,6 @@ comments:
   content: "最近 VPN 在墙内已经越来越不好用了。Shadowsocks、SPDY proxy 等被越来越多人作为主要的翻墙方式，因此，一个好用的 pac
     实现显得越来月重要。今天阳光灿烂，小更新了一下 Flora_Pac 项目，主要是应大家的要求，加入了更完善的内网段过滤功能。"
 ---
-
 最近 VPN 在墙内已经越来越不好用了。Shadowsocks、SPDY proxy 等被越来越多人作为主要的翻墙方式，因此，一个好用的 pac 实现显得越来月重要。今天阳光灿烂，小更新了一下 Flora_Pac 项目，主要是应大家的要求，加入了更完善的内网段过滤功能。
 
 大家可以到 GIthub 下载到最新的代码：  

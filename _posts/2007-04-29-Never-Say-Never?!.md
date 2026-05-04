@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Never Say Never?!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 352
-wordpress_url: http://leaskh.wordpress.com/2007/04/29/never-say-never
 date: '2007-04-29 14:55:37 +0800'
-date_gmt: '2007-04-29 14:55:37 +0800'
 categories:
 - Computers and Internet
-tags: []
 comments:
 - id: 1520
   author: Bobbi
@@ -27,7 +14,6 @@ comments:
   date_gmt: '2011-12-20 18:13:34 +0800'
   content: A little raotinlaity lifts the quality of the debate here. Thanks for contributing!
 ---
-
 Steve Jobs never said NO to 'Movie' Subscriptions...Next iTunes Feature?  
 
   

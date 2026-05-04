@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: As Time Goes By 2.0 第一次改版纪念贴
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 273
-wordpress_url: http://leaskh.wordpress.com/2008/03/20/as-time-goes-by-2-0-%e7%ac%ac%e4%b8%80%e6%ac%a1%e6%94%b9%e7%89%88%e7%ba%aa%e5%bf%b5%e8%b4%b4
 date: '2008-03-20 21:00:48 +0800'
-date_gmt: '2008-03-20 21:00:48 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 终于下定决心把我的Blog从Spaces搬家到Blogger，也开始了漫长的完善和过度。
 怎么形容那种感受呢，只能说是很不平静吧。
 我并不是一开始就喜欢Blog的，刚开始朋友们写Blog的时候，我是不屑的。

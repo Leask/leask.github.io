@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: "条条大路通罗马，GAppProxy"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 35
-wordpress_url: http://leaskh.wordpress.com/2009/12/27/%e6%9d%a1%e6%9d%a1%e5%a4%a7%e8%b7%af%e9%80%9a%e7%bd%97%e9%a9%ac%ef%bc%8cgappproxy
 date: '2009-12-27 17:06:08 +0800'
-date_gmt: '2009-12-27 17:06:08 +0800'
-categories:
-
-tags: []
 comments:
 - id: 368
   author: "上网"
@@ -35,7 +20,6 @@ comments:
   date_gmt: '2009-12-28 05:31:49 +0800'
   content: Gappproxy我用了很久了速度也快,只是担心哪天也被GFW了
 ---
-
 其实应该有不少人已经知道GAppProxy（[http://code.google.com/p/gappproxy/](http://code.google.com/p/gappproxy/ "http://code.google.com/p/gappproxy/")）了，下面还是简单介绍一下GAppProxy。
 
 1. GAppProxy是一个开源项目，host在Google Code上面，源代码可以通过SVN获取：  

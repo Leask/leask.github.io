@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: TechTarget中文站报道&ldquo;我行我秀&rdquo;活动啦！
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 734
-wordpress_url: http://leaskh.wordpress.com/2005/07/02/techtarget%e4%b8%ad%e6%96%87%e7%ab%99%e6%8a%a5%e9%81%93%e2%80%9c%e6%88%91%e8%a1%8c%e6%88%91%e7%a7%80%e2%80%9d%e6%b4%bb%e5%8a%a8%e5%95%a6%ef%bc%81
 date: '2005-07-02 09:21:00 +0800'
-date_gmt: '2005-07-02 09:21:00 +0800'
 categories:
 - "中文空间之&ldquo;我行我秀&rdquo;"
-tags: []
 comments:
 - id: 43
   author: Leask
@@ -34,7 +21,6 @@ comments:
   date_gmt: '2005-07-04 16:44:37 +0800'
   content: "我参加了哦&middot;&middot;你会支持我吗&middot;&middot;？：）^_^"
 ---
-
 ![](http://storage.msn.com/x1pGg9EMswqL-_2MbvYq-ZxXNATEjnOLKQMMYBHCdCOtt-eb7bn8v7EI85cEhn23m1FP8EG6ushKHp4Al-g6MLWvfwcH3JADIXnVa-LlzocvfDJJqbWaHQi2zSsVe-CyVGUjhYM2zYcL6XpYY83sP_Ovg)
 
 以下是报道的连接：

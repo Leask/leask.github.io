@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: Welcome to follow me on Instagram
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1511
-wordpress_url: https://leaskh.com/?p=1511
 date: '2011-03-31 23:30:59 +0800'
-date_gmt: '2011-03-31 15:30:59 +0800'
-categories:
-
-tags: []
 comments:
 - id: 642
   author: zhuchao
@@ -27,5 +12,4 @@ comments:
   date_gmt: '2011-04-04 14:23:33 +0800'
   content: hello，关注一下
 ---
-
 [![](/public/2011/03/IMG_1542.jpg "IMG_1542")](/public/2011/03/IMG_1542.jpg)

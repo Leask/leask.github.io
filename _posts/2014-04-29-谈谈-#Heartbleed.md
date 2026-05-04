@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "谈谈 #Heartbleed"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2170
-wordpress_url: https://leaskh.com/?p=2170
 date: '2014-04-29 22:48:00 +0800'
-date_gmt: '2014-04-29 14:48:00 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 说真的，我觉得你们把 [#Heartbleed](https://twitter.com/search/%23Heartbleed "#Heartbleed") 的影响想得太严重了。对于数据曝光几率来说，对一般人而言，根本不需要太担心。然而因为受影响厂商的广泛性，厂商也根本不用担心自己产品在市场份额上受影响（因为别人家的产品也一起倒了大霉）。厂商升级相关组件，用户要是不放心就换个密码，完事了。
 
 对于漏64k内存这事，虽听起来严重。但我可以负责任地告诉你，大部分安全问题更多存在于“应用级”代码的逻辑脆弱，而非底层组件缺陷。换句话如要黑你，早动手了，用不着等今天。况且天朝这种遍地服务皆SQL存明文密码，再抱怨 [#Heartbleed](https://twitter.com/search/%23Heartbleed "#Heartbleed") 安全隐患不是很傻很天真吗？

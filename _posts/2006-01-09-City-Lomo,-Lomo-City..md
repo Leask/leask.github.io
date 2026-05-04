@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: City Lomo, Lomo City.
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 621
-wordpress_url: http://leaskh.wordpress.com/2006/01/09/city-lomo-lomo-city
 date: '2006-01-09 04:20:24 +0800'
-date_gmt: '2006-01-09 04:20:24 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 185
   author: renee
@@ -48,7 +35,6 @@ comments:
   date_gmt: '2006-01-09 10:51:48 +0800'
   content: "好像lomo的气息在你的spaces里面都已经弥漫了好一段时间了灰沉沉的~~~突然间好像知道。。。到底是什么时候到底是什么让你变成这样子真的吗？你真的觉得自己不是城市中走人行道的那一种人？是在城市里找不到你想去的、或者可以去的地方？还是你想找的是你向往的。。。自然。。。？"
 ---
-
 ![](http://storage.msn.com/x1pGg9EMswqL-_2MbvYq-ZxXNATEjnOLKQMMYBHCdCOtt9jZaZBmr141QnMsSQMtn2msMjJv7rtfig0Btxl0HCD26mrXirxAcn6TyguUXLfPCcZYvv-UsKaACVcn_G8hPgDIa0wW1v2voWztQGNRo3OEUw6ACLDO8Ix)
 
 如果某一天我传彩色的相片了，除非特殊的表达需要，否则就是意味着我恋爱了...

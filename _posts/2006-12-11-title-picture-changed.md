@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Title Picture Changed
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 396
-wordpress_url: http://leaskh.wordpress.com/2006/12/11/title-picture-changed
 date: '2006-12-11 08:07:54 +0800'
-date_gmt: '2006-12-11 08:07:54 +0800'
 categories:
 - Function
-tags: []
-comments: []
 ---
-
 本Space标题图片已更改。  
 
   

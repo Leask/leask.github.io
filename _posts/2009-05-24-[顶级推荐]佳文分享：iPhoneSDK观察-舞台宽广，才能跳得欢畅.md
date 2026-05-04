@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "[顶级推荐]佳文分享：iPhoneSDK观察 - 舞台宽广，才能跳得欢畅"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 257
-wordpress_url: http://leaskh.wordpress.com/2009/05/24/%e9%a1%b6%e7%ba%a7%e6%8e%a8%e8%8d%90%e4%bd%b3%e6%96%87%e5%88%86%e4%ba%ab%ef%bc%9aiphonesdk%e8%a7%82%e5%af%9f-%e8%88%9e%e5%8f%b0%e5%ae%bd%e5%b9%bf%ef%bc%8c%e6%89%8d%e8%83%bd%e8%b7%b3%e5%be%97
 date: '2009-05-24 17:19:15 +0800'
-date_gmt: '2009-05-24 17:19:15 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 声明：本文作者为西西河的AllenKids先生，转载自apple4us！  
 
 _____________________  

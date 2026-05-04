@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: ED2K Xunlei-Lixian
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2007
-wordpress_url: https://leaskh.com/?p=2007
 date: '2012-12-09 01:11:24 +0800'
-date_gmt: '2012-12-08 17:11:24 +0800'
-categories:
-
-tags: []
 comments:
 - id: 15171
   author: Wao
@@ -27,7 +12,6 @@ comments:
   date_gmt: '2014-10-26 18:45:07 +0800'
   content: "谢谢，挺好用的"
 ---
-
 [![](/public/2012/12/Snip20121209_2.png "ED2K Xunlei-Lixian")](/public/2012/12/Snip20121209_2.png)
 
 写了个很简单的，点击 Ed2k 连接直接调用迅雷离线下载的 Safari 插件。

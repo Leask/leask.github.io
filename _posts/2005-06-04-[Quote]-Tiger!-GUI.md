@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "[Quote] Tiger! GUI"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 778
-wordpress_url: http://leaskh.wordpress.com/2005/06/04/quote-tiger-gui
 date: '2005-06-04 07:54:17 +0800'
-date_gmt: '2005-06-04 07:54:17 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 Quote again for UI Design.
 
 Experience the great Graphics User Interface from Apple Mac Tiger!

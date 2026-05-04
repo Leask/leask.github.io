@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Camino + Windows Live
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 418
-wordpress_url: http://leaskh.wordpress.com/2006/11/11/camino-windows-live
 date: '2006-11-11 12:27:55 +0800'
-date_gmt: '2006-11-11 12:27:55 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 Mac下通过Camino使用Windows Live服务。  
 
   

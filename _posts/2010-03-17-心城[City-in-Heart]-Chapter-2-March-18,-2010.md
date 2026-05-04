@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: "心城[City in Heart] Chapter 2 //March 18, 2010"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 19
-wordpress_url: http://leaskh.wordpress.com/2010/03/17/%e5%bf%83%e5%9f%8ecity-in-heart-chapter-2-march-18-2010
 date: '2010-03-17 17:24:51 +0800'
-date_gmt: '2010-03-17 17:24:51 +0800'
-categories:
-
-tags: []
 comments:
 - id: 373
   author: Xiaoni
@@ -27,7 +12,6 @@ comments:
   date_gmt: '2010-03-18 14:09:07 +0800'
   content: So beautiful, I love them.
 ---
-
 心城[City in Heart] 是我计划发布的一系列照片，这些照片都关于城市，这些照片很零散。  
 心城每一辑都是七张，别问为什么，我就是喜欢七这个数字。  
 心城的原则是随意，很随意，大多数用手机拍摄。  

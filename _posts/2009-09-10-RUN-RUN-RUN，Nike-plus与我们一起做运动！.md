@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: RUN RUN RUN，Nike plus与我们一起做运动！
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 72
-wordpress_url: http://leaskh.wordpress.com/2009/09/10/run-run-run%ef%bc%8cnike-plus%e4%b8%8e%e6%88%91%e4%bb%ac%e4%b8%80%e8%b5%b7%e5%81%9a%e8%bf%90%e5%8a%a8%ef%bc%81
 date: '2009-09-10 11:49:13 +0800'
-date_gmt: '2009-09-10 11:49:13 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 昨晚Apple的Let’s just rock and roll, but we like it.为主题的Media Event其中很经典的一幕是Steve Jobs重新回到大众视野的一刻，台下几分钟的掌声。  
 昨晚Apple的It’s only rock and roll, but we like it.为主题的Media Event其中很经典的一幕是Steve Jobs重新回到大众视野的一刻，台下几分钟的掌声。
 

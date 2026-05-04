@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: The Green Apple on My Keyboard
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 746
-wordpress_url: http://leaskh.wordpress.com/2005/06/25/the-green-apple-on-my-keyboard
 date: '2005-06-25 10:07:38 +0800'
-date_gmt: '2005-06-25 10:07:38 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 键盘上的青苹果。
 
 我们早已过了对青苹果好奇的年代，

@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Laws Are Made to Be Broken
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 526
-wordpress_url: http://leaskh.wordpress.com/2006/06/22/laws-are-made-to-be-broken
 date: '2006-06-22 20:46:19 +0800'
-date_gmt: '2006-06-22 20:46:19 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 ![](http://www.asimovlaws.com/images/irobotmovie.jpg)  
 
   

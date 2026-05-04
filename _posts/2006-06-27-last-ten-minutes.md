@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Last Ten Minutes
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 515
-wordpress_url: http://leaskh.wordpress.com/2006/06/27/last-ten-minutes
 date: '2006-06-27 06:08:16 +0800'
-date_gmt: '2006-06-27 06:08:16 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 [21:38:44]  
 
 727:思。。。你什么时候会上呢。。。  

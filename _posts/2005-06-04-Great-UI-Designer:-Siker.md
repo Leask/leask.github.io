@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Great UI Designer: Siker'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 779
-wordpress_url: http://leaskh.wordpress.com/2005/06/04/great-ui-designer-siker
 date: '2005-06-04 07:19:55 +0800'
-date_gmt: '2005-06-04 07:19:55 +0800'
 categories:
 - Design
-tags: []
-comments: []
 ---
-
 Siker (思客) 是一名很出色的 UI (User Interface,用户界面) 设计师，是我崇拜的设计师之一，喜欢他那些精致的塑胶风格。
 
 通过阅读 Siker 的 Blog 让我欣赏到很多他的精彩作品，还有看到了他出神入化的设计技巧和出众的才华。

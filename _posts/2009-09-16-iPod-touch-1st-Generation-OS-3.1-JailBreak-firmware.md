@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: iPod touch 1st Generation OS 3.1 JailBreak firmware
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 67
-wordpress_url: http://leaskh.wordpress.com/2009/09/16/ipod-touch-1st-generation-os-3-1-jailbreak-firmware
 date: '2009-09-16 08:12:37 +0800'
-date_gmt: '2009-09-16 08:12:37 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 盼星星盼月亮，Dev-Team Blog终于流出最新的PwnageTool_3.1.dmg。
 
 于是二话不说，定制固件，成功升级了touch。

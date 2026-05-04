@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Go Home! Go Home! Go! Go! Go!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 622
-wordpress_url: http://leaskh.wordpress.com/2005/12/30/go-home-go-home-go-go-go
 date: '2005-12-30 04:42:47 +0800'
-date_gmt: '2005-12-30 04:42:47 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 177
   author: "飞"
@@ -63,7 +50,6 @@ comments:
   date_gmt: '2005-12-30 08:42:29 +0800'
   content: "呵呵，想不到一年就这样过去。在这一年里我在你那里学到了很多。不止止是电脑，还有别的。总之一句话：谢谢！希望在新的一年，我们都会有好的开始。放假后，要记住：没事要发信息给我哦。顶"
 ---
-
 下午就回家了。
 想到就开心。
 很难写出那种感觉，想家的感觉。

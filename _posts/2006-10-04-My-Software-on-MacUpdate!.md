@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: My Software on MacUpdate!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 462
-wordpress_url: http://leaskh.wordpress.com/2006/10/04/my-software-on-macupdate
 date: '2006-10-04 14:17:32 +0800'
-date_gmt: '2006-10-04 14:17:32 +0800'
 categories:
 - iSync Siemens Plus
-tags: []
 comments:
 - id: 316
   author: sparrow
@@ -34,7 +21,6 @@ comments:
   date_gmt: '2006-10-05 03:43:57 +0800'
   content: congratulations!
 ---
-
 ![](http://tkfiles.storage.msn.com/x1pM0jCSUoiRhC-MSJjm46CEVyoc-DloMD6nX9YwZwC34YOybMD7Xy921KxctL84E0iIMMFVh56Zgbl2flMBnjR2FBwG0KPSUta_Wl-HlQUaRMZk7IOhhSGZ6jyHW-co9kI3LOQSPYLKKI)  
 
   

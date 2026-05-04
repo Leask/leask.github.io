@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Experiencing Next Generational Windows!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 784
-wordpress_url: http://leaskh.wordpress.com/2005/06/03/experiencing-next-generational-windows
 date: '2005-06-03 09:15:25 +0800'
-date_gmt: '2005-06-03 09:15:25 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 前段时间的 Microsoft WinHEC 2005 盛会上，Bill Gates 亲自演示了处于紧张开发中的下一代 Windows 操作系统，就是网上炒得沸沸扬扬的 Longhorn 5048。
 
 因为没有方便我使用的 DVD 刻录机，系统的大小又超过了普通的 CD-ROM 光盘。经过一段时间的研究，今天终于成功实现了从硬盘安装。**(已贴上界面截图)**

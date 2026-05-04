@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Ticket Design
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 801
-wordpress_url: http://leaskh.wordpress.com/2005/05/21/ticket-design
 date: '2005-05-21 05:13:36 +0800'
-date_gmt: '2005-05-21 05:13:36 +0800'
 categories:
 - Design
-tags: []
-comments: []
 ---
-
 接到朋友的要求设计一张单面彩色的晚会入场卷，于是!!
 
 做得很一般，但是有一些局部很也算让我满意。

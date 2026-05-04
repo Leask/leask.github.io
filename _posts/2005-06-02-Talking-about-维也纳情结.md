@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Talking about 维也纳情结
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 783
-wordpress_url: http://leaskh.wordpress.com/2005/06/02/talking-about-%e7%bb%b4%e4%b9%9f%e7%ba%b3%e6%83%85%e7%bb%93
 date: '2005-06-02 17:06:56 +0800'
-date_gmt: '2005-06-02 17:06:56 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 一年前的英语口语课中，我选择过 Vienna, Austria 作为我 Free Talk 的主题。
 
 Vienna 也是我向往的地方。今晚无意中在朋友的 MSN Space 中看到段文字，隐约可以感觉到朋友心中的 Vienna，心中的梦，心中的回忆，心中的无奈与遗憾。

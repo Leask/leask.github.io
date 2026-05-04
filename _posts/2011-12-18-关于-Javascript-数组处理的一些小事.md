@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: "关于 Javascript 数组处理的一些小事"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1916
-wordpress_url: https://leaskh.com/?p=1916
 date: '2011-12-18 23:20:53 +0800'
-date_gmt: '2011-12-18 15:20:53 +0800'
-categories:
-
-tags: []
 comments:
 - id: 2068
   author: AlsoTang
@@ -34,7 +19,6 @@ comments:
   date_gmt: '2012-04-22 09:51:20 +0800'
   content: "感谢勘误，已经修正。"
 ---
-
 昨天工作中，需要使用 localStorage 本地存储一个数组，用于缓冲一些数据，避免频繁的服务器存取，优化用户体验。但是出现一个很奇怪的现象，调试用了不少时间。这里把一些小经验分享一下，避免遇到类似情况的码农兄弟浪费时间。
 
 localStorage 是 HTML5 的新功能之一，能快速存储大量的本地数据，使用 key-value 的访问方式，比 cookies 便利。然而它并不支持对象存储，当然也不支持数组，因 Javascript 中数组也属于对象，所以你需要先把对象和数组转为字符序列，比较方便也很通行的做法就是转成 JSON 了。

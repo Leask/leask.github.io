@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: Yii框架快速入门 (PDF Version)
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1644
-wordpress_url: https://leaskh.com/?p=1644
 date: '2011-06-30 18:41:08 +0800'
-date_gmt: '2011-06-30 10:41:08 +0800'
-categories:
-
-tags: []
 comments:
 - id: 878
   author: "金海亮"
@@ -100,7 +85,6 @@ comments:
   date_gmt: '2014-01-24 08:35:41 +0800'
   content: "我什么语言都搞啊。。。哈。最近怎样？我在深圳。"
 ---
-
 有几个网友留言和发来邮件说需要便于阅读的《Yii框架快速入门》一文，他们觉得我之前贴出的PNG格式和wiki格式阅读起来都比较吃力。
 
 说实话这文章已经比较旧了，一年多前写这篇文章的时候，Yii还处在1.x的状态。  

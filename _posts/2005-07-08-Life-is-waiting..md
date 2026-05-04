@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Life is waiting.
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 727
-wordpress_url: http://leaskh.wordpress.com/2005/07/08/life-is-waiting
 date: '2005-07-08 20:13:10 +0800'
-date_gmt: '2005-07-08 20:13:10 +0800'
 categories:
 - Movie
-tags: []
 comments:
 - id: 58
   author: Xiao
@@ -41,7 +28,6 @@ comments:
   date_gmt: '2005-07-10 18:47:33 +0800'
   content: "慢慢地网速，似乎正印证了这部电影的主题：Life is waiting.生活，在于等待。适合写字的人..加油!!"
 ---
-
 好几天没有上来写东西了，学校的网络简直已经糟糕到了让人无法接受的地步。
 慢慢的网速，似乎正印证了这部电影的主题：Life is waiting.
 生活，在于等待。

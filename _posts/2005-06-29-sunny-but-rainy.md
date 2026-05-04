@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Sunny but Rainy
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 739
-wordpress_url: http://leaskh.wordpress.com/2005/06/29/sunny-but-rainy
 date: '2005-06-29 06:20:06 +0800'
-date_gmt: '2005-06-29 06:20:06 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 若乎霪雨霏霏，连月不开...
 虽然算不上“连月”，却真的连续下了好一段时间的雨，压抑。
 下雨的日子我比平常更加喜欢晚上，因为最少可以逃避那昏沉沉的天空，充满着清晰的沮丧与绝望。其实昏沉沉的天空昼夜不变，只是长越大越发觉得很多东西不想去面对。一直不想做一个逃避的懦夫，却发现自己无法再勇敢起来。

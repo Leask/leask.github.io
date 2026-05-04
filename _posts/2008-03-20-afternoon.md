@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Afternoon
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 277
-wordpress_url: http://leaskh.wordpress.com/2008/03/20/afternoon
 date: '2008-03-20 15:02:44 +0800'
-date_gmt: '2008-03-20 15:02:44 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 "光"，是很奇妙的。  
 
  --  

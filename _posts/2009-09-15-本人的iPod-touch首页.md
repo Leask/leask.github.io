@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "本人的iPod touch首页"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 69
-wordpress_url: http://leaskh.wordpress.com/2009/09/15/%e6%9c%ac%e4%ba%ba%e7%9a%84ipod-touch%e9%a6%96%e9%a1%b5
 date: '2009-09-15 06:45:53 +0800'
-date_gmt: '2009-09-15 06:45:53 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 随着iTunes 9的发布，圈子里流行起贴iPhone和iPod touch首页的怪举动。
 
 本人的touch首页在@Apple4us的twitter上已经贴过了，有人说看不到twitter，那么我就在这里再贴一下吧。

@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: The Girl Crazy About Macs
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 464
-wordpress_url: http://leaskh.wordpress.com/2006/10/04/the-girl-crazy-about-macs
 date: '2006-10-04 07:02:17 +0800'
-date_gmt: '2006-10-04 07:02:17 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 ![](http://www.macenstein.com/images/mg/macchick2.jpg)  
 
   

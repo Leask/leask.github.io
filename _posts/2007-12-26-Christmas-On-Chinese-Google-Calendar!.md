@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Christmas On Chinese Google Calendar!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 318
-wordpress_url: http://leaskh.wordpress.com/2007/12/26/christmas-on-chinese-google-calendar
 date: '2007-12-26 10:08:19 +0800'
-date_gmt: '2007-12-26 10:08:19 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 It's not right, I think.  
 
   

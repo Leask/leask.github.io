@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Quote: Some Words from Joevon'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 415
-wordpress_url: http://leaskh.wordpress.com/2006/11/11/quote-some-words-from-joevon
 date: '2006-11-11 14:59:34 +0800'
-date_gmt: '2006-11-11 14:59:34 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 ![](http://images.blogcn.com/2006/11/1/7/joevons,2006110113011.jpg)  
 
 给割舍中的人：  

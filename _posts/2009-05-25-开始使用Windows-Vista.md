@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "开始使用Windows Vista"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 182
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/%e5%bc%80%e5%a7%8b%e4%bd%bf%e7%94%a8windows-vista
 date: '2009-05-25 05:45:24 +0800'
-date_gmt: '2009-05-25 05:45:24 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 MacBook买回来替换iBook后，一直是用Mac OS X Leopard作为主要系统的。  
 加入WebOrigin后，为了方便做ASP和Java的网站开发，用BootCamp安装了Windows  
 XP作为补充，同时也搭配使用Parallels Desktop，这样就能让一个Windows系统同时工作在实模式和虚拟机了。  

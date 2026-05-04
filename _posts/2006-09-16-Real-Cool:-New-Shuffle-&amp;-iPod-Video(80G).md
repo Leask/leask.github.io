@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Real Cool: New Shuffle &amp; iPod Video(80G)'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 476
-wordpress_url: http://leaskh.wordpress.com/2006/09/16/real-cool-new-shuffle-ipod-video80g
 date: '2006-09-16 14:43:32 +0800'
-date_gmt: '2006-09-16 14:43:32 +0800'
 categories:
 - iPod + iTunes
-tags: []
-comments: []
 ---
-
 ![](http://images.apple.com/ipodshuffle/images/indexsleeveguy20060912.jpg)  
 
   

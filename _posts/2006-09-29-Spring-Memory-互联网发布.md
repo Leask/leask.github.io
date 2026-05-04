@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Spring Memory 互联网发布
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 469
-wordpress_url: http://leaskh.wordpress.com/2006/09/29/spring-memory-%e4%ba%92%e8%81%94%e7%bd%91%e5%8f%91%e5%b8%83
 date: '2006-09-29 22:13:50 +0800'
-date_gmt: '2006-09-29 22:13:50 +0800'
 categories:
 - Movie
-tags: []
-comments: []
 ---
-
 ![](http://tkfiles.storage.msn.com/x1pM0jCSUoiRhC-MSJjm46CEdAgVKOO3Itq3ClG6Rra60TpDypjF89nF2Pp6xHhc0nyffLSDu1azxh2BMUfm2QbKK2Oo0hVqhGfxPbOO3gR69KJHy6LlXsuJeEhLhn4A1-5emeJ8Cm-dEE)  
 
   

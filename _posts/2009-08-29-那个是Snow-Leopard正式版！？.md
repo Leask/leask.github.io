@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "那个是Snow Leopard正式版！？"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 76
-wordpress_url: http://leaskh.wordpress.com/2009/08/29/%e9%82%a3%e4%b8%aa%e6%98%afsnow-leopard%e6%ad%a3%e5%bc%8f%e7%89%88%ef%bc%81%ef%bc%9f
 date: '2009-08-29 06:19:18 +0800'
-date_gmt: '2009-08-29 06:19:18 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 ![Screen shot 2009-08-29 at 11.27.06 AM](/public/2010/09/screenshot2009-08-29at11.png?w=300 "Screen shot 2009-08-29 at 11.27.06 AM")  
 ![Screen shot 2009-08-29 at 11.04.15 AM](/public/2010/09/screenshot2009-08-29at111.png?w=300 "Screen shot 2009-08-29 at 11.04.15 AM")  
 Snow Leopard一夜之间风靡全球，一下子满网上都是BT、FTP等，大家都声称自己的才是正式版下载，容量有5.6x GB的，也有6.1x GB的。

@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Waiting for My BB
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 478
-wordpress_url: http://leaskh.wordpress.com/2006/09/16/waiting-for-my-bb
 date: '2006-09-16 09:53:15 +0800'
-date_gmt: '2006-09-16 09:53:15 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 ![](http://www.blackberry.com/images/handhelds/landing/7200_landing.jpg)  
 
   

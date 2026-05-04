@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: "送一首歌给党听：Do You Hear the People Sing?"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2027
-wordpress_url: https://leaskh.com/?p=2027
 date: '2013-04-19 21:22:14 +0800'
-date_gmt: '2013-04-19 13:22:14 +0800'
-categories:
-
-tags: []
 comments:
 - id: 6282
   author: "老蔡"
@@ -27,7 +12,6 @@ comments:
   date_gmt: '2013-07-21 13:50:44 +0800'
   content: "听了一下，感觉还不错。"
 ---
-
 Do You Hear the People Sing?  
 by Les Miserables Cast. From Les Miserables
 

@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "[Mac小技巧]使用AutoHotkey编程解决Mac上安装Windows系统的键盘布局问题"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 173
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/mac%e5%b0%8f%e6%8a%80%e5%b7%a7%e4%bd%bf%e7%94%a8autohotkey%e7%bc%96%e7%a8%8b%e8%a7%a3%e5%86%b3mac%e4%b8%8a%e5%ae%89%e8%a3%85windows%e7%b3%bb%e7%bb%9f%e7%9a%84%e9%94%ae%e7%9b%98%e5%b8%83%e5%b1%80
 date: '2009-05-25 05:48:24 +0800'
-date_gmt: '2009-05-25 05:48:24 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 使用MacBook已有一段时间，和以前用的PowerPC CPU的Mac不同，MacBook的Intel  
 
 CPU能够很方便地运行Windows系统，完全的兼容也正式我选择升级iBook到MacBook的原因，因为我的工作需要IIS，需要IE。  

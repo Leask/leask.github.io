@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: "好东西就是好东西: Life &rsquo;06获BETT Award奖提名"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 410
-wordpress_url: http://leaskh.wordpress.com/2006/11/19/%e5%a5%bd%e4%b8%9c%e8%a5%bf%e5%b0%b1%e6%98%af%e5%a5%bd%e4%b8%9c%e8%a5%bf-life-%e2%80%9906%e8%8e%b7bett-award%e5%a5%96%e6%8f%90%e5%90%8d
 date: '2006-11-19 01:17:23 +0800'
-date_gmt: '2006-11-19 01:17:23 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 ![](http://images.apple.com/ilife/images/indextop20060111.jpg)  
 
   

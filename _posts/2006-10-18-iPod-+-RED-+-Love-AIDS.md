@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: iPod + RED + Love - AIDS
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 449
-wordpress_url: http://leaskh.wordpress.com/2006/10/18/ipod-red-love-aids
 date: '2006-10-18 07:50:56 +0800'
-date_gmt: '2006-10-18 07:50:56 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 ![](http://images.apple.com/ipodnano/red/images/redipod01bkgrnd20061012.jpg)  
 
   

@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: New update of BBS.DBSJW.com
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 793
-wordpress_url: http://leaskh.wordpress.com/2005/05/25/new-update-of-bbs-dbsjw-com
 date: '2005-05-25 12:17:48 +0800'
-date_gmt: '2005-05-25 12:17:48 +0800'
 categories:
 - Mobile
-tags: []
-comments: []
 ---
-
 终于等到东北网更新了，但是论坛的速度还是不能让我满意。
 
 对东北网有一种特别的感情，在那里，我开始接触手机程序的开发，开始认识汇编语言，开始发布自己的手机固件补丁!!一步一步地成长中认识了很多国内外的高手，让我对手机的看法开始有深度。

@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Synchronizing Address Book with Google Contacts // 为了忘却的纪念
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 81
-wordpress_url: http://leaskh.wordpress.com/2009/08/17/synchronizing-address-book-with-google-contacts-%e4%b8%ba%e4%ba%86%e5%bf%98%e5%8d%b4%e7%9a%84%e7%ba%aa%e5%bf%b5
 date: '2009-08-17 05:51:47 +0800'
-date_gmt: '2009-08-17 05:51:47 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 // 以下Script的作者是Riobard Zhan，作用是能够让Apple的Address Book实现与Google Contacts实现同步，而不仅仅是当iPod touch或者iPhone连接iTunes的时候同步。  
 // 不过仅仅是在使用10.5.x的时候，你需要这个脚本，如果是10.6的话，Address Book和Google Contacts已经能自动同步了，当然，还包括iCal和Goolge Calendar。  
 // 贴上来仅仅是为了忘却的纪念吧，使用Snow Leopard已经好几天了，不知道10A342是不是GM，也不知道GM和Retail Version会不会有差异，我只知道距离上一个版本，10A342已经把几乎所有的Bug都修正了，系统能够作为日常工作和使用的系统了。除了VMware的鼠标捕捉还有一点点不流畅。不过影响不大。  

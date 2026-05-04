@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "全面告别Windows Live Spaces"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 259
-wordpress_url: http://leaskh.wordpress.com/2009/05/24/%e5%85%a8%e9%9d%a2%e5%91%8a%e5%88%abwindows-live-spaces
 date: '2009-05-24 17:15:17 +0800'
-date_gmt: '2009-05-24 17:15:17 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 经过几天的密集测试和调整，越来越发觉Blogger最为简洁的BSP比想象中还要理想。  
 于是我决定在本Blog（As Time Goes By 2.0）正式上线之前（也就是现在），提前正式关闭原有的Live Spaces版As  
 Time Goes By。  

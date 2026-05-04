@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Adobe Donates Flash Code to Mozilla
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 424
-wordpress_url: http://leaskh.wordpress.com/2006/11/08/adobe-donates-flash-code-to-mozilla
 date: '2006-11-08 12:49:42 +0800'
-date_gmt: '2006-11-08 12:49:42 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 ![](http://www.adobe.com/images/shared/product_logos/80x60/rune_flash.gif)  
 
   

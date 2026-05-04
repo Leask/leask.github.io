@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Introduction of Snowman.S(0.6.5913 alpha)
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 695
-wordpress_url: http://leaskh.wordpress.com/2005/07/31/introduction-of-snowman-s0-6-5913-alpha
 date: '2005-07-31 09:10:43 +0800'
-date_gmt: '2005-07-31 09:10:43 +0800'
 categories:
 - Snowman.S
-tags: []
 comments:
 - id: 75
   author: "小呆"
@@ -35,7 +22,6 @@ comments:
   content: "看你的readme觉得你是个很有故事的人不管这些故事带给你的是什么感恩吧痛苦和眼泪都是一种成长别忘了成长你需要付出代价有朋友说过在这世上但凡有那么一点儿作为的人，都是在寂寞中长大的团队对于成功来说，可能99%都是必要的或许你会是那唯一的1%
     :-)也不要说你没有团队身边支持你的所有人不算是吗!!呵呵，祝你和你的软件走得更远"
 ---
-
 Introduction of Snowman.S
 ![15BAC1A170471DB_826_0](/public/2005/07/15BAC1A170471DB_826_0.jpg)
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  

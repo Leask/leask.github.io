@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Contorting
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 740
-wordpress_url: http://leaskh.wordpress.com/2005/06/29/contorting
 date: '2005-06-29 03:18:25 +0800'
-date_gmt: '2005-06-29 03:18:25 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 隔着一杯茶看世界，就像用我们现有的感知去看人。
 很多人我到今天还是看不清楚，这不知道是我的局限还是视野的干扰。
 其实也没有必要清清楚楚，对家里人的感觉，就算扭曲，但是你会相信其动人的本质；对朋友，该萍水相逢的就萍水相逢吧，该肝胆相照的也不要犹豫；除了她，虽说时间不长不短，却让我如此迷惘。

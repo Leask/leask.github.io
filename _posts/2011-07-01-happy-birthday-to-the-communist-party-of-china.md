@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Happy Birthday to the Communist Party of China
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1654
-wordpress_url: https://leaskh.com/?p=1654
 date: '2011-07-01 12:01:39 +0800'
-date_gmt: '2011-07-01 04:01:39 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 [![](/public/2011/07/101210121403_chair_466_2.jpg "101210121403_chair_466_2")](/public/2011/07/101210121403_chair_466_2.jpg)
 
 **零八宪章**刘晓波等于2008年12月10日公布

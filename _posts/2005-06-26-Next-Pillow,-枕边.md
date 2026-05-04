@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Next Pillow, 枕边
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 743
-wordpress_url: http://leaskh.wordpress.com/2005/06/26/next-pillow-%e6%9e%95%e8%be%b9
 date: '2005-06-26 07:35:55 +0800'
-date_gmt: '2005-06-26 07:35:55 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 枕边？
 
 枕头边！

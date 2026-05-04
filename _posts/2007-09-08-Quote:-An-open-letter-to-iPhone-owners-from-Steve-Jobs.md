@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Quote: An open letter to iPhone owners from Steve Jobs'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 328
-wordpress_url: http://leaskh.wordpress.com/2007/09/08/quote-an-open-letter-to-iphone-owners-from-steve-jobs
 date: '2007-09-08 13:37:35 +0800'
-date_gmt: '2007-09-08 13:37:35 +0800'
 categories:
 - iPod + iTunes
-tags: []
-comments: []
 ---
-
 ![](http://images.apple.com/iphone/gallery/dayone/images/dayone_fifthavenue_12_20070629.jpg)  
 
   

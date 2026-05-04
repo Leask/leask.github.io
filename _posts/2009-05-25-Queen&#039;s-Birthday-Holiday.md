@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Queen&#039;s Birthday Holiday
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 176
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/queens-birthday-holiday
 date: '2009-05-25 05:28:25 +0800'
-date_gmt: '2009-05-25 05:28:25 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 得益于iPAGE是New Zealand公司，所以我有幸享受New Zealand的法定假日。  
 最初的想法是想在这里谈谈Queen's Birthday，但是后来想到扩展一下这个主意：  
 在我为iPAGE工作的期间，每遇到New Zealand的特色节日我都会在这里和大家分享，谈谈节日的来历，相关的有趣故事等。  

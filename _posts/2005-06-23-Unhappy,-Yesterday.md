@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Unhappy, Yesterday
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 756
-wordpress_url: http://leaskh.wordpress.com/2005/06/23/unhappy-yesterday
 date: '2005-06-23 08:31:51 +0800'
-date_gmt: '2005-06-23 08:31:51 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 昨天 文 生日，又被拉去“吃饭”了。
 
 上传两张照片：

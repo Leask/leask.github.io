@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: So busy this week, but I like.
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 792
-wordpress_url: http://leaskh.wordpress.com/2005/05/24/so-busy-this-week-but-i-like
 date: '2005-05-24 05:07:55 +0800'
-date_gmt: '2005-05-24 05:07:55 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 很忙呀，这个星期一方面要整理自己一直以来比较“得意”的平设作品，应聘用。另外一方面要为青协4周年晚会设计PPT，为班做的论坛也在紧张的建设中，今天还接到老师的要求为我们班讲一次关于如何搭建ASP服务器应用于架设论坛的课。
 
 很累，但我喜欢忙碌的感觉，喜欢那一种充实的感受，觉得自己不会在浪费生命。

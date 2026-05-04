@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Apple Developer Connection to me
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 301
-wordpress_url: http://leaskh.wordpress.com/2008/03/14/apple-developer-connection-to-me
 date: '2008-03-14 00:49:09 +0800'
-date_gmt: '2008-03-14 00:49:09 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 Quote from the mail:  
 
 Everything Mac. Everything iPhone. San Francisco, June 9-13, 2008.  

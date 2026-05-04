@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: "傻傻的 Google AdSense Support"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1701
-wordpress_url: https://leaskh.com/?p=1701
 date: '2011-08-12 22:07:59 +0800'
-date_gmt: '2011-08-12 14:07:59 +0800'
 categories:
 - Computers and Internet
-tags: []
 comments:
 - id: 885
   author: ZZB
@@ -27,7 +14,6 @@ comments:
   date_gmt: '2011-08-12 16:08:22 +0800'
   content: "笑"
 ---
-
 我已经不是第一次申请 Google AdSense 了，大学的时候就申请过，那个时候有几个博客流量很高，未能通过的原因是“不是独立网站”，那时候我用的是别的 BSP 提供的博客空间，而 AdSense 要求独立博客才能申请。
 
 最近我又尝试了申请 AdSense ，看看能不能把有限的流量转化为微薄的收入，只要能养活自己的 Dreamhost 合租空间就满足了。

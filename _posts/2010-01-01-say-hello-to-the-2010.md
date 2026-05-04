@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Say Hello to the 2010
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 33
-wordpress_url: http://leaskh.wordpress.com/2010/01/01/say-hello-to-the-2010
 date: '2010-01-01 06:03:35 +0800'
-date_gmt: '2010-01-01 06:03:35 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 [![](/public/2010/01/bf6c23f69543e2d65239944c9193759e.png.jpeg "bf6c23f69543e2d65239944c9193759e.png")](/public/2010/01/bf6c23f69543e2d65239944c9193759e.png.jpeg)
 
 We believe that we have changed something. Not just us, but all of us. We didnt just wanna run another tracker. We wanted it to mean something. And you our users have helped us with that. The history of the bay is still being written, it's way to early for a conclusion.  

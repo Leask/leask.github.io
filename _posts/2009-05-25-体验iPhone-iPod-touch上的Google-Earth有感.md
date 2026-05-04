@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "体验iPhone/iPod touch上的Google Earth有感"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 166
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/%e4%bd%93%e9%aa%8ciphoneipod-touch%e4%b8%8a%e7%9a%84google-earth%e6%9c%89%e6%84%9f
 date: '2009-05-25 05:56:21 +0800'
-date_gmt: '2009-05-25 05:56:21 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 科技来得太快太令人惊讶。  
 
 想象千百年前人们还在争论所处的地球是平的还是圆的，如今我感觉的不单单是幽默而更多的是惋惜。  

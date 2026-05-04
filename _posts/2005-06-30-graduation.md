@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Graduation
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 737
-wordpress_url: http://leaskh.wordpress.com/2005/06/30/graduation
 date: '2005-06-30 03:18:12 +0800'
-date_gmt: '2005-06-30 03:18:12 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 昨晚毕业的师兄师姐们在楼下开酒会，气氛还算热闹。
 有点害怕了，几年后我就会像他们那样，真不知道自己能在这儿学到多少东西，留下什么，带走什么...
 也不知道自己四年后会是什么样子，这个世界变化太快了。

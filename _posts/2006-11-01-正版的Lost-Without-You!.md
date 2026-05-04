@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: "正版的Lost Without You!"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 427
-wordpress_url: http://leaskh.wordpress.com/2006/11/01/%e6%ad%a3%e7%89%88%e7%9a%84lost-without-you
 date: '2006-11-01 22:58:52 +0800'
-date_gmt: '2006-11-01 22:58:52 +0800'
 categories:
 - iPod + iTunes
-tags: []
 comments:
 - id: 326
   author: renee
@@ -27,7 +14,6 @@ comments:
   date_gmt: '2006-11-02 10:19:42 +0800'
   content: "我买左距只碟..<innocent eyes>"
 ---
-
 ![](http://www.box.net/lite/20l52t8d0j)  
 
   

@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Share a Photo
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 762
-wordpress_url: http://leaskh.wordpress.com/2005/06/15/share-a-photo
 date: '2005-06-15 19:21:58 +0800'
-date_gmt: '2005-06-15 19:21:58 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 睡觉前和大家分享一张照片。
 
 如果没有记错的话应该是前天晚上的拍的。

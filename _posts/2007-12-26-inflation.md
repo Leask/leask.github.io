@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: INFLATION
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 317
-wordpress_url: http://leaskh.wordpress.com/2007/12/26/inflation
 date: '2007-12-26 10:41:27 +0800'
-date_gmt: '2007-12-26 10:41:27 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 The inflation in our university!  
 
   

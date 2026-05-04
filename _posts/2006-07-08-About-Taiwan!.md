@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: About Taiwan!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 507
-wordpress_url: http://leaskh.wordpress.com/2006/07/08/about-taiwan
 date: '2006-07-08 06:37:27 +0800'
-date_gmt: '2006-07-08 06:37:27 +0800'
 categories:
 - News and politics
-tags: []
-comments: []
 ---
-
 ![](http://tk.files.storage.msn.com/x1pM0jCSUoiRhC-MSJjm46CEWsu9wphHFnZ_j4_sGGI6pM2A-tEH4EJlFnRcpCYgJjV89BodwOrI09a60ev2IXldzvnmumSQKexGxHUfv25I5L35qvpQiXEoxFvOAlK3GRlaTWpO5L4TEA)  
 
   

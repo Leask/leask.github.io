@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: "心城[City in Heart] Chapter NKG //March 17, 2010"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 18
-wordpress_url: http://leaskh.wordpress.com/2010/03/18/%e5%bf%83%e5%9f%8ecity-in-heart-chapter-nkg-march-17-2010
 date: '2010-03-18 13:38:52 +0800'
-date_gmt: '2010-03-18 13:38:52 +0800'
-categories:
-
-tags: []
 comments:
 - id: 374
   author: renee
@@ -34,7 +19,6 @@ comments:
   date_gmt: '2010-03-18 14:13:35 +0800'
   content: "愿你健康顺利。"
 ---
-
 Yes! It’s Nanjing Here!  
 其实昨晚一共整理了3组照片，这就是最后一组了。  
 没错，这就是南京，一个我可能会呆上一段时间的，对我来说很陌生很陌生的城市。

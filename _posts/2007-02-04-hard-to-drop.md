@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Hard to Drop
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 372
-wordpress_url: http://leaskh.wordpress.com/2007/02/04/hard-to-drop
 date: '2007-02-04 10:41:46 +0800'
-date_gmt: '2007-02-04 10:41:46 +0800'
 categories:
 - Function
-tags: []
-comments: []
 ---
-
 It's not the first time that I want to drop Live Spaces and use another blog system.  
 
 But now, I really want to do this.  

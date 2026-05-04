@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: OCP-Safari
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2063
-wordpress_url: https://leaskh.com/?p=2063
 date: '2013-07-13 23:14:05 +0800'
-date_gmt: '2013-07-13 15:14:05 +0800'
-categories:
-
-tags: []
 comments:
 - id: 6276
   author: Me2
@@ -34,7 +19,6 @@ comments:
   date_gmt: '2013-07-17 15:04:58 +0800'
   content: "[...] 转自#import &#8220;Leask.h&#8221;，转载请注明出处，支持开源。 [...]"
 ---
-
 人类已经无法阻止 Youku、Tudou 的 45 秒广告了吗？不怕，OCP-Safari 能帮到你。OCP-Safari 完全免费、开源，不仅去除各大视频网站广告，还能跳过 youku 去广告后的恶心黑屏。
 
 Block all video ADs on youku.com && tudou.com  

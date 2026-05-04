@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Music Share: 婴儿'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 380
-wordpress_url: http://leaskh.wordpress.com/2007/01/01/music-share-%e5%a9%b4%e5%84%bf
 date: '2007-01-01 16:35:55 +0800'
-date_gmt: '2007-01-01 16:35:55 +0800'
 categories:
 - Music
-tags: []
-comments: []
 ---
-
 by 陈倩倩  
 
   

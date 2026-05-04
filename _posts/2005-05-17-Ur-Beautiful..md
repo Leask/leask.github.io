@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Ur Beautiful.
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 811
-wordpress_url: http://leaskh.wordpress.com/2005/05/17/ur-beautiful
 date: '2005-05-17 17:46:02 +0800'
-date_gmt: '2005-05-17 17:46:02 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 今天。
 
 不，看看现在的时间，应该是昨天。

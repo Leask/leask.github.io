@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Siemens in China
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 760
-wordpress_url: http://leaskh.wordpress.com/2005/06/13/siemens-in-china
 date: '2005-06-13 10:33:18 +0800'
-date_gmt: '2005-06-13 10:33:18 +0800'
 categories:
 - Mobile
-tags: []
-comments: []
 ---
-
 ![](http://storage.msn.com/x1pGg9EMswqL-_2MbvYq-ZxXNATEjnOLKQMMYBHCdCOtt9iEH7QYlZtzlUYi8AvmGh7D810y-fW9QOXAXVUDa1VuxuxgOcD2n3zah35QzevNPyRLwbDSpZMnmRC4xnDZmQmsnKkyo-FFEkXVRfZ0kFuUA)
 
 Siemens 德国，创立于1847年，距今已有158年的悠久历史。  

@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: How Can I Not Love You
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 522
-wordpress_url: http://leaskh.wordpress.com/2006/06/22/how-can-i-not-love-you
 date: '2006-06-22 23:17:13 +0800'
-date_gmt: '2006-06-22 23:17:13 +0800'
 categories:
 - Music
-tags: []
-comments: []
 ---
-
 Cannot touch, Cannot hold, Cannot be together  
 
 Cannot love, Cannot kiss, Cannot love each other  

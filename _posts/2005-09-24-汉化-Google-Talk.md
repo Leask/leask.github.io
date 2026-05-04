@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: "汉化 Google Talk"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 675
-wordpress_url: http://leaskh.wordpress.com/2005/09/24/%e6%b1%89%e5%8c%96-google-talk
 date: '2005-09-24 01:16:00 +0800'
-date_gmt: '2005-09-24 01:16:00 +0800'
 categories:
 - Computers and Internet
-tags: []
 comments:
 - id: 112
   author: Unknown
@@ -27,7 +14,6 @@ comments:
   date_gmt: '2005-09-24 02:43:45 +0800'
   content: "呵呵!!下载后帮你测试 ，加油 ，还有TM的英文版"
 ---
-
 ![](http://storage.msn.com/x1pGg9EMswqL-_2MbvYq-ZxXNATEjnOLKQMMYBHCdCOtt-zKlVCOX_jL84Uu4NjYhEU3IQaLmu0dmrbb7Mc6xXbLl1DbzXLBGxI898WECT9IBMFoa-3PDvvMRwhjgG28H6AZEvEVI7SpIIKvc4RxEz0PgbFJwu5L2cP)
 很久没有做汉化了。
 其实汉化不难，只是有点辛苦，枯燥。

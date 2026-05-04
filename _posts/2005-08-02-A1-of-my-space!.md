@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: A1 of my space!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 715
-wordpress_url: http://leaskh.wordpress.com/2005/08/02/a1-of-my-space
 date: '2005-08-02 09:16:59 +0800'
-date_gmt: '2005-08-02 09:16:59 +0800'
 categories:
 - Snowman.S
-tags: []
 comments:
 - id: 82
   author: "啦啦"
@@ -42,7 +29,6 @@ comments:
   content: Congratulations!I am downloading it now,can't wait to put it into use since
     it seems to be cooler than Realone Player.
 ---
-
 Snowman.S download now opened!
 Snowman.S 现已开放下载!
 很感动！很开心！

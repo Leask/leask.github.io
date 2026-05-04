@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: About BLOG
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 774
-wordpress_url: http://leaskh.wordpress.com/2005/06/05/about-blog
 date: '2005-06-05 07:03:23 +0800'
-date_gmt: '2005-06-05 07:03:23 +0800'
 categories:
 - Computers and Internet
-tags: []
 comments:
 - id: 21
   author: Unknown
@@ -27,7 +14,6 @@ comments:
   date_gmt: '2005-06-08 12:52:42 +0800'
   content: "我也要开始写BLOG拉~"
 ---
-
 ![](http://storage.msn.com/x1pGg9EMswqL-_2MbvYq-ZxXNATEjnOLKQMMYBHCdCOtt-7TVC2DDTUJ8qNeYpPNZLEbuTKM5BJB-rbnqH3NVSI01fEnGBIYfYXRM-TilfrOrFleNQ0wDWckD9kBBLmkpCRRc4NrbPXYjiWeHmnWoMA2A)
 
 看到 Microsoft 首页上面的这张图片，以及其链接的内容，看来 Blog 已经成为 Microsoft 整个互联网战略中很重要的一部分了。

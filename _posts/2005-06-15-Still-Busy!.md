@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Still Busy!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 763
-wordpress_url: http://leaskh.wordpress.com/2005/06/15/still-busy
 date: '2005-06-15 19:03:24 +0800'
-date_gmt: '2005-06-15 19:03:24 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 今晚心情不算太好，因为有朋友和我说心情不好，被传染了。![](http://spaces.msn.com/mmm2005-05-13_18.29/RTE/emoticons/smile_confused.gif)
 
 还是很忙，很忙。

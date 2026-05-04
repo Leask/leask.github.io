@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Siemens Forever Theme Series
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 764
-wordpress_url: http://leaskh.wordpress.com/2005/06/12/siemens-forever-theme-series
 date: '2005-06-12 06:49:35 +0800'
-date_gmt: '2005-06-12 06:49:35 +0800'
 categories:
 - Mobile
-tags: []
 comments:
 - id: 30
   author: Flora
@@ -27,7 +14,6 @@ comments:
   date_gmt: '2005-07-17 01:48:44 +0800'
   content: "一直很喜欢Siemens这个牌子，不得不佩服德国人的严谨，他们的东西质量就是好，现在我用的手机就是Siemens的，被吞并，心里也有点不舒服，本来嚷着要换手机的，现在想就再用用吧～～"
 ---
-
 ![](http://storage.msn.com/x1pGg9EMswqL-_2MbvYq-ZxXNATEjnOLKQMMYBHCdCOtt8OEgfhushQrFHXH80Bgwchftw28G0JJENIWG9nAF8Tb2sIgrvvo7yKqFARZUGy1WE-pWEdiqMLlmMQQpQCPrIJBUZZTMGCjMpuCYRQojQUqg)
 
 BenQ 成功收购 Siemens 移动通讯业务。

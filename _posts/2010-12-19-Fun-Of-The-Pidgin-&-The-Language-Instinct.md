@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: Fun Of The Pidgin & The Language Instinct
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1477
-wordpress_url: https://leaskh.com/?p=1477
 date: '2010-12-19 16:12:12 +0800'
-date_gmt: '2010-12-19 08:12:12 +0800'
-categories:
-
-tags: []
 comments:
 - id: 452
   author: dahuang
@@ -27,7 +12,6 @@ comments:
   date_gmt: '2010-12-19 13:04:32 +0800'
   content: Good post, thank you for this knowledge //via jjgod
 ---
-
 ﻿Pidgin是一经典开源IM客户端，我一直好奇其名字的起源，周末读了《语言本能》一书，方知其来源。书中所指：奴隶或殖民地社会，不同种族被迫混居（或混合关押），他们不懂相互之间语言，以至无法交流。但是出于沟通需要，他们之间很快会产生一种新的语言，这种语言就叫做pidgin。
 
 pidgin（洋泾滨）是自然语言中粗糙、初级、原始的阶段，带有不定性，以实用为主。但是pidgin发展很快，一般经过一代人的使用，就会发展成更成熟，有严谨、得体的语法规则的下一阶段，称为creole（克里奥语）语言。实际上pidgin和creole都不是一种特定的语言，更多指的是一种语言现象和发展阶段。其中有一些诞生不久的pidgin，已经发展成熟，成为一门新的语言。

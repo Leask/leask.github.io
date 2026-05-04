@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "[Quoted] A Violinist in the Metro"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1959
-wordpress_url: https://leaskh.com/?p=1959
 date: '2012-04-22 18:01:12 +0800'
-date_gmt: '2012-04-22 10:01:12 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 [![](/public/2012/04/joshua-bell-1024x737.jpg "Joshua Bell.Photo by Chris Lee")](/public/2012/04/joshua-bell.jpg)
 
 转给那些所谓喜欢音乐的人。

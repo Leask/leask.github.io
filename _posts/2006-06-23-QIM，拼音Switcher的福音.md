@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: QIM，拼音Switcher的福音
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 519
-wordpress_url: http://leaskh.wordpress.com/2006/06/23/qim%ef%bc%8c%e6%8b%bc%e9%9f%b3switcher%e7%9a%84%e7%a6%8f%e9%9f%b3
 date: '2006-06-23 18:52:19 +0800'
-date_gmt: '2006-06-23 18:52:19 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 ![](http://www.sinomac.com/images/index_QIMr1.gif)  
 
   

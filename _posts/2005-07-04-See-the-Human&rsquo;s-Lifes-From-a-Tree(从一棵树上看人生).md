@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: See the Human&rsquo;s Lifes From a Tree(从一棵树上看人生)
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 730
-wordpress_url: http://leaskh.wordpress.com/2005/07/04/see-the-human%e2%80%99s-lifes-from-a-tree%e4%bb%8e%e4%b8%80%e6%a3%b5%e6%a0%91%e4%b8%8a%e7%9c%8b%e4%ba%ba%e7%94%9f
 date: '2005-07-04 14:41:32 +0800'
-date_gmt: '2005-07-04 14:41:32 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 49
   author: Jully
@@ -83,7 +70,6 @@ comments:
   date_gmt: '2005-07-04 16:43:44 +0800'
   content: "呵呵&middot;&middot;不错哦&middot;&middot;"
 ---
-
 分享一篇以前写的文章。高中时期的。
 
 高中是我最喜欢写作的时候，那个时候语文老师给予我很大的鼓舞。

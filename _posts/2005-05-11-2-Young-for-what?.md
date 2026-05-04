@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 2 Young for what?
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 804
-wordpress_url: http://leaskh.wordpress.com/2005/05/11/2-young-for-what
 date: '2005-05-11 16:45:34 +0800'
-date_gmt: '2005-05-11 16:45:34 +0800'
 categories:
 - Movie
-tags: []
-comments: []
 ---
-
 这部电影感觉不错![](http://spaces.msn.com/mmm2005-04-13_18.20/RTE/emoticons/smile_regular.gif)...
 
 “早熟”其实已经是一个老掉牙的论题了，我也没有资本加以评论。永远也没有一个人可以给这个现象一个比较完整而且可以说服所有人的说法。也没有这个必要。

@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Wateriness, Gloom
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 777
-wordpress_url: http://leaskh.wordpress.com/2005/06/04/wateriness-gloom
 date: '2005-06-04 10:02:08 +0800'
-date_gmt: '2005-06-04 10:02:08 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 湿漉漉的六月，湿漉漉的校园。
 
 有一点清新，也有一点灰。

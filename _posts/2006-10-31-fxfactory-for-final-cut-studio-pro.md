@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: FxFactory for Final Cut Studio Pro
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 433
-wordpress_url: http://leaskh.wordpress.com/2006/10/31/fxfactory-for-final-cut-studio-pro
 date: '2006-10-31 06:41:28 +0800'
-date_gmt: '2006-10-31 06:41:28 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 ![](http://www.macx.cn/images/upload/2006/10/31/132855.jpg)  
 
   

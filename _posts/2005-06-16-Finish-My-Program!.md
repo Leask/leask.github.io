@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Finish My Program!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 761
-wordpress_url: http://leaskh.wordpress.com/2005/06/16/finish-my-program
 date: '2005-06-16 20:21:13 +0800'
-date_gmt: '2005-06-16 20:21:13 +0800'
 categories:
 - Computers and Internet
-tags: []
 comments:
 - id: 31
   author: Leask
@@ -36,7 +23,6 @@ comments:
   content: leask,还是习惯用这个名字叫你！看你这些日记后，真的产生人生第一次自卑，不过我不会这样下去了。我也不是一个服输的人，我挑战你！我会加油，我要追上你，
     可能的还要超越你。不过，你永远都是我的好朋友！支持你的一切活动！
 ---
-
 终于完成了这个作图软件！
 
 看时间已经4点多了，辛苦了好些天终于看到成果了。

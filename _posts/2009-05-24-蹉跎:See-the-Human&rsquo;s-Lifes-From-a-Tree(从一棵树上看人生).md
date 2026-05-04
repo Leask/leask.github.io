@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "蹉跎:See the Human&rsquo;s Lifes From a Tree(从一棵树上看人生)"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 242
-wordpress_url: http://leaskh.wordpress.com/2009/05/24/%e8%b9%89%e8%b7%8esee-the-human%e2%80%99s-lifes-from-a-tree%e4%bb%8e%e4%b8%80%e6%a3%b5%e6%a0%91%e4%b8%8a%e7%9c%8b%e4%ba%ba%e7%94%9f
 date: '2009-05-24 17:34:57 +0800'
-date_gmt: '2009-05-24 17:34:57 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 文章《See the Human's Lifes From a Tree(从一棵树上看人生)》发表于10:41 PM, July 04, 2005。  
 
 以下是原文地址：  

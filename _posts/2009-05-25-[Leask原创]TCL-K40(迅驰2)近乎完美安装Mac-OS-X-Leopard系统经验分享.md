@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "[Leask原创]TCL K40(迅驰2)近乎完美安装Mac OS X Leopard系统经验分享"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 159
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/leask%e5%8e%9f%e5%88%9btcl-k40%e8%bf%85%e9%a9%b02%e8%bf%91%e4%b9%8e%e5%ae%8c%e7%be%8e%e5%ae%89%e8%a3%85mac-os-x-leopard%e7%b3%bb%e7%bb%9f%e7%bb%8f%e9%aa%8c%e5%88%86%e4%ba%ab
 date: '2009-05-25 06:02:27 +0800'
-date_gmt: '2009-05-25 06:02:27 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 原计划是给女友换个MacBook的，但是近期本人金融危机，现金流小有担忧，所以...计划押后...  
 但是女友的iBook G4渐渐显得不够用，主要倒不是Mac OS的执行效率跟不上，而是在进行创业尝试的她对Windows平台有了新的兼容要求。  
 而如果重新启用她的迅驰NoteBook，又不想放弃在Mac  

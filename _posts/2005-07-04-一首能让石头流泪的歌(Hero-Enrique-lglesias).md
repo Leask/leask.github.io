@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "一首能让石头流泪的歌(Hero--Enrique lglesias)"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 731
-wordpress_url: http://leaskh.wordpress.com/2005/07/04/%e4%b8%80%e9%a6%96%e8%83%bd%e8%ae%a9%e7%9f%b3%e5%a4%b4%e6%b5%81%e6%b3%aa%e7%9a%84%e6%ad%8chero-enrique-lglesias
 date: '2005-07-04 11:55:33 +0800'
-date_gmt: '2005-07-04 11:55:33 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 Quoted from another MSN Space.
 
 Girl, I don't want you cry. But I want to sing this song for you.

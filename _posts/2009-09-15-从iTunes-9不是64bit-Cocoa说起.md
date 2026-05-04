@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "从iTunes 9不是64bit Cocoa说起"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 70
-wordpress_url: http://leaskh.wordpress.com/2009/09/15/%e4%bb%8eitunes-9%e4%b8%8d%e6%98%af64bit-cocoa%e8%af%b4%e8%b5%b7
 date: '2009-09-15 06:29:48 +0800'
-date_gmt: '2009-09-15 06:29:48 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 短期内iTunes不会有64bit的，目前iTunes的Windows版本和Mac版本，维护着大量的公用库和跨平台底层。这些东西，其实在iTunes 中保持着相对的稳定。整个iTunes框架而言，需要照顾的不仅仅是Windows和Mac OS，还有各个型号的iPod。Apple必须保证其iTunes程序能提供两个电脑系统的平台上，各自顺利同步众多型号的iPod、Apple TV、iPhone等等。在这个时候重写iTunes的底层是吃力不讨好的。看看目前世界经济环境，在有限的研发投资下面，Apple选择的将一定是加快设备开发的投入，抢占市场。而软件，Apple会鼓励使用新的Cocoa技术，但是不是一切非要Cocoa不可。
 
 回想一下，Carbon Finder也伴随我们走过了那么久，想象iTunes也一样。但是，The future is 64bit，未来是64位的，无论Windows或者Mac都一样。所以iTunes甚至iPhone OS都必须是64bit的。只是时机还没有到。不过也快了。我预感，不远了。

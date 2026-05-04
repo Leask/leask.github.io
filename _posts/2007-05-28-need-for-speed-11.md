@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Need for Speed 11
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 343
-wordpress_url: http://leaskh.wordpress.com/2007/05/28/need-for-speed-11
 date: '2007-05-28 05:13:52 +0800'
-date_gmt: '2007-05-28 05:13:52 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 还不知道NFS 11是什么模式，但是由9和10这两个版本来看，我已经对这个系列的赛车游戏失去期待了。  
 
 一个赛车游戏的灵魂，不应该只是视觉效果。  

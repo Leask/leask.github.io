@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Quote: You have two choices'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 384
-wordpress_url: http://leaskh.wordpress.com/2006/12/20/quote-you-have-two-choices
 date: '2006-12-20 13:44:15 +0800'
-date_gmt: '2006-12-20 13:44:15 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 没有人能够控制和夺去的东西就是你的态度，这是唯一一项真正属于你的权利。  
 
 你在某些方面比别人差，但是在另外一个方面，你会比别人好。对此，你可以选择嫉妒别人，从而让自己痛苦不堪，也可以选择欣赏自己，让自己由衷的快乐...  

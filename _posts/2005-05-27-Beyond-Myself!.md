@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Beyond Myself!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 770
-wordpress_url: http://leaskh.wordpress.com/2005/05/27/beyond-myself
 date: '2005-05-27 20:45:19 +0800'
-date_gmt: '2005-05-27 20:45:19 +0800'
 categories:
 - Design
-tags: []
 comments:
 - id: 16
   author: "嘉泰"
@@ -35,7 +22,6 @@ comments:
   content: you absolutely did a good job~   your design style become more maturelook
     forward to finding more like this in the future
 ---
-
 终于完成新的一组设计，是为学校青年志愿者协会设计的晚会PPT。
 
 一个忙碌的晚上，完成了4分钟的视频和13个主要场景的幻灯片设计，还是一个字：累。

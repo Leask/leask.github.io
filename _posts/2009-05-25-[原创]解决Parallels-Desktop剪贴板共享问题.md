@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "[原创]解决Parallels Desktop剪贴板共享问题"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 162
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/%e5%8e%9f%e5%88%9b%e8%a7%a3%e5%86%b3parallels-desktop%e5%89%aa%e8%b4%b4%e6%9d%bf%e5%85%b1%e4%ba%ab%e9%97%ae%e9%a2%98
 date: '2009-05-25 05:59:39 +0800'
-date_gmt: '2009-05-25 05:59:39 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 鉴于Windows系统的多方面价值，不少Mac用户会通过不同的途径取得Windows兼容环境，包括Boot  
 
 Camp、VM、Parallels、CrossOver等。  

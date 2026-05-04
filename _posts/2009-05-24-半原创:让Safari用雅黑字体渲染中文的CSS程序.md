@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "半原创:让Safari用雅黑字体渲染中文的CSS程序"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 252
-wordpress_url: http://leaskh.wordpress.com/2009/05/24/%e5%8d%8a%e5%8e%9f%e5%88%9b%e8%ae%a9safari%e7%94%a8%e9%9b%85%e9%bb%91%e5%ad%97%e4%bd%93%e6%b8%b2%e6%9f%93%e4%b8%ad%e6%96%87%e7%9a%84css%e7%a8%8b%e5%ba%8f
 date: '2009-05-24 17:24:55 +0800'
-date_gmt: '2009-05-24 17:24:55 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 Safari for Windows正式版让很多朋友不满意的是其中文渲染效果。  
 
 网上不少人尝试过通过CSS样式表改善Safari的中文渲染效果，我都尝试过，但是效果不理想。  

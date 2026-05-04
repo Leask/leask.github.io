@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'The Way Ahead: Innovating Together in China'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 337
-wordpress_url: http://leaskh.wordpress.com/2007/06/14/the-way-ahead-innovating-together-in-china
 date: '2007-06-14 09:08:20 +0800'
-date_gmt: '2007-06-14 09:08:20 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 （未来之路：在中国共同创新）  
 
   

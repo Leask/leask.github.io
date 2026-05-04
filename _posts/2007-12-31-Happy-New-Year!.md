@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: Happy New Year!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 314
-wordpress_url: http://leaskh.wordpress.com/2007/12/31/happy-new-year
 date: '2007-12-31 21:50:51 +0800'
-date_gmt: '2007-12-31 21:50:51 +0800'
-categories:
-
-tags: []
 comments:
 - id: 336
   author: lmmlmm
@@ -39,5 +24,4 @@ comments:
     &nbsp;
     你们有时间过来吧喝酒去。
 ---
-
 2008, New Dream, Start Now.

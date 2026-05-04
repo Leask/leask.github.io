@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: As Time Goes By
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 597
-wordpress_url: http://leaskh.wordpress.com/2006/03/08/as-time-goes-by
 date: '2006-03-08 11:33:39 +0800'
-date_gmt: '2006-03-08 11:33:39 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 238
   author: "俏"
@@ -27,7 +14,6 @@ comments:
   date_gmt: '2006-03-09 08:13:36 +0800'
   content: "拍得真好！！"
 ---
-
 ![](http://tk.files.storage.msn.com/x1pM0jCSUoiRhC-MSJjm46CEc6lK81sV38HdAWTPqZYwzd69jr2E34P4eZFdpgj8dh9E-DASpw66q5XZaV9J_8FfCpINCLEROg-HHTHCwcD0kEZGofyAs_EuGsUlnxxu1-mJp2bVSGHTv4)  
 
   

@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Steve Jobs Speaks at Stanford Commencement
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 518
-wordpress_url: http://leaskh.wordpress.com/2006/06/23/steve-jobs-speaks-at-stanford-commencement
 date: '2006-06-23 21:16:35 +0800'
-date_gmt: '2006-06-23 21:16:35 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 ![](http://money.cnn.com/2006/01/24/news/companies/disney_pixar_deal/steve_jobs_mouseketeer.03.jpg)  
 
   

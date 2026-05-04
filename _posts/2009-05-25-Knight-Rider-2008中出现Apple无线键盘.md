@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Knight Rider 2008中出现Apple无线键盘
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 218
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/knight-rider-2008%e4%b8%ad%e5%87%ba%e7%8e%b0apple%e6%97%a0%e7%ba%bf%e9%94%ae%e7%9b%98
 date: '2009-05-25 05:12:44 +0800'
-date_gmt: '2009-05-25 05:12:44 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 昨日网络缓慢无法工作，于是翻电影看。  
 
 惊喜发现如此一幕：  

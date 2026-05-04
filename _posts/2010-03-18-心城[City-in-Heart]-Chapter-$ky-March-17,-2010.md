@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "心城[City in Heart] Chapter $ky //March 17, 2010"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 20
-wordpress_url: http://leaskh.wordpress.com/2010/03/18/%e5%bf%83%e5%9f%8ecity-in-heart-chapter-ky-march-17-2010
 date: '2010-03-18 13:00:50 +0800'
-date_gmt: '2010-03-18 13:00:50 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 心城[City in Heart] Chapter $Ky 系列是关注城市天空的系列。  
 这个系列中，天空才是主角；其他一切，全然摆设。
 

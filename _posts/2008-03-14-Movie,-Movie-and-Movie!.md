@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Movie, Movie and Movie!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 299
-wordpress_url: http://leaskh.wordpress.com/2008/03/14/movie-movie-and-movie
 date: '2008-03-14 01:46:37 +0800'
-date_gmt: '2008-03-14 01:46:37 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 ![He Was a Quiet Man](http://images.apple.com/moviesxml/s/independent/posters/hewasaquietman_l200801111133.jpg)  
 
 He Was A Quiet Man

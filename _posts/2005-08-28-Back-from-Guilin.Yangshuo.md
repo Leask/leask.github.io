@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: Back from Guilin.Yangshuo
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 702
-wordpress_url: http://leaskh.wordpress.com/2005/08/28/back-from-guilin-yangshuo
 date: '2005-08-28 18:03:00 +0800'
-date_gmt: '2005-08-28 18:03:00 +0800'
-categories:
-
-tags: []
 comments:
 - id: 94
   author: "啦啦"
@@ -27,7 +12,6 @@ comments:
   date_gmt: '2005-08-28 20:27:06 +0800'
   content: "期待其他的照片。"
 ---
-
 从桂林回来，出游时间虽很短，留下心事却很多。
 想念“天涯”的小唐，莫姐；
 想念那一片纯朴的土地。

@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Title Update
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 583
-wordpress_url: http://leaskh.wordpress.com/2006/04/01/title-update
 date: '2006-04-01 04:55:46 +0800'
-date_gmt: '2006-04-01 04:55:46 +0800'
 categories:
 - Function
-tags: []
 comments:
 - id: 256
   author: Meng
@@ -29,5 +16,4 @@ comments:
     . in fact , I do not like so muh for coffee , but I love the outdoor coffee bar&nbsp;
     ,&nbsp; I can spend whole day there ,just aimlessly&nbsp;seeing and thinking .&nbsp;&nbsp;
 ---
-
 [![](http://byfiles.storage.live.com/y1pfObymzl_uRVXIm41ZgbrpiYhwobkbLmLquPZb8sb4FBg4IPjRPR5YasPw8oqQdAenddYzDDPFyI)](http://byfiles.storage.live.com/y1pfObymzl_uRVXIm41ZgbrppZmDfkyARLKIqAO9SZ-sS8oqHVS8Yb5HgCjmLPwXN593GSsXXMaFsU)

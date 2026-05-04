@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Rain Again
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 738
-wordpress_url: http://leaskh.wordpress.com/2005/06/29/rain-again
 date: '2005-06-29 12:32:40 +0800'
-date_gmt: '2005-06-29 12:32:40 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 35
   author: "啦啦"
@@ -28,7 +15,6 @@ comments:
   content: "感谢你在我的Space留言支持，我很喜欢你的Space，希望与你交换连接。 7月6日 22:40        发布者： Leask Huang
     en..偶把链条带走了..^_*"
 ---
-
 下雨again...郁闷ing.
 How天晴?When出太阳?
 I can't stand it any more!  

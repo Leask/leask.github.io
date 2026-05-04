@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Need for Speed Shift体验！
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 40
-wordpress_url: http://leaskh.wordpress.com/2009/12/23/need-for-speed-shift%e4%bd%93%e9%aa%8c%ef%bc%81
 date: '2009-12-23 15:48:45 +0800'
-date_gmt: '2009-12-23 15:48:45 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 [![](/public/2009/12/cb1fd179fdbb7f6dde878dabbeefc60c.png "cb1fd179fdbb7f6dde878dabbeefc60c")](/public/2009/12/cb1fd179fdbb7f6dde878dabbeefc60c.png)
 
 [![](/public/2009/12/c6d38ee0b662a5217943cb96fd58ca38.png "c6d38ee0b662a5217943cb96fd58ca38")](/public/2009/12/c6d38ee0b662a5217943cb96fd58ca38.png)

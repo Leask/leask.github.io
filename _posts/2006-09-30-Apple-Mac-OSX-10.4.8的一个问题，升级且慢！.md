@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Apple Mac OSX 10.4.8的一个问题，升级且慢！
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 468
-wordpress_url: http://leaskh.wordpress.com/2006/09/30/apple-mac-osx-10-4-8%e7%9a%84%e4%b8%80%e4%b8%aa%e9%97%ae%e9%a2%98%ef%bc%8c%e5%8d%87%e7%ba%a7%e4%b8%94%e6%85%a2%ef%bc%81
 date: '2006-09-30 00:00:42 +0800'
-date_gmt: '2006-09-30 00:00:42 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 昨晚，Apple推出了OS 10.4.8的升级文件，于是马上升级，发现一个问题：FrontRow不能使用了。  
 
 打开升级包，发现以下两个文件升级了：  

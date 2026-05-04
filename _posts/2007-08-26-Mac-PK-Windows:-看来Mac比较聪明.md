@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Mac PK Windows: 看来Mac比较聪明'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 331
-wordpress_url: http://leaskh.wordpress.com/2007/08/26/mac-pk-windows-%e7%9c%8b%e6%9d%a5mac%e6%af%94%e8%be%83%e8%81%aa%e6%98%8e
 date: '2007-08-26 12:40:39 +0800'
-date_gmt: '2007-08-26 12:40:39 +0800'
 categories:
 - Computers and Internet
-tags: []
 comments:
 - id: 335
   author: "磊"
@@ -30,7 +17,6 @@ comments:
     &nbsp;
     什么时候我用UBUNTU也来比一比
 ---
-
 ![](http://byfiles.storage.live.com/y1pUwUVfoN7EbBjyTE4UHQ-l1xzX9uCKh03IMUiZ0Wpnd_8AnJzNPcqaa6ijkybQh8fgNaGXj9fy9M)  
 
   

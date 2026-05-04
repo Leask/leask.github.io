@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: Quote:[特别报道]是谁设计了iPhone?
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 360
-wordpress_url: http://leaskh.wordpress.com/2007/03/05/quote%e7%89%b9%e5%88%ab%e6%8a%a5%e9%81%93%e6%98%af%e8%b0%81%e8%ae%be%e8%ae%a1%e4%ba%86iphone
 date: '2007-03-05 05:27:10 +0800'
-date_gmt: '2007-03-05 05:27:10 +0800'
-categories:
-
-tags: []
 comments:
 - id: 1402
   author: Tailynn
@@ -27,7 +12,6 @@ comments:
   date_gmt: '2011-12-20 07:45:52 +0800'
   content: That's cleared my thoughts. Thanks for conrtiubtnig.
 ---
-
 [引]：随着Macworld的结束，iPhone成了苹民的口头禅，当Jobs把各种眩目的功能玩弄于股掌之上时，苹果仿佛正在谱写一个绮丽缤纷的电信神话，然而，谁才是这神话幕后的真正缔造者？  
 
   

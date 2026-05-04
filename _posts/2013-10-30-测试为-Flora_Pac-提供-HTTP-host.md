@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: "测试为 Flora_Pac 提供 HTTP host"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2097
-wordpress_url: https://leaskh.com/?p=2097
 date: '2013-10-30 21:26:30 +0800'
-date_gmt: '2013-10-30 13:26:30 +0800'
-categories:
-
-tags: []
 comments:
 - id: 6324
   author: Jonas Lin
@@ -84,7 +69,6 @@ comments:
   date_gmt: '2014-12-01 04:09:14 +0800'
   content: "使用VPN保護隱私不受任何人侵犯在任何國家任何時候都有必要。"
 ---
-
 有 Flora_Pac 用户（yyxst***@gmail.com 等）提出能不能提供官方 HTTP host 方式，通过 request 参数来返回适用的 PAC 文件（类似于 [autoproxy2pac](https://autoproxy2pac.appspot.com "autoproxy2pac")）。这个需求我早前就有考虑，起初主要担心集中提供 PAC host 会导致服务器被墙而徒劳无功。但最近又想了想，很多朋友的机器上其实是没有开发环境的，他们也不见得全都熟悉 Python 等工具，本着让翻墙能尽可能简单便利，尽可能降低门槛的期望，我简单实现了一下这个功能。目前的实现相当简陋，但凑合能用。
 
 ![Flora_Pac host demo](/public/2013/10/Screen-Shot-2013-10-30-at-10.08.01-PM.jpg)

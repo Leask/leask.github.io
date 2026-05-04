@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Stride Forward 64-bit!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 808
-wordpress_url: http://leaskh.wordpress.com/2005/05/16/stride-forward-64-bit
 date: '2005-05-16 12:52:55 +0800'
-date_gmt: '2005-05-16 12:52:55 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 这两天还是让人讨厌的坏天气，我不是圣人做不到“不以物喜，不以己悲”。
 
 所以这几天心情都不是很好，总觉得很压抑。

@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Flora_Pac Updates: 合并子网、优化 isInNet() 的判断逻辑'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2021
-wordpress_url: https://leaskh.com/?p=2021
 date: '2013-04-08 02:30:14 +0800'
-date_gmt: '2013-04-07 18:30:14 +0800'
-categories:
-
-tags: []
 comments:
 - id: 6219
   author: heiyo (@heiyo)
@@ -46,7 +31,6 @@ comments:
   date_gmt: '2013-10-02 12:13:02 +0800'
   content: "非常感谢，新版非常好用， 不过打开facebook时，载入facebook存储于alkaimai cdn的图片时解析会非常慢，不知道为什么"
 ---
-
 今天比较闲，又更新了一版 Flora_Pac。这个更新主要有以下两点优化：
 
 * 合并子网、减少匹配条目数（从 3587 条减少到 1710 条）；  

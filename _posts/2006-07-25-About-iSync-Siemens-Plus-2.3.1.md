@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: About iSync Siemens Plus 2.3.1
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 471
-wordpress_url: http://leaskh.wordpress.com/2006/07/25/about-isync-siemens-plus-2-3-1
 date: '2006-07-25 06:29:05 +0800'
-date_gmt: '2006-07-25 06:29:05 +0800'
 categories:
 - iSync Siemens Plus
-tags: []
 comments:
 - id: 309
   author: Leask
@@ -36,7 +23,6 @@ comments:
   date_gmt: '2006-09-02 12:11:59 +0800'
   content: "谢谢你制作了这个软件，我很想向你讨教一下如何添加iSync影射手机型号的方法。虽然我不懂编程，但是很想为Mac在中国的发展作点儿贡献。我的iChat：isalot_srak@mac.com"
 ---
-
 iSync Siemens Plus是iSync的修改版，实现完美兼容Siemens 6x/7x手机。   
 iSync Siemens Plus 2.3.1由Leask基于Apple iSync 2.3(500.86)修改完成。   
 More Information：http://honeonet.spaces.msn.com/PersonalSpace.aspx?_c11_blogpart_blogpart=blogview&_c=blogpart&partqs=cat%3diSync%2bSiemens%2bPlus   

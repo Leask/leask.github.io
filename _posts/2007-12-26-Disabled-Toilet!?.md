@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Disabled Toilet!?
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 316
-wordpress_url: http://leaskh.wordpress.com/2007/12/26/disabled-toilet
 date: '2007-12-26 11:15:44 +0800'
-date_gmt: '2007-12-26 11:15:44 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 How Terrible!  
 
   

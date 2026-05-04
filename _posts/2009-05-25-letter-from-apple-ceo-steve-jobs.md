@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Letter from Apple CEO Steve Jobs
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 150
-wordpress_url: http://leaskh.wordpress.com/2009/05/25/letter-from-apple-ceo-steve-jobs
 date: '2009-05-25 06:05:47 +0800'
-date_gmt: '2009-05-25 06:05:47 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 /*  
 
 * 原文地址：  

@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: City, Pretty, Pity
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 628
-wordpress_url: http://leaskh.wordpress.com/2005/12/13/city-pretty-pity
 date: '2005-12-13 05:59:18 +0800'
-date_gmt: '2005-12-13 05:59:18 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 发两张照片。
 
 ---

@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: "使用Open DNS让Google回家"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 94
-wordpress_url: http://leaskh.wordpress.com/2009/06/25/%e4%bd%bf%e7%94%a8open-dns%e8%ae%a9google%e5%9b%9e%e5%ae%b6
 date: '2009-06-25 02:59:43 +0800'
-date_gmt: '2009-06-25 02:59:43 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 其他的都不想说了，已经彻底认识到什么是专制政体了。
 我们只是星斗网民，我们只是需要出色的Web服务，我们不谈政治。
 **修改您的DNS到：208.67.222.222 以及 208.67.220.220**

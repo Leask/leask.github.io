@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: iPod + iTunes, Update Together
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 511
-wordpress_url: http://leaskh.wordpress.com/2006/06/30/ipod-itunes-update-together
 date: '2006-06-30 06:00:19 +0800'
-date_gmt: '2006-06-30 06:00:19 +0800'
 categories:
 - iPod + iTunes
-tags: []
-comments: []
 ---
-
 ![](http://images.apple.com/ipod/download/images/downloadipodfamily20051011.jpg)  
 
 - iPod Updater 2006-06-28 includes iPod Software 1.1.2 for iPod, iPod Software 1.2 for iPod nano, and iPod Software 1.1.4 for iPod shuffle. iPod Updater 2006-06-28 contains the same software versions as iPod Updater 2006-03-23 for all other iPod models.  

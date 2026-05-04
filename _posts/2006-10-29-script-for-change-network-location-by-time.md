@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Script for Change Network Location by time
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 434
-wordpress_url: http://leaskh.wordpress.com/2006/10/29/script-for-change-network-location-by-time
 date: '2006-10-29 18:57:50 +0800'
-date_gmt: '2006-10-29 18:57:50 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 我们学校的网络是PPPoE加网卡MAC地址验证，早上8点开网，晚上11点断网。  
 
 由于断网后需要用iChat和另外一个Mac用户通讯，而iChat的Bonjour协议无法通过路由器，登陆iChat前需要删除网络设置中的Router选项。  

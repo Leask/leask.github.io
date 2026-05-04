@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Google Talk in Google Apps
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1529
-wordpress_url: https://leaskh.com/?p=1529
 date: '2011-04-17 20:03:07 +0800'
-date_gmt: '2011-04-17 12:03:07 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 众所周知，Google提供强大的Google Apps套件，便于我们部署基于自定义域名的一系列Google服务。这样一方面能够使用Google一系列优质的Web应用，另一方面充分彰显个性，尤其对企业或组织机构意义重大。
 
 Google Apps包括Gmail、Gtalk等核心应用，然而这两者也是我用得最多的Google服务。我的帐号i@leaskh.com正是使用Google Apps部署的。很多朋友看到我使用自定义邮箱名作为Gtalk帐号都很不解，他们自己也尝试过，但是登陆后只能和域名内的帐号沟通，无法和@gmail.com的帐号沟通。其实解决方法很简单，只需要在域名上添加十来条SRV记录，就可以了。

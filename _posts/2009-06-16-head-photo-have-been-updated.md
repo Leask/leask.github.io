@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Head Photo Have Been Updated
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 97
-wordpress_url: http://leaskh.wordpress.com/2009/06/16/head-photo-have-been-updated
 date: '2009-06-16 17:36:12 +0800'
-date_gmt: '2009-06-16 17:36:12 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 [![DSC00020](/public/2010/09/dsc000205b35d.jpg?w=300 "DSC00020")](/public/2010/09/dsc000205b35d.jpg)
 
 照片是北江大桥姐妹桥，是上周跑步的时候拍的，自己还算喜欢，希望大家也喜欢。  

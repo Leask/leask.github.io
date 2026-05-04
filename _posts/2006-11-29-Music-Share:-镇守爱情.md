@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Music Share: 镇守爱情'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 399
-wordpress_url: http://leaskh.wordpress.com/2006/11/29/music-share-%e9%95%87%e5%ae%88%e7%88%b1%e6%83%85
 date: '2006-11-29 08:57:58 +0800'
-date_gmt: '2006-11-29 08:57:58 +0800'
 categories:
 - Music
-tags: []
-comments: []
 ---
-
 by Power Train  
 
   

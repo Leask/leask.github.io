@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Breaking News: Bill Gates Vs Steve Jobs!'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 341
-wordpress_url: http://leaskh.wordpress.com/2007/05/31/breaking-news-bill-gates-vs-steve-jobs
 date: '2007-05-31 05:27:10 +0800'
-date_gmt: '2007-05-31 05:27:10 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 ![](http://d5.allthingsd.com/files/2007/05/gates_jobs.jpg)  
 
   

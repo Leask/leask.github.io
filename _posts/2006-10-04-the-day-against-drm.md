@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: The Day Against DRM
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 465
-wordpress_url: http://leaskh.wordpress.com/2006/10/04/the-day-against-drm
 date: '2006-10-04 06:34:40 +0800'
-date_gmt: '2006-10-04 06:34:40 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 "DefectiveByDesign.org, a campaign by the Free Software Foundation, is making Oct 3rd a Day Against DRM: 'Defeating DRM is all about awareness. The direct actions that we have taken are all about this. Today we are asking you to let the people around you know that DRM is bad for our society. Let's create space for the debate. Do we want handcuffs and locks on art and knowledge? As our friends at Disney recognize, if there is this debate, we will have won.'"  
 
   

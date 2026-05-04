@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: Hello WordPress
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1386
-wordpress_url: https://leaskh.com/?p=1386
 date: '2010-10-03 04:50:00 +0800'
-date_gmt: '2010-10-02 20:50:00 +0800'
-categories:
-
-tags: []
 comments:
 - id: 380
   author: renee
@@ -27,7 +12,6 @@ comments:
   date_gmt: '2010-10-04 01:49:32 +0800'
   content: "花花~*^_^*"
 ---
-
 [![](/public/2010/10/hellowordpress.jpg "hellowordpress")](/public/2010/10/hellowordpress.jpg)
 
 终于狠下心,折腾了自己的独立blog了.  

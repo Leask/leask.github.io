@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Busy, Negative, Loneliness
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 790
-wordpress_url: http://leaskh.wordpress.com/2005/05/27/busy-negative-loneliness
 date: '2005-05-27 05:09:44 +0800'
-date_gmt: '2005-05-27 05:09:44 +0800'
 categories:
 - Life
-tags: []
 comments:
 - id: 15
   author: Unknown
@@ -27,7 +14,6 @@ comments:
   date_gmt: '2005-06-01 04:07:05 +0800'
   content: "等着你可爱的稿费啊~哈哈"
 ---
-
 还是忙，这个星期几乎都是凌晨3点才睡觉。
 
 昨天终于向杂志社提交了我的作品，今天和明天还要完成为青协的设计PPT。

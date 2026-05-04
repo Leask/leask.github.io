@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Photos From My Home Town
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 364
-wordpress_url: http://leaskh.wordpress.com/2007/03/05/photos-from-my-home-town
 date: '2007-03-05 10:01:01 +0800'
-date_gmt: '2007-03-05 10:01:01 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 Shot with Tero 600 phone.  
 
 [![](http://byfiles.storage.live.com/y1pXmlpx5O2PzPh5UPNsN1nPsczX5rGhYlHPtbaIbicZLpp0ur5duGVb8kfJmlr_rykcKfxlYbC8zg)](http://byfiles.storage.live.com/y1pXmlpx5O2PzPh5UPNsN1nPrZuQJuCQVeH2RnvmR7NHasBesQUdHcW-8UVOdzOKeF6jq4G-hyOPQg)

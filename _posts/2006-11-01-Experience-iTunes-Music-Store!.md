@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Experience iTunes Music Store!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 428
-wordpress_url: http://leaskh.wordpress.com/2006/11/01/experience-itunes-music-store
 date: '2006-11-01 22:24:36 +0800'
-date_gmt: '2006-11-01 22:24:36 +0800'
 categories:
 - iPod + iTunes
-tags: []
-comments: []
 ---
-
 Dear Leask,  
 
   

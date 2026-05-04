@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Leopard&rsquo;s Illuminating Graphical User Interface: Illuminous'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 387
-wordpress_url: http://leaskh.wordpress.com/2006/12/20/leopard%e2%80%99s-illuminating-graphical-user-interface-illuminous
 date: '2006-12-20 13:53:24 +0800'
-date_gmt: '2006-12-20 13:53:24 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 ![](http://appleology.com/images/illuminous.png)  
 
   

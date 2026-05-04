@@ -1,23 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: Flora_ssh-D Version 2.33 闪亮登场！
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 54
-wordpress_url: http://leaskh.wordpress.com/2009/10/29/flora_ssh-d-version-2-33-%e9%97%aa%e4%ba%ae%e7%99%bb%e5%9c%ba%ef%bc%81
 date: '2009-10-29 03:26:29 +0800'
-date_gmt: '2009-10-29 03:26:29 +0800'
-categories:
-
-tags: []
 comments:
 - id: 356
   author: "上网"
@@ -27,7 +12,6 @@ comments:
   date_gmt: '2009-10-29 13:10:26 +0800'
   content: "希望能开发linux版的Flora_ssh-D"
 ---
-
 ![Screen shot 2009-10-29 at 10.10.21 AM](/public/2010/09/screenshot2009-10-29at10.png?w=300 "Screen shot 2009-10-29 at 10.10.21 AM")
 
 Flora_ssh-D是什么？

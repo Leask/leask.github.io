@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "隐私，信息以及信息安全 by @virushuo"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 2081
-wordpress_url: https://leaskh.com/?p=2081
 date: '2013-10-19 03:07:50 +0800'
-date_gmt: '2013-10-18 19:07:50 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 感谢 [virushuo](http://www.devep.net/) 撰写此文，以下是全文转载：
 
 作者：[virushuo](http://www.devep.net/) 发表于 2013-10-19 02:10 最后更新于 2013-10-19 02:10  

@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "个人意见 Snow Leopard 10A432 并不是 Mac OS X 10.6 的正式版"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 79
-wordpress_url: http://leaskh.wordpress.com/2009/08/18/%e4%b8%aa%e4%ba%ba%e6%84%8f%e8%a7%81-snow-leopard-10a432-%e5%b9%b6%e4%b8%8d%e6%98%af-mac-os-x-10-6-%e7%9a%84%e6%ad%a3%e5%bc%8f%e7%89%88
 date: '2009-08-18 16:05:00 +0800'
-date_gmt: '2009-08-18 16:05:00 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 ![Screen shot 2009-08-18 at 11.14.15 PM](/public/2010/09/screenshot2009-08-18at11.png?w=300 "Screen shot 2009-08-18 at 11.14.15 PM")
 
 伴随着巨大的改进，Mac OS 10.6 悄然进驻了众多Mac Fans的桌面。

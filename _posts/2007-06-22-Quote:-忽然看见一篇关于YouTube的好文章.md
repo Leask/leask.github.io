@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Quote: 忽然看见一篇关于YouTube的好文章'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 335
-wordpress_url: http://leaskh.wordpress.com/2007/06/22/quote-%e5%bf%bd%e7%84%b6%e7%9c%8b%e8%a7%81%e4%b8%80%e7%af%87%e5%85%b3%e4%ba%8eyoutube%e7%9a%84%e5%a5%bd%e6%96%87%e7%ab%a0
 date: '2007-06-22 04:52:35 +0800'
-date_gmt: '2007-06-22 04:52:35 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 ![](http://img.timeinc.net/time/time100/2007/images/hurley_chen.jpg)  
 
   

@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "我的第一个Adium Xtra：Snow Leopard iChat"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 60
-wordpress_url: http://leaskh.wordpress.com/2009/10/24/%e6%88%91%e7%9a%84%e7%ac%ac%e4%b8%80%e4%b8%aaadium-xtra%ef%bc%9asnow-leopard-ichat
 date: '2009-10-24 06:23:41 +0800'
-date_gmt: '2009-10-24 06:23:41 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 收到来自Adium的邮件：
 
 > from xtras@adiumxtras.com  

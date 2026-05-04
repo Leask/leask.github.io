@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Mac Software Update
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 512
-wordpress_url: http://leaskh.wordpress.com/2006/06/29/mac-software-update
 date: '2006-06-29 08:48:15 +0800'
-date_gmt: '2006-06-29 08:48:15 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 QuickTime Player 7.1.2  
 
 ![](http://images.apple.com/quicktime/home/images/centertop20060510.jpg)  

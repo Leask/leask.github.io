@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Update Your Mac OS To 10.4.9 Now!
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 361
-wordpress_url: http://leaskh.wordpress.com/2007/03/13/update-your-mac-os-to-10-4-9-now
 date: '2007-03-13 23:32:39 +0800'
-date_gmt: '2007-03-13 23:32:39 +0800'
 categories:
 - Computers and Internet
-tags: []
-comments: []
 ---
-
 What’s New in this Version  
 The 10.4.9 Update is recommended for PowerPC and Intel-based Mac computers currently running Mac OS X Tiger versions 10.4.0 through 10.4.7 and includes general operating system fixes, as well as specific fixes or compatibility updates for the following applications and technologies:   
 

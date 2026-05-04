@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Quote: 我又有猫猫了 from Xiaoni'
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 448
-wordpress_url: http://leaskh.wordpress.com/2006/10/20/quote-%e6%88%91%e5%8f%88%e6%9c%89%e7%8c%ab%e7%8c%ab%e4%ba%86-from-xiaoni
 date: '2006-10-20 18:40:59 +0800'
-date_gmt: '2006-10-20 18:40:59 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 其实，那天听你说家里又给你抱回只可爱的猫猫了。。。我好高兴，但是又好心酸。。。  
 
   

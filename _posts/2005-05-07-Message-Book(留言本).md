@@ -1,23 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Message Book(留言本)
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 798
-wordpress_url: http://leaskh.wordpress.com/2005/05/07/message-book%e7%95%99%e8%a8%80%e6%9c%ac
 date: '2005-05-07 11:39:58 +0800'
-date_gmt: '2005-05-07 11:39:58 +0800'
 categories:
 - Function
-tags: []
 comments:
 - id: 2
   author: ifsheknows
@@ -65,7 +52,6 @@ comments:
   date_gmt: '2005-06-01 13:20:50 +0800'
   content: happy children's day~~~不知道你今晚是忙还是因为什么，没看到你上网 儿童节特别伤感，我们的花样年华就这样哗哗地流过了遗憾还是很多今晚忍不住又伤春悲秋了，呵呵
 ---
-
 - **English**
 
 Welcome to my MSN Space.

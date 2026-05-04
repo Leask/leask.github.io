@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: A Pause in JNU
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 767
-wordpress_url: http://leaskh.wordpress.com/2005/06/11/a-pause-in-jnu
 date: '2005-06-11 12:35:09 +0800'
-date_gmt: '2005-06-11 12:35:09 +0800'
 categories:
 - Life
-tags: []
-comments: []
 ---
-
 昨日到暨大的歧关车站接朋友，
 
 等人的时候拍了几张照片，

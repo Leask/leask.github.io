@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: 3D Avatar Experience
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 31
-wordpress_url: http://leaskh.wordpress.com/2010/02/02/3d-avatar-experience
 date: '2010-02-02 17:49:54 +0800'
-date_gmt: '2010-02-02 17:49:54 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 [![](/public/2010/02/d699d45a27ebd408fa5aa29e8b851e44.png.jpeg "d699d45a27ebd408fa5aa29e8b851e44.png")](/public/2010/02/d699d45a27ebd408fa5aa29e8b851e44.png.jpeg)
 
 有幸获得打折的3D阿凡达戏票，于是好好满足了一番自己的好奇心。

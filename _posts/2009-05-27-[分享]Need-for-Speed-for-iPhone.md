@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: "[分享]Need for Speed for iPhone"
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 107
-wordpress_url: http://leaskh.wordpress.com/2009/05/27/%e5%88%86%e4%ba%abneed-for-speed-for-iphone
 date: '2009-05-27 13:58:43 +0800'
-date_gmt: '2009-05-27 13:58:43 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 ![](/public/2010/09/img_0025.png?w=300)
 
 ![](/public/2010/09/img_0026.png?w=300)

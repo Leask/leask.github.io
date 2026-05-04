@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Photo from Sweden
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 685
-wordpress_url: http://leaskh.wordpress.com/2005/09/12/photo-from-sweden
 date: '2005-09-12 11:32:07 +0800'
-date_gmt: '2005-09-12 11:32:07 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 ![](http://storage.msn.com/x1pGg9EMswqL-_2MbvYq-ZxXNATEjnOLKQMMYBHCdCOtt-hn9NvCV3xcprRnGEk8bW-HmY6fQ9T-jMIV3O31af3zre7NL7v3-qiJsGOoyjorJRrM0YEz_SksCNdTRaHunLO_WAGOnUCb3YqFPI9-LPXxA)
 朋友（精确一点说是好朋友的好朋友）前段时间去了一趟瑞典，带回来一辑非常棒的照片。
 每一张都很漂亮。

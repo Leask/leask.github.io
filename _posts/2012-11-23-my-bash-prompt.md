@@ -1,26 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: My Bash Prompt
 author: Leask
-
-
-
-
-author_login: leask
-author_email: i@leaskh.com
-author_url: https://leaskh.com
-wordpress_id: 1986
-wordpress_url: https://leaskh.com/?p=1986
 date: '2012-11-23 01:20:32 +0800'
-date_gmt: '2012-11-22 17:20:32 +0800'
-categories:
-
-tags: []
-comments: []
 ---
-
 [![](/public/2012/11/Screen-Shot-2012-11-23-at-1.17.10-AM.png "Screen Shot 2012-11-23 at 1.17.10 AM")](/public/2012/11/Screen-Shot-2012-11-23-at-1.17.10-AM.png)
 
 有人在 twitter 上问我的 bash prompt 是怎么写的，简单解说无效，直接把代码贴出来吧：
