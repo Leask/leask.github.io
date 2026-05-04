@@ -40,6 +40,23 @@ MANUAL_EXCLUDED_PAIRS = {
         ),
     ),
 }
+CONFIRMED_RELAXED_MERGES = [
+    {
+        'kind': 'promote_archived_into_img',
+        'source': 'assets/archived/2008/05/city-08-05-10[4].png',
+        'target': 'assets/img/2010/03/city-08-05-10_thumb5b25d.png',
+    },
+    {
+        'kind': 'merge_img_refs',
+        'source': 'assets/img/2010/09/city_09-6-18-15b95d.jpg',
+        'target': 'assets/img/2011/07/qingyuan_city_09_06_181.jpg',
+    },
+    {
+        'kind': 'delete_archived_duplicate',
+        'source': 'assets/archived/0000/Z_Over_Mac.jpg',
+        'target': 'assets/archived/0000/C_PB_Mac.jpg',
+    },
+]
 ORIGINAL_HINT_RE = re.compile(
     r'原圖|原图|full\s*size|fullsize|原大|点击看大图|點擊看大圖|看大圖|看大图|大圖|大图',
     re.I,
@@ -49,7 +66,60 @@ SIZE_SUFFIX_RE = re.compile(r'[-_](?:\d{2,5}x\d{2,5}|thumb[a-z0-9]*)$', re.I)
 PUNCT_RE = re.compile(r'[^a-z0-9]+')
 EXACT_GROUP_MAX = 12
 REVIEW_CLUSTER_MAX = 120
-NN_COUNT = 10
+
+
+@dataclass(frozen=True)
+class ProfileConfig:
+    name: str
+    nn_count: int
+    dhash_max: int
+    dhash_cosine_min: float
+    dhash_aspect_max: float
+    clip_very_high_min: float
+    clip_very_high_aspect_max: float
+    clip_hash_min: float
+    clip_hash_dhash_max: int
+    clip_hash_aspect_max: float
+    stem_clip_min: float
+    stem_clip_ratio_min: float
+    stem_clip_aspect_max: float
+    same_size_mae_max: float
+
+
+PROFILES = {
+    'strict': ProfileConfig(
+        name='strict',
+        nn_count=10,
+        dhash_max=4,
+        dhash_cosine_min=0.94,
+        dhash_aspect_max=0.04,
+        clip_very_high_min=0.995,
+        clip_very_high_aspect_max=0.05,
+        clip_hash_min=0.989,
+        clip_hash_dhash_max=10,
+        clip_hash_aspect_max=0.08,
+        stem_clip_min=0.98,
+        stem_clip_ratio_min=0.35,
+        stem_clip_aspect_max=0.15,
+        same_size_mae_max=4.0,
+    ),
+    'relaxed': ProfileConfig(
+        name='relaxed',
+        nn_count=24,
+        dhash_max=6,
+        dhash_cosine_min=0.90,
+        dhash_aspect_max=0.06,
+        clip_very_high_min=0.99,
+        clip_very_high_aspect_max=0.08,
+        clip_hash_min=0.982,
+        clip_hash_dhash_max=14,
+        clip_hash_aspect_max=0.12,
+        stem_clip_min=0.96,
+        stem_clip_ratio_min=0.25,
+        stem_clip_aspect_max=0.2,
+        same_size_mae_max=5.5,
+    ),
+}
 
 
 @dataclass
@@ -107,6 +177,12 @@ def parse_args() -> argparse.Namespace:
         help='Embedding batch size.',
     )
     parser.add_argument(
+        '--profile',
+        choices=sorted(PROFILES),
+        default='strict',
+        help='Threshold profile for candidate discovery.',
+    )
+    parser.add_argument(
         '--apply-safe',
         action='store_true',
         help='Apply safe no-markdown-change dedupe actions.',
@@ -115,6 +191,11 @@ def parse_args() -> argparse.Namespace:
         '--apply-reviewed-internal',
         action='store_true',
         help='Apply reviewed img-to-img merges and rewrite post refs.',
+    )
+    parser.add_argument(
+        '--apply-confirmed-relaxed',
+        action='store_true',
+        help='Apply manually confirmed relaxed-profile merges.',
     )
     return parser.parse_args()
 
@@ -288,6 +369,7 @@ def is_candidate_pair(
     right: ImageRecord,
     cosine_sim: float,
     hash_distance: int,
+    profile: ProfileConfig,
 ) -> tuple[bool, str]:
     aspect = aspect_delta(left, right)
     ratio = pixel_ratio(left, right)
@@ -297,15 +379,24 @@ def is_candidate_pair(
         return True, 'exact'
     if same_original_post(left, right):
         return False, 'keep_original_pair'
-    if hash_distance <= 4 and aspect <= 0.04 and (
-        same_stem or cosine_sim >= 0.94
+    if hash_distance <= profile.dhash_max and aspect <= profile.dhash_aspect_max and (
+        same_stem or cosine_sim >= profile.dhash_cosine_min
     ):
         return True, 'dhash'
-    if cosine_sim >= 0.995 and aspect <= 0.05:
+    if cosine_sim >= profile.clip_very_high_min and aspect <= profile.clip_very_high_aspect_max:
         return True, 'clip_very_high'
-    if cosine_sim >= 0.989 and hash_distance <= 10 and aspect <= 0.08:
+    if (
+        cosine_sim >= profile.clip_hash_min
+        and hash_distance <= profile.clip_hash_dhash_max
+        and aspect <= profile.clip_hash_aspect_max
+    ):
         return True, 'clip_hash'
-    if same_stem and cosine_sim >= 0.98 and ratio >= 0.35 and aspect <= 0.15:
+    if (
+        same_stem
+        and cosine_sim >= profile.stem_clip_min
+        and ratio >= profile.stem_clip_ratio_min
+        and aspect <= profile.stem_clip_aspect_max
+    ):
         return True, 'stem_clip'
     return False, ''
 
@@ -330,8 +421,9 @@ def group_exact_duplicates(records: list[ImageRecord]) -> list[list[int]]:
 def build_neighbor_pairs(
     records: list[ImageRecord],
     embeddings: np.ndarray,
+    profile: ProfileConfig,
 ) -> tuple[list[dict[str, object]], list[list[int]]]:
-    neighbors = min(len(records), NN_COUNT + 1)
+    neighbors = min(len(records), profile.nn_count + 1)
     nn = NearestNeighbors(metric='cosine', n_neighbors=neighbors)
     nn.fit(embeddings)
     distances, indices = nn.kneighbors(embeddings)
@@ -351,6 +443,7 @@ def build_neighbor_pairs(
                 right,
                 cosine_sim,
                 hash_distance,
+                profile,
             )
             if not candidate:
                 continue
@@ -358,7 +451,7 @@ def build_neighbor_pairs(
             if (
                 left.width == right.width
                 and left.height == right.height
-                and mae_64 > 4.0
+                and mae_64 > profile.same_size_mae_max
             ):
                 continue
             pair_map[(left_index, right_index)] = {
@@ -559,6 +652,43 @@ def safe_sync_file(src: Path, dst: Path) -> None:
     dst.write_bytes(src.read_bytes())
 
 
+def rewrite_repo_refs(source_ref: str, target_ref: str) -> int:
+    touched = 0
+    for path in ROOT.rglob('*'):
+        if not path.is_file():
+            continue
+        if path.suffix.lower() not in {'.md', '.html', '.json', '.py'}:
+            continue
+        if path.parts and 'reports' in path.parts:
+            continue
+        try:
+            text = path.read_text(encoding='utf-8', errors='ignore')
+        except OSError:
+            continue
+        updated = text.replace(source_ref, target_ref)
+        if updated != text:
+            path.write_text(updated, encoding='utf-8')
+            touched += 1
+    return touched
+
+
+def is_repo_ref_present(ref: str) -> bool:
+    for path in ROOT.rglob('*'):
+        if not path.is_file():
+            continue
+        if path.parts and 'reports' in path.parts:
+            continue
+        if path.suffix.lower() not in {'.md', '.html', '.json', '.py'}:
+            continue
+        try:
+            text = path.read_text(encoding='utf-8', errors='ignore')
+        except OSError:
+            continue
+        if ref in text:
+            return True
+    return False
+
+
 def apply_safe_actions(clusters: list[dict[str, object]]) -> dict[str, int]:
     results: Counter[str] = Counter()
     for cluster in clusters:
@@ -681,13 +811,46 @@ def apply_reviewed_internal_merges(clusters: list[dict[str, object]]) -> dict[st
     return dict(results)
 
 
+def apply_confirmed_relaxed_merges() -> dict[str, int]:
+    results: Counter[str] = Counter()
+    for item in CONFIRMED_RELAXED_MERGES:
+        kind = item['kind']
+        source_path = ROOT / item['source']
+        target_path = ROOT / item['target']
+        source_ref = '/' + item['source']
+        target_ref = '/' + item['target']
+        if kind == 'promote_archived_into_img':
+            safe_sync_file(source_path, target_path)
+            if not is_repo_ref_present(source_ref):
+                source_path.unlink()
+                results['deleted_archived_sources'] += 1
+            results['promoted_archived_into_img'] += 1
+            continue
+        if kind == 'merge_img_refs':
+            touched = rewrite_repo_refs(source_ref, target_ref)
+            results['rewritten_repo_files'] += touched
+            if not is_repo_ref_present(source_ref):
+                source_path.unlink()
+                results['deleted_img_sources'] += 1
+            results['merged_img_refs'] += 1
+            continue
+        if kind == 'delete_archived_duplicate':
+            if not is_repo_ref_present(source_ref):
+                source_path.unlink()
+                results['deleted_archived_sources'] += 1
+            results['deleted_archived_duplicates'] += 1
+            continue
+    return dict(results)
+
+
 def main() -> int:
     args = parse_args()
+    profile = PROFILES[args.profile]
     records, bad_files = collect_images()
     model = SentenceTransformer(MODEL_NAME)
     embeddings = embed_images(model, records, batch_size=args.batch_size)
     exact_indices = group_exact_duplicates(records)
-    pairs, cluster_indices = build_neighbor_pairs(records, embeddings)
+    pairs, cluster_indices = build_neighbor_pairs(records, embeddings, profile)
 
     exact_groups: list[dict[str, object]] = []
     for indices in exact_indices[:EXACT_GROUP_MAX]:
@@ -745,6 +908,7 @@ def main() -> int:
     )
     summary = {
         'model': MODEL_NAME,
+        'profile': profile.name,
         'images_scanned': len(records),
         'bad_files': len(bad_files),
         'exact_duplicate_groups': len(exact_indices),
@@ -766,6 +930,8 @@ def main() -> int:
         summary['apply_reviewed_internal'] = apply_reviewed_internal_merges(
             review_clusters,
         )
+    if args.apply_confirmed_relaxed:
+        summary['apply_confirmed_relaxed'] = apply_confirmed_relaxed_merges()
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     return 0
 

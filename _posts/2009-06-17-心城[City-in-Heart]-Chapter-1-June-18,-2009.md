@@ -6,7 +6,7 @@ date: '2009-06-17 17:42:53 +0800'
 categories:
 - "心城[City in Heart]"
 ---
-![city_09-6-18-1](/assets/img/2010/09/city_09-6-18-15b95d.jpg "city_09-6-18-1")
+![city_09-6-18-1](/assets/img/2011/07/qingyuan_city_09_06_181.jpg "city_09-6-18-1")
 
 ![city_09-6-18-2](/assets/img/2010/09/city_09-6-18-25b35d.jpg "city_09-6-18-2")
 
