@@ -46,4 +46,4 @@ overflow: scroll;
 ```
 
 点击以下链接直接体验（仅适合运行 iOS 5 beta 的设备）：  
-[simple demo of -webkit-overflow-scrolling](/assets/archived/2011/09/overflowScrolling.html)
+[simple demo of -webkit-overflow-scrolling](/assets/files/2011/09/overflowScrolling.html)
