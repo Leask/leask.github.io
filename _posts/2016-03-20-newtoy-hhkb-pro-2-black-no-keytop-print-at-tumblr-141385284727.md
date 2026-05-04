@@ -7,8 +7,6 @@ tags:
 - 'newtoy'
 ---
 
-![](/assets/img/2016/03/141385284727.jpg)
-
-[Instagram](https://www.instagram.com/p/BDL9ijuLwqE/)
+[![](/assets/img/2016/03/141385284727.jpg)](https://www.instagram.com/p/BDL9ijuLwqE/)
 
 #NewToy HHKB Pro 2 Black No Keytop Print. (at 深圳龙岗)

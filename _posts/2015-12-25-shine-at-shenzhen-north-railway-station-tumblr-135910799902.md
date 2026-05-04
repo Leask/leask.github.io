@@ -7,8 +7,6 @@ tags:
 - 'shine'
 ---
 
-![](/assets/img/2015/12/135910799902.jpg)
-
-[Instagram](https://www.instagram.com/p/_uA1lTLwlm/)
+[![](/assets/img/2015/12/135910799902.jpg)](https://www.instagram.com/p/_uA1lTLwlm/)
 
 #shine (at Shenzhen North Railway Station)

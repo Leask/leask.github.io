@@ -7,8 +7,6 @@ tags:
 - 'bubbles'
 ---
 
-![](/assets/img/2016/03/142018244707.jpg)
-
-[Instagram](https://www.instagram.com/p/BDn7Yz0Lwlr/)
+[![](/assets/img/2016/03/142018244707.jpg)](https://www.instagram.com/p/BDn7Yz0Lwlr/)
 
 #bubbles (at 益田假日廣場 Holiday Plaza)

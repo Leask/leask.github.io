@@ -5,9 +5,7 @@ author: Leask
 date: '2013-01-18 16:53:00 -0500'
 ---
 
-![](/assets/img/2013/01/40868671234.jpg)
-
-[Flickr](http://www.flickr.com/photos/ferminadaza1964/8194341542/)
+[![](/assets/img/2013/01/40868671234.jpg)](http://www.flickr.com/photos/ferminadaza1964/8194341542/)
 
 [animalstalkinginallcaps](http://animalstalkinginallcaps.tumblr.com/post/40857784795/so-you-think-hes-cheating-on-you-no-its-not):
 

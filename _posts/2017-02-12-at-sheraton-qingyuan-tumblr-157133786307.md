@@ -5,8 +5,6 @@ author: Leask
 date: '2017-02-12 01:09:00 -0500'
 ---
 
-![](/assets/img/2017/02/157133786307.jpg)
-
-[Instagram](https://www.instagram.com/p/BQZqS5cA4y-/)
+[![](/assets/img/2017/02/157133786307.jpg)](https://www.instagram.com/p/BQZqS5cA4y-/)
 
 航拍故乡 (at Sheraton Qingyuan)

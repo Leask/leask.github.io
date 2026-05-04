@@ -7,8 +7,6 @@ tags:
 - '巷'
 ---
 
-![](/assets/img/2016/02/139642483277.jpg)
-
-[Instagram](https://www.instagram.com/p/BB_uywvrwmz/)
+[![](/assets/img/2016/02/139642483277.jpg)](https://www.instagram.com/p/BB_uywvrwmz/)
 
 #巷 (at 長洲東灣泳灘 Cheung Chau Tung Wan Beach)

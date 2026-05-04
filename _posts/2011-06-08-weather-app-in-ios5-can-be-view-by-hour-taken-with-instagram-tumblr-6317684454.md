@@ -7,8 +7,6 @@ tags:
 - 'ios5'
 ---
 
-![](/assets/img/2011/06/6317684454.jpg)
-
-[Instagram](http://instagr.am/p/FYagZ/)
+[![](/assets/img/2011/06/6317684454.jpg)](http://instagr.am/p/FYagZ/)
 
 Weather app in #iOS5 can be view by hour. (Taken with [instagram](http://instagr.am))

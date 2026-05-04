@@ -195,11 +195,34 @@ def is_generated_anchor(anchor: Tag) -> bool:
     return anchor.get('data-import-generated-label') == '1'
 
 
+def is_image_href(href: str) -> bool:
+    path = urlparse(href).path.lower()
+    return path.endswith(
+        ('.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.tif', '.tiff')
+    )
+
+
+def is_empty_external_anchor(anchor: Tag) -> bool:
+    if anchor.find_parent(id='footer') is not None:
+        return False
+    href = (anchor.get('href') or '').strip()
+    if not href:
+        return False
+    if anchor.get_text(strip=True) or anchor.find('img'):
+        return False
+    parsed = urlparse(href)
+    return parsed.scheme in {'http', 'https'} and not is_image_href(href)
+
+
 def should_embed_all_local_media(soup: BeautifulSoup, local_media: list[MediaFile]) -> bool:
     if not local_media:
         return False
     body = soup.body
     if body is None:
+        return False
+    if body.find('iframe') is not None:
+        return False
+    if body.find('figure', class_='tmblr-embed') is not None:
         return False
     empty_links = [
         anchor
@@ -220,11 +243,17 @@ def unwrap_image_links(body: Tag) -> None:
     for anchor in list(body.find_all('a')):
         if anchor.find_parent(id='footer') is not None:
             continue
+        href = (anchor.get('href') or '').strip()
+        if not href:
+            continue
         children = [child for child in anchor.children if not is_blank_node(child)]
         if len(children) != 1:
             continue
         child = children[0]
-        if isinstance(child, Tag) and child.name == 'img':
+        if not (isinstance(child, Tag) and child.name == 'img'):
+            continue
+        src = (child.get('src') or '').strip()
+        if href == src or is_image_href(href):
             anchor.replace_with(child)
 
 
@@ -273,6 +302,48 @@ def normalize_anchors(body: Tag) -> None:
             anchor.clear()
             anchor.string = tag_host_label(href)
             anchor['data-import-generated-label'] = '1'
+
+
+def empty_external_anchor_labels(body: Tag) -> list[str]:
+    labels: list[str] = []
+    for anchor in body.find_all('a'):
+        if not is_empty_external_anchor(anchor):
+            continue
+        labels.append(tag_host_label((anchor.get('href') or '').strip()))
+    return labels
+
+
+def attach_empty_anchor_media_links(soup: BeautifulSoup, body: Tag) -> None:
+    empty_anchors = [anchor for anchor in body.find_all('a') if is_empty_external_anchor(anchor)]
+    if not empty_anchors:
+        return
+    paragraphs = [
+        tag
+        for tag in body.find_all('p', recursive=False)
+        if tag.find_parent(id='footer') is None
+    ]
+    if not paragraphs:
+        return
+    for anchor in empty_anchors:
+        wrapper = next(
+            (
+                paragraph
+                for paragraph in paragraphs
+                if paragraph.find('img') is not None
+                and paragraph.find('a') is None
+            ),
+            None,
+        )
+        if wrapper is None:
+            break
+        image = wrapper.find('img')
+        if image is None:
+            continue
+        link = soup.new_tag('a', href=(anchor.get('href') or '').strip())
+        image.extract()
+        link.append(image)
+        wrapper.append(link)
+        anchor.decompose()
 
 
 def rewrite_and_match_images(
@@ -506,7 +577,16 @@ def first_excerpt_text(body: Tag | None) -> str:
     return ''
 
 
-def derive_fallback_title(body: Tag | None, image_count: int) -> str:
+def derive_fallback_title(
+    body: Tag | None,
+    image_count: int,
+    empty_link_labels: list[str] | None = None,
+) -> str:
+    labels = empty_link_labels or []
+    if labels:
+        label = normalize_space(labels[0])
+        if label:
+            return f'{label} Photo' if image_count else f'{label} Link'
     if body is not None:
         for anchor in body.find_all('a'):
             if is_generated_anchor(anchor):
@@ -518,7 +598,11 @@ def derive_fallback_title(body: Tag | None, image_count: int) -> str:
     return 'Tumblr Post'
 
 
-def title_for_post(soup: BeautifulSoup, image_count: int) -> str:
+def title_for_post(
+    soup: BeautifulSoup,
+    image_count: int,
+    empty_link_labels: list[str] | None = None,
+) -> str:
     title = first_title_from_h1(soup)
     if title:
         return title
@@ -527,7 +611,7 @@ def title_for_post(soup: BeautifulSoup, image_count: int) -> str:
         if len(excerpt) > 80:
             excerpt = excerpt[:77].rstrip() + '...'
         return excerpt
-    return derive_fallback_title(soup.body, image_count)
+    return derive_fallback_title(soup.body, image_count, empty_link_labels)
 
 
 def slugify(value: str) -> str:
@@ -589,6 +673,10 @@ def convert_one(path: Path) -> ConvertedTumblrPost:
         [span.get_text(' ', strip=True) for span in soup.select('#footer .tag')]
     )
     local_media = media_files_for_post(post_id)
+    body = soup.body
+    if body is None:
+        raise ValueError(f'missing body: {path.as_posix()}')
+    pre_link_labels = empty_external_anchor_labels(body)
 
     remove_footer_and_empty_titles(soup)
     body = soup.body
@@ -603,11 +691,12 @@ def convert_one(path: Path) -> ConvertedTumblrPost:
     asset_copies.extend(
         attach_embed_previews(soup, body, post_dt, local_media, used_media)
     )
+    attach_empty_anchor_media_links(soup, body)
     replace_embeds_with_links(soup, body)
     normalize_anchors(body)
 
     image_count = len(used_media)
-    title = title_for_post(soup, image_count)
+    title = title_for_post(soup, image_count, pre_link_labels)
     remove_all_h1(body)
     markdown = convert_body(str(body)).strip()
     markdown = markdown.replace('<none>', '&lt;none&gt;')

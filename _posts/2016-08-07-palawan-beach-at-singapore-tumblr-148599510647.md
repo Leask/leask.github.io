@@ -5,8 +5,6 @@ author: Leask
 date: '2016-08-07 14:37:00 -0400'
 ---
 
-![](/assets/img/2016/08/148599510647.jpg)
-
-[Instagram](https://www.instagram.com/p/BI0Vs7gB01O/)
+[![](/assets/img/2016/08/148599510647.jpg)](https://www.instagram.com/p/BI0Vs7gB01O/)
 
 Palawan Beach (at Singapore)

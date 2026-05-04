@@ -7,8 +7,6 @@ tags:
 - 'lion'
 ---
 
-![](/assets/img/2011/06/6241197466.jpg)
-
-[Instagram](http://instagr.am/p/FRtCI/)
+[![](/assets/img/2011/06/6241197466.jpg)](http://instagr.am/p/FRtCI/)
 
 #lion (Taken with [instagram](http://instagr.am))

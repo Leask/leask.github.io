@@ -7,8 +7,6 @@ tags:
 - 'fireworks'
 ---
 
-![](/assets/img/2014/01/75133809032.jpg)
-
-[Instagram](http://instagram.com/p/j0z8oTLwiV/)
+[![](/assets/img/2014/01/75133809032.jpg)](http://instagram.com/p/j0z8oTLwiV/)
 
 #fireworks 2 (at Leask’s Home)

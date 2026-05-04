@@ -7,8 +7,6 @@ tags:
 - 'lights'
 ---
 
-![](/assets/img/2017/11/167109508702.jpg)
-
-[Instagram](https://www.instagram.com/p/BbD3YHNBPSy/)
+[![](/assets/img/2017/11/167109508702.jpg)](https://www.instagram.com/p/BbD3YHNBPSy/)
 
 #Lights (at Guangdong)

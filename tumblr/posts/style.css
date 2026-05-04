@@ -1,0 +1,46 @@
+body {
+font: 18px Helvetica, Arial, sans-serif;
+width: 500px;
+margin: 50px auto;
+}
+
+a {
+color: inherit;
+}
+
+body img {
+max-width: 100%;
+}
+
+blockquote {
+margin: 10px 0px 10px 10px;
+padding-left: 15px;
+border-left: 4px solid #dcdcdc;
+}
+
+.caption {
+margin-top: 20px;
+font-size: 14px;
+}
+
+#reblog_info {
+margin: 20px 0;
+padding: 10px 0;
+border-bottom: 1px solid #ccc;
+font: 11px 'Lucida Grande', Arial, sans-serif;
+color: #888;
+}
+
+#footer {
+margin: 20px 0;
+padding: 10px 0;
+border-top: 1px solid #ccc;
+font: 11px 'Lucida Grande', Arial, sans-serif;
+color: #888;
+}
+
+#footer #timestamp,
+#footer .tag {
+    display: inline-block;
+    margin-right: 10px;
+}"

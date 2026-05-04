@@ -7,8 +7,6 @@ tags:
 - 'guys'
 ---
 
-![](/assets/img/2011/06/6316998883.jpg)
-
-[Instagram](http://instagr.am/p/FYU36/)
+[![](/assets/img/2011/06/6316998883.jpg)](http://instagr.am/p/FYU36/)
 
 $ git log | tail #Guys, Happy Anniversary! Cheers!!! (Taken with [instagram](http://instagr.am))

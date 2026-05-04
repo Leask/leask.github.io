@@ -7,8 +7,6 @@ tags:
 - 'teardown'
 ---
 
-![](/assets/img/2016/12/154664899192.jpg)
-
-[Instagram](https://www.instagram.com/p/BOL-womABtm/)
+[![](/assets/img/2016/12/154664899192.jpg)](https://www.instagram.com/p/BOL-womABtm/)
 
 HDD #Teardown (at Shenzhen University)
