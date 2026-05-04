@@ -21,4 +21,4 @@ comments:
 ---
 为了便于跟踪 Code Jam 的时间表，我在 Code Jam 网站把时间表导入到 Calendar 了。今晚突然发现，时间导入居然是错的。而且错得很离谱。原本想着今晚开始玩 Round 1A 的，结果一查，发现居然已经错过了。这件事情让我很失望，具体请点击下图看真相：
 
-[![Screen Shot 2013-04-27 at 9.01.44 PM](/assets/img/2013/04/Screen-Shot-2013-04-27-at-9.01.44-PM.png "Code Jam Time")](/assets/img/2013/04/Screen-Shot-2013-04-27-at-9.01.44-PM.png)
+![Screen Shot 2013-04-27 at 9.01.44 PM](/assets/img/2013/04/Screen-Shot-2013-04-27-at-9.01.44-PM.png "Code Jam Time")

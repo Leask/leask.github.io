@@ -13,6 +13,6 @@ Calendar ID: [mvnlf93vqvvgqvg7qvjjut9v28@group.calendar.google.com](mailto:mvnlf
 
 支持奥运，随时随地。
 
-[![](/assets/img/2010/09/img_0001.jpg)](/assets/img/2010/09/img_0001.jpg)
+![](/assets/img/2010/09/img_0001.jpg)
 
 ![](/assets/img/2009/05/img_0002.jpg)

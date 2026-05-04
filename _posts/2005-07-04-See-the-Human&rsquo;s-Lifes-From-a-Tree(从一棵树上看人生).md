@@ -122,4 +122,4 @@ PS：感谢sas英化本文(Translate by sas)。
 
 最后上传今天的天空Photo，明净得让人感动，好单纯，好美。大气折射带来的余霞乖乖地呆在天边。
 
-[![](/assets/img/2010/09/y1puwuvfon7ebc2awttnc4uibiwinyvmsjfwns9q1-pbni8kb20bymozzipq0xtfc1sgpdmxabgiz4.jpeg)](/assets/img/2010/09/y1puwuvfon7ebc2awttnc4uibiwinyvmsjfwns9q1-pbni8kb20bymozzipq0xtfc1sgpdmxabgiz4.jpeg)
+![](/assets/img/2010/09/y1puwuvfon7ebc2awttnc4uibiwinyvmsjfwns9q1-pbni8kb20bymozzipq0xtfc1sgpdmxabgiz4.jpeg)

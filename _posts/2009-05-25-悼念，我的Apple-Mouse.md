@@ -31,4 +31,4 @@ Apple Mouse是女友送的，那个时候我刚刚卖掉Mac mini G4，从流浪�
 女友已经帮我订了Apple Mighty Mouse，我也很期待Apple的新设计是如何的进步。  
 
 只是心里淡淡的忧伤，却依然挥之不去。  
-[![](/assets/img/2010/09/dsc03250.jpg)](/assets/img/2010/09/dsc03250.jpg)
+![](/assets/img/2010/09/dsc03250.jpg)

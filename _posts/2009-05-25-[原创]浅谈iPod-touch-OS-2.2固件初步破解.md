@@ -42,4 +42,4 @@ C:固件识别文件（下载地址为：[iPod1,1_2.1_5F137.bundle.zip](iPod1,1_
 
 ![](/assets/img/2009/05/img_0002970.png)
 
-[![](/assets/img/2010/09/img_0001470.png)](/assets/img/2010/09/img_0001470.png)
+![](/assets/img/2010/09/img_0001470.png)

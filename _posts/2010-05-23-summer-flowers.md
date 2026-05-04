@@ -4,7 +4,7 @@ title: Summer Flowers
 author: Leask
 date: '2010-05-23 16:31:16 +0800'
 ---
-[![](/assets/img/2010/05/summerflowers.png "summerflowers")](/assets/img/2010/05/summerflowers.png)
+![](/assets/img/2010/05/summerflowers.png "summerflowers")
 
 New title photo in the top of my blog.
 

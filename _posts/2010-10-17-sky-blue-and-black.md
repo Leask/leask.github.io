@@ -27,7 +27,7 @@ comments:
   date_gmt: '2010-12-12 14:55:40 +0800'
   content: me也看了三遍，正在复习&bull;&bull;&bull;&bull;&bull;&bull;
 ---
-[![](/assets/img/2010/10/graysky.png "graysky")](/assets/img/2010/10/graysky.png)
+![](/assets/img/2010/10/graysky.png "graysky")
 
 最近室友们开始看Friends了,这部我看了不下3次的美剧由于太过经典,他们看的时候我也还会忍不住瞄上几眼.
 

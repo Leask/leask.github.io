@@ -12,7 +12,7 @@ comments:
   date_gmt: '2010-10-04 01:49:32 +0800'
   content: "花花~*^_^*"
 ---
-[![](/assets/img/2010/10/hellowordpress.jpg "hellowordpress")](/assets/img/2010/10/hellowordpress.jpg)
+![](/assets/img/2010/10/hellowordpress.jpg "hellowordpress")
 
 终于狠下心,折腾了自己的独立blog了.  
 没啥好说的,blog对我来说,依然是用来胡乱说说话,无病呻吟的地方而已.  

@@ -42,7 +42,7 @@ comments:
 ![BhPT-UwCIAAZLic](/assets/img/2014/03/BhPT-UwCIAAZLic.png)
 
 升级后，同样的网络环境，实现 802.11ac，跑满 1300 Mbps：  
-[![Screen Shot 2014-03-03 at 6.21.29 PM](/assets/img/2014/03/Screen-Shot-2014-03-03-at-6.21.29-PM.png)](/assets/img/2014/03/Screen-Shot-2014-03-03-at-6.21.29-PM.png)
+![Screen Shot 2014-03-03 at 6.21.29 PM](/assets/img/2014/03/Screen-Shot-2014-03-03-at-6.21.29-PM.png)
 
 速度提升还是相当明显的，还需要留意的是，很多应用都是直接或者间接使用无线网卡的 mac 地址来作为每台电脑的唯一标识的，例如 iTunes 和 Sublime Text 等，你需要重新授权一下：  
 ![Screen Shot 2014-03-04 at 4.24.05 PM](/assets/img/2014/03/Screen-Shot-2014-03-04-at-4.24.05-PM.png)

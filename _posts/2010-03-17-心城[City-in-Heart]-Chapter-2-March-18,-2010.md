@@ -26,12 +26,12 @@ comments:
 
 [![city-08-07-22](https://2ax6iq.bay.livefilestore.com/y1mYD7NzkuW3uK2wj8gJax4TM_3shZuDo1zoX2bJfq9TiaCWBVrYNdYOAtZTdo3uCi8pjs70IEKeNT12dXkWRMeOwcdktgVogADXSIhR621KIDArBVekRLq9Mp4i540pG_-GSYJVKHor-SFIFT3aRAP8g/city-08-07-22_thumb[2].png "city-08-07-22")](https://2ax6iq.bay.livefilestore.com/y1mXhUeuwrzMca8UsIpMwQXVpISkqEwcptaXzHJc8dY9HKQizUuhQj_2jMJaAogRF_Oq415SPBSwPsnHC75Am2vPIuBX0YS5hHDRPB15WqDMWB9Tn1xCJjYK3-7MJhItTejN3waUBnnH6vT5PCLxFiIFg/city-08-07-22[4].png)
 
-[![city-08-08-05](/assets/img/2010/09/city-08-08-055b45d.png "city-08-08-05")](/assets/img/2010/09/city-08-08-055b45d.png)
+![city-08-08-05](/assets/img/2010/09/city-08-08-055b45d.png "city-08-08-05")
 
-[![city-08-08-08](/assets/img/2010/09/city-08-08-085b45d.png "city-08-08-08")](/assets/img/2010/09/city-08-08-085b45d.png)
+![city-08-08-08](/assets/img/2010/09/city-08-08-085b45d.png "city-08-08-08")
 
-[![city-08-09-12](/assets/img/2010/09/city-08-09-125b45d.png "city-08-09-12")](/assets/img/2010/09/city-08-09-125b45d.png)
+![city-08-09-12](/assets/img/2010/09/city-08-09-125b45d.png "city-08-09-12")
 
-[![city-08-09-23](/assets/img/2010/09/city-08-09-235b45d.png "city-08-09-23")](/assets/img/2010/09/city-08-09-235b45d.png)
+![city-08-09-23](/assets/img/2010/09/city-08-09-235b45d.png "city-08-09-23")
 
-[![city-08-11-12](/assets/img/2010/09/city-08-11-125b45d.png "city-08-11-12")](/assets/img/2010/09/city-08-11-125b45d.png)
+![city-08-11-12](/assets/img/2010/09/city-08-11-125b45d.png "city-08-11-12")

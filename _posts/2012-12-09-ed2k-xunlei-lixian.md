@@ -12,7 +12,7 @@ comments:
   date_gmt: '2014-10-26 18:45:07 +0800'
   content: "谢谢，挺好用的"
 ---
-[![](/assets/img/2012/12/Snip20121209_2.png "ED2K Xunlei-Lixian")](/assets/img/2012/12/Snip20121209_2.png)
+![](/assets/img/2012/12/Snip20121209_2.png "ED2K Xunlei-Lixian")
 
 写了个很简单的，点击 Ed2k 连接直接调用迅雷离线下载的 Safari 插件。
 

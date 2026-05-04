@@ -13,4 +13,4 @@ date: '2009-05-25 06:19:15 +0800'
 原来差距那么大。  
 
 最后我还是选择了VOB，Apple TV的码率我觉得应该再高一点了。  
-[![](/assets/img/2010/09/picture8.png)](/assets/img/2010/09/picture8.png)
+![](/assets/img/2010/09/picture8.png)

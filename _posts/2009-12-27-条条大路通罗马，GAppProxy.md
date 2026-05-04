@@ -55,5 +55,5 @@ comments:
 好了，就这几点经验了，大家凑合看看，**目前有些地方GAppProxy已经被墙盯上了，我所在的城市就是如此，但是搭建IPv6 tunnel后就能访问了，速度也还是超级快。**最后提醒大家注意，由于Google App Engine免费版的限制，大文件的下载是不允许的，而且每天的流量限制是1GB，不过就正常浏览来说，足够多了。
 
 经过我如上描述的配置后，可以在Console里头看到GAppProxy的运行状态：  
-[![](/assets/img/2009/12/gapp.png "gapp")](/assets/img/2009/12/gapp.png)  
+![](/assets/img/2009/12/gapp.png "gapp")  
 希望此文对大家有帮助，祝福大家早日自由。

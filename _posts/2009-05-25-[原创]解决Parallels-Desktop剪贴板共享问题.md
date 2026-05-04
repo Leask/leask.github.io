@@ -15,4 +15,4 @@ Camp、VM、Parallels、CrossOver等。
 还有值得一提的是Parallels 4.0性能有了很大提升，在我的MB Core 2 Duo 2.4G 4G  
 
 RAM系统中虚拟Vista和BC运行基本没什么差别，唯一不同的是不能开启Areo UI。  
-[![](/assets/img/2010/09/picture1463.jpg)](/assets/img/2010/09/picture1463.jpg)
+![](/assets/img/2010/09/picture1463.jpg)

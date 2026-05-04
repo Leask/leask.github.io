@@ -4,7 +4,7 @@ title: "谈谈Microsoft Office 2010: 14.0.4734.1000的激活问题"
 author: Leask
 date: '2010-02-09 12:43:13 +0800'
 ---
-[![](/assets/img/2010/02/bcad0de14f0df5a75932bb424b120256.png "bcad0de14f0df5a75932bb424b120256")](/assets/img/2010/02/bcad0de14f0df5a75932bb424b120256.png)
+![](/assets/img/2010/02/bcad0de14f0df5a75932bb424b120256.png "bcad0de14f0df5a75932bb424b120256")
 
 相信很多人都已经激活了，4734版的Office 2010，为什么要发此文呢？仅仅因为网上没有找到可以在Windows 2008 R2环境下激活这个Office版本的资源，而我恰好能提供。
 

@@ -15,10 +15,10 @@ categories:
 最后，建议大家赶紧备份Gmail、Google Reader、Google Docs以及Google Calendar上的重要数据。
 因为很多事情，我们是无能为力的，未雨绸缪是古人的智慧。
 祝大家好运。
-[![](/assets/img/2010/09/google-2009-7-25-a.png)](/assets/img/2010/09/google-2009-7-25-a.png)
-[![](/assets/img/2010/09/google-2009-7-25-b.png)](/assets/img/2010/09/google-2009-7-25-b.png)
+![](/assets/img/2010/09/google-2009-7-25-a.png)
+![](/assets/img/2010/09/google-2009-7-25-b.png)
 Updated at 1:06 pm June 25 2009:
 如果你是iPhone或者iPod touch用户，你已经发现，你的设备已经不能同步Google的邮件、日程表和通讯录了，当然，Google Apps的服务也停止了。
 同样地，手动设置DNS，能让你的Google服务暂时回家。
 但是，还是那一句，天有不测风云，大家好自为之。
-[![](/assets/img/2010/09/google-09-7-25-img_0075.png)](/assets/img/2010/09/google-09-7-25-img_0075.png)
+![](/assets/img/2010/09/google-09-7-25-img_0075.png)

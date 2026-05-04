@@ -13,4 +13,4 @@ As Time Goes By的Google讨论组地址为:
 [http://bbs.leaskh.com](http://bbs.leaskh.com)  
 
 谢谢支持！  
-[![](/assets/img/2010/09/picture2.jpg)](/assets/img/2010/09/picture2.jpg)
+![](/assets/img/2010/09/picture2.jpg)

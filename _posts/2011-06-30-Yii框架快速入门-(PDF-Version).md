@@ -94,4 +94,4 @@ comments:
 
 点击下载：
 
-[Yii框架快速入门_by_Leask](/public/2011/06/Yii框架快速入门_by_Leask.pdf)(PDF Version)
+[Yii框架快速入门_by_Leask](/assets/archived/2011/06/Yii框架快速入门_by_Leask.pdf)(PDF Version)

@@ -18,4 +18,4 @@ comments:
 好像做梦一样，但是梦终究要腥，我的路还在前方。
 PS：上传两张出发前的照片，其他照片将在游记整理好的时候贴出。
 
-![15BAC1A170471DB_905_0](/assets/img/2005/08/15BAC1A170471DB_905_0.jpg) [![15BAC1A170471DB_905_2](/assets/img/2005/08/15BAC1A170471DB_905_2.jpg)](/assets/img/2005/08/15BAC1A170471DB_905_2.jpg)
+![15BAC1A170471DB_905_0](/assets/img/2005/08/15BAC1A170471DB_905_0.jpg) ![15BAC1A170471DB_905_2](/assets/img/2005/08/15BAC1A170471DB_905_2.jpg)

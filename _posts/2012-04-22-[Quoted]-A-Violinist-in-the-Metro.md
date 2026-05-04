@@ -4,7 +4,7 @@ title: "[Quoted] A Violinist in the Metro"
 author: Leask
 date: '2012-04-22 18:01:12 +0800'
 ---
-[![](/assets/img/2012/04/joshua-bell-1024x737.jpg "Joshua Bell.Photo by Chris Lee")](/assets/img/2012/04/joshua-bell.jpg)
+![](/assets/img/2012/04/joshua-bell.jpg "Joshua Bell.Photo by Chris Lee")
 
 转给那些所谓喜欢音乐的人。
 

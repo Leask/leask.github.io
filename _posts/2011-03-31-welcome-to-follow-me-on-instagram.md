@@ -12,4 +12,4 @@ comments:
   date_gmt: '2011-04-04 14:23:33 +0800'
   content: hello，关注一下
 ---
-[![](/assets/img/2011/03/IMG_1542.jpg "IMG_1542")](/assets/img/2011/03/IMG_1542.jpg)
+![](/assets/img/2011/03/IMG_1542.jpg "IMG_1542")

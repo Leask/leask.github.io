@@ -13,8 +13,8 @@ date: '2010-11-21 22:42:55 +0800'
 
 效果：
 
-[![](/assets/img/2010/11/6b915eabeca2ff9ae613280de49c483d.png.jpeg "bookself")](/assets/img/2010/11/6b915eabeca2ff9ae613280de49c483d.png.jpeg)
+![](/assets/img/2010/11/6b915eabeca2ff9ae613280de49c483d.png.jpeg "bookself")
 
-[![](/assets/img/2010/11/fe7bd8efa6a97245ee7d64521467a4e6.png.jpeg "bookself")](/assets/img/2010/11/fe7bd8efa6a97245ee7d64521467a4e6.png.jpeg)
+![](/assets/img/2010/11/fe7bd8efa6a97245ee7d64521467a4e6.png.jpeg "bookself")
 
-[![](/assets/img/2010/11/6c3bc1b81a98aa2b42a40c2416b66ca0.png.jpeg "book")](/assets/img/2010/11/6c3bc1b81a98aa2b42a40c2416b66ca0.png.jpeg)
+![](/assets/img/2010/11/6c3bc1b81a98aa2b42a40c2416b66ca0.png.jpeg "book")

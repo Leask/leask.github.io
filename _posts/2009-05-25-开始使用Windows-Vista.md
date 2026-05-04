@@ -16,8 +16,8 @@ English的U版，安装后打上包括SP1在内的所有补丁，用SoftMod4.8�
 
 值得一提的是，相对Vista，多任务的处理性能有了很大的提高，这可能也是对双核心CPU的优化造成的吧。
 
-[![](/assets/img/2010/09/ssss.jpg)](/assets/img/2010/09/ssss.jpg)
+![](/assets/img/2010/09/ssss.jpg)
 
-[![](/assets/img/2010/09/untitdsfdsafled.jpg)](/assets/img/2010/09/untitdsfdsafled.jpg)
+![](/assets/img/2010/09/untitdsfdsafled.jpg)
 
 [![](http://leaskh.files.wordpress.com/2009/05/untitled642.jpg?w=300)](http://leaskh.files.wordpress.com/2009/05/untitled642.jpg?w=300)
