@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 POSTS_DIR = ROOT / '_posts'
 DEFAULT_IMAGE_ROOTS = [
     ROOT / 'assets' / 'img',
-    ROOT / 'assets' / 'archived',
+    ROOT / 'assets' / 'files',
 ]
 REPORT_DIR = ROOT / 'reports' / 'asset_image_dedupe'
 MODEL_NAME = 'clip-ViT-B-32'
@@ -40,33 +40,12 @@ MANUAL_EXCLUDED_PAIRS = {
         ),
     ),
 }
-CONFIRMED_RELAXED_MERGES = [
-    {
-        'kind': 'promote_archived_into_img',
-        'source': 'assets/archived/2008/05/city-08-05-10[4].png',
-        'target': 'assets/img/2010/03/city-08-05-10_thumb5b25d.png',
-    },
-    {
-        'kind': 'merge_img_refs',
-        'source': 'assets/img/2010/09/city_09-6-18-15b95d.jpg',
-        'target': 'assets/img/2011/07/qingyuan_city_09_06_181.jpg',
-    },
-    {
-        'kind': 'delete_archived_duplicate',
-        'source': 'assets/archived/0000/Z_Over_Mac.jpg',
-        'target': 'assets/archived/0000/C_PB_Mac.jpg',
-    },
-    {
-        'kind': 'promote_archived_into_img',
-        'source': 'assets/archived/0000/IMG_0091115777wer[3].png',
-        'target': 'assets/img/2010/09/img_0091115777wer_thumb5b15d.png',
-    },
-]
+CONFIRMED_RELAXED_MERGES: list[dict[str, str]] = []
 ORIGINAL_HINT_RE = re.compile(
     r'原圖|原图|full\s*size|fullsize|原大|点击看大图|點擊看大圖|看大圖|看大图|大圖|大图',
     re.I,
 )
-LOCAL_ASSET_RE = re.compile(r'\((/assets/(?:img|archived)/[^)\s]+)')
+LOCAL_ASSET_RE = re.compile(r'\((/assets/(?:img|files)/[^)\s]+)')
 SIZE_SUFFIX_RE = re.compile(r'[-_](?:\d{2,5}x\d{2,5}|thumb[a-z0-9]*)$', re.I)
 PUNCT_RE = re.compile(r'[^a-z0-9]+')
 EXACT_GROUP_MAX = 12
