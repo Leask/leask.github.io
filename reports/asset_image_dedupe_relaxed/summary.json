@@ -1,0 +1,11 @@
+{
+  "model": "clip-ViT-B-32",
+  "profile": "relaxed",
+  "images_scanned": 1518,
+  "bad_files": 4,
+  "exact_duplicate_groups": 1,
+  "candidate_pairs": 9,
+  "candidate_clusters": 7,
+  "rendered_clusters": 7,
+  "posts_with_original_hint": 9
+}

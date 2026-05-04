@@ -1,0 +1,717 @@
+{
+  "exact_groups": [
+    {
+      "winner": "assets/img/2010/09/screenshot2009-10-24at4.png",
+      "action": "exact_duplicate",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-10-24at4.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-10-24at4.png",
+          "root_kind": "img",
+          "width": 660,
+          "height": 771,
+          "file_size": 132665,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            508860.0,
+            660.0,
+            1.0,
+            132665.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-10-24at41.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-10-24at41.png",
+          "root_kind": "img",
+          "width": 660,
+          "height": 771,
+          "file_size": 132665,
+          "extension": ".png",
+          "referenced_count": 2,
+          "original_hint_posts": [],
+          "quality_rank": [
+            508860.0,
+            660.0,
+            1.0,
+            132665.0
+          ]
+        }
+      ]
+    }
+  ],
+  "review_clusters": [
+    {
+      "winner": "assets/img/2011/12/14124974108.jpg",
+      "action": "review_merge_into_img",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2011/12/14124974108.jpg",
+          "rel_path": "assets/img/2011/12/14124974108.jpg",
+          "root_kind": "img",
+          "width": 1280,
+          "height": 853,
+          "file_size": 209428,
+          "extension": ".jpg",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            1091840.0,
+            853.0,
+            0.0,
+            209428.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2011/12/14519066945.jpg",
+          "rel_path": "assets/img/2011/12/14519066945.jpg",
+          "root_kind": "img",
+          "width": 1280,
+          "height": 853,
+          "file_size": 197662,
+          "extension": ".jpg",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            1091840.0,
+            853.0,
+            0.0,
+            197662.0
+          ]
+        }
+      ],
+      "max_pixels": 1091840
+    },
+    {
+      "winner": "assets/img/2012/11/Screen-Shot-2012-11-23-at-1.17.10-AM.png",
+      "action": "review_merge_into_img",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2012/11/Screen-Shot-2012-11-23-at-1.17.10-AM.png",
+          "rel_path": "assets/img/2012/11/Screen-Shot-2012-11-23-at-1.17.10-AM.png",
+          "root_kind": "img",
+          "width": 684,
+          "height": 480,
+          "file_size": 56903,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            328320.0,
+            480.0,
+            1.0,
+            56903.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2012/05/Screen-Shot-2012-05-13-at-2.47.53-PM.png",
+          "rel_path": "assets/img/2012/05/Screen-Shot-2012-05-13-at-2.47.53-PM.png",
+          "root_kind": "img",
+          "width": 684,
+          "height": 465,
+          "file_size": 45183,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            318060.0,
+            465.0,
+            1.0,
+            45183.0
+          ]
+        }
+      ],
+      "max_pixels": 328320
+    },
+    {
+      "winner": "assets/archived/2006/10/Snapshot 2006-10-04 22-30-03.tiff",
+      "action": "archived_only",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/archived/2006/10/Snapshot 2006-10-04 22-30-03.tiff",
+          "rel_path": "assets/archived/2006/10/Snapshot 2006-10-04 22-30-03.tiff",
+          "root_kind": "archived",
+          "width": 600,
+          "height": 455,
+          "file_size": 37547,
+          "extension": ".tiff",
+          "referenced_count": 0,
+          "original_hint_posts": [],
+          "quality_rank": [
+            273000.0,
+            455.0,
+            1.0,
+            37547.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/archived/2006/10/Snapshot 2006-10-04 22-11-30.jpg",
+          "rel_path": "assets/archived/2006/10/Snapshot 2006-10-04 22-11-30.jpg",
+          "root_kind": "archived",
+          "width": 600,
+          "height": 449,
+          "file_size": 36223,
+          "extension": ".jpg",
+          "referenced_count": 0,
+          "original_hint_posts": [],
+          "quality_rank": [
+            269400.0,
+            449.0,
+            0.0,
+            36223.0
+          ]
+        }
+      ],
+      "max_pixels": 273000
+    },
+    {
+      "winner": "assets/archived/0000/B_PA_Mac.jpg",
+      "action": "archived_only",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/archived/0000/B_PA_Mac.jpg",
+          "rel_path": "assets/archived/0000/B_PA_Mac.jpg",
+          "root_kind": "archived",
+          "width": 500,
+          "height": 473,
+          "file_size": 33972,
+          "extension": ".jpg",
+          "referenced_count": 0,
+          "original_hint_posts": [],
+          "quality_rank": [
+            236500.0,
+            473.0,
+            0.0,
+            33972.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/archived/0000/C_PB_Mac.jpg",
+          "rel_path": "assets/archived/0000/C_PB_Mac.jpg",
+          "root_kind": "archived",
+          "width": 500,
+          "height": 473,
+          "file_size": 32604,
+          "extension": ".jpg",
+          "referenced_count": 0,
+          "original_hint_posts": [],
+          "quality_rank": [
+            236500.0,
+            473.0,
+            0.0,
+            32604.0
+          ]
+        }
+      ],
+      "max_pixels": 236500
+    },
+    {
+      "winner": "assets/img/2010/09/screenshot2009-08-17at1.png",
+      "action": "review_merge_into_img",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-08-17at1.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-08-17at1.png",
+          "root_kind": "img",
+          "width": 321,
+          "height": 393,
+          "file_size": 32356,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            126153.0,
+            321.0,
+            1.0,
+            32356.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/snapshot2008-12-2720-01-03.jpg",
+          "rel_path": "assets/img/2010/09/snapshot2008-12-2720-01-03.jpg",
+          "root_kind": "img",
+          "width": 307,
+          "height": 379,
+          "file_size": 51504,
+          "extension": ".jpg",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            116353.0,
+            307.0,
+            0.0,
+            51504.0
+          ]
+        }
+      ],
+      "max_pixels": 126153
+    },
+    {
+      "winner": "assets/img/2010/09/screenshot2009-10-24at4.png",
+      "action": "keep_variants",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-10-24at4.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-10-24at4.png",
+          "root_kind": "img",
+          "width": 660,
+          "height": 771,
+          "file_size": 132665,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            508860.0,
+            660.0,
+            1.0,
+            132665.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-10-24at41.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-10-24at41.png",
+          "root_kind": "img",
+          "width": 660,
+          "height": 771,
+          "file_size": 132665,
+          "extension": ".png",
+          "referenced_count": 2,
+          "original_hint_posts": [],
+          "quality_rank": [
+            508860.0,
+            660.0,
+            1.0,
+            132665.0
+          ]
+        }
+      ],
+      "max_pixels": 508860
+    },
+    {
+      "winner": "assets/img/2010/09/e98080e6acbee8afa6e68385_12517057244365b45d.png",
+      "action": "keep_variants",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/e98080e6acbee8afa6e68385_12517057244365b45d.png",
+          "rel_path": "assets/img/2010/09/e98080e6acbee8afa6e68385_12517057244365b45d.png",
+          "root_kind": "img",
+          "width": 522,
+          "height": 960,
+          "file_size": 204141,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            501120.0,
+            522.0,
+            1.0,
+            204141.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/e98080e6acbee8afa6e68385_12517056670215b45d.png",
+          "rel_path": "assets/img/2010/09/e98080e6acbee8afa6e68385_12517056670215b45d.png",
+          "root_kind": "img",
+          "width": 513,
+          "height": 960,
+          "file_size": 197315,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            492480.0,
+            513.0,
+            1.0,
+            197315.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/e98080e6acbee8afa6e68385_12517057510835b45d.png",
+          "rel_path": "assets/img/2010/09/e98080e6acbee8afa6e68385_12517057510835b45d.png",
+          "root_kind": "img",
+          "width": 479,
+          "height": 960,
+          "file_size": 180114,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            459840.0,
+            479.0,
+            1.0,
+            180114.0
+          ]
+        }
+      ],
+      "max_pixels": 501120
+    },
+    {
+      "winner": "assets/img/2010/09/screenshot2009-09-10at3.png",
+      "action": "keep_variants",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-09-10at3.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-09-10at3.png",
+          "root_kind": "img",
+          "width": 660,
+          "height": 614,
+          "file_size": 120570,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            405240.0,
+            614.0,
+            1.0,
+            120570.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-09-10at2.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-09-10at2.png",
+          "root_kind": "img",
+          "width": 660,
+          "height": 614,
+          "file_size": 118329,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            405240.0,
+            614.0,
+            1.0,
+            118329.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-09-10at31.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-09-10at31.png",
+          "root_kind": "img",
+          "width": 660,
+          "height": 614,
+          "file_size": 114779,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            405240.0,
+            614.0,
+            1.0,
+            114779.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot20090910at2.png",
+          "rel_path": "assets/img/2010/09/screenshot20090910at2.png",
+          "root_kind": "img",
+          "width": 660,
+          "height": 614,
+          "file_size": 107495,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            405240.0,
+            614.0,
+            1.0,
+            107495.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-09-10at12.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-09-10at12.png",
+          "root_kind": "img",
+          "width": 660,
+          "height": 614,
+          "file_size": 89601,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            405240.0,
+            614.0,
+            1.0,
+            89601.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-09-10at121.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-09-10at121.png",
+          "root_kind": "img",
+          "width": 660,
+          "height": 614,
+          "file_size": 88469,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            405240.0,
+            614.0,
+            1.0,
+            88469.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-08-18at7.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-08-18at7.png",
+          "root_kind": "img",
+          "width": 516,
+          "height": 480,
+          "file_size": 133479,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            247680.0,
+            480.0,
+            1.0,
+            133479.0
+          ]
+        }
+      ],
+      "max_pixels": 405240
+    },
+    {
+      "winner": "assets/img/2010/09/screenshot2009-11-06at12.png",
+      "action": "keep_variants",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-11-06at12.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-11-06at12.png",
+          "root_kind": "img",
+          "width": 640,
+          "height": 386,
+          "file_size": 119084,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            247040.0,
+            386.0,
+            1.0,
+            119084.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-11-06at121.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-11-06at121.png",
+          "root_kind": "img",
+          "width": 640,
+          "height": 386,
+          "file_size": 116784,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            247040.0,
+            386.0,
+            1.0,
+            116784.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-11-06at122.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-11-06at122.png",
+          "root_kind": "img",
+          "width": 640,
+          "height": 386,
+          "file_size": 116493,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            247040.0,
+            386.0,
+            1.0,
+            116493.0
+          ]
+        }
+      ],
+      "max_pixels": 247040
+    },
+    {
+      "winner": "assets/img/2010/09/screenshot2009-08-18at112.png",
+      "action": "keep_variants",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-08-18at112.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-08-18at112.png",
+          "root_kind": "img",
+          "width": 585,
+          "height": 422,
+          "file_size": 37777,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            246870.0,
+            422.0,
+            1.0,
+            37777.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-11-06at9.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-11-06at9.png",
+          "root_kind": "img",
+          "width": 585,
+          "height": 422,
+          "file_size": 37517,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [
+            "2009-11-06-在Mac上通过Terminal截取网页全图-Full-Page-Screenshots-by-Terminal-On-a-Mac.md"
+          ],
+          "quality_rank": [
+            246870.0,
+            422.0,
+            1.0,
+            37517.0
+          ]
+        }
+      ],
+      "max_pixels": 246870
+    },
+    {
+      "winner": "assets/img/2011/08/02.png",
+      "action": "keep_variants",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2011/08/02.png",
+          "rel_path": "assets/img/2011/08/02.png",
+          "root_kind": "img",
+          "width": 606,
+          "height": 403,
+          "file_size": 105946,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            244218.0,
+            403.0,
+            1.0,
+            105946.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2011/08/01.png",
+          "rel_path": "assets/img/2011/08/01.png",
+          "root_kind": "img",
+          "width": 606,
+          "height": 403,
+          "file_size": 105814,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            244218.0,
+            403.0,
+            1.0,
+            105814.0
+          ]
+        }
+      ],
+      "max_pixels": 244218
+    },
+    {
+      "winner": "assets/img/2010/09/screenshot2009-08-29at11.png",
+      "action": "keep_variants",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-08-29at11.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-08-29at11.png",
+          "root_kind": "img",
+          "width": 463,
+          "height": 352,
+          "file_size": 39323,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            162976.0,
+            352.0,
+            1.0,
+            39323.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/screenshot2009-08-29at111.png",
+          "rel_path": "assets/img/2010/09/screenshot2009-08-29at111.png",
+          "root_kind": "img",
+          "width": 463,
+          "height": 352,
+          "file_size": 36591,
+          "extension": ".png",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            162976.0,
+            352.0,
+            1.0,
+            36591.0
+          ]
+        }
+      ],
+      "max_pixels": 162976
+    },
+    {
+      "winner": "assets/img/2006/10/as-time-goes-by-gt-box-gprcko7qq4.tif",
+      "action": "keep_variants",
+      "members": [
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2006/10/as-time-goes-by-gt-box-gprcko7qq4.tif",
+          "rel_path": "assets/img/2006/10/as-time-goes-by-gt-box-gprcko7qq4.tif",
+          "root_kind": "img",
+          "width": 500,
+          "height": 281,
+          "file_size": 168248,
+          "extension": ".tif",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            140500.0,
+            281.0,
+            1.0,
+            168248.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2006/10/astimegoesby-box-tt7zlirlju.jpg",
+          "rel_path": "assets/img/2006/10/astimegoesby-box-tt7zlirlju.jpg",
+          "root_kind": "img",
+          "width": 500,
+          "height": 281,
+          "file_size": 65552,
+          "extension": ".jpg",
+          "referenced_count": 1,
+          "original_hint_posts": [],
+          "quality_rank": [
+            140500.0,
+            281.0,
+            0.0,
+            65552.0
+          ]
+        },
+        {
+          "path": "/Volumes/Betty/leask.github.io/assets/img/2006/10/as-time-goes-by-gt-box-gprcko7qq4-preview.jpg",
+          "rel_path": "assets/img/2006/10/as-time-goes-by-gt-box-gprcko7qq4-preview.jpg",
+          "root_kind": "img",
+          "width": 500,
+          "height": 281,
+          "file_size": 32708,
+          "extension": ".jpg",
+          "referenced_count": 0,
+          "original_hint_posts": [],
+          "quality_rank": [
+            140500.0,
+            281.0,
+            0.0,
+            32708.0
+          ]
+        }
+      ],
+      "max_pixels": 140500
+    }
+  ]
+}

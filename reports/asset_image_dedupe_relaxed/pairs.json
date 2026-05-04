@@ -1,0 +1,92 @@
+[
+  {
+    "left": 436,
+    "right": 437,
+    "cosine_similarity": 1.0,
+    "dhash_distance": 0,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "mae_64": 0.0,
+    "reason": "exact"
+  },
+  {
+    "left": 442,
+    "right": 443,
+    "cosine_similarity": 0.994597,
+    "dhash_distance": 0,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "mae_64": 0.0518,
+    "reason": "dhash"
+  },
+  {
+    "left": 74,
+    "right": 76,
+    "cosine_similarity": 0.984445,
+    "dhash_distance": 1,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "mae_64": 0.1843,
+    "reason": "dhash"
+  },
+  {
+    "left": 421,
+    "right": 422,
+    "cosine_similarity": 0.982772,
+    "dhash_distance": 9,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "mae_64": 1.5276,
+    "reason": "clip_hash"
+  },
+  {
+    "left": 74,
+    "right": 75,
+    "cosine_similarity": 0.981486,
+    "dhash_distance": 0,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "mae_64": 0.155,
+    "reason": "dhash"
+  },
+  {
+    "left": 344,
+    "right": 345,
+    "cosine_similarity": 0.974541,
+    "dhash_distance": 2,
+    "aspect_delta": 0.017241,
+    "pixel_ratio": 0.982759,
+    "mae_64": 3.4451,
+    "reason": "dhash"
+  },
+  {
+    "left": 75,
+    "right": 76,
+    "cosine_similarity": 0.972659,
+    "dhash_distance": 1,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "mae_64": 0.2124,
+    "reason": "dhash"
+  },
+  {
+    "left": 548,
+    "right": 549,
+    "cosine_similarity": 0.969051,
+    "dhash_distance": 4,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "mae_64": 5.0352,
+    "reason": "dhash"
+  },
+  {
+    "left": 426,
+    "right": 447,
+    "cosine_similarity": 0.891853,
+    "dhash_distance": 4,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "mae_64": 4.0828,
+    "reason": "dhash"
+  }
+]

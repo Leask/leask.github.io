@@ -140,6 +140,22 @@ PROFILES = {
         stem_clip_aspect_max=0.24,
         same_size_mae_max=7.0,
     ),
+    'extreme': ProfileConfig(
+        name='extreme',
+        nn_count=72,
+        dhash_max=10,
+        dhash_cosine_min=0.84,
+        dhash_aspect_max=0.1,
+        clip_very_high_min=0.98,
+        clip_very_high_aspect_max=0.12,
+        clip_hash_min=0.968,
+        clip_hash_dhash_max=22,
+        clip_hash_aspect_max=0.2,
+        stem_clip_min=0.92,
+        stem_clip_ratio_min=0.16,
+        stem_clip_aspect_max=0.28,
+        same_size_mae_max=8.5,
+    ),
 }
 
 
