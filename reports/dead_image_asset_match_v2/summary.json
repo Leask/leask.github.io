@@ -1,0 +1,12 @@
+{
+  "model": "clip-ViT-B-32",
+  "match_profile": "relaxed",
+  "unused_images": 165,
+  "bad_unused_images": 0,
+  "external_occurrences": 963,
+  "dead_occurrences": 962,
+  "dead_posts": 332,
+  "unique_dead_urls": 947,
+  "promising_total": 18,
+  "promising_rendered": 18
+}

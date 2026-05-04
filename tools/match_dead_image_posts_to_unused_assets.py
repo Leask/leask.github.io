@@ -165,6 +165,12 @@ def parse_args() -> argparse.Namespace:
         action='store_true',
         help='Reuse existing URL status cache when present.',
     )
+    parser.add_argument(
+        '--match-profile',
+        choices=('strict', 'relaxed'),
+        default='strict',
+        help='Candidate filtering profile for promising matches.',
+    )
     return parser.parse_args()
 
 
@@ -639,7 +645,10 @@ def promising_rank(
     return top1, margin, heuristic
 
 
-def is_promising_match(ranked: list[dict[str, object]]) -> bool:
+def is_promising_match(
+    ranked: list[dict[str, object]],
+    profile: str,
+) -> bool:
     top1, margin, heuristic = promising_rank(ranked)
     if not ranked:
         return False
@@ -650,15 +659,30 @@ def is_promising_match(ranked: list[dict[str, object]]) -> bool:
     )
     same_year_month = 'same_year_month' in reasons
     same_year = 'same_year' in reasons
-    if has_token_reason and same_year_month and top1 >= 0.21:
+    if profile == 'strict':
+        if has_token_reason and same_year_month and top1 >= 0.21:
+            return True
+        if has_token_reason and top1 >= 0.24:
+            return True
+        if same_year_month and top1 >= 0.34 and margin >= 0.012:
+            return True
+        if same_year and top1 >= 0.36 and margin >= 0.02:
+            return True
+        if top1 >= 0.42 and margin >= 0.03:
+            return True
+        return False
+
+    if has_token_reason and same_year_month and top1 >= 0.18:
         return True
-    if has_token_reason and top1 >= 0.24:
+    if has_token_reason and same_year and top1 >= 0.2:
         return True
-    if same_year_month and top1 >= 0.34 and margin >= 0.012:
+    if has_token_reason and top1 >= 0.22:
         return True
-    if same_year and top1 >= 0.36 and margin >= 0.02:
+    if same_year_month and top1 >= 0.3 and margin >= 0.008:
         return True
-    if top1 >= 0.42 and margin >= 0.03:
+    if same_year and top1 >= 0.32 and margin >= 0.012:
+        return True
+    if top1 >= 0.38 and margin >= 0.02:
         return True
     return False
 
@@ -763,6 +787,7 @@ def render_html(
             (
                 "<div class='summary'>"
                 f"Model: {html_escape(str(summary['model']))} | "
+                f"Profile: {html_escape(str(summary['match_profile']))} | "
                 f"Unused local images: {summary['unused_images']} | "
                 f"Dead external refs: {summary['dead_occurrences']} | "
                 f"Rendered promising rows: {summary['promising_rendered']}"
@@ -790,6 +815,7 @@ def render_markdown(
         '# Dead Image to Unused Asset Match Report',
         '',
         f"- Model: `{summary['model']}`",
+        f"- Match profile: `{summary['match_profile']}`",
         f"- Unused local images: `{summary['unused_images']}`",
         f"- Dead external refs: `{summary['dead_occurrences']}`",
         f"- Rendered promising rows: `{summary['promising_rendered']}`",
@@ -874,11 +900,14 @@ def main() -> int:
         reverse=True,
     )
     promising_rows = [
-        item for item in all_ranked_rows if is_promising_match(item['candidates'])
+        item
+        for item in all_ranked_rows
+        if is_promising_match(item['candidates'], args.match_profile)
     ][: args.report_limit]
 
     summary = {
         'model': MODEL_NAME,
+        'match_profile': args.match_profile,
         'unused_images': len(unused_images),
         'bad_unused_images': len(bad_unused_images),
         'external_occurrences': len(occurrences),
@@ -889,7 +918,7 @@ def main() -> int:
             [
                 item
                 for item in all_ranked_rows
-                if is_promising_match(item['candidates'])
+                if is_promising_match(item['candidates'], args.match_profile)
             ]
         ),
         'promising_rendered': len(promising_rows),
