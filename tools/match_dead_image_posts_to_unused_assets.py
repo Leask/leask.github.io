@@ -167,7 +167,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         '--match-profile',
-        choices=('strict', 'relaxed'),
+        choices=('strict', 'relaxed', 'aggressive'),
         default='strict',
         help='Candidate filtering profile for promising matches.',
     )
@@ -672,17 +672,32 @@ def is_promising_match(
             return True
         return False
 
-    if has_token_reason and same_year_month and top1 >= 0.18:
+    if profile == 'relaxed':
+        if has_token_reason and same_year_month and top1 >= 0.18:
+            return True
+        if has_token_reason and same_year and top1 >= 0.2:
+            return True
+        if has_token_reason and top1 >= 0.22:
+            return True
+        if same_year_month and top1 >= 0.3 and margin >= 0.008:
+            return True
+        if same_year and top1 >= 0.32 and margin >= 0.012:
+            return True
+        if top1 >= 0.38 and margin >= 0.02:
+            return True
+        return False
+
+    if has_token_reason and same_year_month and top1 >= 0.15:
         return True
-    if has_token_reason and same_year and top1 >= 0.2:
+    if has_token_reason and same_year and top1 >= 0.17:
         return True
-    if has_token_reason and top1 >= 0.22:
+    if has_token_reason and top1 >= 0.19:
         return True
-    if same_year_month and top1 >= 0.3 and margin >= 0.008:
+    if same_year_month and top1 >= 0.27 and margin >= 0.005:
         return True
-    if same_year and top1 >= 0.32 and margin >= 0.012:
+    if same_year and top1 >= 0.29 and margin >= 0.008:
         return True
-    if top1 >= 0.38 and margin >= 0.02:
+    if top1 >= 0.34 and margin >= 0.015:
         return True
     return False
 
