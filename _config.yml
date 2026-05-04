@@ -4,7 +4,7 @@ bio: Essays, sketches, experiments, and fragments collected over time.
 lang: zh-CN
 url: 'https://leask.github.io'
 baseurl: ''
-avatar: ''
+avatar: '/assets/avatar/profile.png'
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 highlighter: rouge
