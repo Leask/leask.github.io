@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import hashlib
 import re
 import shutil
@@ -278,10 +279,10 @@ def rewrite_and_match_images(
     soup: BeautifulSoup,
     post_dt: datetime,
     local_media: list[MediaFile],
-) -> tuple[list[tuple[Path, Path]], int]:
+) -> tuple[list[tuple[Path, Path]], set[Path]]:
     body = soup.body
     if body is None:
-        return [], 0
+        return [], set()
 
     copies: list[tuple[Path, Path]] = []
     used: set[Path] = set()
@@ -307,7 +308,7 @@ def rewrite_and_match_images(
                 body.append(wrapper)
             else:
                 insert_before.insert_before(wrapper)
-        return copies, len(local_media)
+        return copies, used
 
     for img in img_tags:
         src = (img.get('src') or '').strip()
@@ -342,7 +343,127 @@ def rewrite_and_match_images(
         img.attrs.clear()
         img['src'] = '/' + str(final_target.relative_to(ROOT).as_posix())
 
-    return copies, len(used)
+    return copies, used
+
+
+def find_remaining_by_dims(
+    local_media: list[MediaFile],
+    used: set[Path],
+    dims: tuple[int, int] | None,
+) -> MediaFile | None:
+    if dims is None:
+        return None
+    for media in local_media:
+        if media.path in used:
+            continue
+        if media.dims == dims:
+            return media
+    return None
+
+
+def next_remaining_media(
+    local_media: list[MediaFile],
+    used: set[Path],
+    preferred_ext: str | None = None,
+) -> MediaFile | None:
+    for media in local_media:
+        if media.path in used:
+            continue
+        if preferred_ext and media.path.suffix.lower() != preferred_ext:
+            continue
+        return media
+    if preferred_ext:
+        for media in local_media:
+            if media.path in used:
+                continue
+            return media
+    return None
+
+
+def preview_wrapper(
+    soup: BeautifulSoup,
+    href: str,
+    image_url: str,
+) -> Tag:
+    wrapper = soup.new_tag('p')
+    link = soup.new_tag('a', href=href)
+    image = soup.new_tag('img', src=image_url)
+    link.append(image)
+    wrapper.append(link)
+    return wrapper
+
+
+def npf_poster_dims(tag: Tag) -> tuple[int, int] | None:
+    raw = tag.get('data-npf')
+    if not raw:
+        return None
+    try:
+        payload = json.loads(raw)
+    except json.JSONDecodeError:
+        return None
+    poster = payload.get('poster') or []
+    if not poster:
+        return None
+    first = poster[0]
+    width = first.get('width')
+    height = first.get('height')
+    if isinstance(width, int) and isinstance(height, int):
+        return (width, height)
+    return None
+
+
+def attach_npf_link_previews(
+    soup: BeautifulSoup,
+    body: Tag,
+    post_dt: datetime,
+    local_media: list[MediaFile],
+    used: set[Path],
+) -> list[tuple[Path, Path]]:
+    copies: list[tuple[Path, Path]] = []
+    for tag in body.select('.npf_link'):
+        link = tag.find('a', href=True)
+        if link is None:
+            continue
+        href = (link.get('href') or '').strip()
+        if not href:
+            continue
+        media = find_remaining_by_dims(local_media, used, npf_poster_dims(tag))
+        if media is None:
+            continue
+        _url, target = asset_url_and_path(post_dt, media)
+        final_target = ensure_copy_target(target, media.path)
+        image_url = '/' + str(final_target.relative_to(ROOT).as_posix())
+        copies.append((media.path, final_target))
+        used.add(media.path)
+        tag.insert_before(preview_wrapper(soup, href, image_url))
+    return copies
+
+
+def attach_embed_previews(
+    soup: BeautifulSoup,
+    body: Tag,
+    post_dt: datetime,
+    local_media: list[MediaFile],
+    used: set[Path],
+) -> list[tuple[Path, Path]]:
+    copies: list[tuple[Path, Path]] = []
+    for figure in body.find_all('figure'):
+        iframe = figure.find('iframe')
+        if iframe is None and 'tmblr-embed' not in (figure.get('class') or []):
+            continue
+        href = figure.get('data-url') or (iframe.get('src') if iframe else '')
+        if not href:
+            continue
+        media = next_remaining_media(local_media, used, preferred_ext='.jpg')
+        if media is None:
+            continue
+        _url, target = asset_url_and_path(post_dt, media)
+        final_target = ensure_copy_target(target, media.path)
+        image_url = '/' + str(final_target.relative_to(ROOT).as_posix())
+        copies.append((media.path, final_target))
+        used.add(media.path)
+        figure.insert_before(preview_wrapper(soup, href, image_url))
+    return copies
 
 
 def remove_footer_and_empty_titles(soup: BeautifulSoup) -> None:
@@ -475,10 +596,17 @@ def convert_one(path: Path) -> ConvertedTumblrPost:
         raise ValueError(f'missing body: {path.as_posix()}')
 
     unwrap_image_links(body)
+    asset_copies, used_media = rewrite_and_match_images(soup, post_dt, local_media)
+    asset_copies.extend(
+        attach_npf_link_previews(soup, body, post_dt, local_media, used_media)
+    )
+    asset_copies.extend(
+        attach_embed_previews(soup, body, post_dt, local_media, used_media)
+    )
     replace_embeds_with_links(soup, body)
     normalize_anchors(body)
-    asset_copies, image_count = rewrite_and_match_images(soup, post_dt, local_media)
 
+    image_count = len(used_media)
     title = title_for_post(soup, image_count)
     remove_all_h1(body)
     markdown = convert_body(str(body)).strip()

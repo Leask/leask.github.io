@@ -9,6 +9,8 @@ A New Way to Build a Dashboard (for geek only).
 
 ![](/assets/img/2025/11/799626816916684800_0.png)
 
+[![](/assets/img/2025/11/799626816916684800_1.png)](https://github.com/Leask/Dream-Dashboard)
+
 [GitHub - Leask/Dream-Dashboard: Terminal dashboard for real-time UniFi gateway throughput, latency, infrastructure inventory, and client act](https://github.com/Leask/Dream-Dashboard)
 
 My work relies heavily on my homelab environment, which I’ve described in detail in a previous article, available [here](https://github.com/Leask/Dream-Homelab).

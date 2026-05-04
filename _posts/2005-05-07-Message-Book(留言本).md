@@ -6,6 +6,42 @@ date: '2005-05-07 11:39:58 +0800'
 categories:
 - Function
 comments:
+- id: 8
+  author: drea-x70
+  author_email: ''
+  author_url: ''
+  date: '2020-02-08 08:59:33 +0800'
+  date_gmt: '2020-02-08 00:59:33 +0000'
+  content: |-
+    hey hey u there?
+- id: 9
+  author: Leask
+  author_email: ''
+  author_url: ''
+  date: '2017-12-01 17:46:16 +0800'
+  date_gmt: '2017-12-01 09:46:16 +0000'
+  content: |-
+    现在改写程序了。
+- id: 10
+  author: yanzhigang
+  author_email: ''
+  author_url: ''
+  date: '2016-05-20 14:09:48 +0800'
+  date_gmt: '2016-05-20 06:09:48 +0000'
+  content: |-
+    你是做什么设计的？
+
+    https://leaskh.com/post/142341030112/%E8%87%AA%E5%88%B6%E8%8A%92%E6%9E%9C-at-%E9%98%B3%E5%85%89%E6%A3%95%E6%A6%88%E5%9B%AD
+- id: 11
+  author: yanzhigang
+  author_email: ''
+  author_url: ''
+  date: '2016-05-20 14:06:42 +0800'
+  date_gmt: '2016-05-20 06:06:42 +0000'
+  content: |-
+    你好。你画的不错呢。
+
+    https://leaskh.com/post/144598067412/%E5%BC%80%E5%A7%8B%E6%B6%82%E8%89%B2%E6%9C%AA%E5%AE%8C%E6%88%90%E6%98%8E%E5%A4%A9%E7%BB%A7%E7%BB%AD-at-%E6%B7%B1%E5%9C%B3%E9%BE%99%E5%B2%97
 - id: 2
   author: ifsheknows
   author_email: ''

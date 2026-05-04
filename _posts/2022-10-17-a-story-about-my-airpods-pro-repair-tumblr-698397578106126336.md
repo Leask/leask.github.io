@@ -21,6 +21,8 @@ I have many questions and feel very confused about this repair process. Who is i
 
 At last, I attached a video showing what is happening to my AirPods Pro. We use the machine to help us, not to rule us. For years, users have complained about Apple’s arrogant and authoritarian repair policy, and I hope all electronic equipment manufacturers can face this problem, not just Apple.
 
+[![](/assets/img/2022/10/698397578106126336_2.jpg)](https://www.youtube.com/watch?v=lzU4MvSowv8)
+
 [YouTube](https://www.youtube.com/watch?v=lzU4MvSowv8)
 
 Edited on Mar 22, 2023:
