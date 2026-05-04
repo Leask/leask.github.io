@@ -1,10 +1,10 @@
 {
   "model": "clip-ViT-B-32",
-  "images_scanned": 1530,
+  "images_scanned": 1521,
   "bad_files": 4,
-  "exact_duplicate_groups": 4,
-  "candidate_pairs": 18,
-  "candidate_clusters": 16,
-  "rendered_clusters": 16,
+  "exact_duplicate_groups": 1,
+  "candidate_pairs": 6,
+  "candidate_clusters": 4,
+  "rendered_clusters": 4,
   "posts_with_original_hint": 9
 }

@@ -26,6 +26,20 @@ DEFAULT_IMAGE_ROOTS = [
 ]
 REPORT_DIR = ROOT / 'reports' / 'asset_image_dedupe'
 MODEL_NAME = 'clip-ViT-B-32'
+MANUAL_EXCLUDED_PAIRS = {
+    frozenset(
+        (
+            'assets/img/2011/12/14312141458.jpg',
+            'assets/img/2011/12/13975561811.jpg',
+        ),
+    ),
+    frozenset(
+        (
+            'assets/img/2010/09/picture11.png',
+            'assets/img/2010/09/picture12.png',
+        ),
+    ),
+}
 ORIGINAL_HINT_RE = re.compile(
     r'原圖|原图|full\s*size|fullsize|原大|点击看大图|點擊看大圖|看大圖|看大图|大圖|大图',
     re.I,
@@ -97,6 +111,11 @@ def parse_args() -> argparse.Namespace:
         action='store_true',
         help='Apply safe no-markdown-change dedupe actions.',
     )
+    parser.add_argument(
+        '--apply-reviewed-internal',
+        action='store_true',
+        help='Apply reviewed img-to-img merges and rewrite post refs.',
+    )
     return parser.parse_args()
 
 
@@ -132,6 +151,17 @@ def compute_dhash(path: Path) -> str:
     for bit in diff.flatten():
         value = (value << 1) | int(bit)
     return f'{value:016x}'
+
+
+def grayscale_mae_64(left_path: str, right_path: str) -> float:
+    def load(path: str) -> np.ndarray:
+        with Image.open(path) as image:
+            image = ImageOps.exif_transpose(image).convert('L').resize((64, 64))
+            return np.asarray(image, dtype=np.float32)
+
+    left = load(left_path)
+    right = load(right_path)
+    return float(np.mean(np.abs(left - right)))
 
 
 def dhash_distance(left: str, right: str) -> int:
@@ -314,6 +344,8 @@ def build_neighbor_pairs(
             right = records[right_index]
             cosine_sim = float(1 - distances[left_index][rank])
             hash_distance = dhash_distance(left.dhash, right.dhash)
+            if frozenset((left.rel_path, right.rel_path)) in MANUAL_EXCLUDED_PAIRS:
+                continue
             candidate, reason = is_candidate_pair(
                 left,
                 right,
@@ -322,6 +354,13 @@ def build_neighbor_pairs(
             )
             if not candidate:
                 continue
+            mae_64 = grayscale_mae_64(left.path, right.path)
+            if (
+                left.width == right.width
+                and left.height == right.height
+                and mae_64 > 4.0
+            ):
+                continue
             pair_map[(left_index, right_index)] = {
                 'left': int(left_index),
                 'right': int(right_index),
@@ -329,6 +368,7 @@ def build_neighbor_pairs(
                 'dhash_distance': int(hash_distance),
                 'aspect_delta': round(aspect_delta(left, right), 6),
                 'pixel_ratio': round(pixel_ratio(left, right), 6),
+                'mae_64': round(mae_64, 4),
                 'reason': reason,
             }
     parent = list(range(len(records)))
@@ -597,6 +637,50 @@ def apply_safe_actions(clusters: list[dict[str, object]]) -> dict[str, int]:
     return dict(results)
 
 
+def apply_reviewed_internal_merges(clusters: list[dict[str, object]]) -> dict[str, int]:
+    results: Counter[str] = Counter()
+    replacements: dict[str, str] = {}
+    for cluster in clusters:
+        if cluster['action'] != 'review_merge_into_img':
+            continue
+        members = cluster['members']
+        if {member['root_kind'] for member in members} != {'img'}:
+            continue
+        winner = members[0]
+        winner_ref = '/' + winner['rel_path']
+        for loser in members[1:]:
+            loser_ref = '/' + loser['rel_path']
+            replacements[loser_ref] = winner_ref
+
+    touched_posts = 0
+    for post_path in POSTS_DIR.glob('*.md'):
+        text = post_path.read_text(encoding='utf-8', errors='ignore')
+        updated = text
+        for loser_ref, winner_ref in replacements.items():
+            updated = updated.replace(loser_ref, winner_ref)
+        if updated != text:
+            post_path.write_text(updated, encoding='utf-8')
+            touched_posts += 1
+    results['updated_posts'] = touched_posts
+
+    for loser_ref, winner_ref in replacements.items():
+        loser_path = ROOT / loser_ref.lstrip('/')
+        if not loser_path.exists():
+            continue
+        still_referenced = False
+        for post_path in POSTS_DIR.glob('*.md'):
+            text = post_path.read_text(encoding='utf-8', errors='ignore')
+            if loser_ref in text:
+                still_referenced = True
+                break
+        if still_referenced:
+            results['skipped_still_referenced'] += 1
+            continue
+        loser_path.unlink()
+        results['deleted_internal_duplicates'] += 1
+    return dict(results)
+
+
 def main() -> int:
     args = parse_args()
     records, bad_files = collect_images()
@@ -678,6 +762,10 @@ def main() -> int:
     render_report(report_dir, review_clusters, exact_groups, summary)
     if args.apply_safe:
         summary['apply_safe'] = apply_safe_actions(review_clusters)
+    if args.apply_reviewed_internal:
+        summary['apply_reviewed_internal'] = apply_reviewed_internal_merges(
+            review_clusters,
+        )
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     return 0
 

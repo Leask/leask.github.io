@@ -5,7 +5,7 @@ author: Leask
 date: '2022-04-24 13:48:00 -0400'
 ---
 
-[![](/assets/img/2022/04/682436850698387456_0.png)](https://leaskh.com/post/639969669293408256/hhkb-trackpad-nest)
+[![](/assets/img/2021/01/639969669293408256_1.png)](https://leaskh.com/post/639969669293408256/hhkb-trackpad-nest)
 
 [HHKB Trackpad Nest](https://leaskh.com/post/639969669293408256/hhkb-trackpad-nest)
 

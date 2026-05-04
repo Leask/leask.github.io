@@ -2011,24 +2011,6 @@
       "original_hint_posts": []
     },
     {
-      "path": "/Volumes/Betty/leask.github.io/assets/img/2009/05/img_0002_2-200x300.jpg",
-      "rel_path": "assets/img/2009/05/img_0002_2-200x300.jpg",
-      "root_kind": "img",
-      "extension": ".jpg",
-      "file_size": 21605,
-      "width": 200,
-      "height": 300,
-      "pixels": 60000,
-      "sha256": "2cff85f014f79b22a8e5b295cd0977e2f9ca7c740c8853b334a12c70f6d9b69d",
-      "dhash": "e8716cfefffe7e5c",
-      "stem_key": "img00022",
-      "referenced_posts": [
-        "2009-05-25-[看图说话]亲身体验Lenovo奥运资讯软件.md"
-      ],
-      "referenced_count": 1,
-      "original_hint_posts": []
-    },
-    {
       "path": "/Volumes/Betty/leask.github.io/assets/img/2009/05/picture4-600x198.jpg",
       "rel_path": "assets/img/2009/05/picture4-600x198.jpg",
       "root_kind": "img",
@@ -3301,9 +3283,10 @@
       "dhash": "ffffffe6edfefcf9",
       "stem_key": "city0906175b45d",
       "referenced_posts": [
+        "2009-06-16-head-photo-have-been-updated.md",
         "2010-03-18-心城[City-in-Heart]-Chapter-$ky-March-17,-2010.md"
       ],
-      "referenced_count": 1,
+      "referenced_count": 2,
       "original_hint_posts": []
     },
     {
@@ -3319,9 +3302,10 @@
       "dhash": "e0e0f0c030307078",
       "stem_key": "city09061x5b125d",
       "referenced_posts": [
+        "2009-05-27-Blog改版.md",
         "2010-03-18-心城[City-in-Heart]-Chapter-$ky-March-17,-2010.md"
       ],
-      "referenced_count": 1,
+      "referenced_count": 2,
       "original_hint_posts": []
     },
     {
@@ -3355,9 +3339,10 @@
       "dhash": "c2e0f0ecf0bcd68e",
       "stem_key": "city0906265b45d",
       "referenced_posts": [
+        "2009-06-29-师弟师妹，一路顺风.md",
         "2010-03-18-心城[City-in-Heart]-Chapter-$ky-March-17,-2010.md"
       ],
-      "referenced_count": 1,
+      "referenced_count": 2,
       "original_hint_posts": []
     },
     {
@@ -4063,24 +4048,6 @@
       "original_hint_posts": []
     },
     {
-      "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/dsc00018.jpg",
-      "rel_path": "assets/img/2010/09/dsc00018.jpg",
-      "root_kind": "img",
-      "extension": ".jpg",
-      "file_size": 84051,
-      "width": 1025,
-      "height": 490,
-      "pixels": 502250,
-      "sha256": "bda69c893c77db19beae74b8aeed03394aae17b466f799a9b8e308fb34c7953e",
-      "dhash": "e0e0f0c030307078",
-      "stem_key": "dsc00018",
-      "referenced_posts": [
-        "2009-05-27-Blog改版.md"
-      ],
-      "referenced_count": 1,
-      "original_hint_posts": []
-    },
-    {
       "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/dsc000185b305d.png",
       "rel_path": "assets/img/2010/09/dsc000185b305d.png",
       "root_kind": "img",
@@ -4094,24 +4061,6 @@
       "stem_key": "dsc000185b305d",
       "referenced_posts": [
         "2009-07-24-2009长江大全食，肇庆小偏食.md"
-      ],
-      "referenced_count": 1,
-      "original_hint_posts": []
-    },
-    {
-      "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/dsc00018_25b45d.jpg",
-      "rel_path": "assets/img/2010/09/dsc00018_25b45d.jpg",
-      "root_kind": "img",
-      "extension": ".jpg",
-      "file_size": 51797,
-      "width": 640,
-      "height": 306,
-      "pixels": 195840,
-      "sha256": "60711cb3e250c6a3ec7cdd03b978fcf59ced4caf9298eadbc0871792ada9f82e",
-      "dhash": "c2e0f0ecf0bcd68e",
-      "stem_key": "dsc0001825b45d",
-      "referenced_posts": [
-        "2009-06-29-师弟师妹，一路顺风.md"
       ],
       "referenced_count": 1,
       "original_hint_posts": []
@@ -4148,24 +4097,6 @@
       "stem_key": "dsc000192",
       "referenced_posts": [
         "2009-05-25-waiting....md"
-      ],
-      "referenced_count": 1,
-      "original_hint_posts": []
-    },
-    {
-      "path": "/Volumes/Betty/leask.github.io/assets/img/2010/09/dsc000205b35d.jpg",
-      "rel_path": "assets/img/2010/09/dsc000205b35d.jpg",
-      "root_kind": "img",
-      "extension": ".jpg",
-      "file_size": 42232,
-      "width": 640,
-      "height": 306,
-      "pixels": 195840,
-      "sha256": "aa404d3e8f70e15e579494a8d902eb1b34e0bda4a1672b61f89f6e422b18d948",
-      "dhash": "ffffffe6edfefcf9",
-      "stem_key": "dsc000205b35d",
-      "referenced_posts": [
-        "2009-06-16-head-photo-have-been-updated.md"
       ],
       "referenced_count": 1,
       "original_hint_posts": []
@@ -6631,9 +6562,10 @@
       "dhash": "e8736cfefffe7e5c",
       "stem_key": "img00022",
       "referenced_posts": [
+        "2009-05-25-[看图说话]亲身体验Lenovo奥运资讯软件.md",
         "2009-05-25-iPhone-iPod-touch-OS-2.1中对Podcast的更新.md"
       ],
-      "referenced_count": 1,
+      "referenced_count": 2,
       "original_hint_posts": []
     },
     {
@@ -12488,27 +12420,10 @@
       "dhash": "e4b4b8185c292cf8",
       "stem_key": "38353654647",
       "referenced_posts": [
+        "2012-12-19-at-view-on-path-tumblr-38361625696.md",
         "2012-12-19-with-stony-and-googol-at-view-on-path-tumblr-38353654647.md"
       ],
-      "referenced_count": 1,
-      "original_hint_posts": []
-    },
-    {
-      "path": "/Volumes/Betty/leask.github.io/assets/img/2012/12/38361625696.jpg",
-      "rel_path": "assets/img/2012/12/38361625696.jpg",
-      "root_kind": "img",
-      "extension": ".jpg",
-      "file_size": 417092,
-      "width": 1147,
-      "height": 1536,
-      "pixels": 1761792,
-      "sha256": "285582d326abdc8adb8445f0f87a74db4c5515823dc694b3c721f9e999b36759",
-      "dhash": "e4b4b8185c292cf8",
-      "stem_key": "38361625696",
-      "referenced_posts": [
-        "2012-12-19-at-view-on-path-tumblr-38361625696.md"
-      ],
-      "referenced_count": 1,
+      "referenced_count": 2,
       "original_hint_posts": []
     },
     {
@@ -15494,27 +15409,10 @@
       "dhash": "e0f0516d696d69f0",
       "stem_key": "71118707764",
       "referenced_posts": [
-        "2013-12-25-with-joe-at-view-on-path-tumblr-71118707764.md"
-      ],
-      "referenced_count": 1,
-      "original_hint_posts": []
-    },
-    {
-      "path": "/Volumes/Betty/leask.github.io/assets/img/2013/12/71119233713.jpg",
-      "rel_path": "assets/img/2013/12/71119233713.jpg",
-      "root_kind": "img",
-      "extension": ".jpg",
-      "file_size": 952856,
-      "width": 1536,
-      "height": 1147,
-      "pixels": 1761792,
-      "sha256": "9428071d41a1a9dc0ea5611e22a6812985276b4b18098ffaf81158d9b44b7acd",
-      "dhash": "e0f0516d696d69f0",
-      "stem_key": "71119233713",
-      "referenced_posts": [
+        "2013-12-25-with-joe-at-view-on-path-tumblr-71118707764.md",
         "2013-12-25-with-joe-at-view-on-path-tumblr-71119233713.md"
       ],
-      "referenced_count": 1,
+      "referenced_count": 2,
       "original_hint_posts": []
     },
     {
@@ -16382,24 +16280,6 @@
       "original_hint_posts": []
     },
     {
-      "path": "/Volumes/Betty/leask.github.io/assets/img/2014/04/84289784847.jpg",
-      "rel_path": "assets/img/2014/04/84289784847.jpg",
-      "root_kind": "img",
-      "extension": ".jpg",
-      "file_size": 94211,
-      "width": 1152,
-      "height": 1536,
-      "pixels": 1769472,
-      "sha256": "50e8e60cc67c953201d58b60035776b97a3a6c1480a28f0ccbbb8981ca19bae5",
-      "dhash": "0013330706061b00",
-      "stem_key": "84289784847",
-      "referenced_posts": [
-        "2014-04-29-2014-5-18-l3-tumblr-84289784847.md"
-      ],
-      "referenced_count": 1,
-      "original_hint_posts": []
-    },
-    {
       "path": "/Volumes/Betty/leask.github.io/assets/img/2014/04/invitation_web.png",
       "rel_path": "assets/img/2014/04/invitation_web.png",
       "root_kind": "img",
@@ -16412,9 +16292,10 @@
       "dhash": "0013330706061b00",
       "stem_key": "invitationweb",
       "referenced_posts": [
-        "2014-04-28-❤-Leask-&-Eunice-❤.md"
+        "2014-04-28-❤-Leask-&-Eunice-❤.md",
+        "2014-04-29-2014-5-18-l3-tumblr-84289784847.md"
       ],
-      "referenced_count": 1,
+      "referenced_count": 2,
       "original_hint_posts": []
     },
     {
@@ -22790,24 +22671,6 @@
       "original_hint_posts": []
     },
     {
-      "path": "/Volumes/Betty/leask.github.io/assets/img/2020/06/619930845167435776_0.png",
-      "rel_path": "assets/img/2020/06/619930845167435776_0.png",
-      "root_kind": "img",
-      "extension": ".png",
-      "file_size": 3881076,
-      "width": 1430,
-      "height": 2048,
-      "pixels": 2928640,
-      "sha256": "c9bcf00b11bf32a34f01baf9736ff8fb6b2d29eca4e3bee4d5d0f53038bd6f43",
-      "dhash": "dd8dd8b2f0b22984",
-      "stem_key": "6199308451674357760",
-      "referenced_posts": [
-        "2020-06-03-i-drew-this-for-today-june-4th-tumblr-619930845167435776.md"
-      ],
-      "referenced_count": 1,
-      "original_hint_posts": []
-    },
-    {
       "path": "/Volumes/Betty/leask.github.io/assets/img/2021/01/639969528858771456_0.jpg",
       "rel_path": "assets/img/2021/01/639969528858771456_0.jpg",
       "root_kind": "img",
@@ -22928,9 +22791,10 @@
       "dhash": "01217094c1300000",
       "stem_key": "6399696692934082561",
       "referenced_posts": [
-        "2021-01-10-hhkb-trackpad-nest-tumblr-639969669293408256.md"
+        "2021-01-10-hhkb-trackpad-nest-tumblr-639969669293408256.md",
+        "2022-04-24-update-for-the-keyboard-trackpad-nest-project-tumblr-682436850698387456.md"
       ],
-      "referenced_count": 1,
+      "referenced_count": 2,
       "original_hint_posts": []
     },
     {
@@ -23528,24 +23392,6 @@
       "original_hint_posts": []
     },
     {
-      "path": "/Volumes/Betty/leask.github.io/assets/img/2022/04/682436850698387456_0.png",
-      "rel_path": "assets/img/2022/04/682436850698387456_0.png",
-      "root_kind": "img",
-      "extension": ".png",
-      "file_size": 344769,
-      "width": 1200,
-      "height": 766,
-      "pixels": 919200,
-      "sha256": "20785b21e62f6152188d6c9c10de74de18fbcf07deb6939974a220674cd2b0be",
-      "dhash": "01217094c1300000",
-      "stem_key": "6824368506983874560",
-      "referenced_posts": [
-        "2022-04-24-update-for-the-keyboard-trackpad-nest-project-tumblr-682436850698387456.md"
-      ],
-      "referenced_count": 1,
-      "original_hint_posts": []
-    },
-    {
       "path": "/Volumes/Betty/leask.github.io/assets/img/2022/04/682436850698387456_1.png",
       "rel_path": "assets/img/2022/04/682436850698387456_1.png",
       "root_kind": "img",
@@ -23738,9 +23584,10 @@
       "dhash": "dd8cd8b2f0b22984",
       "stem_key": "6860857175621795840",
       "referenced_posts": [
+        "2020-06-03-i-drew-this-for-today-june-4th-tumblr-619930845167435776.md",
         "2022-06-03-tumblr-686085717562179584.md"
       ],
-      "referenced_count": 1,
+      "referenced_count": 2,
       "original_hint_posts": []
     },
     {
