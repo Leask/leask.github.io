@@ -1,2 +1,6 @@
 .DS_Store
 .history
+_site
+.jekyll-cache
+.bundle
+vendor

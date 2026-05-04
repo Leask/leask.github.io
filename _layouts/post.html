@@ -1,0 +1,77 @@
+---
+layout: default
+---
+<main class='page-shell' id='top'>
+    <header class='site-header site-header--compact'>
+        <a class='site-mark site-mark--link' href='{{ "/" | relative_url }}'>
+            {% if site.avatar and site.avatar != '' %}
+                <img
+                    class='site-mark__image'
+                    src='{{ site.avatar | relative_url }}'
+                    alt='{{ site.title }}'
+                >
+            {% else %}
+                <span class='site-mark__fallback'>
+                    {{ site.title | slice: 0, 1 }}
+                </span>
+            {% endif %}
+        </a>
+        <div class='site-header__copy'>
+            <p class='site-header__eyebrow'>
+                <a href='{{ "/" | relative_url }}'>{{ site.title }}</a>
+            </p>
+            <h1 class='site-header__title'>{{ page.title }}</h1>
+            <p class='site-header__meta'>
+                <time datetime='{{ page.date | date_to_xmlschema }}'>
+                    {{ page.date | date: '%-d %B %Y' }}
+                </time>
+            </p>
+        </div>
+    </header>
+
+    <article class='post-detail prose'>
+        {{ content }}
+    </article>
+
+    {% assign category_count = page.categories | size %}
+    {% assign tag_count = page.tags | size %}
+    {% if category_count > 0 or tag_count > 0 %}
+        <section class='post-taxonomy'>
+            {% if category_count > 0 %}
+                <p>
+                    <span class='meta-label'>Categories</span>
+                    {{ page.categories | join: ', ' }}
+                </p>
+            {% endif %}
+            {% if tag_count > 0 %}
+                <p>
+                    <span class='meta-label'>Tags</span>
+                    {{ page.tags | join: ', ' }}
+                </p>
+            {% endif %}
+        </section>
+    {% endif %}
+
+    {% if page.comments and page.comments.size > 0 %}
+        <section class='comments' aria-labelledby='comments-title'>
+            <h2 id='comments-title'>Comments</h2>
+            <ol class='comments__list'>
+                {% for comment in page.comments %}
+                    <li class='comments__item'>
+                        <div class='comments__meta'>
+                            <strong>{{ comment.author | default: 'Anonymous' }}</strong>
+                            {% if comment.date %}
+                                <time datetime='{{ comment.date | date_to_xmlschema }}'>
+                                    {{ comment.date | date: '%-d %B %Y' }}
+                                </time>
+                            {% endif %}
+                        </div>
+                        <div class='comments__content'>
+                            {{ comment.content | markdownify }}
+                        </div>
+                    </li>
+                {% endfor %}
+            </ol>
+        </section>
+    {% endif %}
+</main>

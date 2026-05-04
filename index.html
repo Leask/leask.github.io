@@ -1,0 +1,109 @@
+---
+layout: default
+title: Latest
+---
+<main class='page-shell' id='top'>
+    <header class='site-header'>
+        <div class='site-mark' aria-hidden='true'>
+            {% if site.avatar and site.avatar != '' %}
+                <img
+                    class='site-mark__image'
+                    src='{{ site.avatar | relative_url }}'
+                    alt='{{ site.title }}'
+                >
+            {% else %}
+                <span class='site-mark__fallback'>
+                    {{ site.title | slice: 0, 1 }}
+                </span>
+            {% endif %}
+        </div>
+        <h1 class='site-header__title'>{{ site.title }}</h1>
+        <p class='site-header__description'>{{ site.description }}</p>
+        <nav class='site-nav' aria-label='Primary'>
+            <a href='#latest'>Latest</a>
+            <a href='#archive'>Archive</a>
+            <a href='#about'>About</a>
+        </nav>
+    </header>
+
+    <section class='post-stream' id='latest' aria-label='Posts'>
+        {% assign stream_posts = paginator.posts | default: site.posts %}
+        {% for post in stream_posts %}
+            <article class='post-stream__item' id='{{ post.url | slugify }}'>
+                <header class='post-stream__header'>
+                    <h2 class='post-stream__title'>
+                        <a href='{{ post.url | relative_url }}'>{{ post.title }}</a>
+                    </h2>
+                    <p class='post-stream__date'>
+                        <time datetime='{{ post.date | date_to_xmlschema }}'>
+                            {{ post.date | date: '%-d %B %Y' }}
+                        </time>
+                    </p>
+                </header>
+                <div class='post-stream__content prose'>
+                    {{ post.content }}
+                </div>
+            </article>
+        {% endfor %}
+    </section>
+
+    {% if paginator and paginator.total_pages > 1 %}
+        <nav class='pagination' aria-label='Pagination'>
+            {% if paginator.previous_page %}
+                <a
+                    class='pagination__link pagination__link--edge'
+                    href='{{ paginator.previous_page_path | relative_url }}'
+                >
+                    Newer
+                </a>
+            {% else %}
+                <span class='pagination__link pagination__link--edge is-disabled'>
+                    Newer
+                </span>
+            {% endif %}
+
+            <p class='pagination__status'>
+                Page {{ paginator.page }} of {{ paginator.total_pages }}
+            </p>
+
+            {% if paginator.next_page %}
+                <a
+                    class='pagination__link pagination__link--edge'
+                    href='{{ paginator.next_page_path | relative_url }}'
+                >
+                    Older
+                </a>
+            {% else %}
+                <span class='pagination__link pagination__link--edge is-disabled'>
+                    Older
+                </span>
+            {% endif %}
+        </nav>
+    {% endif %}
+
+    <section class='archive-summary' id='archive'>
+        <h2>Archive</h2>
+        <ul class='archive-summary__list'>
+            {% assign grouped_posts = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+            {% for year in grouped_posts %}
+                <li>
+                    <span>{{ year.name }}</span>
+                    <span>{{ year.items | size }}</span>
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section class='about-summary' id='about'>
+        <h2>About</h2>
+        <p>{{ site.bio }}</p>
+        <p>
+            <span class='meta-label'>Posts</span>
+            {{ site.posts | size }}
+        </p>
+        <p>
+            <span class='meta-label'>Files</span>
+            <a href='{{ "/assets/files/" | relative_url }}'>assets/files</a>
+        </p>
+    </section>
+</main>

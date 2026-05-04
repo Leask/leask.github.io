@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+    <head>
+        {% assign meta_description = page.excerpt | strip_html | normalize_whitespace %}
+        {% if meta_description == '' %}
+            {% assign meta_description = site.description %}
+        {% endif %}
+        <meta charset='utf-8'>
+        <meta
+            name='viewport'
+            content='width=device-width, initial-scale=1, viewport-fit=cover'
+        >
+        <title>
+            {% if page.title %}
+                {{ page.title }} · {{ site.title }}
+            {% else %}
+                {{ site.title }}
+            {% endif %}
+        </title>
+        <meta name='description' content='{{ meta_description | escape }}'>
+        <link rel='stylesheet' href='{{ "/assets/css/style.css" | relative_url }}'>
+        <link
+            rel='alternate'
+            type='application/atom+xml'
+            title='{{ site.title }}'
+            href='{{ "/feed.xml" | relative_url }}'
+        >
+        {% seo %}
+    </head>
+    <body>
+        {{ content }}
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                document.querySelectorAll('img').forEach(function (image) {
+                    image.loading = image.loading || 'lazy';
+                    image.decoding = image.decoding || 'async';
+                });
+            });
+        </script>
+    </body>
+</html>

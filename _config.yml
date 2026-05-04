@@ -1,0 +1,36 @@
+title: Leask
+description: A long-running personal archive of notes, images, and code.
+bio: Essays, sketches, experiments, and fragments collected over time.
+lang: zh-CN
+url: 'https://leask.github.io'
+baseurl: ''
+avatar: ''
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: "\n\n"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+paginate: 10
+paginate_path: '/page/:num/'
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+exclude:
+  - .history
+  - reports
+  - tools
+  - vendor
+  - node_modules
+  - README.md
+  - LICENSE
