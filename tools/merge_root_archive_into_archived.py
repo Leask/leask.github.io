@@ -115,7 +115,7 @@ def choose_date(path: Path) -> DateChoice:
             datetime_value=filename_date,
         )
 
-    return DateChoice(folder='undated', source='undated', datetime_value=None)
+    return DateChoice(folder='0000', source='undated', datetime_value=None)
 
 
 def main() -> None:
