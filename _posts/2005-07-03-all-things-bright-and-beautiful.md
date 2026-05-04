@@ -35,7 +35,7 @@ comments:
   date_gmt: '2005-07-04 16:44:05 +0800'
   content: "这个我很喜欢哦&middot;&middot;"
 ---
-![](/assets/img/2005/07/mcdull_poster-cimg.163.com-b07c75d075.jpg)
+![](http://cimg.163.com/movie/0112/21/mcdull_poster.jpg)
 All things bright and beau-ti-ful,  
 all crea-tures great and small.  
 All things wise and won-der-ful,  
