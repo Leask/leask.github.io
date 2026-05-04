@@ -1,0 +1,164 @@
+[
+  {
+    "left": 441,
+    "right": 442,
+    "cosine_similarity": 1.0,
+    "dhash_distance": 0,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "reason": "exact"
+  },
+  {
+    "left": 692,
+    "right": 693,
+    "cosine_similarity": 1.0,
+    "dhash_distance": 0,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "reason": "exact"
+  },
+  {
+    "left": 1272,
+    "right": 1306,
+    "cosine_similarity": 1.0,
+    "dhash_distance": 0,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "reason": "exact"
+  },
+  {
+    "left": 909,
+    "right": 910,
+    "cosine_similarity": 0.998393,
+    "dhash_distance": 0,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 0.5625,
+    "reason": "dhash"
+  },
+  {
+    "left": 1265,
+    "right": 1317,
+    "cosine_similarity": 0.997907,
+    "dhash_distance": 1,
+    "aspect_delta": 0.000358,
+    "pixel_ratio": 0.735251,
+    "reason": "dhash"
+  },
+  {
+    "left": 447,
+    "right": 448,
+    "cosine_similarity": 0.994597,
+    "dhash_distance": 0,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "reason": "dhash"
+  },
+  {
+    "left": 183,
+    "right": 225,
+    "cosine_similarity": 0.991373,
+    "dhash_distance": 0,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "reason": "dhash"
+  },
+  {
+    "left": 390,
+    "right": 393,
+    "cosine_similarity": 0.988416,
+    "dhash_distance": 2,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "reason": "dhash"
+  },
+  {
+    "left": 74,
+    "right": 76,
+    "cosine_similarity": 0.984445,
+    "dhash_distance": 1,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "reason": "dhash"
+  },
+  {
+    "left": 182,
+    "right": 230,
+    "cosine_similarity": 0.983339,
+    "dhash_distance": 0,
+    "aspect_delta": 0.000159,
+    "pixel_ratio": 0.389925,
+    "reason": "dhash"
+  },
+  {
+    "left": 74,
+    "right": 75,
+    "cosine_similarity": 0.981486,
+    "dhash_distance": 0,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "reason": "dhash"
+  },
+  {
+    "left": 349,
+    "right": 350,
+    "cosine_similarity": 0.974541,
+    "dhash_distance": 2,
+    "aspect_delta": 0.017241,
+    "pixel_ratio": 0.982759,
+    "reason": "dhash"
+  },
+  {
+    "left": 75,
+    "right": 76,
+    "cosine_similarity": 0.972659,
+    "dhash_distance": 1,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "reason": "dhash"
+  },
+  {
+    "left": 580,
+    "right": 584,
+    "cosine_similarity": 0.971741,
+    "dhash_distance": 4,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "reason": "dhash"
+  },
+  {
+    "left": 553,
+    "right": 554,
+    "cosine_similarity": 0.969051,
+    "dhash_distance": 4,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "reason": "dhash"
+  },
+  {
+    "left": 111,
+    "right": 367,
+    "cosine_similarity": 0.966826,
+    "dhash_distance": 1,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 0.390625,
+    "reason": "dhash"
+  },
+  {
+    "left": 185,
+    "right": 227,
+    "cosine_similarity": 0.962295,
+    "dhash_distance": 0,
+    "aspect_delta": 0.000159,
+    "pixel_ratio": 0.389925,
+    "reason": "dhash"
+  },
+  {
+    "left": 431,
+    "right": 452,
+    "cosine_similarity": 0.891853,
+    "dhash_distance": 4,
+    "aspect_delta": 0.0,
+    "pixel_ratio": 1.0,
+    "reason": "dhash"
+  }
+]
