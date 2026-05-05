@@ -21,7 +21,7 @@ Download:
 [![](http://byfiles.storage.live.com/y1pEZwBJIlyCXkmJ_JtBHbmf7zKUTE3KaPEDQX7PMA1wXFbQh4UiJr4EZc2s1Ij1HMDF4HYZvo9ezA)](http://byfiles.storage.live.com/y1pEZwBJIlyCXkmJ_JtBHbmf7UyG3TSZ_YtQLeoPJvVdCVlwW_Ul0MATIIVYLP5iuvlHZlaQZHPn34)
 [![](http://byfiles.storage.live.com/y1pEZwBJIlyCXlB_tdIbz71Q9kpusflpxbD3Dk2m36GVJ85Dc9AA3VKcsKTlDSo0ujH_H2KkCmoxks)](http://byfiles.storage.live.com/y1pEZwBJIlyCXlB_tdIbz71Q1b7AQVL-QmaaygbNqLe_Wip1iEwKCKsdVRF82sQ-5Y9_jOAjSvtXro)  
 
-[![](http://byfiles.storage.live.com/y1papUoavQ_DIWza9LdG6Jp99JbGVbTfwvGe1BqpmRpTLGB5ukxGB_G9c_ro_qYvUTG1XoVA9eyND0)](http://byfiles.storage.live.com/y1papUoavQ_DIWza9LdG6Jp9xF0zIqFBLs70uD-LQkwOSwYPsoQCv03swysaXehc9EIKwIput0mGyU)
+![](/assets/img/0000/AppleRemote.jpg)
 [![](http://byfiles.storage.live.com/y1ptPO6f5SXGnwktD2J14gJr2cFdjl6jXcYZGYfPC8W5ffi2ncT8-ThPyFdSkWLSMC57LUcHBMZkxU)](http://byfiles.storage.live.com/y1ptPO6f5SXGnwktD2J14gJr402CSC09ttDfEALnSJo0ZlKjoTDiZV0GIi_ddmIoYa0qx4_Ngix5ac)  
 
 [![](http://byfiles.storage.live.com/y1phmEKQvbt_S49lZlfkXxW1eWVt7XB9MqWj_qwV7JHHGE7E7-5OdBstUIs8SV-616SpNeSNbtShvU)](http://byfiles.storage.live.com/y1phmEKQvbt_S49lZlfkXxW1UX457_Q8Phs7qgAZfo9sTMwa2VL_SVNA8VxkFQFXI1Ks0tJ9-jTWsw)
