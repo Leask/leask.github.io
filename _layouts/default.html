@@ -15,7 +15,7 @@
             {% if page.browser_title %}
                 {{ page.browser_title }}
             {% elsif page.title %}
-                {{ page.title }} · {{ site.title }}
+                {{ site.title }}: {{ page.title }}
             {% else %}
                 {{ site.title }}
             {% endif %}
