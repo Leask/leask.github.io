@@ -12,7 +12,9 @@
             content='width=device-width, initial-scale=1, viewport-fit=cover'
         >
         <title>
-            {% if page.title %}
+            {% if page.browser_title %}
+                {{ page.browser_title }}
+            {% elsif page.title %}
                 {{ page.title }} · {{ site.title }}
             {% else %}
                 {{ site.title }}
