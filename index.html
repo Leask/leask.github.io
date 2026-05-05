@@ -22,10 +22,6 @@ title: Latest
         </h1>
         <p class='site-header__description'>{{ site.bio }}</p>
         {% include social-links.html %}
-        <nav class='site-nav' aria-label='Primary'>
-            <a href='#latest'>Latest</a>
-            <a href='#archive'>Archive</a>
-        </nav>
     </header>
 
     <section class='post-stream' id='latest' aria-label='Posts'>
@@ -83,17 +79,80 @@ title: Latest
         </nav>
     {% endif %}
 
-    <section class='archive-summary' id='archive'>
-        <h2>Archive</h2>
-        <ul class='archive-summary__list'>
-            {% assign grouped_posts = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-            {% for year in grouped_posts %}
-                <li>
-                    <span>{{ year.name }}</span>
-                    <span>{{ year.items | size }}</span>
-                </li>
+    <nav class='decade-jump' id='archive' aria-label='Archive ranges'></nav>
+    <script id='archive-post-ranges' type='application/json'>
+        [
+            {% for post in site.posts %}
+                {% assign post_page = forloop.index0 | divided_by: site.paginate | plus: 1 %}
+                {% if post_page == 1 %}
+                    {% assign post_href = '/' | relative_url %}
+                {% else %}
+                    {% assign post_href = site.paginate_path | replace: ':num', post_page | relative_url %}
+                {% endif %}
+                {
+                    "year": {{ post.date | date: '%Y' | plus: 0 }},
+                    "href": {{ post_href | jsonify }}
+                }{% unless forloop.last %},{% endunless %}
             {% endfor %}
-        </ul>
-    </section>
+        ]
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var container = document.getElementById('archive');
+            var payload = document.getElementById('archive-post-ranges');
+
+            if (!container || !payload) {
+                return;
+            }
+
+            var posts = [];
+
+            try {
+                posts = JSON.parse(payload.textContent);
+            } catch (error) {
+                return;
+            }
+
+            var buckets = [
+                { start: 2005, end: 2010 },
+                { start: 2010, end: 2020 },
+                { start: 2020, end: 2030 }
+            ];
+
+            var links = [];
+
+            buckets.forEach(function (bucket) {
+                var count = 0;
+                var href = '';
+
+                posts.forEach(function (post) {
+                    if (post.year >= bucket.start && post.year < bucket.end) {
+                        count += 1;
+                        if (!href) {
+                            href = post.href;
+                        }
+                    }
+                });
+
+                if (!count || !href) {
+                    return;
+                }
+
+                links.push(
+                    "<a class='decade-jump__link' href='" +
+                    href +
+                    "'>" +
+                    bucket.start +
+                    '-' +
+                    bucket.end +
+                    '(' +
+                    count +
+                    ')</a>'
+                );
+            });
+
+            container.innerHTML = links.join('');
+        });
+    </script>
     {% include site-footer.html %}
 </main>

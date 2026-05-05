@@ -2,29 +2,30 @@
 layout: default
 ---
 <main class='page-shell' id='top'>
-    <header class='site-header site-header--compact'>
-        <a class='site-mark site-mark--link' href='{{ "/" | relative_url }}'>
-            {% if site.avatar and site.avatar != '' %}
-                <img
-                    class='site-mark__image'
-                    src='{{ site.avatar | relative_url }}'
-                    alt='{{ site.title }}'
-                >
-            {% else %}
-                <span class='site-mark__fallback'>
-                    {{ site.title | slice: 0, 1 }}
-                </span>
-            {% endif %}
-        </a>
-        <div class='site-header__copy'>
-            <p class='site-header__eyebrow'>
+    <header class='post-hero'>
+        <div class='post-hero__identity'>
+            <a class='site-mark site-mark--link post-hero__mark' href='{{ "/" | relative_url }}'>
+                {% if site.avatar and site.avatar != '' %}
+                    <img
+                        class='site-mark__image'
+                        src='{{ site.avatar | relative_url }}'
+                        alt='{{ site.title }}'
+                    >
+                {% else %}
+                    <span class='site-mark__fallback'>
+                        {{ site.title | slice: 0, 1 }}
+                    </span>
+                {% endif %}
+            </a>
+            <p class='post-hero__name'>
                 <a href='{{ "/" | relative_url }}'>
                     {{ site.display_name | default: site.title }}
                 </a>
             </p>
-            {% include social-links.html %}
-            <h1 class='site-header__title'>{{ page.title }}</h1>
-            <p class='site-header__meta'>
+        </div>
+        <div class='post-hero__content'>
+            <h1 class='post-hero__title'>{{ page.title }}</h1>
+            <p class='post-hero__meta'>
                 <time datetime='{{ page.date | date_to_xmlschema }}'>
                     {{ page.date | date: '%-d %B %Y' }}
                 </time>

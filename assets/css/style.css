@@ -103,6 +103,61 @@ hr {
     margin-bottom: 56px;
 }
 
+.post-hero {
+    width: min(980px, calc(100vw - 40px));
+    margin: 0 auto 56px;
+    display: grid;
+    grid-template-columns: 180px minmax(0, 1fr);
+    gap: 44px;
+    align-items: end;
+}
+
+.post-hero__identity {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.post-hero__mark {
+    width: 124px;
+    height: 124px;
+    margin: 0;
+}
+
+.post-hero__name {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.98rem;
+    font-weight: 600;
+    line-height: 1.45;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.post-hero__name a {
+    text-decoration: none;
+}
+
+.post-hero__content {
+    min-width: 0;
+}
+
+.post-hero__title {
+    margin: 0;
+    font-size: clamp(2.4rem, 6vw, 4.8rem);
+    line-height: 0.98;
+    font-weight: 650;
+    letter-spacing: 0;
+    font-family: var(--font-sans);
+}
+
+.post-hero__meta {
+    margin: 18px 0 0;
+    color: var(--muted);
+    font-size: 1.02rem;
+}
+
 .site-mark {
     display: grid;
     place-items: center;
@@ -222,32 +277,6 @@ hr {
     border: 0;
 }
 
-.site-nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 24px;
-    margin-top: 28px;
-}
-
-.site-nav a {
-    position: relative;
-    padding-bottom: 6px;
-    text-decoration: none;
-    font-size: 0.98rem;
-    font-weight: 600;
-}
-
-.site-nav a:first-child::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 2px;
-    background: var(--accent);
-}
-
 .post-stream {
     width: var(--stream-width);
     margin: 0 auto;
@@ -286,7 +315,6 @@ hr {
 
 .post-stream__content,
 .post-detail,
-.archive-summary,
 .comments,
 .post-taxonomy {
     width: var(--content-width);
@@ -349,10 +377,16 @@ hr {
 
 .prose a > img,
 .prose p > img,
-.prose figure > img,
+.prose figure > img {
+    width: auto;
+    max-width: 100%;
+    margin: 28px 0;
+}
+
 .prose video,
 .prose iframe {
-    width: 100%;
+    width: auto;
+    max-width: 100%;
     margin: 28px 0;
     background: var(--surface);
     border: 1px solid rgba(255, 255, 255, 0.04);
@@ -363,7 +397,6 @@ hr {
     display: block;
 }
 
-.archive-summary,
 .comments,
 .post-taxonomy {
     margin-top: 72px;
@@ -420,7 +453,26 @@ hr {
     box-shadow: none;
 }
 
-.archive-summary h2,
+.decade-jump {
+    width: var(--content-width);
+    margin: -36px auto 0;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.92rem;
+    line-height: 1.9;
+}
+
+.decade-jump__link {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    color: var(--muted);
+    text-decoration: none;
+}
+
+.decade-jump__link:hover {
+    color: var(--foreground);
+}
+
 .comments h2 {
     margin: 0 0 18px;
     font-size: 1.35rem;
@@ -428,20 +480,10 @@ hr {
     letter-spacing: 0;
 }
 
-.archive-summary__list,
 .comments__list {
     margin: 0;
     padding: 0;
     list-style: none;
-}
-
-.archive-summary__list li {
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 10px 0;
-    border-bottom: 1px solid var(--hairline);
-    color: #ddd7ce;
 }
 
 .site-footer {
@@ -496,6 +538,28 @@ hr {
         margin-bottom: 64px;
     }
 
+    .post-hero {
+        width: var(--content-width);
+        margin-bottom: 44px;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        text-align: center;
+    }
+
+    .post-hero__identity {
+        align-items: center;
+        gap: 14px;
+    }
+
+    .post-hero__mark {
+        width: 92px;
+        height: 92px;
+    }
+
+    .post-hero__meta {
+        margin-top: 14px;
+    }
+
     .site-mark {
         width: 92px;
         height: 92px;
@@ -516,7 +580,6 @@ hr {
         margin-bottom: 88px;
     }
 
-    .archive-summary,
     .comments,
     .post-taxonomy {
         margin-top: 56px;
@@ -525,6 +588,11 @@ hr {
     .pagination {
         margin-bottom: 56px;
         justify-content: center;
+    }
+
+    .decade-jump {
+        margin-top: -24px;
+        font-size: 0.9rem;
     }
 
     .pagination__status {
