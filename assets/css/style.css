@@ -630,17 +630,41 @@ hr {
 
     .pagination {
         margin-bottom: 56px;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-areas:
+            'meta meta'
+            'newer older';
+        align-items: start;
+        gap: 14px 12px;
     }
 
-    .decade-jump {
-        margin-top: -24px;
-        font-size: 0.9rem;
+    .pagination > :first-child {
+        grid-area: newer;
+    }
+
+    .pagination > :last-child {
+        grid-area: older;
+    }
+
+    .pagination__meta {
+        grid-area: meta;
+        min-width: 0;
+        gap: 6px;
+    }
+
+    .pagination__link--edge {
+        width: 100%;
     }
 
     .pagination__status {
-        order: -1;
         width: 100%;
+    }
+
+    .decade-jump {
+        margin: 0;
+        font-size: 0.9rem;
+        line-height: 1.45;
     }
 
     .site-footer {
