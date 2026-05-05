@@ -540,6 +540,10 @@ hr {
     margin: 0;
 }
 
+.site-footer a {
+    text-decoration: none;
+}
+
 .meta-label {
     margin-right: 10px;
     color: var(--muted);
