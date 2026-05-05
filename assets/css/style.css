@@ -115,6 +115,7 @@ hr {
 
 .post-hero__name {
     margin: 0;
+    width: 56px;
     color: var(--muted);
     font-size: 1rem;
     font-weight: 700;
@@ -122,6 +123,7 @@ hr {
     letter-spacing: 0;
     text-transform: none;
     align-self: start;
+    text-align: center;
 }
 
 .post-hero__name a {
