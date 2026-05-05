@@ -1,0 +1,23 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background: Deep Terminal Gradient -->
+    <rect width="512" height="512" rx="128" fill="url(#bg_gradient)"/>
+    
+    <!-- Letter 't': Bright White/Slate -->
+    <!-- Stroke width 64px. Moved left. -->
+    <!-- Vertical stem -->
+    <path d="M135 80V360C135 400 160 430 200 430" stroke="#E2E8F0" stroke-width="64" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Horizontal crossbar -->
+    <path d="M75 200H210" stroke="#E2E8F0" stroke-width="64" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Symbol '>': Cyan -->
+    <!-- Stroke width 64px. Moved right. -->
+    <path d="M310 130L460 255L310 380" stroke="#22D3EE" stroke-width="64" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Definitions -->
+    <defs>
+        <linearGradient id="bg_gradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0F172A"/> <!-- Slate 900 -->
+            <stop offset="1" stop-color="#334155"/> <!-- Slate 700 -->
+        </linearGradient>
+    </defs>
+</svg>

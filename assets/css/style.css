@@ -431,21 +431,29 @@ hr {
 .pagination {
     width: var(--content-width);
     margin: 12px auto 72px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: minmax(96px, auto) 1fr minmax(96px, auto);
+    grid-template-areas:
+        'newer meta older'
+        'decade decade decade';
     align-items: center;
-    gap: 18px;
+    gap: 8px 18px;
+}
+
+.pagination > :first-child {
+    grid-area: newer;
+}
+
+.pagination > :last-child {
+    grid-area: older;
 }
 
 .pagination__meta {
-    flex: 1 1 auto;
-    min-width: 240px;
+    grid-area: meta;
+    min-width: 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 4px;
 }
 
 .pagination__status {
@@ -487,12 +495,13 @@ hr {
 }
 
 .decade-jump {
+    grid-area: decade;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 0;
-    margin: -2px 0 0;
+    margin: 0;
     color: var(--muted);
     font-size: 0.92rem;
     line-height: 1.5;
@@ -631,38 +640,31 @@ hr {
     .pagination {
         margin-bottom: 56px;
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: minmax(80px, auto) 1fr minmax(80px, auto);
         grid-template-areas:
-            'meta meta'
-            'newer older';
-        align-items: start;
-        gap: 14px 12px;
-    }
-
-    .pagination > :first-child {
-        grid-area: newer;
-    }
-
-    .pagination > :last-child {
-        grid-area: older;
+            'newer meta older'
+            'decade decade decade';
+        align-items: center;
+        gap: 10px 10px;
     }
 
     .pagination__meta {
-        grid-area: meta;
-        min-width: 0;
-        gap: 6px;
+        justify-self: center;
     }
 
     .pagination__link--edge {
         width: 100%;
+        min-width: 80px;
+        padding: 0 10px;
     }
 
     .pagination__status {
-        width: 100%;
+        width: auto;
+        font-size: 0.92rem;
     }
 
     .decade-jump {
-        margin: 0;
+        width: 100%;
         font-size: 0.9rem;
         line-height: 1.45;
     }

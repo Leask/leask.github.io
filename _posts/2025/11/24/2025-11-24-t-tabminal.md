@@ -5,11 +5,11 @@ author: Leask
 date: '2025-11-24 23:00:00 -0500'
 ---
 
-> **Tab(ter)minal, the Cloud-Native, Proactive AI Integrated Terminal works in modern browsers.**  
-> Seamlessly code from your desktop, tablet, or phone with an intelligent, persistent, and rich experience.  
+> **Tab(ter)minal, the Cloud-Native, Proactive AI Integrated Terminal works in modern browsers.**
+> Seamlessly code from your desktop, tablet, or phone with an intelligent, persistent, and rich experience.
 > This project was built using Gemini and Codex wich 80% vibe-coding, means built for the vibe, with the vibe.
 
-![](/assets/img/2025/11/801157414352224256_0.png)
+![Tabminal Banner](/assets/img/2025/11/801157414352224256_0.svg)
 
 ## 🌟 Why Tabminal?
 
@@ -31,7 +31,7 @@ As a long-time terminal user who frequently needs to step away from my computer 
 
 ## 🧠 AI-Native Intelligence
 
-Powered by **modern AI models** (via OpenRouter), Tabminal understands your context.  
+Powered by **modern AI models** (via OpenRouter), Tabminal understands your context.
 *(Defaults to* ***Gemini 2.5 Flash*** *for optimal speed/performance balance if not configured)*
 
 - **Context-Aware Chat**: Type # how do I… to ask questions. The AI knows your **CWD**, **Environment**, and **Recent History**.

@@ -67,12 +67,13 @@ browser_title: 'Sixia "Leask" Huang'
                 <p class='pagination__status'>
                     Page {{ paginator.page }} of {{ paginator.total_pages }}
                 </p>
-                <div
-                    class='decade-jump'
-                    id='archive'
-                    aria-label='Archive ranges'
-                ></div>
             </div>
+
+            <div
+                class='decade-jump'
+                id='archive'
+                aria-label='Archive ranges'
+            ></div>
 
             {% if paginator.next_page %}
                 <a
