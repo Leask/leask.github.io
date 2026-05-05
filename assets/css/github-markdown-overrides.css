@@ -1,0 +1,42 @@
+.post-stream__content.markdown-body,
+.post-detail.markdown-body {
+    width: var(--content-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.markdown-body {
+    background: transparent;
+}
+
+.markdown-body > *:first-child {
+    margin-top: 0 !important;
+}
+
+.markdown-body > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.markdown-body img,
+.markdown-body a > img,
+.markdown-body p > img,
+.markdown-body figure > img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    margin: 1rem 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+}
+
+.markdown-body video,
+.markdown-body iframe {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    margin: 1rem 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+}
