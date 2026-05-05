@@ -107,22 +107,22 @@ hr {
     width: var(--content-width);
     margin: 0 auto 56px;
     display: grid;
-    grid-template-columns: 56px minmax(0, 1fr);
+    grid-template-columns: 64px minmax(0, 1fr);
     column-gap: 28px;
     row-gap: 14px;
-    align-items: end;
+    align-items: center;
 }
 
 .post-hero__name {
     margin: 0;
-    width: 56px;
+    width: 64px;
     color: var(--muted);
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0;
     text-transform: none;
-    align-self: start;
+    align-self: center;
     text-align: center;
 }
 
@@ -133,15 +133,15 @@ hr {
 .post-hero__avatar {
     display: grid;
     place-items: center;
-    width: 56px;
-    height: 56px;
+    width: 64px;
+    height: 64px;
     border-radius: 999px;
     overflow: hidden;
     background: #23201c;
     color: #e5c49c;
     box-shadow: var(--shadow);
     text-decoration: none;
-    align-self: end;
+    align-self: center;
 }
 
 .post-hero__avatar-image {
@@ -156,23 +156,27 @@ hr {
     letter-spacing: 0;
 }
 
-.post-hero__title {
+.post-hero__title,
+.post-stream__title {
     margin: 0;
-    font-size: clamp(1.95rem, 6.1vw, 3.45rem);
-    line-height: 1.04;
-    font-weight: 650;
+    font-size: 2em;
+    line-height: 1.25;
+    font-weight: 600;
     letter-spacing: 0;
-    font-family: var(--font-sans);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        'Noto Sans', Helvetica, Arial, sans-serif,
+        'Apple Color Emoji', 'Segoe UI Emoji';
+    overflow-wrap: break-word;
     min-width: 0;
-    align-self: end;
+    word-wrap: break-word;
 }
 
-.post-hero__meta {
-    margin: 0;
-    color: #8f8880;
-    font-size: 1rem;
-    line-height: 1.2;
-    align-self: start;
+.post-hero__title {
+    align-self: center;
+}
+
+.post-hero__title a {
+    text-decoration: none;
 }
 
 .site-mark {
@@ -226,11 +230,15 @@ hr {
 
 .site-header__title {
     margin: 0;
-    font-size: clamp(2.5rem, 7.2vw, 3.95rem);
+    font-size: 36px;
     line-height: 0.98;
     font-weight: 650;
     letter-spacing: 0;
     font-family: var(--font-sans);
+}
+
+.site-header__title a {
+    text-decoration: none;
 }
 
 .site-header__description,
@@ -311,13 +319,12 @@ hr {
     text-align: center;
 }
 
-.post-stream__title {
+.post-hero__meta {
     margin: 0;
-    font-size: clamp(1.95rem, 6.1vw, 3.45rem);
-    line-height: 1.04;
-    font-weight: 650;
-    letter-spacing: 0;
-    font-family: var(--font-sans);
+    color: #8f8880;
+    font-size: 1rem;
+    line-height: 1.2;
+    align-self: center;
 }
 
 .post-stream__title a {
@@ -431,13 +438,22 @@ hr {
     gap: 18px;
 }
 
+.pagination__meta {
+    flex: 1 1 auto;
+    min-width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
 .pagination__status {
     margin: 0;
     color: var(--muted);
     font-size: 0.96rem;
     font-weight: 600;
     text-align: center;
-    flex: 1 1 auto;
 }
 
 .pagination__link {
@@ -471,19 +487,26 @@ hr {
 }
 
 .decade-jump {
-    width: var(--content-width);
-    margin: -36px auto 0;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin: -2px 0 0;
     color: var(--muted);
     font-size: 0.92rem;
-    line-height: 1.9;
+    line-height: 1.5;
 }
 
 .decade-jump__link {
     display: inline-block;
-    margin: 0 10px 10px 0;
     color: var(--muted);
     text-decoration: none;
+}
+
+.decade-jump__separator {
+    margin: 0 0.6rem;
+    color: #78736d;
 }
 
 .decade-jump__link:hover {
@@ -572,8 +595,8 @@ hr {
     }
 
     .post-hero__avatar {
-        width: 56px;
-        height: 56px;
+        width: 64px;
+        height: 64px;
     }
 
     .site-mark {

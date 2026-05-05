@@ -16,7 +16,9 @@ layout: default
                 </span>
             {% endif %}
         </a>
-        <h1 class='post-hero__title'>{{ page.title }}</h1>
+        <h1 class='post-hero__title'>
+            <a href='{{ page.url | relative_url }}'>{{ page.title }}</a>
+        </h1>
         <p class='post-hero__name'>
             <a href='{{ "/" | relative_url }}'>
                 {{ site.short_name | default: site.title }}
