@@ -7,7 +7,7 @@ categories:
 - Computers and Internet
 ---
 
-![telegraf logo](/assets/img/2026/05/logo.svg)
+<img src="/assets/img/2026/05/logo.svg" alt="logo" height="300">
 
 
 [Telegraf](https://github.com/telegraf/telegraf) is one of the important
