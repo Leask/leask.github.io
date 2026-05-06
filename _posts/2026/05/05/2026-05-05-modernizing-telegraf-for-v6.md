@@ -7,7 +7,7 @@ categories:
 - Computers and Internet
 ---
 
-<img src="docs/assets/logo.svg" alt="logo" height="300" align="center">
+<img src="https://github.com/telegraf/telegraf/docs/assets/logo.svg" alt="logo" height="300" align="center">
 
 [Telegraf](https://github.com/telegraf/telegraf) is one of the important
 community projects in the Telegram bot ecosystem. It has been around for years,
