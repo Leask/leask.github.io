@@ -40,6 +40,68 @@
             href='{{ "/feed.xml" | relative_url }}'
         >
         {% seo %}
+        {% assign social_image = '' %}
+        {% assign should_emit_social_image = false %}
+        {% assign social_image_alt = page.title | default: site.display_name | default: site.title %}
+        {% if page.image %}
+            {% if page.image.path %}
+                {% assign social_image = page.image.path %}
+                {% if page.image.alt %}
+                    {% assign social_image_alt = page.image.alt %}
+                {% endif %}
+            {% else %}
+                {% assign social_image = page.image %}
+            {% endif %}
+        {% elsif page.url == '/' %}
+            {% assign social_image = site.avatar %}
+            {% assign social_image_alt = site.display_name | default: site.title %}
+            {% assign should_emit_social_image = true %}
+        {% elsif page.layout == 'post' %}
+            {% assign source_content = page.content | default: '' %}
+            {% if source_content contains '![' and source_content contains '](' %}
+                {% assign markdown_image = source_content | split: '![' | slice: 1, 1 | first %}
+                {% if markdown_image %}
+                    {% assign social_image_alt = markdown_image | split: '](' | first %}
+                    {% assign social_image = markdown_image | split: '](' | last | split: ')' | first %}
+                {% endif %}
+            {% endif %}
+            {% if social_image == '' and source_content contains '<img' %}
+                {% assign html_image = source_content | split: '<img' | slice: 1, 1 | first %}
+                {% if html_image %}
+                    {% if html_image contains 'src="' %}
+                        {% assign social_image = html_image | split: 'src="' | last | split: '"' | first %}
+                    {% elsif html_image contains "src='" %}
+                        {% assign social_image = html_image | split: "src='" | last | split: "'" | first %}
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+            {% if social_image == '' %}
+                {% assign social_image = site.avatar %}
+                {% assign social_image_alt = site.display_name | default: site.title %}
+            {% endif %}
+            {% assign should_emit_social_image = true %}
+        {% else %}
+            {% assign social_image = site.avatar %}
+            {% assign social_image_alt = site.display_name | default: site.title %}
+            {% assign should_emit_social_image = true %}
+        {% endif %}
+        {% if should_emit_social_image and social_image != '' %}
+            {% if social_image contains '://' %}
+                {% assign social_image_url = social_image %}
+            {% else %}
+                {% assign social_image_url = social_image | absolute_url %}
+            {% endif %}
+            <meta property='og:image' content='{{ social_image_url }}'>
+            <meta name='twitter:image' content='{{ social_image_url }}'>
+            <meta
+                property='og:image:alt'
+                content='{{ social_image_alt | strip_html | normalize_whitespace | escape }}'
+            >
+            <meta
+                name='twitter:image:alt'
+                content='{{ social_image_alt | strip_html | normalize_whitespace | escape }}'
+            >
+        {% endif %}
     </head>
     <body>
         {{ content }}
