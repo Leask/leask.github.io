@@ -87,29 +87,10 @@ Telegraf v6 uses the native `globalThis.fetch` by default. It no longer bundles
 `node-fetch`, and the old agent hooks are replaced by a more general extension
 point: inject your own `telegram.fetch`.
 
-For example, a proxy setup becomes:
-
-```ts
-import { Telegraf } from 'telegraf';
-import fetch from 'node-fetch';
-import { HttpsProxyAgent } from 'https-proxy-agent';
-
-const agent = new HttpsProxyAgent(process.env.HTTPS_PROXY);
-const fetchWithProxy = (url: URL | string, init?: RequestInit) =>
-    fetch(
-        String(url),
-        { ...init, agent } as unknown as Parameters<typeof fetch>[1],
-    );
-
-const bot = new Telegraf(process.env.BOT_TOKEN, {
-    telegram: { fetch: fetchWithProxy },
-});
-```
-
-The important part is not `node-fetch`. Users can bring any fetch-compatible
-implementation they need for proxies, custom TLS, compression, logging, or
-special deployment environments. Telegraf just needs one clean hook, and that
-same hook is used for both Bot API calls and URL attachments.
+The important part is not the specific fetch implementation. Users can still
+bring the networking behavior they need for proxies, custom TLS, compression,
+logging, or special deployment environments. Telegraf just needs one clean hook,
+and that same hook is used for both Bot API calls and URL attachments.
 
 The Node.js baseline also moved to Node 20. That allowed the codebase to remove
 older runtime shims and update supporting tools such as the timeout path, lint
