@@ -9,7 +9,7 @@ categories:
 
 Since Codex has recently become the most important tool in my work, without question, keeping an eye on token usage at all times has become crucial. Today, I spent a little time vibe coding a Stream Deck plugin called Token Deck. It can display AI provider quotas, token usage, and Mac hardware status on Stream Deck. The project is open source on GitHub at [leask/token-deck](https://github.com/Leask/Token-Deck).
 
-![Token Deck Logo](https://github.com/user-attachments/assets/6f1d6ae6-cc68-42c5-900d-fdfeb78be87a)
+![Stream Deck Photo](https://github.com/user-attachments/assets/6f1d6ae6-cc68-42c5-900d-fdfeb78be87a)
 
 Token Deck is a Stream Deck plugin for showing AI provider quota, token usage,
 and Mac hardware status on Stream Deck keys. The token action is powered by
