@@ -49,6 +49,14 @@ browser_title: 'Sixia "Leask" Huang'
                 id='{{ post.url | slugify }}'
             >
                 <a class='post-card__link' href='{{ post.url | relative_url }}'>
+                    <header class='post-card__header'>
+                        <h2 class='post-card__title'>{{ post.title }}</h2>
+                        <p class='post-card__date'>
+                            <time datetime='{{ post.date | date_to_xmlschema }}'>
+                                {{ post.date | date: '%-d %B %Y' }}
+                            </time>
+                        </p>
+                    </header>
                     {% if first_image_src != '' %}
                         <div class='post-card__media'>
                             <img
@@ -58,23 +66,13 @@ browser_title: 'Sixia "Leask" Huang'
                             >
                         </div>
                     {% endif %}
-                    <div class='post-card__body'>
-                        <header class='post-card__header'>
-                            <h2 class='post-card__title'>{{ post.title }}</h2>
-                            <p class='post-card__date'>
-                                <time datetime='{{ post.date | date_to_xmlschema }}'>
-                                    {{ post.date | date: '%-d %B %Y' }}
-                                </time>
+                    {% if preview_text != '' %}
+                        <div class='post-card__excerpt-wrap'>
+                            <p class='post-card__excerpt'>
+                                {{ preview_text }}
                             </p>
-                        </header>
-                        {% if preview_text != '' %}
-                            <div class='post-card__excerpt-wrap'>
-                                <p class='post-card__excerpt'>
-                                    {{ preview_text }}
-                                </p>
-                            </div>
-                        {% endif %}
-                    </div>
+                        </div>
+                    {% endif %}
                 </a>
             </article>
         {% endfor %}
