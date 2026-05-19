@@ -29,6 +29,6 @@ This is actually a quite interesting small example. For someone like me who come
 
 [Property Boundaries](https://href.li/?https://www.surrey.ca/renovating-building-development/building/property-building-information/property-boundaries)
 
-[Right of way | City of Ottawa](https://ottawa.ca/en/planning-development-and-construction/residential-property-regulations/all-about-your-property/right-way#section-553c9593-83a9-4cc2-917f-a5191ff86028)
+[Right of way, City of Ottawa](https://ottawa.ca/en/planning-development-and-construction/residential-property-regulations/all-about-your-property/right-way#section-553c9593-83a9-4cc2-917f-a5191ff86028)
 
 [Little free libraries are adorable—and impactful. Here’s how to build one in your neighborhood.](https://thephiladelphiacitizen.org/little-free-libraries/)
