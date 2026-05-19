@@ -468,12 +468,14 @@ hr {
     right: 0;
     left: 0;
     bottom: 0;
-    height: 3.2em;
+    height: calc(
+        var(--post-card-excerpt-size) *
+        var(--post-card-excerpt-line-height) *
+        2
+    );
     background: linear-gradient(
         180deg,
         rgba(13, 13, 13, 0),
-        rgba(13, 13, 13, 0.28) 38%,
-        rgba(13, 13, 13, 0.82) 72%,
         rgba(13, 13, 13, 1)
     );
     pointer-events: none;
@@ -685,10 +687,20 @@ hr {
     padding-inline: var(--shell-padding);
     margin: 64px auto 0;
     padding-top: 26px;
-    border-top: 1px solid var(--hairline);
+    position: relative;
     color: var(--muted);
     text-align: center;
     font-size: 0.94rem;
+}
+
+.site-footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: var(--shell-padding);
+    right: var(--shell-padding);
+    height: 1px;
+    background: var(--hairline);
 }
 
 .site-footer p {
