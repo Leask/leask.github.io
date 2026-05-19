@@ -572,7 +572,18 @@ hr {
 .post-taxonomy {
     margin-top: var(--space-section-gap);
     padding-top: 32px;
-    border-top: 1px solid var(--hairline);
+    position: relative;
+}
+
+.comments::before,
+.post-taxonomy::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: var(--shell-padding);
+    right: var(--shell-padding);
+    height: 1px;
+    background: var(--hairline);
 }
 
 .pagination {
