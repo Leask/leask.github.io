@@ -15,6 +15,26 @@
         'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-body: 'Avenir Next', 'Inter', 'SF Pro Text',
         'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --post-card-title-size: 1.18rem;
+    --post-card-title-line-height: 1.25;
+    --post-card-excerpt-size: 0.96rem;
+    --post-card-excerpt-line-height: 1.5;
+    --post-card-excerpt-lines: 5;
+    --post-card-row-gap: 12px;
+    --post-card-header-height: calc(
+        var(--post-card-title-size) * var(--post-card-title-line-height)
+    );
+    --post-card-excerpt-height: calc(
+        var(--post-card-excerpt-size) *
+        var(--post-card-excerpt-line-height) *
+        var(--post-card-excerpt-lines)
+    );
+    --post-card-media-height: calc(
+        var(--post-card-header-height) +
+        var(--post-card-row-gap) +
+        var(--post-card-excerpt-height)
+    );
+    --post-card-media-width: calc(var(--post-card-media-height) * 4 / 3);
 }
 
 *,
@@ -328,12 +348,12 @@ hr {
 
 .post-card__link {
     display: grid;
-    grid-template-columns: 168px minmax(0, 1fr);
+    grid-template-columns: var(--post-card-media-width) minmax(0, 1fr);
     grid-template-areas:
         'media header'
         'media excerpt';
     column-gap: 20px;
-    row-gap: 12px;
+    row-gap: var(--post-card-row-gap);
     align-items: start;
     text-decoration: none;
 }
@@ -350,7 +370,7 @@ hr {
     min-width: 0;
     width: 100%;
     height: 100%;
-    max-height: 128px;
+    max-height: var(--post-card-media-height);
     min-height: 0;
     display: flex;
     align-items: center;
@@ -388,8 +408,8 @@ hr {
 .post-card__title {
     margin: 0;
     min-width: 0;
-    font-size: 1.18rem;
-    line-height: 1.25;
+    font-size: var(--post-card-title-size);
+    line-height: var(--post-card-title-line-height);
     font-weight: 600;
     letter-spacing: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -430,16 +450,16 @@ hr {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
         'Noto Sans', Helvetica, Arial, sans-serif,
         'Apple Color Emoji', 'Segoe UI Emoji';
-    font-size: 0.96rem;
-    line-height: 1.5;
+    font-size: var(--post-card-excerpt-size);
+    line-height: var(--post-card-excerpt-line-height);
     display: -webkit-box;
     overflow: hidden;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: var(--post-card-excerpt-lines);
 }
 
 .post-card--text-only .post-card__excerpt {
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: var(--post-card-excerpt-lines);
 }
 
 .post-card__excerpt-wrap::after {
@@ -448,11 +468,12 @@ hr {
     right: 0;
     left: 0;
     bottom: 0;
-    height: 1.8em;
+    height: 3.2em;
     background: linear-gradient(
         180deg,
         rgba(13, 13, 13, 0),
-        rgba(13, 13, 13, 0.82) 55%,
+        rgba(13, 13, 13, 0.28) 38%,
+        rgba(13, 13, 13, 0.82) 72%,
         rgba(13, 13, 13, 1)
     );
     pointer-events: none;
