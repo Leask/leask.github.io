@@ -21,6 +21,8 @@
     --post-card-excerpt-line-height: 1.5;
     --post-card-excerpt-lines: 5;
     --post-card-row-gap: 12px;
+    --space-list-gap: 64px;
+    --space-section-gap: 96px;
     --post-card-header-height: calc(
         var(--post-card-title-size) * var(--post-card-title-line-height)
     );
@@ -118,18 +120,18 @@ hr {
 .site-header {
     width: var(--content-width);
     padding-inline: var(--shell-padding);
-    margin: 0 auto 88px;
+    margin: 0 auto var(--space-section-gap);
     text-align: center;
 }
 
 .site-header--compact {
-    margin-bottom: 56px;
+    margin-bottom: var(--space-section-gap);
 }
 
 .post-hero {
     width: var(--content-width);
     padding-inline: var(--shell-padding);
-    margin: 0 auto 56px;
+    margin: 0 auto var(--space-section-gap);
     display: grid;
     grid-template-columns: 64px minmax(0, 1fr);
     column-gap: 28px;
@@ -333,16 +335,15 @@ hr {
 }
 
 .post-stream__item {
-    margin-bottom: 28px;
-    padding-bottom: 28px;
-    border-bottom: 1px solid var(--hairline);
+    margin-bottom: var(--space-list-gap);
+    padding-bottom: 0;
+    border-bottom: 0;
     content-visibility: auto;
     contain-intrinsic-size: 1px 240px;
 }
 
 .post-stream__item:last-child {
-    margin-bottom: 32px;
-    border-bottom: 0;
+    margin-bottom: var(--space-list-gap);
     padding-bottom: 0;
 }
 
@@ -476,7 +477,7 @@ hr {
     background: linear-gradient(
         180deg,
         rgba(13, 13, 13, 0),
-        rgba(13, 13, 13, 0.7) 50%,
+        rgba(13, 13, 13, 0.8) 50%,
         rgba(13, 13, 13, 1)
     );
     pointer-events: none;
@@ -569,7 +570,7 @@ hr {
 
 .comments,
 .post-taxonomy {
-    margin-top: 72px;
+    margin-top: var(--space-section-gap);
     padding-top: 32px;
     border-top: 1px solid var(--hairline);
 }
@@ -577,7 +578,7 @@ hr {
 .pagination {
     width: var(--stream-width);
     padding-inline: var(--shell-padding);
-    margin: 12px auto 72px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: minmax(96px, auto) 1fr minmax(96px, auto);
     grid-template-areas:
@@ -686,7 +687,7 @@ hr {
 .site-footer {
     width: var(--content-width);
     padding-inline: var(--shell-padding);
-    margin: 64px auto 0;
+    margin: var(--space-section-gap) auto 0;
     padding-top: 26px;
     position: relative;
     color: var(--muted);
@@ -788,8 +789,8 @@ hr {
     }
 
     .post-stream__item {
-        margin-bottom: 22px;
-        padding-bottom: 22px;
+        margin-bottom: var(--space-list-gap);
+        padding-bottom: 0;
     }
 
     .post-card__link {
@@ -837,11 +838,10 @@ hr {
 
     .comments,
     .post-taxonomy {
-        margin-top: 56px;
+        margin-top: var(--space-section-gap);
     }
 
     .pagination {
-        margin-bottom: 56px;
         display: grid;
         grid-template-columns: minmax(80px, auto) 1fr minmax(80px, auto);
         grid-template-areas:
@@ -870,9 +870,5 @@ hr {
         width: 100%;
         font-size: 0.9rem;
         line-height: 1.45;
-    }
-
-    .site-footer {
-        margin-top: 56px;
     }
 }
