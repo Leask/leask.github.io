@@ -21,8 +21,8 @@ social_links:
     kind: email
     url: 'mailto:i@leaskh.com'
   - label: Phone
-    kind: phone
-    url: 'tel:+19715177039'
+    kind: sms
+    url: 'sms:+19715177039'
 copyright: '© 2005-2026 Sixia "Leask" Huang'
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
