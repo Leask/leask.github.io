@@ -596,7 +596,7 @@ hr {
         'newer meta older'
         'decade decade decade';
     align-items: center;
-    gap: 15px 18px;
+    gap: 32px 18px;
 }
 
 .pagination > :first-child {
@@ -759,7 +759,7 @@ hr {
     }
 
     .site-header {
-        margin-bottom: 64px;
+        margin-bottom: var(--space-section-gap);
     }
 
     .post-hero {
@@ -859,7 +859,7 @@ hr {
             'newer meta older'
             'decade decade decade';
         align-items: center;
-        gap: 18px 10px;
+        gap: 32px 10px;
     }
 
     .pagination__meta {
