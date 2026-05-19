@@ -476,6 +476,7 @@ hr {
     background: linear-gradient(
         180deg,
         rgba(13, 13, 13, 0),
+        rgba(13, 13, 13, 0.7) 50%,
         rgba(13, 13, 13, 1)
     );
     pointer-events: none;
