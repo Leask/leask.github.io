@@ -390,6 +390,7 @@ hr {
 
 .post-card__date {
     margin: 0;
+    padding-top: 4px;
     color: #8f8880;
     font-size: 1rem;
     line-height: 1.2;
