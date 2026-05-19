@@ -594,6 +594,7 @@ hr {
     min-width: 42px;
     min-height: 42px;
     padding: 0 14px;
+    border-radius: 14px;
     border: 1px solid var(--hairline);
     background: var(--surface-elevated);
     color: var(--foreground);
