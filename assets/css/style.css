@@ -334,21 +334,23 @@ hr {
 }
 
 .post-card__media {
-    position: relative;
     width: 100%;
-    max-width: 100%;
     aspect-ratio: 4 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
-    border: 1px solid var(--hairline);
-    background: var(--surface-elevated);
-    box-shadow: var(--shadow);
+    border-radius: 14px;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
     align-self: start;
 }
 
 .post-card__image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 }
 
@@ -361,23 +363,33 @@ hr {
 
 .post-card__header {
     min-width: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: start;
+    column-gap: 16px;
 }
 
 .post-card__title {
     margin: 0;
-    font-size: 1.26rem;
-    line-height: 1.35;
+    min-width: 0;
+    font-size: 1.5rem;
+    line-height: 1.25;
     font-weight: 600;
     letter-spacing: 0;
-    font-family: var(--font-sans);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        'Noto Sans', Helvetica, Arial, sans-serif,
+        'Apple Color Emoji', 'Segoe UI Emoji';
     overflow-wrap: break-word;
 }
 
 .post-card__date {
-    margin: 10px 0 0;
+    margin: 0;
     color: #8f8880;
     font-size: 1rem;
     line-height: 1.2;
+    font-family: var(--font-body);
+    text-align: right;
+    white-space: nowrap;
 }
 
 .post-hero__meta {
@@ -395,9 +407,12 @@ hr {
 
 .post-card__excerpt {
     margin: 0;
-    color: #d6d0c7;
-    font-size: 0.98rem;
-    line-height: 1.65;
+    color: rgb(240, 246, 252);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        'Noto Sans', Helvetica, Arial, sans-serif,
+        'Apple Color Emoji', 'Segoe UI Emoji';
+    font-size: 1rem;
+    line-height: 1.5;
     display: -webkit-box;
     overflow: hidden;
     -webkit-box-orient: vertical;
@@ -727,13 +742,12 @@ hr {
     }
 
     .post-card__title {
-        font-size: 1.08rem;
-        line-height: 1.32;
+        font-size: 1.18rem;
+        line-height: 1.25;
     }
 
     .post-card__date {
-        margin-top: 8px;
-        font-size: 0.92rem;
+        font-size: 0.9rem;
     }
 
     .post-card__excerpt-wrap {
@@ -741,8 +755,8 @@ hr {
     }
 
     .post-card__excerpt {
-        font-size: 0.94rem;
-        line-height: 1.58;
+        font-size: 0.96rem;
+        line-height: 1.5;
     }
 
     .post-card--text-only .post-card__excerpt {
