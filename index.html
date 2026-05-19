@@ -31,20 +31,51 @@ browser_title: 'Sixia "Leask" Huang'
     <section class='post-stream' id='latest' aria-label='Posts'>
         {% assign stream_posts = paginator.posts | default: site.posts %}
         {% for post in stream_posts %}
-            <article class='post-stream__item' id='{{ post.url | slugify }}'>
-                <header class='post-stream__header'>
-                    <h2 class='post-stream__title'>
-                        <a href='{{ post.url | relative_url }}'>{{ post.title }}</a>
-                    </h2>
-                    <p class='post-stream__date'>
-                        <time datetime='{{ post.date | date_to_xmlschema }}'>
-                            {{ post.date | date: '%-d %B %Y' }}
-                        </time>
-                    </p>
-                </header>
-                <div class='post-stream__content markdown-body'>
-                    {{ post.content }}
-                </div>
+            {% assign post_html = post.content %}
+            {% assign preview_text = post_html | strip_html | normalize_whitespace %}
+            {% assign preview_text = preview_text | replace: '￼', '' %}
+            {% assign first_image_src = '' %}
+            {% if post_html contains '<img' %}
+                {% assign image_parts = post_html | split: '<img' %}
+                {% assign first_image_tag = image_parts[1] %}
+                {% if first_image_tag contains 'src="' %}
+                    {% assign first_image_src = first_image_tag | split: 'src="' | last | split: '"' | first %}
+                {% elsif first_image_tag contains "src='" %}
+                    {% assign first_image_src = first_image_tag | split: "src='" | last | split: "'" | first %}
+                {% endif %}
+            {% endif %}
+            <article
+                class='post-stream__item post-card{% if first_image_src == '' %} post-card--text-only{% endif %}'
+                id='{{ post.url | slugify }}'
+            >
+                <a class='post-card__link' href='{{ post.url | relative_url }}'>
+                    {% if first_image_src != '' %}
+                        <div class='post-card__media'>
+                            <img
+                                class='post-card__image'
+                                src='{{ first_image_src }}'
+                                alt='{{ post.title }}'
+                            >
+                        </div>
+                    {% endif %}
+                    <div class='post-card__body'>
+                        <header class='post-card__header'>
+                            <h2 class='post-card__title'>{{ post.title }}</h2>
+                            <p class='post-card__date'>
+                                <time datetime='{{ post.date | date_to_xmlschema }}'>
+                                    {{ post.date | date: '%-d %B %Y' }}
+                                </time>
+                            </p>
+                        </header>
+                        {% if preview_text != '' %}
+                            <div class='post-card__excerpt-wrap'>
+                                <p class='post-card__excerpt'>
+                                    {{ preview_text }}
+                                </p>
+                            </div>
+                        {% endif %}
+                    </div>
+                </a>
             </article>
         {% endfor %}
     </section>
