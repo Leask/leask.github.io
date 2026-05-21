@@ -7,6 +7,8 @@ categories:
 - Computers and Internet
 ---
 
+![Gemini_Generated_Image_fc2iynfc2iynfc2i](https://github.com/user-attachments/assets/9f497560-ed8e-4421-8cb9-52d0ae34f47f)
+
 I have a first-generation Apple Silicon MacBook Pro, one of the early M1
 machines. I have been using Apple products for a long time, and I started
 testing the Apple Silicon transition before it was polished enough for normal
@@ -72,6 +74,8 @@ I booked an Apple Store appointment and brought the MacBook Pro in. The staff
 ran through essentially the same checks I had already done. They confirmed the
 port failure and said it could be repaired as a paid service.
 
+![Screenshot 2026-05-21 at 8 13 31 AM](https://github.com/user-attachments/assets/c0a2d084-15eb-4b00-bc0f-19c7455264d2)
+
 I was not happy about paying. The port had failed long before I brought it in,
 and in my view the problem almost certainly existed while the machine was still
 within warranty. But I had not sent it in at the time. That part was on me. The
@@ -92,6 +96,8 @@ I was being asked to spend a large fraction of the original purchase price of a
 years-old laptop to fix one USB-C port. Add a bit more money and I could buy a
 newer machine in the same family. The economics were absurd, especially because
 the visible failure was so small.
+
+![Screenshot 2026-05-21 at 8 13 57 AM](https://github.com/user-attachments/assets/385a9947-0b71-4d37-ab04-7e5f94ec4cc1)
 
 ## A Small Fault Became a Large Bill
 
