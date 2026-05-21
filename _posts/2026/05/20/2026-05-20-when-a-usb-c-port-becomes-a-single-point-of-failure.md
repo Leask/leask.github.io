@@ -72,7 +72,7 @@ I booked an Apple Store appointment and brought the MacBook Pro in. The staff
 ran through essentially the same checks I had already done. They confirmed the
 port failure and said it could be repaired as a paid service.
 
-![Screenshot 2026-05-21 at 8 13 31 AM](https://github.com/user-attachments/assets/c0a2d084-15eb-4b00-bc0f-19c7455264d2")
+![Screenshot 2026-05-21 at 8 13 31 AM](https://github.com/user-attachments/assets/c0a2d084-15eb-4b00-bc0f-19c7455264d2)
 
 I was not happy about paying. The port had failed long before I brought it in,
 and in my view the problem almost certainly existed while the machine was still
