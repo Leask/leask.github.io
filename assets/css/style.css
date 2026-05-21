@@ -789,6 +789,11 @@ hr {
         margin-bottom: 20px;
     }
 
+    .site-header__title {
+        font-size: 31px;
+        white-space: nowrap;
+    }
+
     .site-header__description,
     .site-header__meta,
     .prose {
@@ -888,5 +893,11 @@ hr {
 
     .decade-jump__separator {
         display: none;
+    }
+}
+
+@media (max-width: 380px) {
+    .site-header__title {
+        font-size: 30px;
     }
 }
