@@ -7,7 +7,7 @@ categories:
 - Computers and Internet
 ---
 
-![Gemini_Generated_Image_w4fujpw4fujpw4fu](https://github.com/user-attachments/assets/927f3035-3329-45a3-a19d-9d5fe860986f)
+![Gemini_Generated_Image_fc2iynfc2iynfc2i](https://github.com/user-attachments/assets/9f497560-ed8e-4421-8cb9-52d0ae34f47f)
 
 I have a first-generation Apple Silicon MacBook Pro, one of the early M1
 machines. I have been using Apple products for a long time, and I started
