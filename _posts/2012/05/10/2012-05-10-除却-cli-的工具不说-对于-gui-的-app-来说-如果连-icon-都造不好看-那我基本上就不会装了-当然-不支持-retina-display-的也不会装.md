@@ -1,0 +1,8 @@
+---
+layout: post
+title: '除却 CLI 的工具不说，对于 GUI 的 APP 来说，如果连 ICON 都造不好看，那我基本上就不会装了。当然，不支持 Retina Display 的也不会装。'
+author: Leask
+date: '2012-05-10 11:05:56 -0400'
+---
+
+除却 CLI 的工具不说，对于 GUI 的 APP 来说，如果连 ICON 都造不好看，那我基本上就不会装了。当然，不支持 Retina Display 的也不会装。

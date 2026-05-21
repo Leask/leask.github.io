@@ -1,0 +1,8 @@
+---
+layout: post
+title: '想去看 3D 丁丁，上海还有吗？有人同行吗？ cc @forresty'
+author: Leask
+date: '2011-12-02 22:43:56 -0500'
+---
+
+想去看 3D 丁丁，上海还有吗？有人同行吗？ cc @forresty

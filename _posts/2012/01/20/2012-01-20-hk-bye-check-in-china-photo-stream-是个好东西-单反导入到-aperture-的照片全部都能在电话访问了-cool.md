@@ -1,0 +1,10 @@
+---
+layout: post
+title: 'HK, bye! Check in China. Photo Stream 是个好东西，单反导入到 Aperture 的照片全部都能在电话访问了。Cool！'
+author: Leask
+date: '2012-01-20 03:27:00 -0500'
+---
+
+![](/assets/img/2012/01/4f19255ddf21bf7f02023fca_0.jpg)
+
+HK, bye! Check in China. Photo Stream 是个好东西，单反导入到 Aperture 的照片全部都能在电话访问了。Cool！

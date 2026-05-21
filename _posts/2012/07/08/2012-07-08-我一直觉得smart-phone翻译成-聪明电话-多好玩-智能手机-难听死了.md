@@ -1,0 +1,8 @@
+---
+layout: post
+title: '我一直觉得Smart Phone翻译成「聪明电话」多好玩，「智能手机」难听死了。'
+author: Leask
+date: '2012-07-08 05:11:39 -0400'
+---
+
+我一直觉得Smart Phone翻译成「聪明电话」多好玩，「智能手机」难听死了。

@@ -1,0 +1,10 @@
+---
+layout: post
+title: '中国有戏了。实在太爱这个历史性的时刻，Path 没有 RT，只能单独再发一次 @virushuo 的神图到我的 timeline 上了。'
+author: Leask
+date: '2012-06-04 03:53:05 -0400'
+---
+
+![](/assets/img/2012/06/4fcc6968e7cf6670400d2319_0.jpg)
+
+中国有戏了。实在太爱这个历史性的时刻，Path 没有 RT，只能单独再发一次 @virushuo 的神图到我的 timeline 上了。

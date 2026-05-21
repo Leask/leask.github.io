@@ -1,0 +1,8 @@
+---
+layout: post
+title: 'Test sharing from Mountain Lion Notification Center.'
+author: Leask
+date: '2012-06-19 06:37:02 -0400'
+---
+
+Test sharing from Mountain Lion Notification Center.

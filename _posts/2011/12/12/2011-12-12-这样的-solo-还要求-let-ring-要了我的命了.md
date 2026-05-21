@@ -1,0 +1,10 @@
+---
+layout: post
+title: '这样的 solo 还要求 let ring 要了我的命了...'
+author: Leask
+date: '2011-12-12 13:57:53 -0500'
+---
+
+![](/assets/img/2011/12/4ee64ebcdf21bf4bf8043994_0.jpg)
+
+这样的 solo 还要求 let ring 要了我的命了...
