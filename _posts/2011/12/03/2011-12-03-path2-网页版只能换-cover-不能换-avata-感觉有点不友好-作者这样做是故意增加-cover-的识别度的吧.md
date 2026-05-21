@@ -1,8 +1,0 @@
----
-layout: post
-title: '#Path2 网页版只能换 cover 不能换 avata 感觉有点不友好。作者这样做是故意增加 cover 的识别度的吧？'
-author: Leask
-date: '2011-12-03 04:44:42 -0500'
----
-
-#Path2 网页版只能换 cover 不能换 avata 感觉有点不友好。作者这样做是故意增加 cover 的识别度的吧？

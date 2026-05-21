@@ -1,8 +1,0 @@
----
-layout: post
-title: '如果 #Path2 timeline 的小钟是 draggable 的是不是会好一些？这样在浏览较长 path 的时候压力会比较小。这样算 over design 吗？'
-author: Leask
-date: '2011-12-03 04:10:06 -0500'
----
-
-如果 #Path2 timeline 的小钟是 draggable 的是不是会好一些？这样在浏览较长 path 的时候压力会比较小。这样算 over design 吗？
