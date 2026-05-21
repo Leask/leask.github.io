@@ -493,6 +493,10 @@ hr {
     margin-right: auto;
 }
 
+.post-detail img {
+    border-radius: 14px;
+}
+
 .prose {
     font-family: var(--font-body);
     font-size: 1.02rem;
