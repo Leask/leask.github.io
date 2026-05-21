@@ -595,7 +595,7 @@ hr {
     padding-inline: var(--shell-padding);
     margin: 0 auto;
     display: grid;
-    grid-template-columns: minmax(96px, auto) 1fr minmax(96px, auto);
+    grid-template-columns: 96px 1fr 96px;
     grid-template-areas:
         'newer meta older'
         'decade decade decade';
@@ -645,7 +645,26 @@ hr {
 }
 
 .pagination__link--edge {
+    gap: 8px;
+    width: 96px;
     min-width: 96px;
+}
+
+.pagination > :first-child::before,
+.pagination > :last-child::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+.pagination > :first-child::before {
+    border-right: 6px solid currentColor;
+}
+
+.pagination > :last-child::after {
+    border-left: 6px solid currentColor;
 }
 
 .pagination__link.is-current {
@@ -863,7 +882,7 @@ hr {
 
     .pagination {
         display: grid;
-        grid-template-columns: minmax(80px, auto) 1fr minmax(80px, auto);
+        grid-template-columns: 96px 1fr 96px;
         grid-template-areas:
             'newer meta older'
             'decade decade decade';
@@ -876,8 +895,8 @@ hr {
     }
 
     .pagination__link--edge {
-        width: 100%;
-        min-width: 80px;
+        width: 96px;
+        min-width: 96px;
         padding: 0 10px;
     }
 
