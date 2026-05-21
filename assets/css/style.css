@@ -1,5 +1,5 @@
 :root {
-    --background: #0d0d0d;
+    --background: #0d1117;
     --surface: #151515;
     --surface-elevated: #1b1b1b;
     --foreground: #f4f1ea;
@@ -476,9 +476,9 @@ hr {
     );
     background: linear-gradient(
         180deg,
-        rgba(13, 13, 13, 0),
-        rgba(13, 13, 13, 0.8) 50%,
-        rgba(13, 13, 13, 1)
+        rgba(13, 17, 23, 0),
+        rgba(13, 17, 23, 0.8) 50%,
+        rgba(13, 17, 23, 1)
     );
     pointer-events: none;
 }
