@@ -31,7 +31,7 @@ comments:
   content: |-
     你是做什么设计的？
 
-    https://leaskh.com/post/142341030112/%E8%87%AA%E5%88%B6%E8%8A%92%E6%9E%9C-at-%E9%98%B3%E5%85%89%E6%A3%95%E6%A6%88%E5%9B%AD
+    https://leaskh.com/2016/04/06/自制芒果-at-阳光棕榈园/
 - id: 11
   author: yanzhigang
   author_email: ''
@@ -41,7 +41,7 @@ comments:
   content: |-
     你好。你画的不错呢。
 
-    https://leaskh.com/post/144598067412/%E5%BC%80%E5%A7%8B%E6%B6%82%E8%89%B2%E6%9C%AA%E5%AE%8C%E6%88%90%E6%98%8E%E5%A4%A9%E7%BB%A7%E7%BB%AD-at-%E6%B7%B1%E5%9C%B3%E9%BE%99%E5%B2%97
+    https://leaskh.com/2016/05/19/开始涂色-未完成-明天继续-at-深圳龙岗/
 - id: 2
   author: ifsheknows
   author_email: ''
