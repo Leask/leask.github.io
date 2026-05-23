@@ -7,7 +7,7 @@ categories:
 - Computers and Internet
 ---
 
-![Gemini_Generated_Image_fc2iynfc2iynfc2i](https://github.com/user-attachments/assets/9f497560-ed8e-4421-8cb9-52d0ae34f47f)
+![Single point of failure](/assets/img/2026/05/usb-c-single-point-failure.png)
 
 I have a first-generation Apple Silicon MacBook Pro, one of the early M1
 machines. I have been using Apple products for a long time, and I started
