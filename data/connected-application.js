@@ -2,24 +2,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "about.me",
-        "url" : "https://about.me",
-        "privacyPolicyUrl" : "https://about.me/legal/privacy",
-        "termsAndConditionsUrl" : "https://about.me/legal/terms"
-      },
-      "name" : "About Me",
-      "description" : "about.me, the place to create your personal page with a purpose.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2010-10-30T16:32:29.000Z",
-      "id" : "56591"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Tapbots LLC",
         "url" : "http://tapbots.com/"
       },
@@ -52,6 +34,41 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
+        "name" : "Twitter, Inc.",
+        "url" : ""
+      },
+      "name" : "Twitter for Android",
+      "description" : "Twitter for Android",
+      "permissions" : [
+        "read",
+        "write"
+      ],
+      "approvedAt" : "2026-08-20T03:36:48.000Z",
+      "id" : "258901"
+    }
+  },
+  {
+    "connectedApplication" : {
+      "organization" : {
+        "name" : "nanairo",
+        "url" : "https://nanairo.co/",
+        "privacyPolicyUrl" : "https://nanairo.co/ja/guide/terms/privacy_policy",
+        "termsAndConditionsUrl" : "https://nanairo.co/ja/guide/terms/users"
+      },
+      "name" : "nanairo Login",
+      "description" : "An @_scute application",
+      "permissions" : [
+        "read",
+        "write",
+        "emailaddress"
+      ],
+      "approvedAt" : "2023-09-10T02:24:41.000Z",
+      "id" : "685059"
+    }
+  },
+  {
+    "connectedApplication" : {
+      "organization" : {
         "name" : "Disqus",
         "url" : "http://disqus.com/",
         "privacyPolicyUrl" : "https://help.disqus.com/customer/portal/articles/466259-privacy-policy",
@@ -65,37 +82,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2014-03-01T14:13:34.000Z",
       "id" : "2858"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : ""
-      },
-      "name" : "DigitalOcean",
-      "description" : "Link your Twitter account to DigitalOcean to help us learn more about you. We will never share your information with anyone.",
-      "permissions" : [
-        "read"
-      ],
-      "approvedAt" : "2015-01-28T13:34:39.000Z",
-      "id" : "7175180"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Nemory Studios",
-        "url" : "http://nemorystudios.com"
-      },
-      "name" : "TwittlyApp",
-      "description" : "An Awesome Native Twitter Client for BlackBerry 10",
-      "permissions" : [
-        "read",
-        "write",
-        "directmessages"
-      ],
-      "approvedAt" : "2014-10-18T15:24:56.000Z",
-      "id" : "6663842"
     }
   },
   {
@@ -117,39 +103,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Project Dent",
-        "url" : "http://ProjectDent.com",
-        "privacyPolicyUrl" : "https://projectdent.com/twim-privacy-policy-10b3bbf5d9cf"
-      },
-      "name" : "TwIM - IM for Twitter",
-      "description" : "Messaging, powered by Twitter Direct Messages",
-      "permissions" : [
-        "read",
-        "write",
-        "directmessages"
-      ],
-      "approvedAt" : "2017-02-16T05:01:00.000Z",
-      "id" : "8323951"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Diver Down LLC.",
-        "url" : "https://diverdown.co.jp/"
-      },
-      "name" : "アプリ☆メーカー（自動でツイートされることはありません）",
-      "description" : "連携を許可すると、サイト内にあるツイート解析系アプリが使用できるようになります。※当サイトのアクセス権は【読取専用】ですので勝手にツイートされることはありません。安心してご利用ください。詳細はこちら→ http://appli-maker.jp/page_apps/48245",
-      "permissions" : [
-        "read"
-      ],
-      "approvedAt" : "2014-07-16T15:26:41.000Z",
-      "id" : "4565193"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : ""
       },
       "name" : "MacHeist",
@@ -165,16 +118,20 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : ""
+        "name" : "Product Hunt",
+        "url" : "https://www.producthunt.com",
+        "privacyPolicyUrl" : "https://www.producthunt.com/privacy",
+        "termsAndConditionsUrl" : "https://www.producthunt.com/tos"
       },
-      "name" : "Reeder",
-      "description" : "Google Reader client for iPhone/iPod/iPad",
+      "name" : "Product Hunt",
+      "description" : "The best new products, every day",
       "permissions" : [
         "read",
-        "write"
+        "write",
+        "emailaddress"
       ],
-      "approvedAt" : "2010-12-05T11:56:16.000Z",
-      "id" : "49665"
+      "approvedAt" : "2026-04-06T02:06:18.000Z",
+      "id" : "5408470"
     }
   },
   {
@@ -190,6 +147,25 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2013-01-07T03:57:55.000Z",
       "id" : "3802394"
+    }
+  },
+  {
+    "connectedApplication" : {
+      "organization" : {
+        "name" : "Medium",
+        "url" : "https://medium.com",
+        "privacyPolicyUrl" : "https://medium.com/policy/medium-privacy-policy-f03bf92035c9",
+        "termsAndConditionsUrl" : "https://medium.com/policy/medium-terms-of-service-9db0094a1e0f"
+      },
+      "name" : "Medium",
+      "description" : "A place to read, write, and deepen your understanding",
+      "permissions" : [
+        "read",
+        "write",
+        "emailaddress"
+      ],
+      "approvedAt" : "2022-02-23T14:09:15.000Z",
+      "id" : "1923576"
     }
   },
   {
@@ -244,22 +220,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Twitter",
-        "url" : "http://twitter.com"
-      },
-      "name" : "Mobile Web",
-      "description" : "Twitter Mobile Web",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2012-11-23T06:28:13.000Z",
-      "id" : "49152"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Imified",
         "url" : "http://www.imified.com"
       },
@@ -271,6 +231,24 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2009-10-16T17:38:47.000Z",
       "id" : "10634"
+    }
+  },
+  {
+    "connectedApplication" : {
+      "organization" : {
+        "name" : "Patreon",
+        "url" : "https://www.patreon.com",
+        "privacyPolicyUrl" : "https://www.patreon.com/privacy",
+        "termsAndConditionsUrl" : "https://www.patreon.com/legal"
+      },
+      "name" : "Patreon",
+      "description" : "Ongoing funding, directly from your fans",
+      "permissions" : [
+        "read",
+        "write"
+      ],
+      "approvedAt" : "2022-03-15T00:12:59.000Z",
+      "id" : "9466006"
     }
   },
   {
@@ -310,35 +288,17 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "SugarShot.me",
-        "url" : "https://sugarshot.me",
-        "privacyPolicyUrl" : "https://sugarshot.me/privacy",
-        "termsAndConditionsUrl" : "https://sugarshot.me/terms"
+        "name" : "Twitter",
+        "url" : ""
       },
-      "name" : "SugarShot.me",
-      "description" : "This app was created to use the Twitter API.",
-      "permissions" : [
-        "read",
-        "emailaddress"
-      ],
-      "approvedAt" : "2020-11-05T09:21:28.000Z",
-      "id" : "19238149"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Sand Studio",
-        "url" : "http://www.airdroid.com"
-      },
-      "name" : "AirDroid 4",
-      "description" : "Access Android phone/tablet from computer remotely and securely. Manage SMS, files, photos and videos, WhatsApp, Line, WeChat and more on computer.",
+      "name" : "Twitter for iPhone",
+      "description" : "Twitter for iPhone",
       "permissions" : [
         "read",
         "write"
       ],
-      "approvedAt" : "2014-12-08T06:38:08.000Z",
-      "id" : "1656873"
+      "approvedAt" : "2025-11-12T18:24:35.000Z",
+      "id" : "129032"
     }
   },
   {
@@ -378,23 +338,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Hotot.org",
-        "url" : ""
-      },
-      "name" : "Hotot for Chrome",
-      "description" : "Hotot Client for Chrome(Chrome App)",
-      "permissions" : [
-        "read",
-        "write",
-        "directmessages"
-      ],
-      "approvedAt" : "2013-02-20T16:41:12.000Z",
-      "id" : "766470"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Dropbox"
       },
       "name" : "Dropbox ",
@@ -405,22 +348,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2011-12-09T06:00:17.000Z",
       "id" : "159387"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "",
-        "url" : ""
-      },
-      "name" : "Tweet-this-page",
-      "description" : "Adds new \"Tweet this page” button to Google Chrome address bar.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2015-10-07T16:31:26.000Z",
-      "id" : "481175"
     }
   },
   {
@@ -490,22 +417,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Zendesk",
-        "privacyPolicyUrl" : "https://www.zendesk.com/company/customers-partners/privacy-policy/",
-        "termsAndConditionsUrl" : "https://www.zendesk.com/company/customers-partners/master-subscription-agreement/"
-      },
-      "name" : "Login to Zendesk",
-      "description" : "Zendesk is a leading provider of proven cloud-based help desk software. For growing organizations, Zendesk is the fastest way to enable great customer service.",
-      "permissions" : [
-        "read"
-      ],
-      "approvedAt" : "2015-05-19T02:21:09.000Z",
-      "id" : "991397"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Jolicloud",
         "url" : "http://www.jolicloud.com/"
       },
@@ -518,25 +429,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2012-03-20T06:35:24.000Z",
       "id" : "571121"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "UberMedia Inc",
-        "url" : "http://ubermedia.com",
-        "privacyPolicyUrl" : "https://ubermedia.com/general-privacy-policy/",
-        "termsAndConditionsUrl" : "https://ubermedia.com/company/terms-of-service/"
-      },
-      "name" : "Echofon  Android",
-      "description" : "Echofon is the easy-to-use, super fast Twitter app that smartly syncs across all your devices. ",
-      "permissions" : [
-        "read",
-        "write",
-        "directmessages"
-      ],
-      "approvedAt" : "2018-12-11T19:25:08.000Z",
-      "id" : "734486"
     }
   },
   {
@@ -572,23 +464,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2021-03-10T16:48:22.000Z",
       "id" : "7773998"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "",
-        "privacyPolicyUrl" : "http://rebble.io/privacy",
-        "termsAndConditionsUrl" : "http://rebble.io/tos"
-      },
-      "name" : "Rebble",
-      "description" : "Rebble auth",
-      "permissions" : [
-        "read",
-        "emailaddress"
-      ],
-      "approvedAt" : "2019-08-06T17:47:05.000Z",
-      "id" : "14775267"
     }
   },
   {
@@ -725,24 +600,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Flipboard",
-        "url" : "https://flipboard.com",
-        "privacyPolicyUrl" : "https://about.flipboard.com/privacy-2/",
-        "termsAndConditionsUrl" : "https://about.flipboard.com/terms/"
-      },
-      "name" : "Flipboard",
-      "description" : "Flipboard is a fast, beautiful way to flip through the news, photos and updates your friends are sharing.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2011-05-24T15:54:16.000Z",
-      "id" : "69212"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Discord Inc.",
         "url" : "https://discord.com",
         "privacyPolicyUrl" : "https://discord.com/privacy",
@@ -755,25 +612,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2017-08-10T14:17:25.000Z",
       "id" : "13054616"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "UberMedia Inc",
-        "url" : "http://ubermedia.com",
-        "privacyPolicyUrl" : "http://ubermedia.com/privacy-policy/",
-        "termsAndConditionsUrl" : "http://ubermedia.com/company/terms-of-service/"
-      },
-      "name" : "Plume for Android",
-      "description" : "Plume is a beautiful Twitter client for the Android mobile platform. The interface has been created with bipeds in mind.",
-      "permissions" : [
-        "read",
-        "write",
-        "directmessages"
-      ],
-      "approvedAt" : "2018-12-11T19:29:58.000Z",
-      "id" : "39418"
     }
   },
   {
@@ -811,23 +649,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Apparent Software",
-        "url" : "http://www.apparentsoft.com"
-      },
-      "name" : "Socialite.app",
-      "description" : "Socialite.app is a Mac OS X client that lets you manage all your social networking accounts in one convenient place.",
-      "permissions" : [
-        "read",
-        "write",
-        "directmessages"
-      ],
-      "approvedAt" : "2011-11-10T06:52:39.000Z",
-      "id" : "41476"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Tripod Technology GmbH",
         "url" : "http://www.tandemapp.me"
       },
@@ -839,38 +660,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2016-04-05T08:39:38.000Z",
       "id" : "8105406"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "GRAFX Group, Inc.",
-        "url" : ""
-      },
-      "name" : "SurveyMe",
-      "description" : "SuevryMe is a tool for allowing users to submit poll questions to twitter and to collect and report on the responses.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2010-11-02T02:25:45.000Z",
-      "id" : "8201"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Apple®",
-        "url" : "http://www.apple.com"
-      },
-      "name" : "Safari on iOS",
-      "description" : "You’ll love surfing the web with Safari on iPhone and iPad. The high-resolution Retina display renders pages beautifully, with perfectly crisp text and bright, vivid graphics.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2012-12-15T10:01:23.000Z",
-      "id" : "1021737"
     }
   },
   {
@@ -922,22 +711,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Cold Brew Labs",
-        "url" : ""
-      },
-      "name" : "Pinterest",
-      "description" : "A visual bookmarking utility.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2012-03-13T07:55:33.000Z",
-      "id" : "64366"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Cameron Kaiser"
       },
       "name" : "TTYtter",
@@ -970,50 +743,15 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "EXFE HOLDINGS",
-        "url" : "http://exfe.com"
+        "name" : ""
       },
-      "name" : "EXFE ",
-      "description" : "The group utility for gathering.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2012-11-08T15:31:09.000Z",
-      "id" : "725712"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Digg",
-        "url" : "http://digg.com",
-        "privacyPolicyUrl" : "http://digg.com/privacy",
-        "termsAndConditionsUrl" : "http://digg.com/tos"
-      },
-      "name" : "Digg",
-      "description" : "What the Internet is talking about right now.",
+      "name" : "Furland",
+      "description" : "Finding friends through their location data",
       "permissions" : [
         "read"
       ],
-      "approvedAt" : "2013-06-17T10:15:15.000Z",
-      "id" : "81664"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "",
-        "url" : "http://www.c4.ca"
-      },
-      "name" : "ituwitter",
-      "description" : "Itunes to Twitter application for OS X.\r\n\r\nThis application allows you to update your current playing tracks in itunes automatically.  Only available on OS X 10.5 or higher.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2009-07-01T01:55:33.000Z",
-      "id" : "6163"
+      "approvedAt" : "2022-06-21T14:35:56.000Z",
+      "id" : "8831257"
     }
   },
   {
@@ -1069,23 +807,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Tapbots LLC",
-        "url" : "http://tapbots.com"
-      },
-      "name" : "Tweetbot for iOS",
-      "description" : "A Twitter client for iOS.",
-      "permissions" : [
-        "read",
-        "write",
-        "directmessages"
-      ],
-      "approvedAt" : "2011-11-06T16:46:21.000Z",
-      "id" : "87527"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "V2EX",
         "url" : "http://www.v2ex.com/"
       },
@@ -1119,24 +840,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Tapbots LLC",
-        "url" : "https://tapbots.com/",
-        "privacyPolicyUrl" : "https://tapbots.net/tweetbot4/privacy/"
-      },
-      "name" : "Tweetbot for Mac",
-      "description" : "A Twitter client for Mac.",
-      "permissions" : [
-        "read",
-        "write",
-        "directmessages"
-      ],
-      "approvedAt" : "2012-07-12T03:44:01.000Z",
-      "id" : "777317"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Storify",
         "url" : "http://storify.com"
       },
@@ -1148,22 +851,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2013-01-10T06:16:06.000Z",
       "id" : "1320385"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "",
-        "url" : ""
-      },
-      "name" : "retweet_timeline",
-      "description" : "a timeline for retweets by others",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2014-11-03T01:26:29.000Z",
-      "id" : "5007889"
     }
   },
   {
@@ -1200,39 +887,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Luke Klinker",
-        "url" : "http://klinkerapps.com"
-      },
-      "name" : "Talon Android",
-      "description" : "A fresh Twitter client for Android.",
-      "permissions" : [
-        "read",
-        "write",
-        "directmessages"
-      ],
-      "approvedAt" : "2019-02-19T03:08:22.000Z",
-      "id" : "13888874"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "The Iconfactory",
-        "url" : "https://iconfactory.com"
-      },
-      "name" : "Twitterrific for iOS",
-      "description" : "Twitter client for iPhone and iPad",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2015-01-27T05:51:10.000Z",
-      "id" : "41"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Fitbit Inc",
         "url" : "http://www.fitbit.com"
       },
@@ -1244,22 +898,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2015-02-07T18:03:01.000Z",
       "id" : "73984"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Press.one",
-        "url" : "https://press.one"
-      },
-      "name" : "Press.one DEV",
-      "description" : "Social Identity / Publish System based on Blockchain.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2018-04-03T20:54:33.000Z",
-      "id" : "523424"
     }
   },
   {
@@ -1289,7 +927,7 @@ window.YTD.connected_application.part0 = [
         "read",
         "write"
       ],
-      "approvedAt" : "2021-07-21T02:08:29.000Z",
+      "approvedAt" : "2025-11-13T02:00:04.000Z",
       "id" : "191841"
     }
   },
@@ -1312,77 +950,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Twitter Inc.",
-        "url" : "https://periscope.tv",
-        "privacyPolicyUrl" : "https://periscope.tv/privacy",
-        "termsAndConditionsUrl" : "https://periscope.tv/tos"
-      },
-      "name" : "Periscope",
-      "description" : "Explore the world through someone's eyes!",
-      "permissions" : [
-        "read",
-        "write",
-        "emailaddress"
-      ],
-      "approvedAt" : "2015-12-22T15:28:51.000Z",
-      "id" : "8036141"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Handmark, Inc."
-      },
-      "name" : "TweetCaster for Android",
-      "description" : "TweetCaster is the premier Twitter client for Android devices.",
-      "permissions" : [
-        "read",
-        "write",
-        "directmessages"
-      ],
-      "approvedAt" : "2018-12-11T19:31:23.000Z",
-      "id" : "972529"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Society6",
-        "url" : "https://society6.com/",
-        "privacyPolicyUrl" : "https://society6.com/help/privacy",
-        "termsAndConditionsUrl" : "https://society6.com/help/terms"
-      },
-      "name" : "Society6",
-      "description" : "Society6 is a community welcoming all people inspired by the arts who seek to support projects by emerging and established artists from every creative discipline.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2017-11-24T20:01:54.000Z",
-      "id" : "6859"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "",
-        "privacyPolicyUrl" : "https://peing.net/pvy",
-        "termsAndConditionsUrl" : "https://peing.net/trm"
-      },
-      "name" : "Peing",
-      "description" : "質問箱を作ってURLをTwitterに掲載しよう！質問箱には誰でも匿名で質問が送れます！",
-      "permissions" : [
-        "read",
-        "write",
-        "emailaddress"
-      ],
-      "approvedAt" : "2019-02-24T23:39:33.000Z",
-      "id" : "14493603"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "IFTTT Inc",
         "url" : "https://ifttt.com",
         "privacyPolicyUrl" : "https://ifttt.com/privacy",
@@ -1397,38 +964,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2012-11-08T18:38:25.000Z",
       "id" : "177000"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Cobook",
-        "url" : "https://cobook.co"
-      },
-      "name" : "Cobook",
-      "description" : "The unified address book.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2012-06-04T08:24:42.000Z",
-      "id" : "1376581"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "LinkedIn",
-        "url" : "http://www.linkedin.com/"
-      },
-      "name" : "LinkedIn",
-      "description" : "LinkedIn Status",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2010-03-27T10:19:35.000Z",
-      "id" : "22617"
     }
   },
   {
@@ -1466,38 +1001,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Misfit Wearables",
-        "url" : "http://www.misfitwerables.com"
-      },
-      "name" : "Misfit Shine",
-      "description" : "Misfit Shine application help you share information with your friends",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2015-08-14T06:50:25.000Z",
-      "id" : "5821223"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Apple®",
-        "url" : ""
-      },
-      "name" : "Siri",
-      "description" : "Siri",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2013-06-24T18:16:24.000Z",
-      "id" : "3882339"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Instapaper"
       },
       "name" : "Instapaper",
@@ -1508,21 +1011,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2016-10-17T16:03:28.000Z",
       "id" : "13399"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Twitter"
-      },
-      "name" : "Twitter for iPad",
-      "description" : "Twitter for iPad",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2011-05-21T21:25:09.000Z",
-      "id" : "191841"
     }
   },
   {
@@ -1539,25 +1027,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2010-09-07T15:29:13.000Z",
       "id" : "26428"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Affinitweet",
-        "url" : "https://affinitweet.com/",
-        "privacyPolicyUrl" : "https://affinitweet.com/privacy",
-        "termsAndConditionsUrl" : "https://affinitweet.com/terms"
-      },
-      "name" : "Affinitweet.com",
-      "description" : "Affinitweet is the best place to have fun with your friends on Twitter! Check your statistics and more!",
-      "permissions" : [
-        "read",
-        "write",
-        "emailaddress"
-      ],
-      "approvedAt" : "2020-02-15T00:48:36.000Z",
-      "id" : "7774918"
     }
   },
   {
@@ -1613,38 +1082,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Twitter, Inc",
-        "url" : "http://twitter.com"
-      },
-      "name" : "Twitter for Mac",
-      "description" : "Twitter for Mac",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2021-01-28T08:13:41.000Z",
-      "id" : "557701"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "ProcessOne",
-        "url" : "http://www.process-one.net"
-      },
-      "name" : "Boxcar",
-      "description" : "Push notifications for Twitter",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2011-04-10T14:30:49.000Z",
-      "id" : "11936"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "AnaTweet",
         "url" : "http://anatweet.com"
       },
@@ -1677,34 +1114,17 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Xbox",
-        "url" : "https://www.xbox.com",
-        "privacyPolicyUrl" : "https://privacy.microsoft.com/en-us/privacystatement",
-        "termsAndConditionsUrl" : "https://support.xbox.com/en-US/my-account/warranty-and-service/xbox-support-terms-conditions"
+        "name" : "Automattic",
+        "url" : "https://automattic.com",
+        "privacyPolicyUrl" : "https://automattic.com/privacy/"
       },
-      "name" : "Xbox Live Account Linking",
-      "description" : "Link your Xbox Live account with your Twitter account to enable new social features!",
+      "name" : "Gravatar Profiles",
+      "description" : "Gravatar Twitter app to help validate Twitter links ownership",
       "permissions" : [
         "read"
       ],
-      "approvedAt" : "2021-05-26T14:14:12.000Z",
-      "id" : "16637510"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "ProcessOne",
-        "url" : "http://www.process-one.net"
-      },
-      "name" : "Tweet.IM",
-      "description" : "ProcessOne public instance of Twitter XMPP gateway. This gateway can be use to use Twitter from any XMPP client.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2009-10-29T05:50:06.000Z",
-      "id" : "41743"
+      "approvedAt" : "2025-07-04T03:07:05.000Z",
+      "id" : "27227455"
     }
   },
   {
@@ -1721,38 +1141,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2010-10-09T05:42:02.000Z",
       "id" : "25927"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Twitter, Inc",
-        "url" : "http://twitter.com"
-      },
-      "name" : "Twitter for Mac",
-      "description" : "Twitter for Mac",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2011-01-30T13:03:27.000Z",
-      "id" : "557701"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Twitter",
-        "url" : ""
-      },
-      "name" : "Twitter for iPhone",
-      "description" : "Twitter for iPhone",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2011-02-26T06:45:12.000Z",
-      "id" : "129032"
     }
   },
   {
@@ -1777,24 +1165,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Microsoft Corporation",
-        "url" : "https://www.microsoft.com",
-        "privacyPolicyUrl" : "http://aka.ms/privacystatement",
-        "termsAndConditionsUrl" : "http://aka.ms/servicesagreement"
-      },
-      "name" : "Xbox Game Bar",
-      "description" : "Take control of your gaming activities--such as screenshots, capturing clips, and streaming--by pressing Win+G on your keyboard.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2021-05-26T14:13:02.000Z",
-      "id" : "15912553"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Xobni Corp",
         "url" : "http://www.xobni.com"
       },
@@ -1806,6 +1176,22 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2012-06-05T03:31:53.000Z",
       "id" : "508335"
+    }
+  },
+  {
+    "connectedApplication" : {
+      "organization" : {
+        "name" : "Twidere"
+      },
+      "name" : "Twidere X iOS",
+      "description" : "This app was created to use the Twitter API.",
+      "permissions" : [
+        "read",
+        "write",
+        "directmessages"
+      ],
+      "approvedAt" : "2023-01-05T06:23:10.000Z",
+      "id" : "19311152"
     }
   },
   {
@@ -1906,33 +1292,16 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Geeklist, Inc.",
-        "url" : "http://geekli.st"
+        "name" : "Geeklist Labs, Inc."
       },
-      "name" : "Geeklist Inc",
-      "description" : "A social street-cred builder for developers.",
+      "name" : "Geeklist Labs Inc",
+      "description" : "A social place for developers and their agents.",
       "permissions" : [
         "read",
         "write"
       ],
       "approvedAt" : "2012-06-05T04:17:47.000Z",
       "id" : "1051989"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Cobook",
-        "url" : "https://cobook.co"
-      },
-      "name" : "Cobook Contacts",
-      "description" : "The unified address book.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2015-01-30T20:53:06.000Z",
-      "id" : "5224386"
     }
   },
   {
@@ -1949,42 +1318,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2009-10-29T05:40:50.000Z",
       "id" : "31025"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Tencent Inc",
-        "url" : "http://www.tencent.com/en-us/index.shtml",
-        "privacyPolicyUrl" : "https://www.wechat.com/mobile/htdocs/en/privacy_policy.html",
-        "termsAndConditionsUrl" : "https://www.wechat.com/mobile/htdocs/en/service_terms.html"
-      },
-      "name" : "WeChat app",
-      "description" : "Connecting a billion users with free chats, calls, and more",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2017-05-18T06:42:52.000Z",
-      "id" : "3017904"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Imgur, Inc.",
-        "url" : "http://imgur.com",
-        "privacyPolicyUrl" : "https://imgur.com/privacy",
-        "termsAndConditionsUrl" : "https://imgur.com/tos"
-      },
-      "name" : "Imgur",
-      "description" : "Imgur makes sharing images with the Internet easy. It can be used to share pictures with friends, as well as post images on message boards and blogs.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2016-05-20T03:32:29.000Z",
-      "id" : "659832"
     }
   },
   {
@@ -2036,23 +1369,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Ulysses",
-        "url" : "https://ulysses.app",
-        "privacyPolicyUrl" : "https://ulysses.app/web-privacy-policy/",
-        "termsAndConditionsUrl" : "https://styles.ulysses.app/terms"
-      },
-      "name" : "Ulysses Styles & Themes",
-      "description" : "Ulysses Styles & Themes is a platform to share styles and themes for Ulysses, the premier text editor for creative writers.",
-      "permissions" : [
-        "read"
-      ],
-      "approvedAt" : "2020-07-22T20:20:31.000Z",
-      "id" : "6081308"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Droplr Inc",
         "url" : "http://droplr.com"
       },
@@ -2069,54 +1385,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "64px",
-        "url" : "http://64px.com"
-      },
-      "name" : "Bird Nest for Chrome",
-      "description" : "Tweet from Google Chrome",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2018-05-10T16:58:36.000Z",
-      "id" : "13573133"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Automattic",
-        "url" : "http://automattic.com/"
-      },
-      "name" : "WordPress.com",
-      "description" : "Tweet your WordPress.com posts and comment on WordPress.com using your Twitter identity.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2013-10-20T13:50:38.000Z",
-      "id" : "38869"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "",
-        "url" : ""
-      },
-      "name" : "AlfredTweet",
-      "description" : "Twitter plugin for Alfredapp",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2011-12-06T05:41:35.000Z",
-      "id" : "1363485"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Path, Inc."
       },
       "name" : "With",
@@ -2127,22 +1395,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2011-06-14T15:47:16.000Z",
       "id" : "678069"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Press.one",
-        "url" : "https://press.one"
-      },
-      "name" : "Press.one",
-      "description" : "Social Identity / Publish System based on Blockchain.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2018-02-08T17:18:36.000Z",
-      "id" : "14742450"
     }
   },
   {
@@ -2165,22 +1417,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : ""
-      },
-      "name" : "PriceBeater_Dev",
-      "description" : "PriceBeater.ca",
-      "permissions" : [
-        "read",
-        "write",
-        "directmessages"
-      ],
-      "approvedAt" : "2014-05-28T08:09:33.000Z",
-      "id" : "6243332"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Apple®",
         "url" : ""
       },
@@ -2197,33 +1433,17 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "twitterfeed",
-        "url" : "http://twitterfeed.com"
+        "name" : "Stacker News",
+        "privacyPolicyUrl" : "https://stacker.news/privacy",
+        "termsAndConditionsUrl" : "https://stacker.news/tos"
       },
-      "name" : "twitterfeed",
-      "description" : "feed your blog to twitter - twitterfeed lets you post any RSS or Atom feed to twitter automatically",
+      "name" : "stacker news",
+      "description" : "moderating forums with money",
       "permissions" : [
-        "read",
-        "write"
+        "read"
       ],
-      "approvedAt" : "2009-07-01T06:37:02.000Z",
-      "id" : "17"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Occipital, Inc.",
-        "url" : "http://www.occipital.com"
-      },
-      "name" : "360 Panorama",
-      "description" : "This application will allow your Occipital apps to integrate nicely with Twitter and Twitter related photo sites.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2012-08-04T16:13:34.000Z",
-      "id" : "437220"
+      "approvedAt" : "2022-10-12T22:14:57.000Z",
+      "id" : "20670821"
     }
   },
   {
@@ -2290,54 +1510,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2009-12-14T09:46:39.000Z",
       "id" : "8350"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Twitter, Inc.",
-        "url" : ""
-      },
-      "name" : "Twitter for Android",
-      "description" : "Twitter for Android",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2012-10-11T03:21:19.000Z",
-      "id" : "258901"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Tapbots LLC",
-        "url" : "https://tapbots.com",
-        "privacyPolicyUrl" : "https://tapbots.net/tweetbot4/privacy/"
-      },
-      "name" : "Tweetbot for iΟS",
-      "description" : "A Twitter client for iOS.",
-      "permissions" : [
-        "read",
-        "write",
-        "directmessages"
-      ],
-      "approvedAt" : "2014-05-29T23:35:35.000Z",
-      "id" : "6207723"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : ""
-      },
-      "name" : "nanairo",
-      "description" : "ONLY USE \"Sign in with Twitter\" ",
-      "permissions" : [
-        "read"
-      ],
-      "approvedAt" : "2019-09-11T06:08:31.000Z",
-      "id" : "12309935"
     }
   },
   {
@@ -2421,6 +1593,21 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
+        "name" : "Givee.Club",
+        "privacyPolicyUrl" : "https://givee.club/privacy-policy"
+      },
+      "name" : "Givee.Club",
+      "description" : "Givee.Club oAuth 2.0 Authorization",
+      "permissions" : [
+        "read"
+      ],
+      "approvedAt" : "2025-10-14T02:41:43.000Z",
+      "id" : "26026759"
+    }
+  },
+  {
+    "connectedApplication" : {
+      "organization" : {
         "name" : "UNIQLO",
         "url" : "http://www.uniqlo.com/jp/"
       },
@@ -2453,22 +1640,6 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "YoruFukurou Project",
-        "termsAndConditionsUrl" : "https://aki-null.net/yf/License-en.pdf"
-      },
-      "name" : "YoruFukurou",
-      "description" : "YoruFukurou (Night Owl) is a Twitter client for Mac OS X, designed for Twitter addicts. It provides powerful functionality through simple user interface.",
-      "permissions" : [
-        "read",
-        "write"
-      ],
-      "approvedAt" : "2010-03-14T13:08:41.000Z",
-      "id" : "1728"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
         "name" : "Branch",
         "url" : "http://www.branch.com"
       },
@@ -2480,6 +1651,25 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2012-08-19T15:21:26.000Z",
       "id" : "1624421"
+    }
+  },
+  {
+    "connectedApplication" : {
+      "organization" : {
+        "name" : "Hootsuite Inc.",
+        "url" : "https://hootsuite.com/",
+        "privacyPolicyUrl" : "https://hootsuite.com/legal/privacy",
+        "termsAndConditionsUrl" : "https://hootsuite.com/legal/enterprise-terms"
+      },
+      "name" : "Hootsuite Inc.",
+      "description" : "Hootsuite is a social media dashboard which allows teams to broadcast, monitor and track results.",
+      "permissions" : [
+        "read",
+        "write",
+        "directmessages"
+      ],
+      "approvedAt" : "2023-01-05T07:05:45.000Z",
+      "id" : "14938395"
     }
   },
   {
@@ -2564,39 +1754,41 @@ window.YTD.connected_application.part0 = [
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Feedly",
-        "url" : "https://feedly.com/"
+        "name" : "",
+        "url" : "https://auth.kalos.art",
+        "privacyPolicyUrl" : "https://static-assets.pek3b.qingstor.com/kalos_privacy.html",
+        "termsAndConditionsUrl" : "https://kalos.art/license"
       },
-      "name" : "Feedly App",
-      "description" : "Organize, read and share the content of your favorite websites.",
+      "name" : "chuxrsshub",
+      "description" : "for reading ",
       "permissions" : [
         "read",
-        "write"
+        "emailaddress"
       ],
-      "approvedAt" : "2011-03-25T01:47:39.000Z",
-      "id" : "363464"
+      "approvedAt" : "2025-02-25T01:45:40.000Z",
+      "id" : "18405235"
     }
   },
   {
     "connectedApplication" : {
       "organization" : {
-        "name" : "Tumblr, Inc.",
-        "url" : "https://www.tumblr.com",
-        "privacyPolicyUrl" : "https://www.tumblr.com/privacy",
-        "termsAndConditionsUrl" : "https://www.tumblr.com/policy/terms-of-service"
+        "name" : "X Corp."
       },
-      "name" : "Tumblr",
-      "description" : "The easiest way to blog.",
+      "name" : "XChat for iPhone",
+      "description" : "XChat for iPhone",
       "permissions" : [
         "read",
         "write"
       ],
-      "approvedAt" : "2017-12-01T09:55:00.000Z",
-      "id" : "154980"
+      "approvedAt" : "2026-04-24T19:43:12.000Z",
+      "id" : "32766573"
     }
   },
   {
     "connectedApplication" : {
+      "organization" : {
+        "name" : ""
+      },
       "name" : "Twocation",
       "description" : "Where are your followers located? Plot the locations of your Twitter followers on a map.",
       "permissions" : [
@@ -2620,41 +1812,6 @@ window.YTD.connected_application.part0 = [
       ],
       "approvedAt" : "2013-07-03T10:54:48.000Z",
       "id" : "1150205"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : "Cineplex Entertainment",
-        "url" : "http://www.cineplex.com",
-        "privacyPolicyUrl" : "https://www.cineplex.com/Global/PrivacyPolicy",
-        "termsAndConditionsUrl" : "https://www.cineplex.com/Global/TermsOfUse"
-      },
-      "name" : "Cineplex Connect",
-      "description" : "Cineplex Connect",
-      "permissions" : [
-        "read",
-        "write",
-        "emailaddress"
-      ],
-      "approvedAt" : "2020-08-31T02:27:37.000Z",
-      "id" : "4577163"
-    }
-  },
-  {
-    "connectedApplication" : {
-      "organization" : {
-        "name" : ""
-      },
-      "name" : "PriceBeater_233",
-      "description" : "PriceBeater.ca",
-      "permissions" : [
-        "read",
-        "write",
-        "directmessages"
-      ],
-      "approvedAt" : "2014-06-12T09:11:37.000Z",
-      "id" : "6311940"
     }
   }
 ]

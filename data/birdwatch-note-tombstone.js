@@ -1,1 +1,0 @@
-window.YTD.birdwatch_note_tombstone.part0 = [ ]

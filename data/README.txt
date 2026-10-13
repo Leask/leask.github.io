@@ -19,6 +19,32 @@ FILE DESCRIPTIONS
 === SENSORY INFORMATION ===
 (Audio, electronic, visual, and similar information)
 
+audio-video-calls-in-dm-recipient-sessions.js
+This JSON file contains the metadata of audio or video calls received in a one-to-one Direct Messages conversation.
+- createdAt: Date and time when the call session was created.
+- publishedAt: Date and time when the peer to peer connection was successfully established between the two participants.
+- startedAt: Date and time when the call session was created. This is updated to publishedAt if the peer to peer connection successfully establishes.
+- lastPingedAt: Date and time of the last time the user’s client sent a ping to X servers during the pendency of the call session.
+- endedAt: Date and time when the call session was ended.
+- endReason: "MISSED"    The recipient missed the call.
+"DECLINED"  The recipient declined the call.
+"HUNG_UP"   the recipient ended the call by hanging up.
+"TIMED_OUT" The call was ended due to a non responsive participant.
+
+- hostBroadcastID: Unique id for the broadcast object associated with the call.
+----------------------
+audio-video-calls-in-dm.js
+This JSON file contains the metadata of audio or video calls initiated in a one-to-one Direct Messages conversation.
+- broadcast: Broadcast object associated with the call. id represents a Unique id for the broadcast object associated with the call. inviteesTwitter represents a list of X user id recipients of the call. createdAt represents the Date and time when the call was initiated. updatedAt represents the Date and time of the last broadcast update. endAt  represents the Date and time when the call was ended by one of the participants.
+
+- sessions: List of participant sessions metadata that belong to this call. The product set item can be either a product or a product group. twitterUserID represents the session owner user id. hostBroadcastID represents the unique id for the broadcast object where this session belongs to. endReason represents the reason why the call ended.
+  "CANCELED"  The caller left before callee joined within the first 30sec of the call.
+  "MISSED"    The recipient missed the call.
+  "DECLINED"  The recipient declined the call.
+  "HUNG_UP"   The caller or recipient ended the call by hanging up.
+  "TIMED_OUT" The call was ended due to a non responsive participant.
+createdAt represents the Date and time when the call session was created. publishedAt represents the Date and time when the peer to peer session was successfully established between the two participants. startedAt represents the Date and time when the call session was created. This is updated to publishedAt if the peer to peer session successfully establishes.
+----------------------
 community_tweet_media
 Folder of images, videos, and/or gifs shared in the account’s Tweets that are posted in Communities. Note: this folder does not include media hosted on other platforms but linked on Twitter (for example, Youtube videos).
 
@@ -86,13 +112,6 @@ If Tweets have been produced and there is associated media, you can match the me
 
 If your production includes a Tweet file and did not include a tweets_media folder, this is because there was no media associated with the Tweet file.
 ----------------------
-twitter_circle_tweet_media
-Folder of images, videos, and/or gifs shared in the account’s Tweets that are shared with a Twitter Circle. Note: this folder does not include media hosted on other platforms but linked on Twitter (for example, Youtube videos).
-
-If Tweets have been shared with a Twitter Circle and there is associated media, you can match the media to the twitter-circle-tweet data file. The filename for each media file in the twitter_circle_tweet_media folder contains a numerical ID that corresponds to a Twitter Circle Tweet in the twitter-circle-tweet file. By searching the twitter-circle-tweet file for the numeric portion of the filename of the media, you can find the corresponding Twitter Circle Tweet.
-
-If your production includes a twitter-circle-tweet file and did not include a twitter_circle_tweet_media folder, this is because there was no media associated with the twitter-circle-tweet file.
-----------------------
 
 === IDENTIFIERS ===
 (Real name, alias, postal address, telephone number, unique identifiers (such as a device identifier, cookies, mobile ad identifiers), customer number, Internet Protocol address, email address, account name, and other similar identifiers)
@@ -116,6 +135,7 @@ ip-audit.js
 - accountId: Unique identifier for the account.
 - createdAt: Date and time of a login to the account.
 - loginIp: IP address associated with the login.
+- loginPortNumber: Port number associated with the login.
 ----------------------
 periscope-account-information.js
 - id: Periscope shell account unique identifier automatically created as soon as the user goes to the "Live" section of the News Camera. A Periscope shell account will be created for the Twitter user before the user goes live.
@@ -179,19 +199,6 @@ ad-engagements.js
 - impressionTime: Date and time when the ad was viewed.
 - engagementAttributes: Type of engagement as well as date and time when it occurred.
 ----------------------
-ad-free-article-visits.js
-- visitTimestamp: Date and time of when the ad-free article visit occurred.
-- url: URL of the article.
-- videoSlug: Portion of the URL that identifies a video in the article.
-- isAmp: Indicates whether the article was shown using AMP (Accelerated Mobile Pages, more info at amp.dev).
-- affiliateName: Name of the site that referred the user to the article.
-- propertyName: Name of the site the article was on.
-- duration: Duration of the visit, in seconds.
-- adsShown: Indicates whether all ads were removed from the article during the visit.
-- simpleUserAgent: The platform and device where the user viewed the article (operating system, app, device).
-- exclusionReason: The reason a visit was excluded from payments to the publisher/site.
-- referrer: URL indicating where the user came from before landing on the article.
-----------------------
 ad-impressions.js
 - ad: Promoted Tweets the account has viewed and any associated metadata.
 - deviceInfo: Information about the device where the impression was viewed such as its ID and operating system.
@@ -240,41 +247,31 @@ ad-online-conversions-unattributed.js
 - conversionTime: Date and time of the event.
 - additionalParameters: Other optional parameters associated with the event such as a currency or product category.
 ----------------------
+ads-revenue-sharing.js
+- status: The user's status of the Ads Revenue Sharing program.
+- enrolledAt: The ISO8601 timestamp of when the user was enrolled into the Ads Revenue Sharing program.
+- paidAt: The ISO8601 timestamp of when the payout was made.
+- payoutAmountUsd: The payout amount in USD.
+----------------------
 app.js
 - appId: Identifier of the app Twitter believes may be installed on devices associated with the user.
 - appNames: Name of the app Twitter believes may be installed on devices associated with the user.
 ----------------------
-birdwatch-note-rating.js
-- noteId: Unique identifier for the Birdwatch note.
-- userId: The Twitter user ID of the author of the Birdwatch note rating.
-- createdAt: Day and time at which the Birdwatch note rating was created.
-- agree: Indicates whether the Twitter user agrees or not with the Birdwatch note, if available.
-- helpful: Indicates whether the Twitter user finds the Birdwatch note helpful or not helpful, if available.
-- helpfulTags: Tags the user added to this Birdwatch note, if available. (Options may include but are not limited to “clear“, “good source”, etc.)
-- nothelpfulTags: Tags the user added to this Birdwatch note, if available. (Options may include but are not limited to “outdated“, “incorrect“, etc.)
-- helpfulnessLevel: Indicates whether the Twitter user finds the Birdwatch note helpful or not, if available. (Options may include but are not limited to "helpful", "somewhat helpful", "not helpful", etc.)
-- userAlias: The Birdwatch alias of the author of the Birdwatch note rating.
+article-metadata.js
+- authorId: Twitter ID of the author of this Twitter article.
+- createdatMs: Timestamp of the creation of this Twitter article
+- updatedAtMs: Timestamp of the last update of this Twitter article
+- visibility: Visiblity of the article
+- tweetId: TweetId associated with the article
+- firstPublishedAtMs: Timestamp of the first time this Twitter article was first published
+- lifecycleState: State of the Twitter article: Draft or Published
 ----------------------
-birdwatch-note-tombstone.js
-- noteId: Unique identifier for the Birdwatch note.
-- userId: The Twitter user ID of the author of the Birdwatch note.
-- createdAt: Day and time at which the Birdwatch note rating was created.
-- deletedAt: Day and time at which the Birdwatch note rating was deleted.
-----------------------
-birdwatch-note.js
-- noteId: Unique identifier for the Birdwatch note.
-- userId: The Twitter user ID of the author of the Birdwatch note.
-- createdAt: Day and time at which the Birdwatch note was created.
-- tweetId: Unique identifier for the Tweet annotated.
-- summary: Text of the Birdwatch note; users may explain why they think a Tweet is misleading and include what they believe to be correct information.
-- classification: Classification the user added to this Birdwatch note, if available. (Options may include but are not limited to "not misleading," "harmfully misleading," "potentially misleading," etc.)
-- believable: User-entered multiple choice response to note writing question: “If this tweet were widely spread, its message would likely be believed by:” (Options may include but are not limited to “believable by few”, “believable by many”, etc.) 
-- trustworthySources: Binary indicator, based on user-entered multiple choice in response to note writing question “Did you link to sources you believe most people would consider trustworthy?” (Options may include: 1 if “Yes” is selected, 0 if “No” is selected) 
-- misleadingTags: User-entered checkbox in response to question “Why do you believe this tweet may be misleading?” (Check all that apply question type)
-- notMisleadingTags: User-entered checkbox in response to question “Why do you believe this tweet is not misleading?” (Check all that apply question type).
-- harmful: User-entered multiple choice response to note writing question: “If many believed this tweet, it might cause:”. (Options may include but are not limited to “little harm”, “considerable harm”, etc.)
-- validation: User-entered multiple choice response to note writing question: “Finding and understanding the correct information would be:” (Options may include but are not limited to “easy”, “challenging”.)
-- userAlias: The Birdwatch alias of the author of the Birdwatch note.
+article.js
+- id: Unique identifier for the article.
+- title: The title of the article as specified by you.
+- content: Content of the article split by sections with each has details for the text content, mentions, hashtags and styles applied to the text.
+- coverMedia: The cover media of the article.
+- media: The medias associated with the article
 ----------------------
 block.js
 - accountId: Unique identifiers of accounts currently blocked by the account.
@@ -327,6 +324,61 @@ commerce-catalog.js
 - authorUserId: Your twitter user id
 - lastUpdatedAt: Timestamp when the catalog was last updated by you
 ----------------------
+community-note-api-test-note.js
+- noteId: Unique identifier for the Community note.
+- userId: The Twitter user ID of the author of the Community note.
+- createdAt: Day and time at which the Community note was created.
+- tweetId: Unique identifier for the Tweet annotated.
+- summary: Text of the Community note; users may explain why they think a Tweet is misleading and include what they believe to be correct information.
+- classification: Classification the user added to this Community note, if available. (Options may include but are not limited to "not misleading," "harmfully misleading," "potentially misleading," etc.)
+- believable: User-entered multiple choice response to note writing question: “If this tweet were widely spread, its message would likely be believed by:” (Options may include but are not limited to “believable by few”, “believable by many”, etc.) 
+- trustworthySources: Binary indicator, based on user-entered multiple choice in response to note writing question “Did you link to sources you believe most people would consider trustworthy?” (Options may include: 1 if “Yes” is selected, 0 if “No” is selected) 
+- misleadingTags: User-entered checkbox in response to question “Why do you believe this tweet may be misleading?” (Check all that apply question type)
+- notMisleadingTags: User-entered checkbox in response to question “Why do you believe this tweet is not misleading?” (Check all that apply question type).
+- harmful: User-entered multiple choice response to note writing question: “If many believed this tweet, it might cause:”. (Options may include but are not limited to “little harm”, “considerable harm”, etc.)
+- validation: User-entered multiple choice response to note writing question: “Finding and understanding the correct information would be:” (Options may include but are not limited to “easy”, “challenging”.)
+- userAlias: The Community alias of the author of the Community note.
+----------------------
+community-note-batsignal.js
+- signalId: Unique identifier for the Community Note bat signal.
+- userId: The Twitter user ID of the author of the Community Note Bat Signal.
+- tweetId: Unique identifier for the Tweet annotated.
+- createdAt: Day and time at which the Community Note bat signal was created.
+- sourceLink: A source link provided with the Community Note Bat Signal.
+----------------------
+community-note-rating.js
+- noteId: Unique identifier for the Community note.
+- userId: The Twitter user ID of the author of the Community note rating.
+- createdAt: Day and time at which the Community note rating was created.
+- agree: Indicates whether the Twitter user agrees or not with the Community note, if available.
+- helpful: Indicates whether the Twitter user finds the Community note helpful or not helpful, if available.
+- helpfulTags: Tags the user added to this Community note, if available. (Options may include but are not limited to “clear“, “good source”, etc.)
+- nothelpfulTags: Tags the user added to this Community note, if available. (Options may include but are not limited to “outdated“, “incorrect“, etc.)
+- helpfulnessLevel: Indicates whether the Twitter user finds the Community note helpful or not, if available. (Options may include but are not limited to "helpful", "somewhat helpful", "not helpful", etc.)
+- userAlias: The Community alias of the author of the Community note rating.
+- suggestions: Suggestions the user added to this Community note, if available.
+----------------------
+community-note-tombstone.js
+- noteId: Unique identifier for the Community note.
+- userId: The Twitter user ID of the author of the Community note.
+- createdAt: Day and time at which the Community note rating was created.
+- deletedAt: Day and time at which the Community note rating was deleted.
+----------------------
+community-note.js
+- noteId: Unique identifier for the Community note.
+- userId: The Twitter user ID of the author of the Community note.
+- createdAt: Day and time at which the Community note was created.
+- tweetId: Unique identifier for the Tweet annotated.
+- summary: Text of the Community note; users may explain why they think a Tweet is misleading and include what they believe to be correct information.
+- classification: Classification the user added to this Community note, if available. (Options may include but are not limited to "not misleading," "harmfully misleading," "potentially misleading," etc.)
+- believable: User-entered multiple choice response to note writing question: “If this tweet were widely spread, its message would likely be believed by:” (Options may include but are not limited to “believable by few”, “believable by many”, etc.) 
+- trustworthySources: Binary indicator, based on user-entered multiple choice in response to note writing question “Did you link to sources you believe most people would consider trustworthy?” (Options may include: 1 if “Yes” is selected, 0 if “No” is selected) 
+- misleadingTags: User-entered checkbox in response to question “Why do you believe this tweet may be misleading?” (Check all that apply question type)
+- notMisleadingTags: User-entered checkbox in response to question “Why do you believe this tweet is not misleading?” (Check all that apply question type).
+- harmful: User-entered multiple choice response to note writing question: “If many believed this tweet, it might cause:”. (Options may include but are not limited to “little harm”, “considerable harm”, etc.)
+- validation: User-entered multiple choice response to note writing question: “Finding and understanding the correct information would be:” (Options may include but are not limited to “easy”, “challenging”.)
+- userAlias: The Community alias of the author of the Community note.
+----------------------
 community_tweet.js
 This JSON file contains all the Tweets posted in Communities and not deleted. The definitions for each of the variables that may be included in any particular Tweet are available in our API documentation: https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-update.
 ----------------------
@@ -336,6 +388,13 @@ connected-application.js
 - approvedAt: Date and time when the account authorized the application.
 - permissions: List of permissions granted to the connected application by the Twitter account. For example: read or write.
 - id: Unique identifier for the application.
+----------------------
+deleted-note-tweet.js
+- noteTweetId: Note Tweet id associated with a tweet
+- createdAt: Date and time a Note Tweet is created at
+- lifecycle: Lifecycle state of a note tweet
+- updatedAt: Date and time the lifecycle state of Note Tweet is updated at
+- core: Core fields for a note tweet such as entity information (hashtag, cashtag, url, mentions), richtext and text
 ----------------------
 deleted-tweet-headers.js
 This JSON file contains metadata associated with Tweets that you have deleted, but have not yet been deleted from our production systems.
@@ -402,6 +461,13 @@ direct-messages.js
 - id: Unique identifier for a specific Direct Message within the conversation.
 - createdAt: Date and time the Direct Message was sent.
 ----------------------
+expanded-profile.js
+This JSON file contains all expanded profile information.
+
+Specifically, an expanded profile is comprised of sections. Each section can have a title and 1 or more blocks.
+
+Blocks can be of different types, such as rich text or work experience. Different block types can have different fields.
+----------------------
 follower.js
 - accountId: Unique identifiers for the other accounts that follow this account.
 - userLink: Link to information about the blocked users’ profiles if accessible to the account. For example, this information might not be accessible if blocked profiles are protected or deactivated.
@@ -409,6 +475,31 @@ follower.js
 following.js
 - accountId: Unique identifiers for the other accounts this account follows.
 - userLink: Link to information about the blocked users’ profiles if accessible to the account. For example, this information might not be accessible if blocked profiles are protected or deactivated.
+----------------------
+grok-chat-item.js
+- accountId: Unique identifier of the account who sent a message to Grok.
+- createdAt: Date and time the Grok chat message was sent.
+- chatId: Unique identifier of the chat the account had with Grok.
+- message: Text content of the Grok Message
+- sender: Type of the sender in the Grok conversation.
+- postIds: Unique identifiers of the Posts in the Grok response.
+- grokMode: Grok mode during the conversation.
+- attachments: Files uploaded by user or generated by Grok in the conversation
+----------------------
+grok_chat_media
+Folder of images and/or pdfs shared in the account’s Grok conversations. Note: this folder does not include media hosted on other platforms but linked on Twitter (for example, Instagram photos).
+
+If Grok Messages have been produced and there is associated media, you can match the media to the Grok conversation data file. The filename for each media file in the grok_chat_media folder contains a numerical ID that corresponds to a message in the grok_chat_item file. By searching the grok_chat_item file for the numeric portion of the filename of the media, you can find the corresponding Grok message.
+
+If your production includes a grok_chat_item file and did not include a grok_chat_media folder, this is because there was no media associated with the grok_chat_item file.
+----------------------
+key-registry.js
+- userId: Unique identifier for the user account
+- deviceId: Unique identifier for the device registered/deregistered for Encrypt Dms
+- registrationToken: Registration token with one to one mapping with deviceId
+- identityKey: Public key used to set up encrypted dm session
+- userAgent: String content extracted from request header that includes device metadata info
+- createdAt: Date and time of registration/unregistration
 ----------------------
 like.js
 - tweetId: Unique identifiers for the Tweets liked.
@@ -423,6 +514,15 @@ lists-member.js
 ----------------------
 lists-subscribed.js
 - urls: URLs of Lists the account has subscribed to.
+----------------------
+message-event.js
+- sequenceId: Unique identifier for the Message Event.
+- messageId: Unique identifier for the message.
+- senderId: Unique identifier for the account who sent the Message Event.
+- conversationId: Unique identifier for the conversation.
+- conversationToken: Token associated with the conversation.
+- createdAtMsec: Date and time the Message Event was created (in milliseconds).
+- detail: Message Event detail information, including, if available, the end-to-end encrypted payload.
 ----------------------
 moment.js
 - momentId: Unique identifier for the Moment.
@@ -444,6 +544,13 @@ ni-devices.js
 - createdDate: Field indicating when the association between the device and the Twitter account was made.
 - updatedDate: Field indicating the last time this association was updated.
 - udid: Field indicating the application-generated device ID. This ID is unique to the device and persists through device updates, but not through device reinstallations.
+----------------------
+note-tweet.js
+- noteTweetId: Note Tweet id associated with a tweet
+- createdAt: Date and time a Note Tweet is created at
+- lifecycle: Lifecycle state of a note tweet
+- updatedAt: Date and time the lifecycle state of Note Tweet is updated at
+- core: Core fields for a note tweet such as entity information (hashtag, cashtag, url, mentions), richtext and text
 ----------------------
 periscope-broadcast-metadata.js
 - id: Unique id for the broadcast posted by the shell account.
@@ -583,22 +690,6 @@ tweetdeck.js
 tweets.js
 This JSON file contains available Tweets which have not been deleted and it includes edited tweets if applicable. Users can edit a tweet up to five times; as such there are up to 5 edited tweets with unique “editTweetIds,” all connected by the “initialTweetID.” The definitions for each of the variables that may be included in any particular Tweet are available in our API documentation: https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-update.
 ----------------------
-twitter-article-metadata.js
-- authorId: Twitter ID of the author of this Twitter article.
-- visibility: State of the Twitter article: Draft or Published
-- createdAtMs: Timestamp of the creation of this Twitter article
-- updatedAtMs: Timestamp of the last update of this Twitter article
-- publishedAtMs: Timestamp of the first time this Twitter article was published
-- lastPublishedAtMs: Timestamp of the last time this Twitter article was published
-----------------------
-twitter-article.js
-- id: Unique identifier for the Twitter article.
-- title: The title of the article as specified by you
-- data: Content of the article split by sections with each has details for the text content, mentions, hashtags and styles applied to the text.
-----------------------
-twitter-circle-tweet.js
-This JSON file contains all the Tweets shared with a Twitter Circle and not deleted. The definitions for each of the variables that may be included in any particular Tweet are available in our API documentation: https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-update.
-----------------------
 twitter-shop.js
 - shopId: Unique identifier for a Shop
 - userId: Your twitter user id
@@ -607,10 +698,12 @@ twitter-shop.js
 - description: Description of the shop provided by you
 - productSetIds: list of product set ids provided by you. Items from this set will be displayed in the shop
 ----------------------
-user-link-clicks.js
-- tweetId: Unique identifier for the Tweet the user clicked on when using Twitter on iOS or Android.
-- finalUrl: URL indicating where the Tweet linked to off Twitter.
-- timeStampOfInteraction: Date and time of when the click occured. This file includes 30 days of data from the time the archive was generated.
+verified-organization.js
+- affiliatedToAccounts: List of verfied organization accounts that the current account is affiliated to
+- affiliates: List of affiliates are connected to the current verfied ogranization account
+- screenName: The affiliate or affiliation account’s current @username.
+- verfiedType: The flag to indicate account verified type.
+- createdAt: The ISO8601 date and time of the verified organization created or affiliate created in verified organization.
 ----------------------
 verified.js
 - accountId: Unique identifier for the account.

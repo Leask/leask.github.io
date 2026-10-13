@@ -1,7 +1,107 @@
 window.YTD.lists_member.part0 = [
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/yinwai17/lists/1582315876342059008"
+      "url" : "https://twitter.com/sjownq/lists/2007790836701143054"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/AnYing0011/lists/1914132143040811024"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/ny4422541/lists/1872083609848533417"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/hbsrc/lists/1835512544515231813"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/YanHuiMi/lists/1813378782025384251"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/yejieliangxin/lists/1765700138499231959"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/AndyChungcn/lists/1744222566653518323"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/zhaohanxue38580/lists/1684719773983387648"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/xiaomin63541067/lists/1677487096221814784"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/JimmyWan2023/lists/1675291622173728768"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/Brave2049/lists/1674722250862350339"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/Eviltom9/lists/1661613906119528449"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/AlexSeamile/lists/1647244979256061953"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/galee_998/lists/1637385686109294592"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/9527love3721/lists/1621733357473103872"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/nothingelss/lists/1612156421642289154"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/khsing/lists/1607105538927501314"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/MagiBitPulse/lists/1605546309062037505"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/nyanheroes1/lists/1588354832137527297"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/SardinaDump/lists/1582315876342059008"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/backto_the_dust/lists/1572166951119769605"
     }
   },
   {
@@ -12,6 +112,11 @@ window.YTD.lists_member.part0 = [
   {
     "userListInfo" : {
       "url" : "https://twitter.com/kongxin93/lists/1550510213148844032"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/song940/lists/1549213331981930496"
     }
   },
   {
@@ -31,12 +136,12 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/yzdspCom/lists/1515483630293815296"
+      "url" : "https://twitter.com/StgcdL/lists/1513486866942607361"
     }
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/StgcdL/lists/1513486866942607361"
+      "url" : "https://twitter.com/z12789/lists/1505273314398261249"
     }
   },
   {
@@ -46,22 +151,12 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/Jim93532954/lists/1502695774815096835"
+      "url" : "https://twitter.com/chdjjxjdj/lists/1499299020396584963"
     }
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/meta0data/lists/1490005511114305536"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/pj7577/lists/1484199693999820805"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/muyexi/lists/1465521471556440070"
+      "url" : "https://twitter.com/wudaohunjun/lists/1490005511114305536"
     }
   },
   {
@@ -72,11 +167,6 @@ window.YTD.lists_member.part0 = [
   {
     "userListInfo" : {
       "url" : "https://twitter.com/evanmshu/lists/1451939245615026183"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/KOASZBmXLQF2UMS/lists/1451701601819774978"
     }
   },
   {
@@ -101,12 +191,7 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/KnearhoC/lists/1412829276789903360"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/Joker33295067/lists/1404369181097738242"
+      "url" : "https://twitter.com/joker44332211/lists/1404369181097738242"
     }
   },
   {
@@ -136,17 +221,12 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/QAQ_X/lists/list-12086"
-    }
-  },
-  {
-    "userListInfo" : {
       "url" : "https://twitter.com/welchluo/lists/canada-15666"
     }
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/Ragnarokidgard/lists/following-13980"
+      "url" : "https://twitter.com/onelepol/lists/following-13980"
     }
   },
   {
@@ -161,12 +241,12 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/randommath2020/lists/list5"
+      "url" : "https://twitter.com/freerandom2024/lists/list5"
     }
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/im_gafish/lists/list2"
+      "url" : "https://twitter.com/MrGafish/lists/list2"
     }
   },
   {
@@ -181,7 +261,7 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/ZillionFuxGiven/lists/followbackup-2020-07-19"
+      "url" : "https://twitter.com/cyberpengk/lists/followbackup-2020-07-19"
     }
   },
   {
@@ -221,7 +301,7 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/utc_pub/lists/utc-8-traders-views"
+      "url" : "https://twitter.com/pw52151314/lists/utc-8-traders-views"
     }
   },
   {
@@ -236,17 +316,7 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/cndyhaha/lists/list79"
-    }
-  },
-  {
-    "userListInfo" : {
       "url" : "https://twitter.com/DevilMayCry2077/lists/coder"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/lo14428050/lists/chinese-canadian"
     }
   },
   {
@@ -261,12 +331,17 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
+      "url" : "https://twitter.com/j4me2080/lists/list1"
+    }
+  },
+  {
+    "userListInfo" : {
       "url" : "https://twitter.com/hx1946/lists/list1"
     }
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/EEValue/lists/life"
+      "url" : "https://twitter.com/DimensionalPat/lists/life"
     }
   },
   {
@@ -306,22 +381,17 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/Asher_Jia/lists/github"
-    }
-  },
-  {
-    "userListInfo" : {
       "url" : "https://twitter.com/zhangyouruo/lists/list2"
     }
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/fhginel/lists/china"
+      "url" : "https://twitter.com/resettarget/lists/tech"
     }
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/resettarget/lists/tech"
+      "url" : "https://twitter.com/invzhi/lists/chinese"
     }
   },
   {
@@ -356,17 +426,7 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/caobi_/lists/list1"
-    }
-  },
-  {
-    "userListInfo" : {
       "url" : "https://twitter.com/VitoCorleone_ch/lists/immigrant"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/Shamy_Sheh/lists/social-media"
     }
   },
   {
@@ -386,12 +446,7 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/javaandleo/lists/1"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/ZillionFuxGiven/lists/followbackup-2018-03-25"
+      "url" : "https://twitter.com/cyberpengk/lists/followbackup-2018-03-25"
     }
   },
   {
@@ -411,22 +466,12 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/I_Oriens/lists/developer"
-    }
-  },
-  {
-    "userListInfo" : {
       "url" : "https://twitter.com/Young_Potato/lists/ca"
     }
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/XianhuiLee/lists/list2"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/hoky/lists/blogger"
+      "url" : "https://twitter.com/LakeLeelove/lists/list2"
     }
   },
   {
@@ -466,22 +511,12 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/zzzbaconn/lists/list"
+      "url" : "https://twitter.com/bgtyuij/lists/list"
     }
   },
   {
     "userListInfo" : {
       "url" : "https://twitter.com/Saitegogo/lists/politics"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/ttsfzhsw48171/lists/list"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/democracy__free/lists/a"
     }
   },
   {
@@ -496,7 +531,7 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/galipagu/lists/world"
+      "url" : "https://twitter.com/lanceylai/lists/world"
     }
   },
   {
@@ -521,27 +556,12 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/nejodj/lists/searching-for-funders"
-    }
-  },
-  {
-    "userListInfo" : {
       "url" : "https://twitter.com/w316525096/lists/list1"
     }
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/ulrichrosenbaum/lists/blockchain-talk"
-    }
-  },
-  {
-    "userListInfo" : {
       "url" : "https://twitter.com/Jack541212/lists/china"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/silentlambda/lists/break-wall-coder-dalao"
     }
   },
   {
@@ -596,11 +616,6 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/steevivo/lists/reactnative"
-    }
-  },
-  {
-    "userListInfo" : {
       "url" : "https://twitter.com/TensorFlo/lists/tensorflow-2"
     }
   },
@@ -636,7 +651,7 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/AllWinMarketing/lists/jscoders"
+      "url" : "https://twitter.com/HyperSuisbr9/lists/jscoders"
     }
   },
   {
@@ -746,7 +761,7 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/peterkmita/lists/sketch"
+      "url" : "https://twitter.com/0xkmita/lists/sketch"
     }
   },
   {
@@ -821,12 +836,17 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/ezdxnzrybjpdwv1/lists/list"
+      "url" : "https://twitter.com/likesgsg/lists/list"
     }
   },
   {
     "userListInfo" : {
       "url" : "https://twitter.com/dante1029/lists/it-geek1"
+    }
+  },
+  {
+    "userListInfo" : {
+      "url" : "https://twitter.com/usoios/lists/ios"
     }
   },
   {
@@ -856,7 +876,7 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/vicentory8/lists/话唠"
+      "url" : "https://twitter.com/visentory/lists/话唠"
     }
   },
   {
@@ -871,27 +891,12 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/liujinyunhai/lists/科技"
-    }
-  },
-  {
-    "userListInfo" : {
       "url" : "https://twitter.com/nicolasegosum/lists/news-hacker"
     }
   },
   {
     "userListInfo" : {
       "url" : "https://twitter.com/JamesCPeters/lists/ifttt-twitter-ecmascrip"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/albertopepe/lists/authorea-markdown-users"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/albertopepe/lists/git-users-authorea"
     }
   },
   {
@@ -911,7 +916,7 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/RockyJia/lists/奶爸"
+      "url" : "https://twitter.com/rock41all/lists/奶爸"
     }
   },
   {
@@ -976,17 +981,7 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/greatabel/lists/cn-news"
-    }
-  },
-  {
-    "userListInfo" : {
       "url" : "https://twitter.com/iJoy/lists/fav"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/kenyth/lists/blah"
     }
   },
   {
@@ -1001,22 +996,12 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/_Ardu_/lists/chinese"
-    }
-  },
-  {
-    "userListInfo" : {
       "url" : "https://twitter.com/taofoufoufou/lists/list6"
     }
   },
   {
     "userListInfo" : {
       "url" : "https://twitter.com/stingzou/lists/科技"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/stingzou/lists/好玩的"
     }
   },
   {
@@ -1036,17 +1021,17 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
+      "url" : "https://twitter.com/maydayforlife/lists/cn-dev"
+    }
+  },
+  {
+    "userListInfo" : {
       "url" : "https://twitter.com/hixtra/lists/码农圈"
     }
   },
   {
     "userListInfo" : {
       "url" : "https://twitter.com/kaxing/lists/zh-hans"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/googol_jqk/lists/gfw"
     }
   },
   {
@@ -1091,7 +1076,7 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/ptoq/lists/innanjing"
+      "url" : "https://twitter.com/chenyeai/lists/innanjing"
     }
   },
   {
@@ -1157,11 +1142,6 @@ window.YTD.lists_member.part0 = [
   {
     "userListInfo" : {
       "url" : "https://twitter.com/WoRiRiRi/lists/china"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/freemanzy/lists/iter"
     }
   },
   {
